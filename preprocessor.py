@@ -11,7 +11,7 @@ def initialize_cache_from_json(file_path: str) -> Dict[Tuple[int, str], object]:
     """
     in_memory_cache = {}
     try:
-        with open(file_path, 'r') as f:
+        with open(file_path, 'r', encoding='utf-8') as f:
             queries = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(f"Could not read or parse {file_path}: {e}")

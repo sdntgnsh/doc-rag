@@ -36,7 +36,7 @@ def _answer_one_question(question: str, vector_store: InMemoryVectorStore) -> st
     # Rerank the combined, unique results using the original question for relevance.
     print(f"Reranking {len(retrieved_list)} chunks...")
     reranked_chunks = reranker_model.rerank(question, retrieved_list, top_k=5)
-    with open('reranked_chunks.txt', 'a') as f:
+    with open('reranked_chunks.txt', 'a', encoding="utf-8") as f:
         for chunk in reranked_chunks:
             f.write(chunk + "\n")
     # Step 4: Context Generation & Answering
