@@ -6544,3 +6544,1013 @@ looked  upon."J
 Though  Newton  had  continued  silent,  yet  his  thoughts  were 
 by  no  means  inactive  upon  the  vast  subject  of  the  planetary  mo 
 tions.  The  idea  of  Universal  Gravitation,  first  caught  sight  of,  so
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+"  Sir  Isaac  Newton,  son  of  John  Newton,  Lord  of  the  Manor 
+of  Woolsthorpe,  was  born  in  this  room,  on  the  25th  of  December,
+SIE  ISAAC  NEWTON.
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+fell  to  John  Newton,  the  heir-at-law,  whose  great  grand-father
+18  LIFE    OF    SIR    ISAAC    NEWTON.
+56  LIFE    OF    SIR    ISAAC    NEWTON,
+42  LIFE    OF    SIR    ISAAC    NEWTON,
+16  LIFE    OF    SIR    ISAAC    NEWTON.
+ISAAC  NEWTON.
+Lastly,  if  it  universally  appears,  by  experiments  and  astronomical  obser 
+vations,  that  all  bodies  about  the  earth  gravitate  towards  the  earth,  and 
+that  in  proportion  to  the  quantity  of  matter  which  they  severally  contain ; 
+that  the  moon  likewise,  according  to  the  quantity  of  its  matter,  gravitates 
+towards  the  earth ;  that,  on  the  other  hand,  our  sea  gravitates  towards  the 
+moon ;  and  all  the  planets  mutually  one  towards  another ;  and  the  comets 
+in  like  manner  towards  the  sun  ;  we  must,  in  consequence  of  this  rule,  uni 
+versally  allow  that  all  bodies  whatsoever  are  endowed  with  a  principle  ot 
+mutual  gravitation.  For  the  argument  from  the  appearances  concludes  with 
+more  force  for  the  universal  gravitation  of  all  bodies  than  for  their  impen 
+etrability  ;  of  which,  among  those  in  the  celestial  regions,  we  have  no  ex 
+periments,  nor  any  manner  of  observation.  Not  that  I  affirm  gravity  to  be 
+essential  to  bodies  :  by  their  vis  insita  I  mean  nothing  but  their  vis  iiicrticz. 
+This  is  immutable.  Their  gravity  is  diminished  as  they  recede  from  the 
+earth.
+And  as,  from  the  supposed  existence  of  gravity,  it  necessarily  follows 
+that  all  bodies  about  the  earth  must  press  downwards,  and  therefore  must
+parts.  The  thing  may  be  easily  understood  in  gravity,  if  we  consider  a 
+greater  planet,  as  formed  of  a  number  of  lesser  planets,  meeting  together  in 
+one  globe ;  for  hence  it  would  appear  that  the  force  of  the  whole  must 
+arise  from  the  forces  of  the  component  parts.  If  it  is  objected,  that,  ac 
+cording  to  this  law,  all  bodies  with  us  must  mutually  gravitate  one  to 
+wards  another,  whereas  no  such  gravitation  any  where  appears,  I  answer, 
+that  since  the  gravitation  towards  these  bodies  is  to  the  gravitation  towards 
+the  whole  earth  as  these  bodies  are  to  the  whole  earth,  the  gravitation  to 
+wards  them  must  be  far  less  than  to  fall  under  the  observation  of  our  senses.
+therefore,  at  equal  distances,  the  actions  of  the  centripetal  force  are  equal 
+upon  all  the  planets  in  proportion  of  their  bodies,  or  of  the  quantities  of 
+matter  in  their  several  bodies;  and  for  the  same  reason  must  be  the  same 
+upon  all  the  particles  of  the  same  size  of  which  the  planet  is  composed ;  for
+the  several  quantities  of  matter  which  they  contain. 
+That  all  the  planets  mutually  gravitate  one  towards  another,  we  have 
+proved  before  ;  as  well  as  that  the  force  of  gravity  towards  every  one  of  them, 
+considered  apart,  is  reciprocally  as  the  square  of  the  distance  of  places  from 
+the  centre  of  the  planet.  And  thence  (by  Prop.  LXIX,  Book  I,  and  its 
+Corollaries)  it  follows,  that  the  gravity  tending  towards  all  the  planets  is 
+proportional  to  the  matter  which  they  contain.
+COR,  1.  Therefore  the  force  of  gravity  towards  any  whole  planet  arises 
+from,  and  is  compounded  of,  the  forces  of  gravity  towards  all  its  parts. 
+Magnetic  and  electric  attractions  afford  us  examples  of  this ;  for  all  at 
+traction  towards  the  whole  arises  from  the  attractions  towards  the  several
+COR.  2.  The  force  of  gravity  towards  the  several  equal  particles  of  any 
+body  is  reciprocally  as  the  square  of  the  distance  of  places  from  the  parti 
+cles  ;  as  appears  from  Cor.  3,  Prop.  LXXIV,  Book  I.
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+hitherto  called  centripetal  force;  but  it  being  now  made  plain  that  it  can 
+be  no  other  than  a  gravitating  force,  we  shall  hereafter  call  it  gravity. 
+For  the  cause  of  that  centripetal  force  which  retains  the  moon  in  its  orbit 
+will  extend  itself  to  all  the  planets,  by  Rule  I,  II,  and  IV.
+Since  the  action  of  the  centripetal  force  upon  the  bodies  attracted  is,  at 
+equal  distances,  proportional  to  the  quantities  of  matter  in  those  bodies, 
+reason  requires  that  it  should  be  also  proportional  to  the  quantity  of  mat 
+ter  in  the  body  attracting.
+Supposing  the  centripetal  force  to  be  reciprocally  proportional  to  the 
+squares  of  the  distances  of  places  from  the  centre,  and  that  the  abso 
+lute  quantity  of  that  force  is  known  ;  it  is  required  to  determine  t/te 
+line  which  a  body  will  describe  that  is  let  go  from  a  given  place  with  a 
+given  velocity  in  the  direction  of  a  given  right  line. 
+Let  the  centripetal  force 
+tending  to  the  point  S  be 
+such  as  will  make  the  body 
+p  revolve  in  any  given  orbit 
+pq ;  and  suppose  the  velocity 
+of  this  body  in  the  place  p 
+is  known.     Then  from  the
+it  is  directed  to  the  hand  as  the  centre  of  the  orbit,  I  call  the  centripetal 
+force.  And  the  same  thing  is  to  be  understood  of  all  bodies,  revolved  in 
+any  orbits.  They  all  endeavour  to  recede  from  the  centres  of  their  orbits ; 
+and  wore  it  not  for  the  opposition  of  a  contrary  force  which  restrains  them
+That  by  means  of  centripetal  forces  the  planets  may  be  retained  in  cer 
+tain  orbits,  we  may  easily  understand,  if  we  consider  the  motions  of  pro 
+jectiles  (p.  75,  76,  77) ;  for  a  stone  projected  is  by  the  pressure  of  its  own 
+weight  forced  out  of  the  rectilinear  path,  which  by  the  projection  alone  it 
+should  have  pursued,  and  made  to  describe  a  curve  line  in  the  air ;  and 
+through  that  crooked  way  is  at  last  brought  down  to  the  ground ;  and  the 
+greater  the  velocity  is  with  which  it  is  projected,  the  farther  it  goes  before 
+it  falls  to  the  earth.  We  may  therefore  suppose  the  velocity  to  be  so  in
+comes  to  pass  by  reason  of  the  likeness  of  this  orbit  which  a  body  acted 
+upon  by  an  uniform  centripetal  force  describes,  and  of  that  orbit  which  a 
+body  performing  its  circuits  in  a  revolving  ellipsis  will  describe  in  a  quies 
+cent  plane.  By  this  collation  of  the  terms,  these  orbits  are  made  similar ; 
+not  universally,  indeed,  but  then  only  when  they  approach  very  near  to  a 
+circular  figure.  A  body,  therefore  revolving  with  an  uniform  centripetal 
+180
+it  follows  that  the  centripetal  forces  are  as  the  radii  of  the  several  orbs, 
+and  that  they  will  perpetually  revolve  in  the  same  orbs.  And  the  like 
+consequences  may  be  drawn  from  the  supposed  diurnal  motion  of  the
+COR.  5.  Therefore  the  motion  of  a  body  in  an  immovable  orbit  being 
+given,  its  angular  motion  round  the  centre  of  the  forces  may  be  increased 
+or  diminished  in  a  given  ratio;  and  thence  new  immovable  orbits  may  be 
+found  in  which  bodies  may  revolve  with  new  centripetal  forces.
+Of  the  invention  of  orbits  wherein  bodies  will  revolve,  being  acted  upon 
+by  any  sort  of  centripetal  force.
+v       the  centripetal  forces  by  which  any  figure  is  described  by  a  revolving  body  being  given, 
+there  are  given  the  forces  by  which  a  new  figure  may  be  described,  if  the  ordinates  are 
+augmented  or  diminished  in  any  given  ratio,  or  the  angle  of  their  inclination  be  any 
+how  changed,  the  periodic  time  remaining  the  same,    116
+may  discover  the  proportion  of  a  centripetal  force  to  any  other  known 
+force,  such  as  that  of  gravity.  For  if  a  body  by  means  of  its  gravity  re 
+volves  in  a  circle  concentric  to  the  earth,  this  gravity  is  the  centripetal 
+force  of  that  body.  But  from  the  descent  of  heavy  bodies,  the  time  of  one 
+entire  revolution,  as  well  as  the  arc  described  in  any  given  time,  is  given 
+(by  Cor.  9  of  this  Prop.).  And  by  such  propositions,  Mr.  Huygens,  in  his 
+excellent  book  De  Horologio  Oscillatorio,  has  compared  the  force  of 
+gravity  with  the  centrifugal  forces  of  revolving  bodies.
+The  principle  of  circular  motion  in  free  spaces,    ........  .  5I'j 
+The  ettects  of  centripetal  forces,        ...         ••••••..  512 
+The  certainty  of  the  argument,    514 
+Wh.t  follows  from  the  .-upposed  diurnal  motion  of  the  stars,    514 
+The  incongruous  consequences  of  this  supposition.    514 
+That  there  is  a  centripetal  force  really  directed  to  the  centre  of  every  planet,        .        .        .  515
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+If  the  action  of  the  circum-terrestrial  force  is  proportional  to  the  bodies 
+to  be  moved,  it  will  (by  the  Second  Law  of  Motion)  move  them  with  equal 
+velocity  in  equal  times,  and  will  make  all  bodies  let  fall  to  descend  through 
+equal  spaces  in  equal  times,  and  all  bodies  hung  by  equal  threads  to  vibrate
+if  they  were  attracted  by  a  third  placed  in  the  common  centre  of  their 
+gravity ;  and  by  the  hypothesis  that  centre  will  be  quiescent  at  the  begin 
+ning  of  their  motion,  and  therefore  (by  Cor.  4,  of  the  Laws  of  Motion)  will 
+be  always  quiescent.  The  motions  of  the  bodies  are  therefore  to  be  deter 
+mined  (by  Prob.  XXV)  in  the  same  manner  as  if  they  were  impelled  by 
+forces  tending  to  that  centre:  and  then  we  shall  have  the  motions  of  the 
+bodies  attracting  each  other  mutually.  Q.E.I.
+of  the  space  which  moves  along  with  this  centre  uniformly  in  a  right  line, 
+and  also  the  very  first,  or  beginning  motions  of  the  bodies  in  respect  of  this 
+space.  Then  (by  Cor.  5,  of  the  Laws,  and  the  last  Theorem)  the  subse 
+quent  motions  will  be  performed  in  the  same  manner  in  that  space,  as  if
+NEWTON'S  PRINCIPIA.
+Because  the  fixed  stars  are  quiescent  one  in  respect  of  another  (p.  401, 
+4U2),  we  may  consider  the  sun,  earth,  and  planets,  as  one  system  of  bodies 
+carried  hither  and  thither  by  various  motions  among  themselves;  and  the 
+common  centre  of  gravity  of  all  (by  Cor.  IT  of  the  Laws  of  Motion)  will 
+either  be  quiescent,  or  move  uniformly  forward  in  a  right  line :  in  which 
+case  the  whole  system  will  likewise  move  uniformly  forward  in  right  lines. 
+But  this  is  an  hypothesis  hardly  to  be  admitted ;  and,  therefore,  setting  it
+NEWTON'S  SYSTEM  OF  THE  WORLD ;
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+Wherefore  the  absolute  force  of  every  globe  is  as  the  quantity  of  matter 
+which  the  globe  contains ;  but  the  motive  force  by  which  every  globe  is 
+attracted  towards  another,  and  which,  in  terrestrial  bodies,  we  commonly 
+call  their  weight,  is  as  the  content  under  the  quantities  of  matter  in  both 
+globes  applied  to  the  square  of  the  distance  between  their  centres  (by  Cor. 
+IV,  Prop.  LXXVI),  to  which  force  the  quantity  of  motion,  by  which  each 
+globe  in  a  given  time  will  be  carried  towards  the  other,  is  proportional. 
+And  the  accelerative  force,  by  which  every  globe  according  to  its  quantity 
+of  matter  is  attracted  towards  another,  is  as  the  quantity  of  matter  in  that 
+other  globe  applied   to   the  square  of  the  distance  between  the  centres  of 
+the  two  (by  Cor.  II,  Prop.  LXXVI):  to  which  force,  the  velocity  by  which 
+the  attracted  globe  will,  in   a  given  time,  be  carried  towards  the  other  is 
+proportional.     And  from  these  principles  well  understood,  it  will  be  now 
+easy  to  determine  the  motions  of  the  celestial  bodies  among  themselves.
+Of  the  circular  motion  of  bodies  in  resisting'  mediums.
+tenth  part  of  its  motion.  But  since  the  resistance  of  mediums  decreases 
+in  proportion  to  their  weight  or  density,  so  that  water,  which  is  13|  times 
+lighter  than  quicksilver,  resists  less  in  that  proportion ;  and  air,  which  is 
+860  times  lighter  than  water,  resists  less  in  the  same  proportion  ;  therefore 
+in  the  heavens,  where  the  weight  of  the  medium  in  which  the  planets  move
+And  though  air.  water,  quicksilver,  and  the  like  fluids,  by  the  division 
+of  their  parts  in  infinitum,  should  be  subtilized,  and  become  mediums  in 
+finitely  fluid,  nevertheless,  the  resistance  they  would  make  to  projected 
+globes  would  be  the  same.  For  the  resistance  considered  in  the  preceding 
+Propositions  arises  from  the  inactivity  of  the  matter;  and  the  inactivity 
+of  matter  is  essential  to  bodies,  and  always  proportional  to  the  quantity 
+of  matter.  By  the  division  of  the  parts  of  the  fluid  the  resistance  arising 
+from  the  tenacity  and  friction  of  the  parts  may  be  indeed  diminished :  but 
+the  quantity  of  matter  will  not  be  at  all  diminished  by  this  division ;  and 
+if  the  quantity  of  matter  be  the  same,  its  force  of  inactivity  will  be  the 
+same ;  and  therefore  the  resistance  here  spoken  of  will  be  the  sanue,  as  being 
+always  proportional  to  that  force.  To  diminish  this  resistance,  the  quan 
+tity  of  matter  in  the  spaces  through  which  the  bodies  move  must  be  dimin 
+ished  ;  and  therefore  the  celestial  spaces,  through  which  the  globes  of  the 
+planets  and  comets  are  perpetually  passing  towards  all  parts,  with  the 
+utmost  freedom,  and  without  the  least  sensible  diminution  of  their  motion, 
+must  be  utterly  void  of  any  corporeal  fluid,  excepting,  perhaps,  some  ex 
+tremely  rare  vapours  and  the  rays  of  light.
+experiments  of  pendulums,  as  well  as  by  the  experiments  of  falling  bodies. 
+And  from  all  this  it  may  be  concluded,  that  the  resistances  of  bodies,  moving 
+in  any  fluids  whatsoever,  though  of  the  most  extreme  fluidity,  are,  cceteris 
+paribus,  as  the  densities  of  the  fluids.
+sides,  from  what  is  already  described,  it  appears  sufficiently  that  the  resist 
+ance  of  bodies  moving  swiftly  is  nearly  proportional  to  the  densities  of 
+the  fluids  in  which  they  move.  I  do  not  say  accurately ;  for  more  tena 
+cious  fluids,  of  equal  density,  will  undoubtedly  resist  more  than  those  that 
+are  more  liquid ;  as  cold  oil  more  than  warm,  warm  oil  more  than  rain 
+water,  and  water  more  than  spirit  of  wine.  But  in  liquors,  which  are  sen 
+sibly  fluid  enough,  as  in  air,  in  salt  and  fresh  water,  in  spirit  of  wine,  of 
+turpentine,  and  salts,  in  oil  cleared  of  its  fseces  by  distillation  and  warmed, 
+in  oil  of  vitriol,  and  in  mercury,  and  melted  metals,  and  any  other  such 
+like,  that  are  fluid  enough  to  retaia  for  some  time  the  motion  impressed
+Of  the,  motion  of  fluids,  and  the  resistance  made  to  projected  bodies.
+Suppose  the  uniform  force  of  gravity  to  tend  directly  to  the  plane  of  the 
+horizon,  and  the  resistance  to  be  as  the  density  of  the  medium  and  the 
+square  of  the  velocity  coiijunctly  :  it  is  proposed  to  find  the  density  of 
+the  medium  in  each  place,  which  shall  make  the  body  move  in  any 
+given  carve  line  ;  the  velocity  of  the  body  and  the  resistance  of  the 
+medium  in  each  place.
+is,  as  I  said,  in  a  duplicate  ratio  of  the  velocity ;  the  other  part,  which 
+arises  from  the  tenacity  of  the  fluid,  is  uniform,  or  as  the  moment  of  the 
+time  ;  and,  therefore,  we  might  now  proceed  to  the  motion  of  bodies,  whicli 
+are  resisted  partly  by  an  uniform  force,  or  in  the  ratio  of  the  moments  of 
+the  time,  and  partly  in  the  duplicate  ratio  of  the  velocity.  But  it  is  suf 
+ficient  to  have  cleared  the  way  to  this  speculation  in  Prop.  VIII  and  IX 
+foregoing,  and  their  Corollaries.  For  in  those  Propositions,  instead  of  the 
+uniform  resistance  made  to  an  ascending  body  arising  from  its  gravity, 
+one  may  substitute  the  uniform  resistance  which  arises  from  the  tenacity 
+of  the  medium,  when  the  body  moves  by  its  vis  insita  alone  ;  and  when  the 
+body  ascends  in  a  right  line,  add  this  uniform  resistance  to  the  force  of 
+gravity,  and  subduct  it  when  the  body  descends  in  a  right  line.  One 
+might  also  go  on  to  the  motion  of  bodies  which  are  resisted  in  part  uni 
+formly,  in  part  in  the  ratio  of  the  velocity,  and  in  part  in  the  duplicate 
+ratio  of  the  same  velocity.  And  I  have  opened  a  way  to  this  in  Prop. 
+XIII  and  XIV  foregoing,  in  which  the  uniform  resistance  arising  from  the 
+tenacity  of  the  medium  may  be  substituted  for  the  force  of  gravity,  or  be 
+compounded  with  it  as  before.  But  I  hasten  to  other  things.
+In  the  seventh  section  of  the  second  book  the  theory  of  the  resistances  of  fluids
+COR.  G.  All  these  things  are  so  in  fluids  whose  elastic  force  takes  its  rise 
+from  the  centrifugal  forces  of  the  particles.  But  if  that  force  arise  from 
+some  other  cause,  as  from  the  expansion  of  the  particles  after  the  manner 
+of  wool,  or  the  boughs  of  trees,  or  any  other  cause,  by  which  the  particles 
+are  hindered  from  moving  freely  among  themselves,  the  resistance,  by 
+reason  of  the  lesser  fluidity  of  the  medium,  will  be  greater  than  in  the 
+Corollaries  above.
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+From  the  first  law  of  Kepler,  namely,  the   proportionality  of
+as  K^  to  \kq,  or  AC  to  |AK,  that  is,  as  the  force  of  gravity  to  the  resist 
+ance  in  the  middle  of  the  first  time.  And  by  the  like  reasoning,  the  areas 
+<?KLr,  rLMs,  sMN/,  (fee.,  are  to  the  areas  qklr,  rims,  smnt,  (fee.,  as  the 
+gravitating  forces  to  the  resistances  in  the  middle  of  the  second,  third,  fourth 
+time,  and  so  on.  Therefore  since  the  equal  areas  BAKq,  </KLr,  rLMs, 
+sMN/,  (fee.,  are  analogous  to  the  gravitating  forces,  the  areas  Bkq,  qklr, 
+rims,  smut,  (fee.,  will  be  analogous  to  the  resistances  in  the  middle  of 
+each  of  the  times,  that  is  (by  supposition),  to  the  velocities,  and  so  to  the 
+spaces  described.  Take  the  sums  of  the  analogous  quantities,  and  the  areas 
+Bkq,  Elr,  Ems,  But,  (fee.,  will  be  analogous  to  the  whole  spaces  described ; 
+and  also  the  areas  AB<?K,  ABrL,  ABsM,  AB^N,  (fee.,  to  the  times.  There
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+Newton,  extending  the  law  thus  obtained,  composed  a  series
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+looked  upon."J 
+Though  Newton  had  continued  silent,  yet  his  thoughts  were 
+by  no  means  inactive  upon  the  vast  subject  of  the  planetary  mo 
+tions.  The  idea  of  Universal  Gravitation,  first  caught  sight  of,  so
+The  demonstration  of  this  Proposition  may  be  more  diffusely  explained 
+after  the  following  manner.  Suppose  several  moons  to  revolve  about  the 
+earth,  as  in  the  system  of  Jupiter  or  Saturn :  the  periodic  times  of  these 
+moons  (by  the  argument  of  induction)  would  observe  the  same  law  which 
+Kepler  found  to  obtain  among  the  planets ;  and  therefore  their  centripetal 
+forces  would  be  reciprocally  as  the  squares  of  the  distances  from  the  centre 
+of  the  earth,  by  Prop.  I,  of  this  Book.  Now  if  the  lowest  of  these  were 
+very  small,  and  were  so  near  the  earth  as  almost  to  touo  the  tops  of  the 
+highest  mountains,  the  centripetal  force  thereof,  retaining  it  in  its  orb, 
+would  be  very  nearly  equal  to  the  weights  of  any  terrestrial  bodies  that 
+should  be  found  upon  the  tops  of  those  mountains,  as  may  be  known  by
+NEWTON'S  PRINCIPIA.
+NEWTON'S  PRINCIPIA.
+In  June,  1709,  Newton  intrusted  the  superintendence  of  a 
+second  edition  of  the  PRINCIPIA  to  Roger  Cotes,  Plumian  Pro
+THAT  the  PRINCIPIA  of  Newton  should  have  remained  so  gen 
+erally  unknown  in  this  country  to  the  present  day  is  a  somewhat 
+remarkable  fact ;  because  the  name  of  the  author,  learned  with
+by  the  general  mind.  Pemberton's  popular  "  View  of  Sir  Isaac 
+Newton's  Philosophy"  was  published,  in  1728  ;  and  the  year  after 
+ward,  an  English  translation  of  the  PRINCIPIA,  and  System  of  the 
+World,  by  Andrew  Motte.  And  since  that  period,  the  labours  of 
+Le  Seur  and  Jacquier,  of  Thorpe,  of  Jebb,  of  Wright  and  others 
+have  greatly  contributed  to  display  the  most  hidden  treasures  of 
+the  PRINCIPIA.
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+Pell  that  it  was  Newton?s  method,  persisted  in  maintaining  it  to 
+be  his  own  invention,  by  reason  that  he  had  found  it  by  himself 
+without  knowing  what  Newton  had  done  before,  and  had  much 
+improved  it.  And  we  find  no  mention  of  his  having  any  other
+It  is  a  notable  fact,  in  Newton's  history,  that  he  never  volun* 
+tarily  published  any  one  of  his  purely  mathematical  writings 
+The  cause  of  this  unwillingness  in  some,  and,  in  other  instances, 
+of  his  indifference,  or,  at  least,  want  of  solicitude  to  put  forth  his 
+works  may  be  confidently  sought  for  in  his  repugnance  to  every 
+thing  like  contest  or  dispute.  But,  going  deeper  than  this  aver
+solutions  from  Newton,  Leibinitz  and  the  Marquis  De  L'Hopital ; 
+but  Newton's  though  anonymous,  he  immediately  recognised
+the  German  philosopher,  by  at  least  ten  years,  in  the  invention 
+of  fluxions.  Newton  could  not  have  borrowed  from  Leibnitz ;
+differential  method  than  Newton's  before  his  letter  of  the  21st  of
+Saturn's.  The  perturbations  of  the  other  orbits  are  yet  far  less,  except  that 
+the  orbit  of  the  earth  is  sensibly  disturbed  by  the  moon.  The  common
+orbits  (p  403),  and,  by  radii  drawn  to  the  sun,  describe  areas  nearly  pro 
+portional  to  the  times,  as  is  explained  in  Prop.  LXV.  If  the  sun  was  qui 
+escent,  and  the  other  planets  did  not  act  mutually  one  upon  another,  their
+ces  from  the  sun's  centre,  if  the  sun  was  at  rest,  and  the  other  planets  did 
+not  mutually  act  one  upon  another,  their  orbits  would  be  ellipses,  having 
+the  sun  in  their  common  focus;  and  they  would  describe  areas  proportional 
+to  the  times  of  description,  by  Prop.  I  and  XI,  and  Cor.  1,  Prop.  XIII, 
+Book  I.  But  the  mutual  actions  of  the  planets  one  upon  another  are  so 
+very  small,  that  they  may  be  neglected ;  and  by  Prop.  LXVI,  Book  I,  they 
+less  disturb  the  motions  of  the  planets  around  the  sun  in  motion  than  if 
+those  motions  were  performed  about  the  sun  at  rest.
+to  disturb  the  motion  of  Jupiter  is  proportional  to  this  difference;  and 
+therefore  the  perturbation  of  the  orbit  of  Jupiter  is  much  less  than  that  of
+looked  upon."J 
+Though  Newton  had  continued  silent,  yet  his  thoughts  were 
+by  no  means  inactive  upon  the  vast  subject  of  the  planetary  mo 
+tions.  The  idea  of  Universal  Gravitation,  first  caught  sight  of,  so
+that  the  force  which  retained  the  planet  in  its  orbit  was  always 
+directed  to  the  sun ;  and  from  the  second,  namely,  that  every 
+planet  moves  in  an  ellipse  with  the  sun  in  one  of  its  foci,  he  drew 
+the  more  general  inference  that  the  force  by  which  the  planet 
+moves  round  that  focus  varies  inversely  as  the  square  of  its  dis 
+tance  therefrom  :  and  he  demonstrated  that  a  planet  acted  upon 
+by  such  a  force  could  not  move  in  any  other  curve  than  a  conic 
+section ;  showing  when  the  moving  body  would  describe  a  circu
+orbits  would  be  elliptic,  and  the  areas  exactly  proportional  to  the  times  (by 
+Prop.  XI,  and  Cor.  1,  Prop.  XIII).  But  the  actions  of  the  planets  amonir 
+themselves,  compared  with  the  actions  of  the  sun  on  the  planets,  are  of  no 
+moment,  and  produce  no  sensible  errors.  And  those  errors  are  less  in  rev 
+olutions  about  the  sun  agitated  in  the  manner  but  now  described  than  if
+That  the  forces  by  which  the  primary  planets  are  continually  drawn  off 
+from  rectilinear  motions,  and  retained  in  their  proper  orbits,  tend  to
+COR.  And  hence  if  more  lesser  bodies  revolve  about  the  great  one,  it 
+may  easily  be  inferred  that  the  orbits  described  will  approach  nearer  to 
+ellipses ;  and  the  descriptions  of  areas  will  be  more  nearly  equable,  if  all 
+the  bodies  mutually  attract  and  agitate  each  other  with  accelerative  forces 
+that  are  as  their  absolute  forces  directly,  and  the  squares  of  the  distances 
+inversely  :  and  if  the  focus  of  each  orbit  be  placed  in  the  common  centre 
+of  gravity  of  all  the  interior  bodies  (that  is.  if  the  focus  of  the  first  and  in 
+nermost  orbit  be  placed  in  the  centre  of  gravity  of  the  greatest  and  inner 
+most  body  :  the  focus  of  the  second  orbit  in  the  common  centre  of  gravity 
+of  the  two  innermost  bodies;  the  focus  of  the  third  orbit  in  the  common 
+centre  of  gravity  of  the  three  innermost ;  and  so  on),  than  if  the  innermost 
+body  were  at  rest,  and  was  made  the  common  focus  of  all  the  orbits.
+The  demonstration  of  this  Proposition  may  be  more  diffusely  explained 
+after  the  following  manner.  Suppose  several  moons  to  revolve  about  the 
+earth,  as  in  the  system  of  Jupiter  or  Saturn :  the  periodic  times  of  these 
+moons  (by  the  argument  of  induction)  would  observe  the  same  law  which 
+Kepler  found  to  obtain  among  the  planets ;  and  therefore  their  centripetal 
+forces  would  be  reciprocally  as  the  squares  of  the  distances  from  the  centre 
+of  the  earth,  by  Prop.  I,  of  this  Book.  Now  if  the  lowest  of  these  were 
+very  small,  and  were  so  near  the  earth  as  almost  to  touo  the  tops  of  the 
+highest  mountains,  the  centripetal  force  thereof,  retaining  it  in  its  orb, 
+would  be  very  nearly  equal  to  the  weights  of  any  terrestrial  bodies  that 
+should  be  found  upon  the  tops  of  those  mountains,  as  may  be  known  by
+Absolute  time,  in  astronomy,  is  distinguished  from  relative,  by  the  equa 
+tion  or  correction  of  the  vulgar  time.  For  the  natural  days  are  tr^y  un 
+equal,  though  they  are  commonly  considered  as  equal,  and  used  for  a  meas 
+ure  of  time ;  astronomers  correct  this  inequality  for  their  more  accurate 
+deducing  of  the  celestial  motions.  It  may  be,  that  there  is  no  such  thing 
+as  an  equable  motion,  whereby  time  may  H  accurately  measured.  All  mo
+IV.  Absolute  motion  is  the  translation  of  a  body  from  one  absolute 
+place  into  another ;  and  relative  motion,  the  translation  from  one  relative 
+place  into  another.     Thus  in  a  ship  under  sail,  the  relative  place  of  a  body 
+is  that  part  of  the  ship  which  the  body  possesses ;  or  that  part  of  its  cavity 
+which  the  body  fills,  and  which  therefore  moves  together  with  the  ship : 
+and  relative  rest  is  the  continuance  of  the  body  in  the  same  part  of  the
+II.  Absolute  space,  in  its  own  nature,  without  regard  to  anything  exter 
+nal,  remains  always  similar  and  immovable.     Relative  space  is  some  mo 
+vable  dimension  or  measure  of  the  absolute  spaces ;  which  our  senses  de 
+termine  by  its  position  to  bodies ;  and  which  is  vulgarly  taken  for  immo 
+vable  space ;  such  is  the  dimension  of  a  subterraneous,  an  aereal,  or  celestial 
+space,  determined  by  its  position  in  respect  of  the  earth.     Absolute  and 
+relative  space,  are  the  same  in  figure  and  magnitude ;  but  they  do  not  re 
+main  always  numerically  the  same.     For  if  the  earth,  for  instance,  moves, 
+a  space  of  our  air,  which  relatively  and  in  respect  of  the  earth  remains  al 
+ways  the  same,  will  at  one  time  be  one  part  of  the  absolute  space  into  which
+Hitherto  I  have  laid  down  the  definitions  of  such  words  as  are  less 
+known,  and  explained  the  sense  in  which  I  would  have  them  to  be  under 
+stood  in  the  following  discourse.  I  do  not  define  time,  space,  place  and 
+motion,  as  being  well  known  to  all.  Only  I  must  observe,  that  the  vulgar 
+conceive  those  quantities  under  no  other  notions  but  from  the  relation  they 
+bear  to  sensible  objects.  And  thence  arise  certain  prejudices,  for  the  re 
+moving  of  which,  it  will  be  convenient  to  distinguish  them  into  absolute 
+and  relative,  true  and  apparent,  mathematical  and  common.
+As  the  order  of  the  parts  of  time  is  immutable,  so  also  is  the  order  of 
+the  parts  of  space.  Suppose  those  parts  to  be  moved  out  of  their  places,  and 
+they  will  be  moved  (if  the  expression  may  be  allowed)  out  of  themselves. 
+For  times  and  spaces  are,  as  it  were,  the  places  as  well  of  themselves  as  of 
+all  other  things.  All  things  are  placed  in  time  as  to  order  of  succession ; 
+and  in  space  as  _to  order  of  situation.  It  is  from  their  essence  or  nature 
+that  they  are  places ;  and  that  the  primary  places  of  things  should  be 
+moveable,  is  absurd.  These  are  therefore  the  absolute  places ;  and  trans 
+lations  out  of  those  places,  are  the  only  absolute  motions.
+The  effects  whicli  distinguish  absolute  from  relative  motion  arc,  the 
+forces  of  receding  from  the  axis  of  circular  motion.  For  there  are  no  such 
+forces  in  a  circular  motion  purely  relative,  but  in  a  true  and  absolute  cir 
+cular  motion.,  they  are  greater  or  less,  according  t »  the  quantity  of  the
+tions  may  be  accelerated  and  retarded;  but  the  true,  or  equable,  progress  of 
+absolute  time  is  liable  to  no  change.  The  duration  or  perseverance  of  the 
+existence  of  things  remains  the  same,  whether  the  motions  are  swift  or  slow, 
+or  none  at  all :  and  therefore  it  ought  to  be  distinguished  from  what  are 
+only  sensible  measures  thereof ;  and  out  of  which  we  collect  it,  by  means 
+of  the  astronomical  equation.  The  necessity  of  which  equation,  for  deter 
+mining  the  times  of  a  phamomenon,  is  evinced  as  well  from  the  experiments 
+of  the  pendulum  clock,  as  by  eclipses  of  the  satellites  of  Jupiter.
+A  property,  near  akin  to  the  preceding,  is  this,  that  if  a  place  is  moved, 
+whatever  is  placed  therein  moves  along  with  it ;  and  therefore  a  body, 
+which  is  moved  from  a  place  in  motion,  partakes  also  of  the  motion  of  its 
+place.  Upon  which  account,  all  motions,  from  places  in  motion,  are  no 
+other  than  parts  of  entire  and  absolute  motions ;  and  every  entire  motion 
+is  composed  of  the  motion  of  the  body  out  of  its  first  place,  and  the 
+motion  of  this  place  out  of  its  place ;  and  so  on,  until  we  come  to  some 
+immovable  place,  as  in  the  before-mentioned  example  of  the  sailor.  Where 
+fore,  entire  and  absolute  motions  can  be  no  otherwise  determined  than  by 
+immovable  places :  and  for  that  reason  I  did  before  refer  those  absolute 
+motions  to  immovable  places,  but  relative  ones  to  movable  places.  Now 
+no  other  places  are  immovable  but  those  that,  from  infinity  to  infinity,  do 
+all  retain  the  same  given  position  one  to  another ;  and  upon  this  account 
+must  ever  remain  unmoved ;  and  do  thereby  constitute  immovable  space.
+But  we  may  distinguish  rest  and  motion,  absolute  and  relative,  one  from 
+the  other  by  their  properties,  causes  and  effects.  It  is  a  property  of  rest, 
+that  bodies  really  at  rest  do  rest  in  respect  to  one  another.  And  therefore 
+as  it  is  possible,  that  in  the  remote  regions  of  the  fixed  stars,  or  perhaps 
+far  beyond  them,  there  may  be  some  body  absolutely  at  rest ;  but  impossi 
+ble  to  know,  from  the  position  of  bodies  to  one  another  in  our  regions 
+whether  any  of  these  do  keep  the  same  position  to  that  remote  body;  it 
+follows  that  absolute  rest  cannot  be  determined  from  the  position  of  bodies 
+in  our  regions.
+of  the  space  which  moves  along  with  this  centre  uniformly  in  a  right  line, 
+and  also  the  very  first,  or  beginning  motions  of  the  bodies  in  respect  of  this 
+space.  Then  (by  Cor.  5,  of  the  Laws,  and  the  last  Theorem)  the  subse 
+quent  motions  will  be  performed  in  the  same  manner  in  that  space,  as  if
+as  the  square  of  the  distance,  the  density  will  be  reciprocally  in  a  sesqui- 
+plicate  ratio  of  the  distance.  Suppose  the  compressing  force  to  be  in  a  du 
+plicate  ratio  of  the  density,  and  the  gravity  reciprocally  in  a  duplicate  ra
+that  the  force  of  gravity  is  reciprocally  as  the  square  of  the  distance  from 
+the  centre  of  the  earth)  raising  a  calculus,  by  Cor.  Prop.  XXII,  Book  II,
+COR.  2.  The  force  of  gravity  towards  the  several  equal  particles  of  any 
+body  is  reciprocally  as  the  square  of  the  distance  of  places  from  the  parti 
+cles  ;  as  appears  from  Cor.  3,  Prop.  LXXIV,  Book  I.
+the  several  quantities  of  matter  which  they  contain. 
+That  all  the  planets  mutually  gravitate  one  towards  another,  we  have 
+proved  before  ;  as  well  as  that  the  force  of  gravity  towards  every  one  of  them, 
+considered  apart,  is  reciprocally  as  the  square  of  the  distance  of  places  from 
+the  centre  of  the  planet.  And  thence  (by  Prop.  LXIX,  Book  I,  and  its 
+Corollaries)  it  follows,  that  the  gravity  tending  towards  all  the  planets  is 
+proportional  to  the  matter  which  they  contain.
+By  a  like  reasoning  it  may  be  proved,  that  if  the  gravity  of  the  particles 
+of  a  fluid  be  diminished  in  a  triplicate  ratio  of  the  distances  from  the  centre  ; 
+and  the  reciprocals  of  the  squares  of  the  distances  SA,  SB,  SC,  &c.,  (namely, 
+SA3  SA3  SA3   .
+To  determine  the  motions  of  two  bodies  which  attract  each  other  with 
+forces  reciprocally  proportional  to  the  squares  of  the  distance  between 
+them,  aflid  are,  let  fall  from  given  places. 
+The  bodies,  by  the  last  Theorem,  will  be  moved  in  the  same  manner  as
+To  determine  the  motions  of  two  bodies  attracting  each  other  with  forces 
+reciprocally  proportional  to  the  squares  of  their  distance,  and  going
+Tn  two  spheres  mutually  gravitating  each  towards  the  other,  if  tlie  matter 
+in  places  on  all  sides  round  about  and  equi-distant  from  the  centres  is 
+similar,  the  weight  of  either  sphere  towards  the  other  will  be  recipro 
+cally  as  the  square  of  the  distance  between  their  centres. 
+After  I  had  found  that  the  force  of  gravity  towards  a  whole  planet  did 
+arise  from  and  was  compounded   of  the  forces  of  gravity  towards  all  its 
+parts,  and  towards  every  one  part  was  in  the  reciprocal  proportion  of  the 
+squares  of  the  distances  from  the  part,  I  was  yet  in  doubt  whether  that  re 
+ciprocal  duplicate  proportion  did  accurately  hold,  or  but  nearly  so,  in  the 
+total  force  compounded  of  so  many  partial  ones;  for  it  might  be  that  the 
+proportion  which  accurately  enough  took  place  in  greater  distances  should 
+be  wide  of  the  truth  near  the  surface  of  the  planet,  where  the  distances  of
+lar,  an  elliptical,  a  parabolic,  or  hyperbolic  orbit.  He  demon 
+strated,  too,  that  this  force,  or  attracting,  gravitating  power  re 
+sided  in  every,  the  least  particle ;  but  that,  in  spherical  masses,  it 
+operated  as  if  confined  to  their  centres ;  so  that,  one  sphere  or 
+body  will  act  upon  another  sphere  or  body,  with  a  force  directly 
+proportional  to  the  quantity  of  matter,  and  inversely  as  the  square 
+of  the  distance  between  their  centres;  and  that  their  velocities  of
+squares  of  the  distances  between  the  centres  inversely.
+The  quantity  of  motion  is  the  measure  nf  tlie  same,  arising  from  the
+motive,  as  celerity  does  to  motion.  For  the  quantity  of  motion  arises  from 
+the  celerity  drawn  into  the  quantity  of  matter :  and  the  motive  force  arises 
+from  the  accelerative  force  drawn  into  the  same  quantity  of  matter.  For 
+the  sum  of  the  actions  of  the  accelerative  force,  upon  the  several  ;  articles 
+of  the  body,  is  the  motive  force  of  the  whole.  Hence  it  is,  that  near  the
+Wherefore  the  absolute  force  of  every  globe  is  as  the  quantity  of  matter 
+which  the  globe  contains ;  but  the  motive  force  by  which  every  globe  is 
+attracted  towards  another,  and  which,  in  terrestrial  bodies,  we  commonly 
+call  their  weight,  is  as  the  content  under  the  quantities  of  matter  in  both 
+globes  applied  to  the  square  of  the  distance  between  their  centres  (by  Cor. 
+IV,  Prop.  LXXVI),  to  which  force  the  quantity  of  motion,  by  which  each 
+globe  in  a  given  time  will  be  carried  towards  the  other,  is  proportional. 
+And  the  accelerative  force,  by  which  every  globe  according  to  its  quantity 
+of  matter  is  attracted  towards  another,  is  as  the  quantity  of  matter  in  that 
+other  globe  applied   to   the  square  of  the  distance  between  the  centres  of 
+the  two  (by  Cor.  II,  Prop.  LXXVI):  to  which  force,  the  velocity  by  which 
+the  attracted  globe  will,  in   a  given  time,  be  carried  towards  the  other  is 
+proportional.     And  from  these  principles  well  understood,  it  will  be  now 
+easy  to  determine  the  motions  of  the  celestial  bodies  among  themselves.
+These  quantities  of  forces,  we  may,  for  brevity's  sake,  call  by  the  names 
+of  motive,  accelerative,  and  absolute  forces ;  and,  for  distinction's  sake,  con 
+sider  them,  with  respect  to  the  bodies  that  tend  to  the  centre ;  to  the  places 
+of  those  bodies ;  and  to  the  centre  of  force  towards  which  they  tend  ;  that
+The  motion  of  the  whole  i<!  the  sum  of  the  motions  of  all  the  parts ;  and 
+therefore  in  a  body  double  in  quantity,  with  equal  velocity,  the  motion  is 
+iouble ;  with  twice  the  velocity,  it  is  quadruple,
+quantity  of  motion,  and  in  return  (by  the  3d  Law  of  Motion)  suffer  an
+The  causes  by  which  true  and  relative  motions  are  distinguished,  one 
+from  the  other,  are  the  forces  impressed  upon  bodies  to  generate  motion. 
+True  motion  is  neither  generated  nor  altered,  but  by  some  force  impressed 
+upon  the  body  moved :  but  relative  motion  may  be  generated  or  altered 
+without  any  force  impressed  upon  the  body.  For  it  is  sufficient  only  to 
+impress  some  force  on  other  bodies  with  which  the  former  is  compared, 
+that  by  their  giving  way,  that  relation  may  be  changed,  in  which  the  re 
+lative  rest  or  motion  of  this  other  body  did  consist.  Again,  true  motion 
+suffers  always  some  change  from  any  force  impressed  upon  the  moving 
+body  ;  but  relative  motion  docs  not  necessarily  undergo  any  change  by  such 
+forces.  For  if  the  same  forces  are  likewise  impressed  on  those  other  bodies, 
+with  which  the  comparison  is  made,  that  the  relative  position  may  be  pre 
+served,  then  that  condition  will  be  preserved  in  which  the  relative  motion 
+consists.  And  therefore  any  relative  motion  may  be  changed  when  the 
+true  motion  remains  unaltered,  and  the  relative  may  be  preserved  when  the
+If  any  force  generates  a  motion,  a  double  force  will  generate  double  the 
+motion,  a  triple  force  triple  the  motion,  whether  that  force  be  impressed 
+altogether  and  at  once,  or  gradually  and  successively.  And  this  motion 
+(being  always  directed  the  same  way  with  the  generating  force),  if  the  body 
+moved  before,  is  added  to  or  subducted  from  the  former  motion,  according 
+as  they  directly  conspire  with  or  are  directly  contrary  to  each  other ;  or 
+obliquely  joined,  when  they  are  oblique,  so  as  to  produce  a  new  motion 
+compounded  from  the  determination  of  both.
+that  force  is  determined  and  immutable,  or  is  continually  augmented 
+or  continually  diminished,  are  in  the  very  beginning  of  the  motion  one 
+to  the  other  in  the  duplicate  ratio  of  the  times. 
+Let  the  times  be  represented  by  the  lines  AD,  AE,  and  the  velocities 
+generated  in  those  times  by  the  ordinates  DB,  EC.  The  spaces  described 
+with  these  velocities  will  be  as  the  areas  ABD,  ACE.  described  by  those 
+ordinates,  that  is,  at  the  very  beginning  of  the  motion  (by  Lem.  IX),  in 
+the  duplicate  ratio  of  the  times  AD,  AE.  Q..E.D.
+The  alteration  of  motion  is  ever  proportional  to  the  motive  force  imp  reus 
+ed  ;  and  is  made  in  the  direction  of  the  right  line  in.  which  that  force 
+is  impressed.
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+"  Sir  Isaac  Newton,  son  of  John  Newton,  Lord  of  the  Manor 
+of  Woolsthorpe,  was  born  in  this  room,  on  the  25th  of  December,
+ISAAC  NEWTON.
+was  Sir  Isaac's  uncle.  Before  his  death  he  made  an  equitable 
+distribution  of  his  two  other  estates :  the  one  in  Berkshire  to  the
+56  LIFE    OF    SIR    ISAAC    NEWTON,
+LIFE    OF    SIR    ISAAC    NEWTON.  17
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+18  LIFE    OF    SIR    ISAAC    NEWTON.
+14  LIFE    OF    SIR    ISAAC    NEWTON
+16  LIFE    OF    SIR    ISAAC    NEWTON.
+22. Protection against arrest and detention in certain cases.—(1) No 
+person who is arrested shall be detained in custody without being informed, as 
+soon as may be, of the grounds for such arrest nor shall he be denied the right 
+to consult, and to be defended by, a legal practitioner of his choice.
+(2) Every person who is arrested and detained in custody shall be 
+produced before the nearest magistrate within a period of twenty-four hours of 
+such arrest excluding the time necessary for the journey from the place of arrest 
+to the court of the magistrate and no such person shall be detained in custody 
+beyond the said period without the authority of a magistrate.
+(a) to any person who for the time being is an enemy alien; or
+(b) to any person who is arrested or detained under any law providing 
+for preventive detention.
+(4) No law providing for preventive detention shall authorise the 
+detention of a person for a longer period than three months unless—
+(b) such person is detained in accordance with the provisions of any 
+law made by Parliament under sub-clauses (a) and (b) of clause (7).
+(b) any person wilfully or without any reasonable excuse disobeys 
+any summons, requisition or lawful written order issued under the 
+provisions of the State Act;
+(3) No process for the arrest or imprisonment of the President, or the 
+Governor 1*** of a State, shall issue from any court during his term of office.
+(5) When any person is detained in pursuance of an order made under 
+any law providing for preventive detention, the authority making the order 
+shall, as soon as may be, communicate to such person the grounds on which the 
+order has been made and shall afford him the earliest opportunity of making a 
+representation against the order.
+beginning with "writs in the nature of habeas corpus, mandamus, prohibition, quo 
+warranto and certiorari, or any of them" and ending with "such illegality has resulted 
+in substantial failure of justice." (w.e.f. 1-8-1979).
+Provided further that nothing in this clause shall authorise the detention of any person 
+beyond the maximum period prescribed by any law made by Parliament under sub-clause (a) of 
+clause (7).
+(ii) in the case of the detention of a person in pursuance of an order of detention 
+made by the Government of any State (other than a Union territory), the High Court for 
+that State; and
+(2) No citizen shall, on grounds only of religion, race, caste, sex, descent, 
+place of birth, residence or any of them, be ineligible for, or discriminated against 
+in respect of, any employment or office under the State.
+(2) No citizen shall be denied admission into any educational institution 
+maintained by the State or receiving aid out of State funds on grounds only of 
+religion, race, caste, language or any of them.
+(2) No citizen shall, on grounds only of religion, race, caste, sex, place of 
+birth or any of them, be subject to any disability, liability, restriction or 
+condition with regard to—
+(2) Nothing in this article shall prevent the State from imposing 
+compulsory service for public purposes, and in imposing such service the State 
+shall not make any discrimination on grounds only of religion, race, caste or 
+class or any of them.
+1[Provided that nothing in this article shall prevent in making of any 
+provision in favour of the members of the Scheduled Castes and the Scheduled 
+Tribes for relaxation in qualifying marks in any examination or lowering the 
+standards of evaluation, for reservation in matters or promotion to any class or 
+classes of services or posts in connection with the affairs of the Union or of a State.]
+(2) Parliament may by law include in or exclude from the list of 
+Scheduled Castes specified in a notification issued under clause (1) any caste, 
+race or tribe or part of or group within any caste, race or tribe, but save as 
+aforesaid a notification issued under the said clause shall not be varied by any 
+subsequent notification.
+15.  Prohibition of discrimination on grounds of religion, race, caste, 
+sex or place of birth.—(1) The State shall not discriminate against any citizen 
+on grounds only of religion, race, caste, sex, place of birth or any of them.
+2[(4A) Nothing in this article shall prevent the State from making any 
+provision for reservation 3[in matters of promotion, with consequential 
+seniority, to any class] or classes of posts in the services under the State in 
+favour of the Scheduled Castes and the Scheduled Tribes which, in the opinion 
+of the State, are not adequately represented in the services under the State.]
+15. 
+Prohibition of discrimination on grounds of religion, race, caste, 
+sex or place of birth.
+16. 
+Equality of opportunity in matters of public employment. 
+17.
+Abolition of Untouchability.
+18. 
+Abolition of titles.
+335. Claims of Scheduled Castes and Scheduled Tribes to services 
+and posts.—The claims of the members of the Scheduled Castes and the 
+Scheduled Tribes shall be taken into consideration, consistently with the 
+maintenance of efficiency of administration, in the making of appointments to 
+services and posts in connection with the affairs of the Union or of a State:
+22. Protection against arrest and detention in certain cases.—(1) No 
+person who is arrested shall be detained in custody without being informed, as 
+soon as may be, of the grounds for such arrest nor shall he be denied the right 
+to consult, and to be defended by, a legal practitioner of his choice.
+FUNDAMENTAL RIGHTS
+(5) When any person is detained in pursuance of an order made under 
+any law providing for preventive detention, the authority making the order 
+shall, as soon as may be, communicate to such person the grounds on which the 
+order has been made and shall afford him the earliest opportunity of making a 
+representation against the order.
+Right to Freedom
+(2) Every person who is arrested and detained in custody shall be 
+produced before the nearest magistrate within a period of twenty-four hours of 
+such arrest excluding the time necessary for the journey from the place of arrest 
+to the court of the magistrate and no such person shall be detained in custody 
+beyond the said period without the authority of a magistrate.
+19.
+Protection of certain rights regarding freedom of speech, etc.
+20.
+Protection in respect of conviction for offences.
+21.
+Protection of life and personal liberty.
+21A.
+Right to education.
+22.
+Protection against arrest and detention in certain cases.
+PART III 
+FUNDAMENTAL RIGHTS
+Right against Exploitation
+23. Prohibition of traffic in human beings and forced labour.—(1) 
+Traffic in human beings and begar and other similar forms of forced labour are 
+prohibited and any contravention of this provision shall be an offence 
+punishable in accordance with law.
+CHAPTER IV.
+RIGHT  TO PROPERTY
+300A.
+Persons not to be deprived of property save by authority of law.
+______________________________________________
+1. See the Code of Criminal Procedure, 1973 ( 2 of 1974).
+Provided that nothing in such laws shall prevent the 
+compulsory acquisition of any land, whether occupied or unoccupied, 
+for public purposes 1[by the Government of the State concerned] in 
+accordance with the law for the time being in force authorising such 
+acquisition;
+(a) prohibit or restrict the transfer of land by or among members 
+of the Scheduled Tribes in such area;
+(d) land reforms by way of acquisition by the State of any estate as 
+defined in article 31A or of any rights therein or the extinguishment or 
+modification of any such rights or by way of ceiling on agricultural land 
+or in any other way;
+2[Provided further that where any law makes any provision for the 
+acquisition by the State of any estate and where any land comprised therein is 
+held by a person under his personal cultivation, it shall not be lawful for the 
+State to acquire any portion of such land as is within the ceiling limit applicable 
+to him under any law for the time being in force or any building or structure 
+standing thereon or appurtenant thereto, unless the law relating to the 
+acquisition of such land, building or structure, provides for payment of 
+compensation at a rate which shall not be less than the market value thereof.]
+41. Custody, management and disposal of property (including agricultural 
+land) declared by law to be evacuee property.
+194. The Land Acquisition (Bihar Amendment) Act, 1979 (Bihar Act 2 of 
+1980).
+(b) the taking over of the management of any property by the State 
+for a limited period either in the public interest or in order to secure the 
+proper management of the property; or
+(iii) any land held or let for purposes of agriculture or for 
+purposes ancillary thereto, including waste land, forest land, land for 
+pasture or sites of buildings and other structures occupied by 
+cultivators of land, agricultural labourers and village artisans;]
+18. Land, that is to say, rights in or over land, land tenures including the 
+relation of landlord and tenant, and the collection of rents; transfer and 
+alienation of agricultural land; land improvement and agricultural loans; 
+colonization.
+(b) disallow and citizen from acquiring land either by way of inheritance, 
+allotment, settlement or by any other way of transfer if such citizen is otherwise 
+eligible for such acquisition of land within the Bodoland Territorial Areas 
+District.
+(2) All laws made under paragraph 3 or under this paragraph shall in so far as they 
+relate to matters specified in List III  of the Seventh Schedule, be submitted forthwith to the 
+Governor who shall reserve the same for the consideration of the President.
+as may be specified in the law.
+1[125. Section 66A and Chapter IVA of the Motor Vehicles Act, 1939
+(Central Act 4 of 1939).
+1(5)*                            *                             *                             * 
+228. Transfer of certain cases to High Court.—If the High Court is 
+satisfied that a case pending in a court subordinate to it involves a substantial 
+question of law as to the interpretation of this Constitution the determination of 
+which is necessary for the disposal of the case, 2[it shall withdraw the case and
+3*** may—]
+(w.e.f. 27-5-1976).
+See now the relevant provisions of the Motor Vehicles Act, 1988 (59 of 1988).
+2. Entry 130 omitted by the Constitution (Forty-fourth Amendment) Act, 1978, s. 44
+withdraw the case and may—" (w.e.f. 1-2-1977).
+3. The words, figures and letter, "subject to the provisions of article 131A," omitted by
+(a) either dispose of the case itself, or
+(b) determine the said question of law and return the case to the 
+court from which the case has been so withdrawn together with a copy of 
+its judgment on such question, and the said court shall on receipt thereof 
+proceed to dispose of the case in conformity with such judgment.
+______________________________________________
+1. Cl. (5) was ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 40
+______________________________________________
+1. See the Code of Criminal Procedure, 1973 ( 2 of 1974).
+4[92C. *                  *                  *                  *                  *                  *]
+93. Offences against laws with respect to any of the matters in this List.
+94. Inquires, surveys and statistics for the purpose of any of the matters in 
+this List.
+20. Protection in respect of conviction for offences.—(1) No person 
+shall be convicted of any offence except for violation of a law in force at the 
+time of the commission of the Act charged as an offence, nor be subjected to a 
+penalty greater than that which might have been inflicted under the law in force 
+at the time of the commission of the offence.
+CHAPTER IV.
+RIGHT  TO PROPERTY
+300A.
+Persons not to be deprived of property save by authority of law.
+Right to  Freedom of Religion
+2[334A. Reservation of seats for women take effect. — (1) 
+Notwithstanding anything in the foregoing provision of this Part or Part VIII, 
+the provisions of the Constitution relating to the reservation of seats for women 
+in the House of the People, the Legislative Assembly of a State and the 
+Legislative Assembly of the National Capital Territory of Delhi shall come into 
+effect after an exercise of delimitation is undertaken for this purpose after the 
+relevant figures for the first census taken after commencement of the 
+Constitution (One Hundred and Sixth Amendment) Act, 2023 have been 
+published and shall cease to have effect on the expiration of a period of fifteen 
+years from such commencement.
+(2) No citizen shall, on grounds only of religion, race, caste, sex, descent, 
+place of birth, residence or any of them, be ineligible for, or discriminated against 
+in respect of, any employment or office under the State.
+(2) No citizen shall be denied admission into any educational institution 
+maintained by the State or receiving aid out of State funds on grounds only of 
+religion, race, caste, language or any of them.
+26. Freedom to manage religious affairs.—Subject to public order, 
+morality and health, every religious denomination or any section thereof shall 
+have the right—
+(2) No citizen shall, on grounds only of religion, race, caste, sex, place of 
+birth or any of them, be subject to any disability, liability, restriction or 
+condition with regard to—
+15.  Prohibition of discrimination on grounds of religion, race, caste, 
+sex or place of birth.—(1) The State shall not discriminate against any citizen 
+on grounds only of religion, race, caste, sex, place of birth or any of them.
+(3) No person attending any educational institution recognised by the 
+State or receiving aid out of State funds shall be required to take part in any 
+religious instruction that may be imparted in such institution or to attend any 
+religious worship that may be conducted in such institution or in any premises 
+attached thereto unless such person or, if such person is a minor, his guardian 
+has given his consent thereto.
+28. Freedom as to attendance at religious instruction or religious 
+worship in certain educational institutions.—(1) No religious instruction 
+shall be provided in any educational institution wholly maintained out of State 
+funds.
+(2) The State shall not, in granting aid to educational institutions, 
+discriminate against any educational institution on the ground that it is under 
+the management of a minority, whether based on religion or language.
+24. Prohibition of employment of children in factories, etc.—No child 
+below the age of fourteen years shall be employed to work in any factory or 
+mine or engaged in any other hazardous employment.
+23.
+Prohibition of traffic in human beings and forced labour.
+24.
+Prohibition of employment of children in factories, etc.
+(d) that there is equal pay for equal work for both men and women;
+(e) that the health and strength of workers, men and women, and 
+the tender age of children are not abused and that citizens are not forced 
+by economic necessity to enter avocations unsuited to their age or 
+strength;
+Right against Exploitation
+23. Prohibition of traffic in human beings and forced labour.—(1) 
+Traffic in human beings and begar and other similar forms of forced labour are 
+prohibited and any contravention of this provision shall be an offence 
+punishable in accordance with law.
+Right against Exploitation
+1[(f) that children are given opportunities and facilities to develop 
+in a healthy manner and in conditions of freedom and dignity and that 
+childhood and youth are protected against exploitation and against moral 
+and material abandonment.]
+147. The Kerala Agricultural Workers Act, 1974 (Kerala Act 18 of 1974).
+148. The Kerala Cashew Factories (Acquisition) Act, 1974 (Kerala Act 29 
+of 1974).
+43A. 
+Participation of workers in management of Industries.
+128. The Bonded Labour System (Abolition) Act, 1976 (Central Act 19 of 
+1976).
+41. Right to work, to education and to public assistance in certain 
+cases.—The State shall, within the limits of its economic capacity and 
+development, make effective provision for securing the right to work, to 
+education and to public assistance in cases of unemployment, old age, sickness 
+and disablement, and in other cases of undeserved want.
+19. Protection of certain rights regarding freedom of speech, etc.—
+(1) All citizens shall have the right—
+(a) to freedom of speech and expression;
+Right to Freedom
+19.
+Protection of certain rights regarding freedom of speech, etc.
+20.
+Protection in respect of conviction for offences.
+21.
+Protection of life and personal liberty.
+21A.
+Right to education.
+22.
+Protection against arrest and detention in certain cases.
+(4) The provisions of clauses (1), (2) and (3) shall apply in relation to 
+persons who by virtue of this Constitution have the right to speak in, and 
+otherwise to take part in the proceedings of, a House of Parliament or any 
+committee thereof as they apply in relation to members of Parliament.
+(2) The Speaker shall have the right to speak in, and otherwise to take 
+part in the proceedings of, the House of the People while any resolution for his 
+removal from office is under consideration in the House and shall, 
+notwithstanding anything in article 100, be entitled to vote only in the first 
+instance on such resolution or on any other matter during such proceedings but 
+not in the case of an equality of votes.
+(4) The provisions of clauses (1), (2) and (3) shall apply in relation to 
+persons who by virtue of this Constitution have the right to speak in, and 
+otherwise to take part in the proceedings of, a House of the Legislature of a State 
+or any committee thereof as they apply in relation to members of that Legislature.
+(2) The Chairman shall have the right to speak in, and otherwise to take 
+part in the proceedings of, the Council of States while any resolution for the 
+removal of the Vice-President from his office is under consideration in the 
+Council, but, notwithstanding anything in article 100, shall not be entitled to 
+vote at all on such resolution or on any other matter during such proceedings.
+105. Powers, privileges, etc., of the Houses of Parliament and of the 
+members and committees thereof.—(1) Subject to the provisions of this 
+Constitution and to the rules and standing orders regulating the procedure of 
+Parliament, there shall be freedom of speech in Parliament.
+22. Protection against arrest and detention in certain cases.—(1) No 
+person who is arrested shall be detained in custody without being informed, as 
+soon as may be, of the grounds for such arrest nor shall he be denied the right 
+to consult, and to be defended by, a legal practitioner of his choice.
+Right to  Freedom of Religion
+Right to Freedom of Religion
+25. Freedom of conscience and free profession, practice and 
+propagation of religion.—(1) Subject to public order, morality and health and 
+to the other provisions of this Part, all persons are equally entitled to freedom 
+of conscience and the right freely to profess, practice and propagate religion.
+26. Freedom to manage religious affairs.—Subject to public order, 
+morality and health, every religious denomination or any section thereof shall 
+have the right—
+25.
+Freedom of conscience and free profession, practice and 
+propagation of religion.
+26.
+Freedom to manage religious affairs.
+27.
+Freedom as to payment of taxes for promotion of any particular 
+religion.
+28.
+Freedom as to attendance at religious instruction or religious 
+worship in certain educational institutions.
+(2) Nothing in this article shall prevent the State from imposing 
+compulsory service for public purposes, and in imposing such service the State 
+shall not make any discrimination on grounds only of religion, race, caste or 
+class or any of them.
+15.  Prohibition of discrimination on grounds of religion, race, caste, 
+sex or place of birth.—(1) The State shall not discriminate against any citizen 
+on grounds only of religion, race, caste, sex, place of birth or any of them.
+(a) regulating or restricting any economic, financial, political or 
+other secular activity which may be associated with religious practice;
+(b) to manage its own affairs in matters of religion;
+(c) to own and acquire movable and immovable property; and
+(d) to administer such property in accordance with law.
+27. Freedom as to payment of taxes for promotion of any particular 
+religion.—No person shall be compelled to pay any taxes, the proceeds of 
+which are specifically appropriated in payment of expenses for the promotion 
+or maintenance of any particular religion or religious denomination.
+(5) Nothing in this article shall affect the operation of any law which 
+provides that the incumbent of an office in connection with the affairs of any 
+religious or denominational institution or any member of the governing body 
+thereof shall be a person professing a particular religion or belonging to a 
+particular denomination.
+28. Freedom as to attendance at religious instruction or religious 
+worship in certain educational institutions.—(1) No religious instruction 
+shall be provided in any educational institution wholly maintained out of State 
+funds.
+(2) No citizen shall be denied admission into any educational institution 
+maintained by the State or receiving aid out of State funds on grounds only of 
+religion, race, caste, language or any of them.
+2[(5) Nothing in this article or in sub-clause (g) of clause (1) of article 19 
+shall prevent the State from making any special provision, by law, for the 
+advancement of any socially and educationally backward classes of citizens or 
+for the Scheduled Castes or the Scheduled Tribes in so far as such special 
+provisions relate to their admission to educational institutions including private 
+educational institutions, whether aided or unaided by the State, other than the 
+minority educational institutions referred to in clause (1) of article 30.]
+(4) Nothing in this article shall prevent the State from making any 
+provision for the reservation of appointments or posts in favour of any 
+backward class of citizens which, in the opinion of the State, is not adequately 
+represented in the services under the State.
+342A.
+Socially and educationally backward classes.
+1[(4) Nothing in this article or in clause (2) of article 29 shall prevent the 
+State from making any special provision for the advancement of any socially 
+and educationally backward classes of citizens or for the Scheduled Castes and 
+the Scheduled Tribes.]
+3[(26C) "socially and educationally backward classes" means such 
+backward classes as are so deemed under article 342A for the purposes 
+of the Central Government or the State or Union territory, as the case 
+may be];
+1[342A. Socially and educationally backward classes.—(1) The 
+President may with respect to any State or Union territory, and where it is a 
+State, after consultation with the Governor thereof, by public notification, 
+specify 2[the socially and educationally backward classes in the Central List 
+which shall for the purposes of  the Central Government] be deemed to be 
+socially and educationally backward classes in relation to that State or Union 
+territory, as the case may be.
+Provided further that no educational institution shall be entitled to 
+receive any grant under this article unless at least forty per cent. of the annual 
+admissions therein are made available to members of communities other than 
+the Anglo-Indian community.
+(3) Notwithstanding any contained in clauses (1) and (2), every State or 
+Union territory may, by law, prepare and maintain, for its own purposes, a list 
+of socially and educationally backward classes, entries in which may be 
+different from the Central List.]
+1[257A. The Tamil Nadu Backward Classes, Scheduled Castes and 
+Scheduled Tribes (Reservation of Seats in Educational Institutions and of 
+appointments or posts in the Services under the State) Act, 1993 (Tamil Nadu 
+Act 45 of 1994).]
