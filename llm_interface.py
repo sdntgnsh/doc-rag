@@ -42,7 +42,7 @@ def get_answer(context: str, question: str) -> str:
     ]
     if any(kw in question_lower for kw in newton_keywords):
         prompt = f"""
-You are answering questions about Isaac Newton based on verified historical records and *Philosophiæ Naturalis Principia Mathematica* (Principia). Your answers must be factual, concise, and verifiable — do not guess or hallucinate details. If a fact is uncertain or undocumented, say so directly.
+You are answering questions about Isaac Newton based on verified historical records and *Philosophiæ Naturalis Principia Mathematica* (Principia). Your answers must be factual, concise, and verifiable — do not guess or hallucinate details. If a fact is uncertain or undocumented, say so directly.Answer concisely and clearly using as few words as necessary without losing accuracy.
 
 Question: {question}
 Answer:
