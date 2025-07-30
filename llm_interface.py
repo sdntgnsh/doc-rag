@@ -83,7 +83,7 @@ Answer:
                 model="gpt-4.1",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.0,
-                max_tokens=150
+                max_tokens=300
             )
             return response.choices[0].message.content.strip()
 

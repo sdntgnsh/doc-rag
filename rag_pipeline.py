@@ -26,7 +26,7 @@ def _answer_one_question(question: str, vector_store: InMemoryVectorStore) -> st
     all_retrieved_chunks = set()
     for q in expanded_questions:
         # Retrieve a smaller number of chunks per query to cast a wide net.
-        retrieved = vector_store.search(q, top_k=5)
+        retrieved = vector_store.search(q, top_k=10)
         all_retrieved_chunks.update(retrieved)
     
     retrieved_list = list(all_retrieved_chunks)
@@ -35,7 +35,7 @@ def _answer_one_question(question: str, vector_store: InMemoryVectorStore) -> st
     # Step 3: Reranking
     # Rerank the combined, unique results using the original question for relevance.
     print(f"Reranking {len(retrieved_list)} chunks...")
-    reranked_chunks = reranker_model.rerank(question, retrieved_list, top_k=5)
+    reranked_chunks = reranker_model.rerank(question, retrieved_list, top_k=10)
     with open('reranked_chunks.txt', 'a', encoding="utf-8") as f:
         for chunk in reranked_chunks:
             f.write(chunk + "\n")
