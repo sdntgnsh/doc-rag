@@ -9,6 +9,8 @@ import preprocessor
 import document_loader
 import rag_pipeline
 import cache_manager  # Import the new cache manager
+import json
+from datetime import datetime
 
 import os
 from dotenv import load_dotenv
@@ -110,4 +112,16 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
     completed_count = len([a for a in answers if not a.startswith("Processing timed out")])
     print(f"Request finished in {total_time:.2f}s with {completed_count}/{len(answers)} answers.")
     
+    # Log every query and its answers
+    log_query_and_answers(doc_url, request.questions, answers)
     return HackRxResponse(answers=answers)
+
+def log_query_and_answers(doc_url, questions, answers):
+    log_entry = {
+        "timestamp": datetime.utcnow().isoformat(),
+        "document": doc_url,
+        "questions": questions,
+        "answers": answers
+    }
+    with open("logs.jsonl", "a", encoding="utf-8") as f:
+        f.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
