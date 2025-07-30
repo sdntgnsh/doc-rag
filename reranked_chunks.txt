@@ -1523,3 +1523,2032 @@ enhancement of Basic Sums Insured only on the enhanced limits.
 (i) 
 Cashless Facility can be availed, if TPA service is opted. 
 (ii) Treatment may be taken in a Network Provider / PPN or Non Network Provider and is subject to preauthorization by the
+Lastly,  if  it  universally  appears,  by  experiments  and  astronomical  obser 
+vations,  that  all  bodies  about  the  earth  gravitate  towards  the  earth,  and 
+that  in  proportion  to  the  quantity  of  matter  which  they  severally  contain ; 
+that  the  moon  likewise,  according  to  the  quantity  of  its  matter,  gravitates 
+towards  the  earth ;  that,  on  the  other  hand,  our  sea  gravitates  towards  the 
+moon ;  and  all  the  planets  mutually  one  towards  another ;  and  the  comets 
+in  like  manner  towards  the  sun  ;  we  must,  in  consequence  of  this  rule,  uni 
+versally  allow  that  all  bodies  whatsoever  are  endowed  with  a  principle  ot 
+mutual  gravitation.  For  the  argument  from  the  appearances  concludes  with 
+more  force  for  the  universal  gravitation  of  all  bodies  than  for  their  impen 
+etrability  ;  of  which,  among  those  in  the  celestial  regions,  we  have  no  ex 
+periments,  nor  any  manner  of  observation.  Not  that  I  affirm  gravity  to  be 
+essential  to  bodies  :  by  their  vis  insita  I  mean  nothing  but  their  vis  iiicrticz. 
+This  is  immutable.  Their  gravity  is  diminished  as  they  recede  from  the 
+earth.
+And  as,  from  the  supposed  existence  of  gravity,  it  necessarily  follows 
+that  all  bodies  about  the  earth  must  press  downwards,  and  therefore  must
+That  there  is  a  power  of  gravity  tending  to  all  bodies,  proportional  to
+NEWTON'S  SYSTEM  OF  THE  WORLD ;
+looked  upon."J 
+Though  Newton  had  continued  silent,  yet  his  thoughts  were 
+by  no  means  inactive  upon  the  vast  subject  of  the  planetary  mo 
+tions.  The  idea  of  Universal  Gravitation,  first  caught  sight  of,  so
+as  the  square  of  the  distance,  the  density  will  be  reciprocally  in  a  sesqui- 
+plicate  ratio  of  the  distance.  Suppose  the  compressing  force  to  be  in  a  du 
+plicate  ratio  of  the  density,  and  the  gravity  reciprocally  in  a  duplicate  ra
+that  the  force  of  gravity  is  reciprocally  as  the  square  of  the  distance  from 
+the  centre  of  the  earth)  raising  a  calculus,  by  Cor.  Prop.  XXII,  Book  II,
+To  determine  the  motions  of  two  bodies  attracting  each  other  with  forces 
+reciprocally  proportional  to  the  squares  of  their  distance,  and  going
+Tn  two  spheres  mutually  gravitating  each  towards  the  other,  if  tlie  matter 
+in  places  on  all  sides  round  about  and  equi-distant  from  the  centres  is 
+similar,  the  weight  of  either  sphere  towards  the  other  will  be  recipro 
+cally  as  the  square  of  the  distance  between  their  centres. 
+After  I  had  found  that  the  force  of  gravity  towards  a  whole  planet  did 
+arise  from  and  was  compounded   of  the  forces  of  gravity  towards  all  its 
+parts,  and  towards  every  one  part  was  in  the  reciprocal  proportion  of  the 
+squares  of  the  distances  from  the  part,  I  was  yet  in  doubt  whether  that  re 
+ciprocal  duplicate  proportion  did  accurately  hold,  or  but  nearly  so,  in  the 
+total  force  compounded  of  so  many  partial  ones;  for  it  might  be  that  the 
+proportion  which  accurately  enough  took  place  in  greater  distances  should 
+be  wide  of  the  truth  near  the  surface  of  the  planet,  where  the  distances  of
+sphere  is  attracted  with  a  force  reciprocally  proportional  to  the  square 
+of  its  distance  from  the  centre.
+Absolute  time,  in  astronomy,  is  distinguished  from  relative,  by  the  equa 
+tion  or  correction  of  the  vulgar  time.  For  the  natural  days  are  tr^y  un 
+equal,  though  they  are  commonly  considered  as  equal,  and  used  for  a  meas 
+ure  of  time ;  astronomers  correct  this  inequality  for  their  more  accurate 
+deducing  of  the  celestial  motions.  It  may  be,  that  there  is  no  such  thing 
+as  an  equable  motion,  whereby  time  may  H  accurately  measured.  All  mo
+II.  Absolute  space,  in  its  own  nature,  without  regard  to  anything  exter 
+nal,  remains  always  similar  and  immovable.     Relative  space  is  some  mo 
+vable  dimension  or  measure  of  the  absolute  spaces ;  which  our  senses  de 
+termine  by  its  position  to  bodies ;  and  which  is  vulgarly  taken  for  immo 
+vable  space ;  such  is  the  dimension  of  a  subterraneous,  an  aereal,  or  celestial 
+space,  determined  by  its  position  in  respect  of  the  earth.     Absolute  and 
+relative  space,  are  the  same  in  figure  and  magnitude ;  but  they  do  not  re 
+main  always  numerically  the  same.     For  if  the  earth,  for  instance,  moves, 
+a  space  of  our  air,  which  relatively  and  in  respect  of  the  earth  remains  al 
+ways  the  same,  will  at  one  time  be  one  part  of  the  absolute  space  into  which
+Hitherto  I  have  laid  down  the  definitions  of  such  words  as  are  less 
+known,  and  explained  the  sense  in  which  I  would  have  them  to  be  under 
+stood  in  the  following  discourse.  I  do  not  define  time,  space,  place  and 
+motion,  as  being  well  known  to  all.  Only  I  must  observe,  that  the  vulgar 
+conceive  those  quantities  under  no  other  notions  but  from  the  relation  they 
+bear  to  sensible  objects.  And  thence  arise  certain  prejudices,  for  the  re 
+moving  of  which,  it  will  be  convenient  to  distinguish  them  into  absolute 
+and  relative,  true  and  apparent,  mathematical  and  common.
+As  the  order  of  the  parts  of  time  is  immutable,  so  also  is  the  order  of 
+the  parts  of  space.  Suppose  those  parts  to  be  moved  out  of  their  places,  and 
+they  will  be  moved  (if  the  expression  may  be  allowed)  out  of  themselves. 
+For  times  and  spaces  are,  as  it  were,  the  places  as  well  of  themselves  as  of 
+all  other  things.  All  things  are  placed  in  time  as  to  order  of  succession ; 
+and  in  space  as  _to  order  of  situation.  It  is  from  their  essence  or  nature 
+that  they  are  places ;  and  that  the  primary  places  of  things  should  be 
+moveable,  is  absurd.  These  are  therefore  the  absolute  places ;  and  trans 
+lations  out  of  those  places,  are  the  only  absolute  motions.
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+However,  it  was  agreed  on  both  sides  that  the  motions  of  the  celestial
+we  in  the  third  derive  from  the  celestial  phenomena  the  forces  of  gravity 
+with  which  bodies  tend  to  the  sun  and  the  several  planets.  Then  from  these
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+the  first  two,  entitled,  OF  THE  MOTION  OF  BODIES,  are  occupied 
+with  the  laws  and  conditions  of  motions  and  forces,  and  are  illus
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+A  centripetal  force  is  that  by  which  bodies  are  drawn  or  impelled,  or  any
+therefore,  at  equal  distances,  the  actions  of  the  centripetal  force  are  equal 
+upon  all  the  planets  in  proportion  of  their  bodies,  or  of  the  quantities  of 
+matter  in  their  several  bodies;  and  for  the  same  reason  must  be  the  same 
+upon  all  the  particles  of  the  same  size  of  which  the  planet  is  composed ;  for
+Of  the  invention  of  orbits  wherein  bodies  will  revolve,  being  acted  upon 
+by  any  sort  of  centripetal  force.
+in  the  very  beginning  of  the  motion,  to  an  uniform  centripetal  force,  which
+Of  the  Invention  of  Centripetal  Forces.
+The  quantity  of  motion  is  the  measure  nf  tlie  same,  arising  from  the
+To  define  the  motion  of  a  body  which,  in  a  similar  medium,  ascends  or 
+descends  in  a  right  line,  and  is  resisted  in  the  ratio  of  its  velocity,  and 
+acted  upon  by  an  uniform  force  of  gravity.
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+And  how  from  the  motions  given  we  may  infer  the  forces,  or  from  the
+experiments  of  pendulums,  as  well  as  by  the  experiments  of  falling  bodies. 
+And  from  all  this  it  may  be  concluded,  that  the  resistances  of  bodies,  moving 
+in  any  fluids  whatsoever,  though  of  the  most  extreme  fluidity,  are,  cceteris 
+paribus,  as  the  densities  of  the  fluids.
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+Of  the,  motion  of  fluids,  and  the  resistance  made  to  projected  bodies.
+Con.  3.  The  resistance  of  a  body  moving  very  swift  in  an  elastic  fluid
+Ff  a  body  is  resisted  in  the  duplicate  ratio  of  its  velocity,  and  moves  by 
+its  innate  force  only  through  a  similar  medium;  and  the  times  be 
+taken  in  a  geometrical  progression,  proceeding  from  less  to  greater 
+terms  :  I  say,  that  the  velocities  at  the  beginning  of  each  of  the  times 
+are  in  the  same  geometrical  progression  inversely  ;  and  that  the  spaces 
+are  equal,  which  are  described  in  each  of  the  times. 
+For  since  the  resistance  of  the  medium  is  proportional  to  the  square  of 
+the  velocity,  and  the  decrement  of  the  velocity  is  proportional  to  the  resist
+NEWTON'S  PRINCIPIA.
+THAT  the  PRINCIPIA  of  Newton  should  have  remained  so  gen 
+erally  unknown  in  this  country  to  the  present  day  is  a  somewhat 
+remarkable  fact ;  because  the  name  of  the  author,  learned  with
+by  the  general  mind.  Pemberton's  popular  "  View  of  Sir  Isaac 
+Newton's  Philosophy"  was  published,  in  1728  ;  and  the  year  after 
+ward,  an  English  translation  of  the  PRINCIPIA,  and  System  of  the 
+World,  by  Andrew  Motte.  And  since  that  period,  the  labours  of 
+Le  Seur  and  Jacquier,  of  Thorpe,  of  Jebb,  of  Wright  and  others 
+have  greatly  contributed  to  display  the  most  hidden  treasures  of 
+the  PRINCIPIA.
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+Pell  that  it  was  Newton?s  method,  persisted  in  maintaining  it  to 
+be  his  own  invention,  by  reason  that  he  had  found  it  by  himself 
+without  knowing  what  Newton  had  done  before,  and  had  much 
+improved  it.  And  we  find  no  mention  of  his  having  any  other
+to  disturb  the  motion  of  Jupiter  is  proportional  to  this  difference;  and 
+therefore  the  perturbation  of  the  orbit  of  Jupiter  is  much  less  than  that  of
+that  the  force  which  retained  the  planet  in  its  orbit  was  always 
+directed  to  the  sun ;  and  from  the  second,  namely,  that  every 
+planet  moves  in  an  ellipse  with  the  sun  in  one  of  its  foci,  he  drew 
+the  more  general  inference  that  the  force  by  which  the  planet 
+moves  round  that  focus  varies  inversely  as  the  square  of  its  dis 
+tance  therefrom  :  and  he  demonstrated  that  a  planet  acted  upon 
+by  such  a  force  could  not  move  in  any  other  curve  than  a  conic 
+section ;  showing  when  the  moving  body  would  describe  a  circu
+For  the  revolutions  of  the  circumjovial  planets  about  Jupiter,  of  the 
+circumsaturnal  about  Saturn,  and  of  Mercury  and  Venus,  and  the  other 
+circumsolar  planets,  about  the  sun,  are  appearances  of  the  same  sort  with 
+the  revolution  of  the  moon  about  the  earth ;  and  therefore,  by  Rule  II, 
+must  be  owing  to  the  same  sort  of  causes ;  especially  since  it  has  been 
+demonstrated,  that  the  forces  upon  which  those  revolutions  depend  tend  to 
+the  centres  of  Jupiter,  of  Saturn,  and  of  the  sun ;  and  that  those  forces,  in 
+receding  from  Jupiter,  from  Saturn,  and  from  the  sun,  decrease  in  the  same 
+proportion,  and  according  to  the  same  law,  as  the  force  of  gravity  does  in 
+receding  from  the  earth.
+BY   SIR   ISAAC  NEWTON;
+That  the  forces  by  which  the  primary  planets  are  continually  drawn  off 
+from  rectilinear  motions,  and  retained  in  their  proper  orbits,  tend  to
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+From  the  first  law  of  Kepler,  namely,  the   proportionality  of
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+proportion  of  the  distance,  and  the  periodic  time  increases  in  the  sesquipli- 
+cate  thereof,  it  is  evident  that  the  actions  of  the  centripetal  force,  and 
+therefore  the  periodic  times,  would  be  equal  in  equal  planets  at  equal  dis 
+tances  from  the  sun ;  and  in  equal  distances  of  unequal  planets  the  total 
+actions  of  the  centripetal  force  would  be  as  the  bodies  of  the  planets ;  for 
+if  the  actions  were  not  proportional  to  the  bodies  to  be  moved,  they  could 
+not  equally  retract  these  bodies  from  the  tangents  of  their  orbs  in  equal 
+times :  nor  could  the  motions  of  the  satellites  of  Jupiter  be  so  regular,  if  it
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+as  the  square  of  the  distance,  the  density  will  be  reciprocally  in  a  sesqui- 
+plicate  ratio  of  the  distance.  Suppose  the  compressing  force  to  be  in  a  du 
+plicate  ratio  of  the  density,  and  the  gravity  reciprocally  in  a  duplicate  ra
+that  the  force  of  gravity  is  reciprocally  as  the  square  of  the  distance  from 
+the  centre  of  the  earth)  raising  a  calculus,  by  Cor.  Prop.  XXII,  Book  II,
+To  determine  the  motions  of  two  bodies  attracting  each  other  with  forces 
+reciprocally  proportional  to  the  squares  of  their  distance,  and  going
+Tn  two  spheres  mutually  gravitating  each  towards  the  other,  if  tlie  matter 
+in  places  on  all  sides  round  about  and  equi-distant  from  the  centres  is 
+similar,  the  weight  of  either  sphere  towards  the  other  will  be  recipro 
+cally  as  the  square  of  the  distance  between  their  centres. 
+After  I  had  found  that  the  force  of  gravity  towards  a  whole  planet  did 
+arise  from  and  was  compounded   of  the  forces  of  gravity  towards  all  its 
+parts,  and  towards  every  one  part  was  in  the  reciprocal  proportion  of  the 
+squares  of  the  distances  from  the  part,  I  was  yet  in  doubt  whether  that  re 
+ciprocal  duplicate  proportion  did  accurately  hold,  or  but  nearly  so,  in  the 
+total  force  compounded  of  so  many  partial  ones;  for  it  might  be  that  the 
+proportion  which  accurately  enough  took  place  in  greater  distances  should 
+be  wide  of  the  truth  near  the  surface  of  the  planet,  where  the  distances  of
+sphere  is  attracted  with  a  force  reciprocally  proportional  to  the  square 
+of  its  distance  from  the  centre.
+experiments  of  pendulums,  as  well  as  by  the  experiments  of  falling  bodies. 
+And  from  all  this  it  may  be  concluded,  that  the  resistances  of  bodies,  moving 
+in  any  fluids  whatsoever,  though  of  the  most  extreme  fluidity,  are,  cceteris 
+paribus,  as  the  densities  of  the  fluids.
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+Of  the,  motion  of  fluids,  and  the  resistance  made  to  projected  bodies.
+Con.  3.  The  resistance  of  a  body  moving  very  swift  in  an  elastic  fluid
+BY   SIR   ISAAC  NEWTON;
+Supposing  the  centripetal  force  to  be  reciprocally  proportional  to  the 
+squares  of  the  distances  of  places  from  the  centre,  and  that  the  abso 
+lute  quantity  of  that  force  is  known  ;  it  is  required  to  determine  t/te 
+line  which  a  body  will  describe  that  is  let  go  from  a  given  place  with  a 
+given  velocity  in  the  direction  of  a  given  right  line. 
+Let  the  centripetal  force 
+tending  to  the  point  S  be 
+such  as  will  make  the  body 
+p  revolve  in  any  given  orbit 
+pq ;  and  suppose  the  velocity 
+of  this  body  in  the  place  p 
+is  known.     Then  from  the
+A  centripetal  force  is  that  by  which  bodies  are  drawn  or  impelled,  or  any
+Of  the  invention  of  orbits  wherein  bodies  will  revolve,  being  acted  upon 
+by  any  sort  of  centripetal  force.
+in  the  very  beginning  of  the  motion,  to  an  uniform  centripetal  force,  which
+may  discover  the  proportion  of  a  centripetal  force  to  any  other  known 
+force,  such  as  that  of  gravity.  For  if  a  body  by  means  of  its  gravity  re 
+volves  in  a  circle  concentric  to  the  earth,  this  gravity  is  the  centripetal 
+force  of  that  body.  But  from  the  descent  of  heavy  bodies,  the  time  of  one 
+entire  revolution,  as  well  as  the  arc  described  in  any  given  time,  is  given 
+(by  Cor.  9  of  this  Prop.).  And  by  such  propositions,  Mr.  Huygens,  in  his 
+excellent  book  De  Horologio  Oscillatorio,  has  compared  the  force  of 
+gravity  with  the  centrifugal  forces  of  revolving  bodies.
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+From  the  first  law  of  Kepler,  namely,  the   proportionality  of
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+we  in  the  third  derive  from  the  celestial  phenomena  the  forces  of  gravity 
+with  which  bodies  tend  to  the  sun  and  the  several  planets.  Then  from  these
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+the  first  two,  entitled,  OF  THE  MOTION  OF  BODIES,  are  occupied 
+with  the  laws  and  conditions  of  motions  and  forces,  and  are  illus
+NEWTON'S  SYSTEM  OF  THE  WORLD ;
+The  quantity  of  motion  is  the  measure  nf  tlie  same,  arising  from  the
+To  define  the  motion  of  a  body  which,  in  a  similar  medium,  ascends  or 
+descends  in  a  right  line,  and  is  resisted  in  the  ratio  of  its  velocity,  and 
+acted  upon  by  an  uniform  force  of  gravity.
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+And  how  from  the  motions  given  we  may  infer  the  forces,  or  from  the
+Lastly,  if  it  universally  appears,  by  experiments  and  astronomical  obser 
+vations,  that  all  bodies  about  the  earth  gravitate  towards  the  earth,  and 
+that  in  proportion  to  the  quantity  of  matter  which  they  severally  contain ; 
+that  the  moon  likewise,  according  to  the  quantity  of  its  matter,  gravitates 
+towards  the  earth ;  that,  on  the  other  hand,  our  sea  gravitates  towards  the 
+moon ;  and  all  the  planets  mutually  one  towards  another ;  and  the  comets 
+in  like  manner  towards  the  sun  ;  we  must,  in  consequence  of  this  rule,  uni 
+versally  allow  that  all  bodies  whatsoever  are  endowed  with  a  principle  ot 
+mutual  gravitation.  For  the  argument  from  the  appearances  concludes  with 
+more  force  for  the  universal  gravitation  of  all  bodies  than  for  their  impen 
+etrability  ;  of  which,  among  those  in  the  celestial  regions,  we  have  no  ex 
+periments,  nor  any  manner  of  observation.  Not  that  I  affirm  gravity  to  be 
+essential  to  bodies  :  by  their  vis  insita  I  mean  nothing  but  their  vis  iiicrticz. 
+This  is  immutable.  Their  gravity  is  diminished  as  they  recede  from  the 
+earth.
+And  as,  from  the  supposed  existence  of  gravity,  it  necessarily  follows 
+that  all  bodies  about  the  earth  must  press  downwards,  and  therefore  must
+That  there  is  a  power  of  gravity  tending  to  all  bodies,  proportional  to
+NEWTON'S  SYSTEM  OF  THE  WORLD ;
+looked  upon."J 
+Though  Newton  had  continued  silent,  yet  his  thoughts  were 
+by  no  means  inactive  upon  the  vast  subject  of  the  planetary  mo 
+tions.  The  idea  of  Universal  Gravitation,  first  caught  sight  of,  so
+to  disturb  the  motion  of  Jupiter  is  proportional  to  this  difference;  and 
+therefore  the  perturbation  of  the  orbit  of  Jupiter  is  much  less  than  that  of
+that  the  force  which  retained  the  planet  in  its  orbit  was  always 
+directed  to  the  sun ;  and  from  the  second,  namely,  that  every 
+planet  moves  in  an  ellipse  with  the  sun  in  one  of  its  foci,  he  drew 
+the  more  general  inference  that  the  force  by  which  the  planet 
+moves  round  that  focus  varies  inversely  as  the  square  of  its  dis 
+tance  therefrom  :  and  he  demonstrated  that  a  planet  acted  upon 
+by  such  a  force  could  not  move  in  any  other  curve  than  a  conic 
+section ;  showing  when  the  moving  body  would  describe  a  circu
+For  the  revolutions  of  the  circumjovial  planets  about  Jupiter,  of  the 
+circumsaturnal  about  Saturn,  and  of  Mercury  and  Venus,  and  the  other 
+circumsolar  planets,  about  the  sun,  are  appearances  of  the  same  sort  with 
+the  revolution  of  the  moon  about  the  earth ;  and  therefore,  by  Rule  II, 
+must  be  owing  to  the  same  sort  of  causes ;  especially  since  it  has  been 
+demonstrated,  that  the  forces  upon  which  those  revolutions  depend  tend  to 
+the  centres  of  Jupiter,  of  Saturn,  and  of  the  sun ;  and  that  those  forces,  in 
+receding  from  Jupiter,  from  Saturn,  and  from  the  sun,  decrease  in  the  same 
+proportion,  and  according  to  the  same  law,  as  the  force  of  gravity  does  in 
+receding  from  the  earth.
+orbits  would  be  elliptic,  and  the  areas  exactly  proportional  to  the  times  (by 
+Prop.  XI,  and  Cor.  1,  Prop.  XIII).  But  the  actions  of  the  planets  amonir 
+themselves,  compared  with  the  actions  of  the  sun  on  the  planets,  are  of  no 
+moment,  and  produce  no  sensible  errors.  And  those  errors  are  less  in  rev 
+olutions  about  the  sun  agitated  in  the  manner  but  now  described  than  if
+That  the  forces  by  which  the  primary  planets  are  continually  drawn  off 
+from  rectilinear  motions,  and  retained  in  their  proper  orbits,  tend  to
+Absolute  time,  in  astronomy,  is  distinguished  from  relative,  by  the  equa 
+tion  or  correction  of  the  vulgar  time.  For  the  natural  days  are  tr^y  un 
+equal,  though  they  are  commonly  considered  as  equal,  and  used  for  a  meas 
+ure  of  time ;  astronomers  correct  this  inequality  for  their  more  accurate 
+deducing  of  the  celestial  motions.  It  may  be,  that  there  is  no  such  thing 
+as  an  equable  motion,  whereby  time  may  H  accurately  measured.  All  mo
+IV.  Absolute  motion  is  the  translation  of  a  body  from  one  absolute 
+place  into  another ;  and  relative  motion,  the  translation  from  one  relative 
+place  into  another.     Thus  in  a  ship  under  sail,  the  relative  place  of  a  body 
+is  that  part  of  the  ship  which  the  body  possesses ;  or  that  part  of  its  cavity 
+which  the  body  fills,  and  which  therefore  moves  together  with  the  ship : 
+and  relative  rest  is  the  continuance  of  the  body  in  the  same  part  of  the
+II.  Absolute  space,  in  its  own  nature,  without  regard  to  anything  exter 
+nal,  remains  always  similar  and  immovable.     Relative  space  is  some  mo 
+vable  dimension  or  measure  of  the  absolute  spaces ;  which  our  senses  de 
+termine  by  its  position  to  bodies ;  and  which  is  vulgarly  taken  for  immo 
+vable  space ;  such  is  the  dimension  of  a  subterraneous,  an  aereal,  or  celestial 
+space,  determined  by  its  position  in  respect  of  the  earth.     Absolute  and 
+relative  space,  are  the  same  in  figure  and  magnitude ;  but  they  do  not  re 
+main  always  numerically  the  same.     For  if  the  earth,  for  instance,  moves, 
+a  space  of  our  air,  which  relatively  and  in  respect  of  the  earth  remains  al 
+ways  the  same,  will  at  one  time  be  one  part  of  the  absolute  space  into  which
+Hitherto  I  have  laid  down  the  definitions  of  such  words  as  are  less 
+known,  and  explained  the  sense  in  which  I  would  have  them  to  be  under 
+stood  in  the  following  discourse.  I  do  not  define  time,  space,  place  and 
+motion,  as  being  well  known  to  all.  Only  I  must  observe,  that  the  vulgar 
+conceive  those  quantities  under  no  other  notions  but  from  the  relation  they 
+bear  to  sensible  objects.  And  thence  arise  certain  prejudices,  for  the  re 
+moving  of  which,  it  will  be  convenient  to  distinguish  them  into  absolute 
+and  relative,  true  and  apparent,  mathematical  and  common.
+As  the  order  of  the  parts  of  time  is  immutable,  so  also  is  the  order  of 
+the  parts  of  space.  Suppose  those  parts  to  be  moved  out  of  their  places,  and 
+they  will  be  moved  (if  the  expression  may  be  allowed)  out  of  themselves. 
+For  times  and  spaces  are,  as  it  were,  the  places  as  well  of  themselves  as  of 
+all  other  things.  All  things  are  placed  in  time  as  to  order  of  succession ; 
+and  in  space  as  _to  order  of  situation.  It  is  from  their  essence  or  nature 
+that  they  are  places ;  and  that  the  primary  places  of  things  should  be 
+moveable,  is  absurd.  These  are  therefore  the  absolute  places ;  and  trans 
+lations  out  of  those  places,  are  the  only  absolute  motions.
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+LIFE    OF    SIR    ISAAC    NEWTON.  19
+NEWTON'S  PRINCIPIA.
+In  June,  1709,  Newton  intrusted  the  superintendence  of  a 
+second  edition  of  the  PRINCIPIA  to  Roger  Cotes,  Plumian  Pro
+THAT  the  PRINCIPIA  of  Newton  should  have  remained  so  gen 
+erally  unknown  in  this  country  to  the  present  day  is  a  somewhat 
+remarkable  fact ;  because  the  name  of  the  author,  learned  with
+by  the  general  mind.  Pemberton's  popular  "  View  of  Sir  Isaac 
+Newton's  Philosophy"  was  published,  in  1728  ;  and  the  year  after 
+ward,  an  English  translation  of  the  PRINCIPIA,  and  System  of  the 
+World,  by  Andrew  Motte.  And  since  that  period,  the  labours  of 
+Le  Seur  and  Jacquier,  of  Thorpe,  of  Jebb,  of  Wright  and  others 
+have  greatly  contributed  to  display  the  most  hidden  treasures  of 
+the  PRINCIPIA.
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+to  disturb  the  motion  of  Jupiter  is  proportional  to  this  difference;  and 
+therefore  the  perturbation  of  the  orbit  of  Jupiter  is  much  less  than  that  of
+that  the  force  which  retained  the  planet  in  its  orbit  was  always 
+directed  to  the  sun ;  and  from  the  second,  namely,  that  every 
+planet  moves  in  an  ellipse  with  the  sun  in  one  of  its  foci,  he  drew 
+the  more  general  inference  that  the  force  by  which  the  planet 
+moves  round  that  focus  varies  inversely  as  the  square  of  its  dis 
+tance  therefrom  :  and  he  demonstrated  that  a  planet  acted  upon 
+by  such  a  force  could  not  move  in  any  other  curve  than  a  conic 
+section ;  showing  when  the  moving  body  would  describe  a  circu
+For  the  revolutions  of  the  circumjovial  planets  about  Jupiter,  of  the 
+circumsaturnal  about  Saturn,  and  of  Mercury  and  Venus,  and  the  other 
+circumsolar  planets,  about  the  sun,  are  appearances  of  the  same  sort  with 
+the  revolution  of  the  moon  about  the  earth ;  and  therefore,  by  Rule  II, 
+must  be  owing  to  the  same  sort  of  causes ;  especially  since  it  has  been 
+demonstrated,  that  the  forces  upon  which  those  revolutions  depend  tend  to 
+the  centres  of  Jupiter,  of  Saturn,  and  of  the  sun ;  and  that  those  forces,  in 
+receding  from  Jupiter,  from  Saturn,  and  from  the  sun,  decrease  in  the  same 
+proportion,  and  according  to  the  same  law,  as  the  force  of  gravity  does  in 
+receding  from  the  earth.
+BY   SIR   ISAAC  NEWTON;
+That  the  forces  by  which  the  primary  planets  are  continually  drawn  off 
+from  rectilinear  motions,  and  retained  in  their  proper  orbits,  tend  to
+as  the  square  of  the  distance,  the  density  will  be  reciprocally  in  a  sesqui- 
+plicate  ratio  of  the  distance.  Suppose  the  compressing  force  to  be  in  a  du 
+plicate  ratio  of  the  density,  and  the  gravity  reciprocally  in  a  duplicate  ra
+that  the  force  of  gravity  is  reciprocally  as  the  square  of  the  distance  from 
+the  centre  of  the  earth)  raising  a  calculus,  by  Cor.  Prop.  XXII,  Book  II,
+To  determine  the  motions  of  two  bodies  attracting  each  other  with  forces 
+reciprocally  proportional  to  the  squares  of  their  distance,  and  going
+Tn  two  spheres  mutually  gravitating  each  towards  the  other,  if  tlie  matter 
+in  places  on  all  sides  round  about  and  equi-distant  from  the  centres  is 
+similar,  the  weight  of  either  sphere  towards  the  other  will  be  recipro 
+cally  as  the  square  of  the  distance  between  their  centres. 
+After  I  had  found  that  the  force  of  gravity  towards  a  whole  planet  did 
+arise  from  and  was  compounded   of  the  forces  of  gravity  towards  all  its 
+parts,  and  towards  every  one  part  was  in  the  reciprocal  proportion  of  the 
+squares  of  the  distances  from  the  part,  I  was  yet  in  doubt  whether  that  re 
+ciprocal  duplicate  proportion  did  accurately  hold,  or  but  nearly  so,  in  the 
+total  force  compounded  of  so  many  partial  ones;  for  it  might  be  that  the 
+proportion  which  accurately  enough  took  place  in  greater  distances  should 
+be  wide  of  the  truth  near  the  surface  of  the  planet,  where  the  distances  of
+sphere  is  attracted  with  a  force  reciprocally  proportional  to  the  square 
+of  its  distance  from  the  centre.
+A  centripetal  force  is  that  by  which  bodies  are  drawn  or  impelled,  or  any
+Of  the  invention  of  orbits  wherein  bodies  will  revolve,  being  acted  upon 
+by  any  sort  of  centripetal  force.
+in  the  very  beginning  of  the  motion,  to  an  uniform  centripetal  force,  which
+Of  the  Invention  of  Centripetal  Forces.
+"       the  invention  of  the  centripetal  forces,  when  a  body  is  revolved  in  a  non-resisting  space
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+However,  it  was  agreed  on  both  sides  that  the  motions  of  the  celestial
+we  in  the  third  derive  from  the  celestial  phenomena  the  forces  of  gravity 
+with  which  bodies  tend  to  the  sun  and  the  several  planets.  Then  from  these
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+the  first  two,  entitled,  OF  THE  MOTION  OF  BODIES,  are  occupied 
+with  the  laws  and  conditions  of  motions  and  forces,  and  are  illus
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+fell  to  John  Newton,  the  heir-at-law,  whose  great  grand-father
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+ISAAC  NEWTON.
+experiments  of  pendulums,  as  well  as  by  the  experiments  of  falling  bodies. 
+And  from  all  this  it  may  be  concluded,  that  the  resistances  of  bodies,  moving 
+in  any  fluids  whatsoever,  though  of  the  most  extreme  fluidity,  are,  cceteris 
+paribus,  as  the  densities  of  the  fluids.
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+Of  the,  motion  of  fluids,  and  the  resistance  made  to  projected  bodies.
+Of  the  motion  of  bodies   that   are  resisted  in  the  ratio  of  the  velocity.
+Con.  3.  The  resistance  of  a  body  moving  very  swift  in  an  elastic  fluid
+To  define  the  motion  of  a  body  which,  in  a  similar  medium,  ascends  or 
+descends  in  a  right  line,  and  is  resisted  in  the  ratio  of  its  velocity,  and 
+acted  upon  by  an  uniform  force  of  gravity.
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+And  how  from  the  motions  given  we  may  infer  the  forces,  or  from  the
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+tise  the  species  or  physical  qualities  of  forces,  but  investigating  the  quantities
+NEWTON'S  PRINCIPIA.
+THAT  the  PRINCIPIA  of  Newton  should  have  remained  so  gen 
+erally  unknown  in  this  country  to  the  present  day  is  a  somewhat 
+remarkable  fact ;  because  the  name  of  the  author,  learned  with
+by  the  general  mind.  Pemberton's  popular  "  View  of  Sir  Isaac 
+Newton's  Philosophy"  was  published,  in  1728  ;  and  the  year  after 
+ward,  an  English  translation  of  the  PRINCIPIA,  and  System  of  the 
+World,  by  Andrew  Motte.  And  since  that  period,  the  labours  of 
+Le  Seur  and  Jacquier,  of  Thorpe,  of  Jebb,  of  Wright  and  others 
+have  greatly  contributed  to  display  the  most  hidden  treasures  of 
+the  PRINCIPIA.
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+Pell  that  it  was  Newton?s  method,  persisted  in  maintaining  it  to 
+be  his  own  invention,  by  reason  that  he  had  found  it  by  himself 
+without  knowing  what  Newton  had  done  before,  and  had  much 
+improved  it.  And  we  find  no  mention  of  his  having  any  other
+Lastly,  if  it  universally  appears,  by  experiments  and  astronomical  obser 
+vations,  that  all  bodies  about  the  earth  gravitate  towards  the  earth,  and 
+that  in  proportion  to  the  quantity  of  matter  which  they  severally  contain ; 
+that  the  moon  likewise,  according  to  the  quantity  of  its  matter,  gravitates 
+towards  the  earth ;  that,  on  the  other  hand,  our  sea  gravitates  towards  the 
+moon ;  and  all  the  planets  mutually  one  towards  another ;  and  the  comets 
+in  like  manner  towards  the  sun  ;  we  must,  in  consequence  of  this  rule,  uni 
+versally  allow  that  all  bodies  whatsoever  are  endowed  with  a  principle  ot 
+mutual  gravitation.  For  the  argument  from  the  appearances  concludes  with 
+more  force  for  the  universal  gravitation  of  all  bodies  than  for  their  impen 
+etrability  ;  of  which,  among  those  in  the  celestial  regions,  we  have  no  ex 
+periments,  nor  any  manner  of  observation.  Not  that  I  affirm  gravity  to  be 
+essential  to  bodies  :  by  their  vis  insita  I  mean  nothing  but  their  vis  iiicrticz. 
+This  is  immutable.  Their  gravity  is  diminished  as  they  recede  from  the 
+earth.
+And  as,  from  the  supposed  existence  of  gravity,  it  necessarily  follows 
+that  all  bodies  about  the  earth  must  press  downwards,  and  therefore  must
+That  there  is  a  power  of  gravity  tending  to  all  bodies,  proportional  to
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+NEWTON'S  PRINCIPIA.
+Absolute  time,  in  astronomy,  is  distinguished  from  relative,  by  the  equa 
+tion  or  correction  of  the  vulgar  time.  For  the  natural  days  are  tr^y  un 
+equal,  though  they  are  commonly  considered  as  equal,  and  used  for  a  meas 
+ure  of  time ;  astronomers  correct  this  inequality  for  their  more  accurate 
+deducing  of  the  celestial  motions.  It  may  be,  that  there  is  no  such  thing 
+as  an  equable  motion,  whereby  time  may  H  accurately  measured.  All  mo
+IV.  Absolute  motion  is  the  translation  of  a  body  from  one  absolute 
+place  into  another ;  and  relative  motion,  the  translation  from  one  relative 
+place  into  another.     Thus  in  a  ship  under  sail,  the  relative  place  of  a  body 
+is  that  part  of  the  ship  which  the  body  possesses ;  or  that  part  of  its  cavity 
+which  the  body  fills,  and  which  therefore  moves  together  with  the  ship : 
+and  relative  rest  is  the  continuance  of  the  body  in  the  same  part  of  the
+II.  Absolute  space,  in  its  own  nature,  without  regard  to  anything  exter 
+nal,  remains  always  similar  and  immovable.     Relative  space  is  some  mo 
+vable  dimension  or  measure  of  the  absolute  spaces ;  which  our  senses  de 
+termine  by  its  position  to  bodies ;  and  which  is  vulgarly  taken  for  immo 
+vable  space ;  such  is  the  dimension  of  a  subterraneous,  an  aereal,  or  celestial 
+space,  determined  by  its  position  in  respect  of  the  earth.     Absolute  and 
+relative  space,  are  the  same  in  figure  and  magnitude ;  but  they  do  not  re 
+main  always  numerically  the  same.     For  if  the  earth,  for  instance,  moves, 
+a  space  of  our  air,  which  relatively  and  in  respect  of  the  earth  remains  al 
+ways  the  same,  will  at  one  time  be  one  part  of  the  absolute  space  into  which
+Hitherto  I  have  laid  down  the  definitions  of  such  words  as  are  less 
+known,  and  explained  the  sense  in  which  I  would  have  them  to  be  under 
+stood  in  the  following  discourse.  I  do  not  define  time,  space,  place  and 
+motion,  as  being  well  known  to  all.  Only  I  must  observe,  that  the  vulgar 
+conceive  those  quantities  under  no  other  notions  but  from  the  relation  they 
+bear  to  sensible  objects.  And  thence  arise  certain  prejudices,  for  the  re 
+moving  of  which,  it  will  be  convenient  to  distinguish  them  into  absolute 
+and  relative,  true  and  apparent,  mathematical  and  common.
+As  the  order  of  the  parts  of  time  is  immutable,  so  also  is  the  order  of 
+the  parts  of  space.  Suppose  those  parts  to  be  moved  out  of  their  places,  and 
+they  will  be  moved  (if  the  expression  may  be  allowed)  out  of  themselves. 
+For  times  and  spaces  are,  as  it  were,  the  places  as  well  of  themselves  as  of 
+all  other  things.  All  things  are  placed  in  time  as  to  order  of  succession ; 
+and  in  space  as  _to  order  of  situation.  It  is  from  their  essence  or  nature 
+that  they  are  places ;  and  that  the  primary  places  of  things  should  be 
+moveable,  is  absurd.  These  are  therefore  the  absolute  places ;  and  trans 
+lations  out  of  those  places,  are  the  only  absolute  motions.
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+From  the  first  law  of  Kepler,  namely,  the   proportionality  of
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+let  fall  at  equal  distances  from  the  sun,  they  would,  in  their  descent  towards 
+the  sun,  describe  equal  spaces  in  equal  times.  But  forces  which  equally 
+accelerate  unequal  bodies  must  be  as  those  bodies  :  that  is  to  sa_y,  the  weights 
+;f  the  planets  towards  the  sun  must  be  as  their  quantities  of  matter, 
+further,  that  the  weights  of  Jupiter  and  of  his  satellites  towards  the  sun 
+are  proportional  to  the  several  quantities  of  their  matter,  appears  from  the 
+exceedingly  regular  motions  of  the  satellites  (by  Cor.  3,  Prop.  LXV,  Book 
+1).  For  if  some  of  those  bodies  were  more  strongly  attracted  to  the  sun  in 
+proportion  to  their  quantity  of  matter  than  others,  the  motions  of  the  sat
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+as  the  square  of  the  distance,  the  density  will  be  reciprocally  in  a  sesqui- 
+plicate  ratio  of  the  distance.  Suppose  the  compressing  force  to  be  in  a  du 
+plicate  ratio  of  the  density,  and  the  gravity  reciprocally  in  a  duplicate  ra
+that  the  force  of  gravity  is  reciprocally  as  the  square  of  the  distance  from 
+the  centre  of  the  earth)  raising  a  calculus,  by  Cor.  Prop.  XXII,  Book  II,
+particle  of  matter,  icith  a  force  inversely  proportional  to  the 
+squares  of  their  distances — is  the  discovery  w?  ich  characterizes 
+The  PRINCIPIA.  This  principle  the  author  deduced  from  the  mo
+To  determine  the  motions  of  two  bodies  attracting  each  other  with  forces 
+reciprocally  proportional  to  the  squares  of  their  distance,  and  going
+Tn  two  spheres  mutually  gravitating  each  towards  the  other,  if  tlie  matter 
+in  places  on  all  sides  round  about  and  equi-distant  from  the  centres  is 
+similar,  the  weight  of  either  sphere  towards  the  other  will  be  recipro 
+cally  as  the  square  of  the  distance  between  their  centres. 
+After  I  had  found  that  the  force  of  gravity  towards  a  whole  planet  did 
+arise  from  and  was  compounded   of  the  forces  of  gravity  towards  all  its 
+parts,  and  towards  every  one  part  was  in  the  reciprocal  proportion  of  the 
+squares  of  the  distances  from  the  part,  I  was  yet  in  doubt  whether  that  re 
+ciprocal  duplicate  proportion  did  accurately  hold,  or  but  nearly  so,  in  the 
+total  force  compounded  of  so  many  partial  ones;  for  it  might  be  that  the 
+proportion  which  accurately  enough  took  place  in  greater  distances  should 
+be  wide  of  the  truth  near  the  surface  of  the  planet,  where  the  distances  of
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+fell  to  John  Newton,  the  heir-at-law,  whose  great  grand-father
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+ISAAC  NEWTON.
+Of  the  circular  motion  of  bodies  in  resisting'  mediums.
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+Of  the,  motion  of  fluids,  and  the  resistance  made  to  projected  bodies.
+In  the  seventh  section  of  the  second  book  the  theory  of  the  resistances  of  fluids
+Of  the  motion  of  bodies   that   are  resisted  in  the  ratio  of  the  velocity.
+A  centripetal  force  is  that  by  which  bodies  are  drawn  or  impelled,  or  any
+in  the  very  beginning  of  the  motion,  to  an  uniform  centripetal  force,  which
+Of  the  Invention  of  Centripetal  Forces.
+"       the  invention  of  the  centripetal  forces,  when  a  body  is  revolved  in  a  non-resisting  space
+<.-;  Centripetal  forces  decrease  in  duplicate  proportion  of  distances  from  the  centre  of  every  planet,  5i6 
+That  the  superior  p.anets  are  revolved  about  the  sun,  and  by  radii  drawn  to  the  sun  describe
+Absolute  time,  in  astronomy,  is  distinguished  from  relative,  by  the  equa 
+tion  or  correction  of  the  vulgar  time.  For  the  natural  days  are  tr^y  un 
+equal,  though  they  are  commonly  considered  as  equal,  and  used  for  a  meas 
+ure  of  time ;  astronomers  correct  this  inequality  for  their  more  accurate 
+deducing  of  the  celestial  motions.  It  may  be,  that  there  is  no  such  thing 
+as  an  equable  motion,  whereby  time  may  H  accurately  measured.  All  mo
+IV.  Absolute  motion  is  the  translation  of  a  body  from  one  absolute 
+place  into  another ;  and  relative  motion,  the  translation  from  one  relative 
+place  into  another.     Thus  in  a  ship  under  sail,  the  relative  place  of  a  body 
+is  that  part  of  the  ship  which  the  body  possesses ;  or  that  part  of  its  cavity 
+which  the  body  fills,  and  which  therefore  moves  together  with  the  ship : 
+and  relative  rest  is  the  continuance  of  the  body  in  the  same  part  of  the
+II.  Absolute  space,  in  its  own  nature,  without  regard  to  anything  exter 
+nal,  remains  always  similar  and  immovable.     Relative  space  is  some  mo 
+vable  dimension  or  measure  of  the  absolute  spaces ;  which  our  senses  de 
+termine  by  its  position  to  bodies ;  and  which  is  vulgarly  taken  for  immo 
+vable  space ;  such  is  the  dimension  of  a  subterraneous,  an  aereal,  or  celestial 
+space,  determined  by  its  position  in  respect  of  the  earth.     Absolute  and 
+relative  space,  are  the  same  in  figure  and  magnitude ;  but  they  do  not  re 
+main  always  numerically  the  same.     For  if  the  earth,  for  instance,  moves, 
+a  space  of  our  air,  which  relatively  and  in  respect  of  the  earth  remains  al 
+ways  the  same,  will  at  one  time  be  one  part  of  the  absolute  space  into  which
+Hitherto  I  have  laid  down  the  definitions  of  such  words  as  are  less 
+known,  and  explained  the  sense  in  which  I  would  have  them  to  be  under 
+stood  in  the  following  discourse.  I  do  not  define  time,  space,  place  and 
+motion,  as  being  well  known  to  all.  Only  I  must  observe,  that  the  vulgar 
+conceive  those  quantities  under  no  other  notions  but  from  the  relation  they 
+bear  to  sensible  objects.  And  thence  arise  certain  prejudices,  for  the  re 
+moving  of  which,  it  will  be  convenient  to  distinguish  them  into  absolute 
+and  relative,  true  and  apparent,  mathematical  and  common.
+As  the  order  of  the  parts  of  time  is  immutable,  so  also  is  the  order  of 
+the  parts  of  space.  Suppose  those  parts  to  be  moved  out  of  their  places,  and 
+they  will  be  moved  (if  the  expression  may  be  allowed)  out  of  themselves. 
+For  times  and  spaces  are,  as  it  were,  the  places  as  well  of  themselves  as  of 
+all  other  things.  All  things  are  placed  in  time  as  to  order  of  succession ; 
+and  in  space  as  _to  order  of  situation.  It  is  from  their  essence  or  nature 
+that  they  are  places ;  and  that  the  primary  places  of  things  should  be 
+moveable,  is  absurd.  These  are  therefore  the  absolute  places ;  and  trans 
+lations  out  of  those  places,  are  the  only  absolute  motions.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+However,  it  was  agreed  on  both  sides  that  the  motions  of  the  celestial
+we  in  the  third  derive  from  the  celestial  phenomena  the  forces  of  gravity 
+with  which  bodies  tend  to  the  sun  and  the  several  planets.  Then  from  these
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+the  first  two,  entitled,  OF  THE  MOTION  OF  BODIES,  are  occupied 
+with  the  laws  and  conditions  of  motions  and  forces,  and  are  illus
+Lastly,  if  it  universally  appears,  by  experiments  and  astronomical  obser 
+vations,  that  all  bodies  about  the  earth  gravitate  towards  the  earth,  and 
+that  in  proportion  to  the  quantity  of  matter  which  they  severally  contain ; 
+that  the  moon  likewise,  according  to  the  quantity  of  its  matter,  gravitates 
+towards  the  earth ;  that,  on  the  other  hand,  our  sea  gravitates  towards  the 
+moon ;  and  all  the  planets  mutually  one  towards  another ;  and  the  comets 
+in  like  manner  towards  the  sun  ;  we  must,  in  consequence  of  this  rule,  uni 
+versally  allow  that  all  bodies  whatsoever  are  endowed  with  a  principle  ot 
+mutual  gravitation.  For  the  argument  from  the  appearances  concludes  with 
+more  force  for  the  universal  gravitation  of  all  bodies  than  for  their  impen 
+etrability  ;  of  which,  among  those  in  the  celestial  regions,  we  have  no  ex 
+periments,  nor  any  manner  of  observation.  Not  that  I  affirm  gravity  to  be 
+essential  to  bodies  :  by  their  vis  insita  I  mean  nothing  but  their  vis  iiicrticz. 
+This  is  immutable.  Their  gravity  is  diminished  as  they  recede  from  the 
+earth.
+And  as,  from  the  supposed  existence  of  gravity,  it  necessarily  follows 
+that  all  bodies  about  the  earth  must  press  downwards,  and  therefore  must
+That  there  is  a  power  of  gravity  tending  to  all  bodies,  proportional  to
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+BY   SIR   ISAAC  NEWTON;
+NEWTON'S  PRINCIPIA.
+THAT  the  PRINCIPIA  of  Newton  should  have  remained  so  gen 
+erally  unknown  in  this  country  to  the  present  day  is  a  somewhat 
+remarkable  fact ;  because  the  name  of  the  author,  learned  with
+by  the  general  mind.  Pemberton's  popular  "  View  of  Sir  Isaac 
+Newton's  Philosophy"  was  published,  in  1728  ;  and  the  year  after 
+ward,  an  English  translation  of  the  PRINCIPIA,  and  System  of  the 
+World,  by  Andrew  Motte.  And  since  that  period,  the  labours  of 
+Le  Seur  and  Jacquier,  of  Thorpe,  of  Jebb,  of  Wright  and  others 
+have  greatly  contributed  to  display  the  most  hidden  treasures  of 
+the  PRINCIPIA.
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+Pell  that  it  was  Newton?s  method,  persisted  in  maintaining  it  to 
+be  his  own  invention,  by  reason  that  he  had  found  it  by  himself 
+without  knowing  what  Newton  had  done  before,  and  had  much 
+improved  it.  And  we  find  no  mention  of  his  having  any  other
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+to  disturb  the  motion  of  Jupiter  is  proportional  to  this  difference;  and 
+therefore  the  perturbation  of  the  orbit  of  Jupiter  is  much  less  than  that  of
+looked  upon."J 
+Though  Newton  had  continued  silent,  yet  his  thoughts  were 
+by  no  means  inactive  upon  the  vast  subject  of  the  planetary  mo 
+tions.  The  idea  of  Universal  Gravitation,  first  caught  sight  of,  so
+that  the  force  which  retained  the  planet  in  its  orbit  was  always 
+directed  to  the  sun ;  and  from  the  second,  namely,  that  every 
+planet  moves  in  an  ellipse  with  the  sun  in  one  of  its  foci,  he  drew 
+the  more  general  inference  that  the  force  by  which  the  planet 
+moves  round  that  focus  varies  inversely  as  the  square  of  its  dis 
+tance  therefrom  :  and  he  demonstrated  that  a  planet  acted  upon 
+by  such  a  force  could  not  move  in  any  other  curve  than  a  conic 
+section ;  showing  when  the  moving  body  would  describe  a  circu
+For  the  revolutions  of  the  circumjovial  planets  about  Jupiter,  of  the 
+circumsaturnal  about  Saturn,  and  of  Mercury  and  Venus,  and  the  other 
+circumsolar  planets,  about  the  sun,  are  appearances  of  the  same  sort  with 
+the  revolution  of  the  moon  about  the  earth ;  and  therefore,  by  Rule  II, 
+must  be  owing  to  the  same  sort  of  causes ;  especially  since  it  has  been 
+demonstrated,  that  the  forces  upon  which  those  revolutions  depend  tend  to 
+the  centres  of  Jupiter,  of  Saturn,  and  of  the  sun ;  and  that  those  forces,  in 
+receding  from  Jupiter,  from  Saturn,  and  from  the  sun,  decrease  in  the  same 
+proportion,  and  according  to  the  same  law,  as  the  force  of  gravity  does  in 
+receding  from  the  earth.
+BY   SIR   ISAAC  NEWTON;
+The  quantity  of  motion  is  the  measure  nf  tlie  same,  arising  from  the
+To  define  the  motion  of  a  body  which,  in  a  similar  medium,  ascends  or 
+descends  in  a  right  line,  and  is  resisted  in  the  ratio  of  its  velocity,  and 
+acted  upon  by  an  uniform  force  of  gravity.
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+And  how  from  the  motions  given  we  may  infer  the  forces,  or  from  the
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+From  the  first  law  of  Kepler,  namely,  the   proportionality  of
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+NEWTON'S  SYSTEM  OF  THE  WORLD ;
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+Of  the,  motion  of  fluids,  and  the  resistance  made  to  projected  bodies.
+In  the  seventh  section  of  the  second  book  the  theory  of  the  resistances  of  fluids
+Con.  3.  The  resistance  of  a  body  moving  very  swift  in  an  elastic  fluid
+BY   SIR   ISAAC  NEWTON;
+to  disturb  the  motion  of  Jupiter  is  proportional  to  this  difference;  and 
+therefore  the  perturbation  of  the  orbit  of  Jupiter  is  much  less  than  that  of
+that  the  force  which  retained  the  planet  in  its  orbit  was  always 
+directed  to  the  sun ;  and  from  the  second,  namely,  that  every 
+planet  moves  in  an  ellipse  with  the  sun  in  one  of  its  foci,  he  drew 
+the  more  general  inference  that  the  force  by  which  the  planet 
+moves  round  that  focus  varies  inversely  as  the  square  of  its  dis 
+tance  therefrom  :  and  he  demonstrated  that  a  planet  acted  upon 
+by  such  a  force  could  not  move  in  any  other  curve  than  a  conic 
+section ;  showing  when  the  moving  body  would  describe  a  circu
+For  the  revolutions  of  the  circumjovial  planets  about  Jupiter,  of  the 
+circumsaturnal  about  Saturn,  and  of  Mercury  and  Venus,  and  the  other 
+circumsolar  planets,  about  the  sun,  are  appearances  of  the  same  sort  with 
+the  revolution  of  the  moon  about  the  earth ;  and  therefore,  by  Rule  II, 
+must  be  owing  to  the  same  sort  of  causes ;  especially  since  it  has  been 
+demonstrated,  that  the  forces  upon  which  those  revolutions  depend  tend  to 
+the  centres  of  Jupiter,  of  Saturn,  and  of  the  sun ;  and  that  those  forces,  in 
+receding  from  Jupiter,  from  Saturn,  and  from  the  sun,  decrease  in  the  same 
+proportion,  and  according  to  the  same  law,  as  the  force  of  gravity  does  in 
+receding  from  the  earth.
+That  the  forces  by  which  the  primary  planets  are  continually  drawn  off 
+from  rectilinear  motions,  and  retained  in  their  proper  orbits,  tend  to
+the  action  of  the  circum-solar  force  upon  all  the  planets  (reduced  to  equal 
+distances)  is  as  the  matter  of  the  planets  ;  that  the  action  of  the  circum- 
+jovial  force  upon  the  satellites  of  Jupiter  observes  the  same  law  ;  and  the 
+same  thing  is  to  be  said  of  the  attraction  of  all  the  planets  towards  every 
+planet :  but  thence  it  follows  (by  Prop.  LXIX)  that  their  attractive  forces 
+are  as  their  several  quantities  of  matter.
+To  define  the  motion  of  a  body  which,  in  a  similar  medium,  ascends  or 
+descends  in  a  right  line,  and  is  resisted  in  the  ratio  of  its  velocity,  and 
+acted  upon  by  an  uniform  force  of  gravity.
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+And  how  from  the  motions  given  we  may  infer  the  forces,  or  from  the
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+However,  it  was  agreed  on  both  sides  that  the  motions  of  the  celestial
+we  in  the  third  derive  from  the  celestial  phenomena  the  forces  of  gravity 
+with  which  bodies  tend  to  the  sun  and  the  several  planets.  Then  from  these
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+the  first  two,  entitled,  OF  THE  MOTION  OF  BODIES,  are  occupied 
+with  the  laws  and  conditions  of  motions  and  forces,  and  are  illus
+as  the  square  of  the  distance,  the  density  will  be  reciprocally  in  a  sesqui- 
+plicate  ratio  of  the  distance.  Suppose  the  compressing  force  to  be  in  a  du 
+plicate  ratio  of  the  density,  and  the  gravity  reciprocally  in  a  duplicate  ra
+that  the  force  of  gravity  is  reciprocally  as  the  square  of  the  distance  from 
+the  centre  of  the  earth)  raising  a  calculus,  by  Cor.  Prop.  XXII,  Book  II,
+particle  of  matter,  icith  a  force  inversely  proportional  to  the 
+squares  of  their  distances — is  the  discovery  w?  ich  characterizes 
+The  PRINCIPIA.  This  principle  the  author  deduced  from  the  mo
+To  determine  the  motions  of  two  bodies  attracting  each  other  with  forces 
+reciprocally  proportional  to  the  squares  of  their  distance,  and  going
+Tn  two  spheres  mutually  gravitating  each  towards  the  other,  if  tlie  matter 
+in  places  on  all  sides  round  about  and  equi-distant  from  the  centres  is 
+similar,  the  weight  of  either  sphere  towards  the  other  will  be  recipro 
+cally  as  the  square  of  the  distance  between  their  centres. 
+After  I  had  found  that  the  force  of  gravity  towards  a  whole  planet  did 
+arise  from  and  was  compounded   of  the  forces  of  gravity  towards  all  its 
+parts,  and  towards  every  one  part  was  in  the  reciprocal  proportion  of  the 
+squares  of  the  distances  from  the  part,  I  was  yet  in  doubt  whether  that  re 
+ciprocal  duplicate  proportion  did  accurately  hold,  or  but  nearly  so,  in  the 
+total  force  compounded  of  so  many  partial  ones;  for  it  might  be  that  the 
+proportion  which  accurately  enough  took  place  in  greater  distances  should 
+be  wide  of  the  truth  near  the  surface  of  the  planet,  where  the  distances  of
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+From  the  first  law  of  Kepler,  namely,  the   proportionality  of
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+proportion  of  the  distance,  and  the  periodic  time  increases  in  the  sesquipli- 
+cate  thereof,  it  is  evident  that  the  actions  of  the  centripetal  force,  and 
+therefore  the  periodic  times,  would  be  equal  in  equal  planets  at  equal  dis 
+tances  from  the  sun ;  and  in  equal  distances  of  unequal  planets  the  total 
+actions  of  the  centripetal  force  would  be  as  the  bodies  of  the  planets ;  for 
+if  the  actions  were  not  proportional  to  the  bodies  to  be  moved,  they  could 
+not  equally  retract  these  bodies  from  the  tangents  of  their  orbs  in  equal 
+times :  nor  could  the  motions  of  the  satellites  of  Jupiter  be  so  regular,  if  it
+A  centripetal  force  is  that  by  which  bodies  are  drawn  or  impelled,  or  any
+centripetal  force  is  reciprocally  as  the  distance,  that  is,  directly  as  —  or  —
+in  the  very  beginning  of  the  motion,  to  an  uniform  centripetal  force,  which
+Of  the  Invention  of  Centripetal  Forces.
+"       the  invention  of  the  centripetal  forces,  when  a  body  is  revolved  in  a  non-resisting  space
+Absolute  time,  in  astronomy,  is  distinguished  from  relative,  by  the  equa 
+tion  or  correction  of  the  vulgar  time.  For  the  natural  days  are  tr^y  un 
+equal,  though  they  are  commonly  considered  as  equal,  and  used  for  a  meas 
+ure  of  time ;  astronomers  correct  this  inequality  for  their  more  accurate 
+deducing  of  the  celestial  motions.  It  may  be,  that  there  is  no  such  thing 
+as  an  equable  motion,  whereby  time  may  H  accurately  measured.  All  mo
+II.  Absolute  space,  in  its  own  nature,  without  regard  to  anything  exter 
+nal,  remains  always  similar  and  immovable.     Relative  space  is  some  mo 
+vable  dimension  or  measure  of  the  absolute  spaces ;  which  our  senses  de 
+termine  by  its  position  to  bodies ;  and  which  is  vulgarly  taken  for  immo 
+vable  space ;  such  is  the  dimension  of  a  subterraneous,  an  aereal,  or  celestial 
+space,  determined  by  its  position  in  respect  of  the  earth.     Absolute  and 
+relative  space,  are  the  same  in  figure  and  magnitude ;  but  they  do  not  re 
+main  always  numerically  the  same.     For  if  the  earth,  for  instance,  moves, 
+a  space  of  our  air,  which  relatively  and  in  respect  of  the  earth  remains  al 
+ways  the  same,  will  at  one  time  be  one  part  of  the  absolute  space  into  which
+Hitherto  I  have  laid  down  the  definitions  of  such  words  as  are  less 
+known,  and  explained  the  sense  in  which  I  would  have  them  to  be  under 
+stood  in  the  following  discourse.  I  do  not  define  time,  space,  place  and 
+motion,  as  being  well  known  to  all.  Only  I  must  observe,  that  the  vulgar 
+conceive  those  quantities  under  no  other  notions  but  from  the  relation  they 
+bear  to  sensible  objects.  And  thence  arise  certain  prejudices,  for  the  re 
+moving  of  which,  it  will  be  convenient  to  distinguish  them  into  absolute 
+and  relative,  true  and  apparent,  mathematical  and  common.
+As  the  order  of  the  parts  of  time  is  immutable,  so  also  is  the  order  of 
+the  parts  of  space.  Suppose  those  parts  to  be  moved  out  of  their  places,  and 
+they  will  be  moved  (if  the  expression  may  be  allowed)  out  of  themselves. 
+For  times  and  spaces  are,  as  it  were,  the  places  as  well  of  themselves  as  of 
+all  other  things.  All  things  are  placed  in  time  as  to  order  of  succession ; 
+and  in  space  as  _to  order  of  situation.  It  is  from  their  essence  or  nature 
+that  they  are  places ;  and  that  the  primary  places  of  things  should  be 
+moveable,  is  absurd.  These  are  therefore  the  absolute  places ;  and  trans 
+lations  out  of  those  places,  are  the  only  absolute  motions.
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+NEWTON'S  PRINCIPIA.
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+Pell  that  it  was  Newton?s  method,  persisted  in  maintaining  it  to 
+be  his  own  invention,  by  reason  that  he  had  found  it  by  himself 
+without  knowing  what  Newton  had  done  before,  and  had  much 
+improved  it.  And  we  find  no  mention  of  his  having  any  other
+It  is  a  notable  fact,  in  Newton's  history,  that  he  never  volun* 
+tarily  published  any  one  of  his  purely  mathematical  writings 
+The  cause  of  this  unwillingness  in  some,  and,  in  other  instances, 
+of  his  indifference,  or,  at  least,  want  of  solicitude  to  put  forth  his 
+works  may  be  confidently  sought  for  in  his  repugnance  to  every 
+thing  like  contest  or  dispute.  But,  going  deeper  than  this  aver
+solutions  from  Newton,  Leibinitz  and  the  Marquis  De  L'Hopital ; 
+but  Newton's  though  anonymous,  he  immediately  recognised
+Lastly,  if  it  universally  appears,  by  experiments  and  astronomical  obser 
+vations,  that  all  bodies  about  the  earth  gravitate  towards  the  earth,  and 
+that  in  proportion  to  the  quantity  of  matter  which  they  severally  contain ; 
+that  the  moon  likewise,  according  to  the  quantity  of  its  matter,  gravitates 
+towards  the  earth ;  that,  on  the  other  hand,  our  sea  gravitates  towards  the 
+moon ;  and  all  the  planets  mutually  one  towards  another ;  and  the  comets 
+in  like  manner  towards  the  sun  ;  we  must,  in  consequence  of  this  rule,  uni 
+versally  allow  that  all  bodies  whatsoever  are  endowed  with  a  principle  ot 
+mutual  gravitation.  For  the  argument  from  the  appearances  concludes  with 
+more  force  for  the  universal  gravitation  of  all  bodies  than  for  their  impen 
+etrability  ;  of  which,  among  those  in  the  celestial  regions,  we  have  no  ex 
+periments,  nor  any  manner  of  observation.  Not  that  I  affirm  gravity  to  be 
+essential  to  bodies  :  by  their  vis  insita  I  mean  nothing  but  their  vis  iiicrticz. 
+This  is  immutable.  Their  gravity  is  diminished  as  they  recede  from  the 
+earth.
+And  as,  from  the  supposed  existence  of  gravity,  it  necessarily  follows 
+that  all  bodies  about  the  earth  must  press  downwards,  and  therefore  must
+That  there  is  a  power  of  gravity  tending  to  all  bodies,  proportional  to
+NEWTON'S  PRINCIPIA.
+There  is  not,  in  fact,  the  least  evidence  that  Newton's  reason  was, 
+for  a  single  moment,  dethroned  ;  on  the  contrary,  the  testimony
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+UFE    OF    SIR    ISAAC    NEWTON.  25
+ISAAC  NEWTON.
+Supposing  the  centripetal  force  to  be  reciprocally  proportional  to  the 
+squares  of  the  distances  of  places  from  the  centre,  and  that  the  abso 
+lute  quantity  of  that  force  is  known  ;  it  is  required  to  determine  t/te 
+line  which  a  body  will  describe  that  is  let  go  from  a  given  place  with  a 
+given  velocity  in  the  direction  of  a  given  right  line. 
+Let  the  centripetal  force 
+tending  to  the  point  S  be 
+such  as  will  make  the  body 
+p  revolve  in  any  given  orbit 
+pq ;  and  suppose  the  velocity 
+of  this  body  in  the  place  p 
+is  known.     Then  from  the
+A  centripetal  force  is  that  by  which  bodies  are  drawn  or  impelled,  or  any
+Of  the  invention  of  orbits  wherein  bodies  will  revolve,  being  acted  upon 
+by  any  sort  of  centripetal  force.
+in  the  very  beginning  of  the  motion,  to  an  uniform  centripetal  force,  which
+Of  the  Invention  of  Centripetal  Forces.
+Of  the  circular  motion  of  bodies  in  resisting'  mediums.
+experiments  of  pendulums,  as  well  as  by  the  experiments  of  falling  bodies. 
+And  from  all  this  it  may  be  concluded,  that  the  resistances  of  bodies,  moving 
+in  any  fluids  whatsoever,  though  of  the  most  extreme  fluidity,  are,  cceteris 
+paribus,  as  the  densities  of  the  fluids.
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+Of  the,  motion  of  fluids,  and  the  resistance  made  to  projected  bodies.
+Con.  3.  The  resistance  of  a  body  moving  very  swift  in  an  elastic  fluid
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON.  47
+to  disturb  the  motion  of  Jupiter  is  proportional  to  this  difference;  and 
+therefore  the  perturbation  of  the  orbit  of  Jupiter  is  much  less  than  that  of
+that  the  force  which  retained  the  planet  in  its  orbit  was  always 
+directed  to  the  sun ;  and  from  the  second,  namely,  that  every 
+planet  moves  in  an  ellipse  with  the  sun  in  one  of  its  foci,  he  drew 
+the  more  general  inference  that  the  force  by  which  the  planet 
+moves  round  that  focus  varies  inversely  as  the  square  of  its  dis 
+tance  therefrom  :  and  he  demonstrated  that  a  planet  acted  upon 
+by  such  a  force  could  not  move  in  any  other  curve  than  a  conic 
+section ;  showing  when  the  moving  body  would  describe  a  circu
+For  the  revolutions  of  the  circumjovial  planets  about  Jupiter,  of  the 
+circumsaturnal  about  Saturn,  and  of  Mercury  and  Venus,  and  the  other 
+circumsolar  planets,  about  the  sun,  are  appearances  of  the  same  sort  with 
+the  revolution  of  the  moon  about  the  earth ;  and  therefore,  by  Rule  II, 
+must  be  owing  to  the  same  sort  of  causes ;  especially  since  it  has  been 
+demonstrated,  that  the  forces  upon  which  those  revolutions  depend  tend  to 
+the  centres  of  Jupiter,  of  Saturn,  and  of  the  sun ;  and  that  those  forces,  in 
+receding  from  Jupiter,  from  Saturn,  and  from  the  sun,  decrease  in  the  same 
+proportion,  and  according  to  the  same  law,  as  the  force  of  gravity  does  in 
+receding  from  the  earth.
+That  the  forces  by  which  the  primary  planets  are  continually  drawn  off 
+from  rectilinear  motions,  and  retained  in  their  proper  orbits,  tend  to
+NEWTON'S  SYSTEM  OF  THE  WORLD ;
+as  the  square  of  the  distance,  the  density  will  be  reciprocally  in  a  sesqui- 
+plicate  ratio  of  the  distance.  Suppose  the  compressing  force  to  be  in  a  du 
+plicate  ratio  of  the  density,  and  the  gravity  reciprocally  in  a  duplicate  ra
+that  the  force  of  gravity  is  reciprocally  as  the  square  of  the  distance  from 
+the  centre  of  the  earth)  raising  a  calculus,  by  Cor.  Prop.  XXII,  Book  II,
+particle  of  matter,  icith  a  force  inversely  proportional  to  the 
+squares  of  their  distances — is  the  discovery  w?  ich  characterizes 
+The  PRINCIPIA.  This  principle  the  author  deduced  from  the  mo
+To  determine  the  motions  of  two  bodies  attracting  each  other  with  forces 
+reciprocally  proportional  to  the  squares  of  their  distance,  and  going
+Tn  two  spheres  mutually  gravitating  each  towards  the  other,  if  tlie  matter 
+in  places  on  all  sides  round  about  and  equi-distant  from  the  centres  is 
+similar,  the  weight  of  either  sphere  towards  the  other  will  be  recipro 
+cally  as  the  square  of  the  distance  between  their  centres. 
+After  I  had  found  that  the  force  of  gravity  towards  a  whole  planet  did 
+arise  from  and  was  compounded   of  the  forces  of  gravity  towards  all  its 
+parts,  and  towards  every  one  part  was  in  the  reciprocal  proportion  of  the 
+squares  of  the  distances  from  the  part,  I  was  yet  in  doubt  whether  that  re 
+ciprocal  duplicate  proportion  did  accurately  hold,  or  but  nearly  so,  in  the 
+total  force  compounded  of  so  many  partial  ones;  for  it  might  be  that  the 
+proportion  which  accurately  enough  took  place  in  greater  distances  should 
+be  wide  of  the  truth  near  the  surface  of  the  planet,  where  the  distances  of
+Lastly,  if  it  universally  appears,  by  experiments  and  astronomical  obser 
+vations,  that  all  bodies  about  the  earth  gravitate  towards  the  earth,  and 
+that  in  proportion  to  the  quantity  of  matter  which  they  severally  contain ; 
+that  the  moon  likewise,  according  to  the  quantity  of  its  matter,  gravitates 
+towards  the  earth ;  that,  on  the  other  hand,  our  sea  gravitates  towards  the 
+moon ;  and  all  the  planets  mutually  one  towards  another ;  and  the  comets 
+in  like  manner  towards  the  sun  ;  we  must,  in  consequence  of  this  rule,  uni 
+versally  allow  that  all  bodies  whatsoever  are  endowed  with  a  principle  ot 
+mutual  gravitation.  For  the  argument  from  the  appearances  concludes  with 
+more  force  for  the  universal  gravitation  of  all  bodies  than  for  their  impen 
+etrability  ;  of  which,  among  those  in  the  celestial  regions,  we  have  no  ex 
+periments,  nor  any  manner  of  observation.  Not  that  I  affirm  gravity  to  be 
+essential  to  bodies  :  by  their  vis  insita  I  mean  nothing  but  their  vis  iiicrticz. 
+This  is  immutable.  Their  gravity  is  diminished  as  they  recede  from  the 
+earth.
+And  as,  from  the  supposed  existence  of  gravity,  it  necessarily  follows 
+that  all  bodies  about  the  earth  must  press  downwards,  and  therefore  must
+That  there  is  a  power  of  gravity  tending  to  all  bodies,  proportional  to
+BY   SIR   ISAAC  NEWTON;
+NEWTON'S  PRINCIPIA.
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+From  the  first  law  of  Kepler,  namely,  the   proportionality  of
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+To  define  the  motion  of  a  body  which,  in  a  similar  medium,  ascends  or 
+descends  in  a  right  line,  and  is  resisted  in  the  ratio  of  its  velocity,  and 
+acted  upon  by  an  uniform  force  of  gravity.
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+And  how  from  the  motions  given  we  may  infer  the  forces,  or  from  the
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+we  in  the  third  derive  from  the  celestial  phenomena  the  forces  of  gravity 
+with  which  bodies  tend  to  the  sun  and  the  several  planets.  Then  from  these
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+AXIOMS,  OR  LAWS  OF  MOTION.
+the  first  two,  entitled,  OF  THE  MOTION  OF  BODIES,  are  occupied 
+with  the  laws  and  conditions  of  motions  and  forces,  and  are  illus
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+Absolute  time,  in  astronomy,  is  distinguished  from  relative,  by  the  equa 
+tion  or  correction  of  the  vulgar  time.  For  the  natural  days  are  tr^y  un 
+equal,  though  they  are  commonly  considered  as  equal,  and  used  for  a  meas 
+ure  of  time ;  astronomers  correct  this  inequality  for  their  more  accurate 
+deducing  of  the  celestial  motions.  It  may  be,  that  there  is  no  such  thing 
+as  an  equable  motion,  whereby  time  may  H  accurately  measured.  All  mo
+II.  Absolute  space,  in  its  own  nature,  without  regard  to  anything  exter 
+nal,  remains  always  similar  and  immovable.     Relative  space  is  some  mo 
+vable  dimension  or  measure  of  the  absolute  spaces ;  which  our  senses  de 
+termine  by  its  position  to  bodies ;  and  which  is  vulgarly  taken  for  immo 
+vable  space ;  such  is  the  dimension  of  a  subterraneous,  an  aereal,  or  celestial 
+space,  determined  by  its  position  in  respect  of  the  earth.     Absolute  and 
+relative  space,  are  the  same  in  figure  and  magnitude ;  but  they  do  not  re 
+main  always  numerically  the  same.     For  if  the  earth,  for  instance,  moves, 
+a  space  of  our  air,  which  relatively  and  in  respect  of  the  earth  remains  al 
+ways  the  same,  will  at  one  time  be  one  part  of  the  absolute  space  into  which
+Hitherto  I  have  laid  down  the  definitions  of  such  words  as  are  less 
+known,  and  explained  the  sense  in  which  I  would  have  them  to  be  under 
+stood  in  the  following  discourse.  I  do  not  define  time,  space,  place  and 
+motion,  as  being  well  known  to  all.  Only  I  must  observe,  that  the  vulgar 
+conceive  those  quantities  under  no  other  notions  but  from  the  relation  they 
+bear  to  sensible  objects.  And  thence  arise  certain  prejudices,  for  the  re 
+moving  of  which,  it  will  be  convenient  to  distinguish  them  into  absolute 
+and  relative,  true  and  apparent,  mathematical  and  common.
+As  the  order  of  the  parts  of  time  is  immutable,  so  also  is  the  order  of 
+the  parts  of  space.  Suppose  those  parts  to  be  moved  out  of  their  places,  and 
+they  will  be  moved  (if  the  expression  may  be  allowed)  out  of  themselves. 
+For  times  and  spaces  are,  as  it  were,  the  places  as  well  of  themselves  as  of 
+all  other  things.  All  things  are  placed  in  time  as  to  order  of  succession ; 
+and  in  space  as  _to  order  of  situation.  It  is  from  their  essence  or  nature 
+that  they  are  places ;  and  that  the  primary  places  of  things  should  be 
+moveable,  is  absurd.  These  are  therefore  the  absolute  places ;  and  trans 
+lations  out  of  those  places,  are  the  only  absolute  motions.
+time,  and  (by  this  Prop.)  the  space  is  given  from  the  given  velocity ;  the 
+space  will  be  given  from  the  given  time :  and  the  contrary.
+NEWTON'S  PRINCIPIA.
+In  June,  1709,  Newton  intrusted  the  superintendence  of  a 
+second  edition  of  the  PRINCIPIA  to  Roger  Cotes,  Plumian  Pro
+THAT  the  PRINCIPIA  of  Newton  should  have  remained  so  gen 
+erally  unknown  in  this  country  to  the  present  day  is  a  somewhat 
+remarkable  fact ;  because  the  name  of  the  author,  learned  with
+by  the  general  mind.  Pemberton's  popular  "  View  of  Sir  Isaac 
+Newton's  Philosophy"  was  published,  in  1728  ;  and  the  year  after 
+ward,  an  English  translation  of  the  PRINCIPIA,  and  System  of  the 
+World,  by  Andrew  Motte.  And  since  that  period,  the  labours  of 
+Le  Seur  and  Jacquier,  of  Thorpe,  of  Jebb,  of  Wright  and  others 
+have  greatly  contributed  to  display  the  most  hidden  treasures  of 
+the  PRINCIPIA.
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+we  in  the  third  derive  from  the  celestial  phenomena  the  forces  of  gravity 
+with  which  bodies  tend  to  the  sun  and  the  several  planets.  Then  from  these
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+the  first  two,  entitled,  OF  THE  MOTION  OF  BODIES,  are  occupied 
+with  the  laws  and  conditions  of  motions  and  forces,  and  are  illus
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+Lastly,  if  it  universally  appears,  by  experiments  and  astronomical  obser 
+vations,  that  all  bodies  about  the  earth  gravitate  towards  the  earth,  and 
+that  in  proportion  to  the  quantity  of  matter  which  they  severally  contain ; 
+that  the  moon  likewise,  according  to  the  quantity  of  its  matter,  gravitates 
+towards  the  earth ;  that,  on  the  other  hand,  our  sea  gravitates  towards  the 
+moon ;  and  all  the  planets  mutually  one  towards  another ;  and  the  comets 
+in  like  manner  towards  the  sun  ;  we  must,  in  consequence  of  this  rule,  uni 
+versally  allow  that  all  bodies  whatsoever  are  endowed  with  a  principle  ot 
+mutual  gravitation.  For  the  argument  from  the  appearances  concludes  with 
+more  force  for  the  universal  gravitation  of  all  bodies  than  for  their  impen 
+etrability  ;  of  which,  among  those  in  the  celestial  regions,  we  have  no  ex 
+periments,  nor  any  manner  of  observation.  Not  that  I  affirm  gravity  to  be 
+essential  to  bodies  :  by  their  vis  insita  I  mean  nothing  but  their  vis  iiicrticz. 
+This  is  immutable.  Their  gravity  is  diminished  as  they  recede  from  the 
+earth.
+And  as,  from  the  supposed  existence  of  gravity,  it  necessarily  follows 
+that  all  bodies  about  the  earth  must  press  downwards,  and  therefore  must
+That  there  is  a  power  of  gravity  tending  to  all  bodies,  proportional  to
+BY   SIR   ISAAC  NEWTON;
+NEWTON'S  SYSTEM  OF  THE  WORLD ;
+as  the  square  of  the  distance,  the  density  will  be  reciprocally  in  a  sesqui- 
+plicate  ratio  of  the  distance.  Suppose  the  compressing  force  to  be  in  a  du 
+plicate  ratio  of  the  density,  and  the  gravity  reciprocally  in  a  duplicate  ra
+that  the  force  of  gravity  is  reciprocally  as  the  square  of  the  distance  from 
+the  centre  of  the  earth)  raising  a  calculus,  by  Cor.  Prop.  XXII,  Book  II,
+COR.  2.  The  force  of  gravity  towards  the  several  equal  particles  of  any 
+body  is  reciprocally  as  the  square  of  the  distance  of  places  from  the  parti 
+cles  ;  as  appears  from  Cor.  3,  Prop.  LXXIV,  Book  I.
+particle  of  matter,  icith  a  force  inversely  proportional  to  the 
+squares  of  their  distances — is  the  discovery  w?  ich  characterizes 
+The  PRINCIPIA.  This  principle  the  author  deduced  from  the  mo
+To  determine  the  motions  of  two  bodies  attracting  each  other  with  forces 
+reciprocally  proportional  to  the  squares  of  their  distance,  and  going
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+Of  the,  motion  of  fluids,  and  the  resistance  made  to  projected  bodies.
+COR.  G.  All  these  things  are  so  in  fluids  whose  elastic  force  takes  its  rise 
+from  the  centrifugal  forces  of  the  particles.  But  if  that  force  arise  from 
+some  other  cause,  as  from  the  expansion  of  the  particles  after  the  manner 
+of  wool,  or  the  boughs  of  trees,  or  any  other  cause,  by  which  the  particles 
+are  hindered  from  moving  freely  among  themselves,  the  resistance,  by 
+reason  of  the  lesser  fluidity  of  the  medium,  will  be  greater  than  in  the 
+Corollaries  above.
+ISAAC  NEWTON.
+Con.  3.  The  resistance  of  a  body  moving  very  swift  in  an  elastic  fluid
+particles  of  the  same  size  of  which  the  planet  is  composed ;  for
+Of  the  invention  of  orbits  wherein  bodies  will  revolve,  being  acted  upon 
+by  any  sort  of  centripetal  force.
+in  the  very  beginning  of  the  motion,  to  an  uniform  centripetal  force,  which
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+From  the  first  law  of  Kepler,  namely,  the   proportionality  of
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+BY   SIR   ISAAC  NEWTON;
+NEWTON'S  PRINCIPIA.
+THAT  the  PRINCIPIA  of  Newton  should  have  remained  so  gen 
+erally  unknown  in  this  country  to  the  present  day  is  a  somewhat 
+remarkable  fact ;  because  the  name  of  the  author,  learned  with
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+Pell  that  it  was  Newton?s  method,  persisted  in  maintaining  it  to 
+be  his  own  invention,  by  reason  that  he  had  found  it  by  himself 
+without  knowing  what  Newton  had  done  before,  and  had  much 
+improved  it.  And  we  find  no  mention  of  his  having  any  other
+differential  method  than  Newton's  before  his  letter  of  the  21st  of
+to  disturb  the  motion  of  Jupiter  is  proportional  to  this  difference;  and 
+therefore  the  perturbation  of  the  orbit  of  Jupiter  is  much  less  than  that  of
+that  the  force  which  retained  the  planet  in  its  orbit  was  always 
+directed  to  the  sun ;  and  from  the  second,  namely,  that  every 
+planet  moves  in  an  ellipse  with  the  sun  in  one  of  its  foci,  he  drew 
+the  more  general  inference  that  the  force  by  which  the  planet 
+moves  round  that  focus  varies  inversely  as  the  square  of  its  dis 
+tance  therefrom  :  and  he  demonstrated  that  a  planet  acted  upon 
+by  such  a  force  could  not  move  in  any  other  curve  than  a  conic 
+section ;  showing  when  the  moving  body  would  describe  a  circu
+For  the  revolutions  of  the  circumjovial  planets  about  Jupiter,  of  the 
+circumsaturnal  about  Saturn,  and  of  Mercury  and  Venus,  and  the  other 
+circumsolar  planets,  about  the  sun,  are  appearances  of  the  same  sort  with 
+the  revolution  of  the  moon  about  the  earth ;  and  therefore,  by  Rule  II, 
+must  be  owing  to  the  same  sort  of  causes ;  especially  since  it  has  been 
+demonstrated,  that  the  forces  upon  which  those  revolutions  depend  tend  to 
+the  centres  of  Jupiter,  of  Saturn,  and  of  the  sun ;  and  that  those  forces,  in 
+receding  from  Jupiter,  from  Saturn,  and  from  the  sun,  decrease  in  the  same 
+proportion,  and  according  to  the  same  law,  as  the  force  of  gravity  does  in 
+receding  from  the  earth.
+That  the  forces  by  which  the  primary  planets  are  continually  drawn  off 
+from  rectilinear  motions,  and  retained  in  their  proper  orbits,  tend  to
+the  action  of  the  circum-solar  force  upon  all  the  planets  (reduced  to  equal 
+distances)  is  as  the  matter  of  the  planets  ;  that  the  action  of  the  circum- 
+jovial  force  upon  the  satellites  of  Jupiter  observes  the  same  law  ;  and  the 
+same  thing  is  to  be  said  of  the  attraction  of  all  the  planets  towards  every 
+planet :  but  thence  it  follows  (by  Prop.  LXIX)  that  their  attractive  forces 
+are  as  their  several  quantities  of  matter.
+To  define  the  motion  of  a  body  which,  in  a  similar  medium,  ascends  or 
+descends  in  a  right  line,  and  is  resisted  in  the  ratio  of  its  velocity,  and 
+acted  upon  by  an  uniform  force  of  gravity.
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+And  how  from  the  motions  given  we  may  infer  the  forces,  or  from  the
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+tise  the  species  or  physical  qualities  of  forces,  but  investigating  the  quantities
+Absolute  time,  in  astronomy,  is  distinguished  from  relative,  by  the  equa 
+tion  or  correction  of  the  vulgar  time.  For  the  natural  days  are  tr^y  un 
+equal,  though  they  are  commonly  considered  as  equal,  and  used  for  a  meas 
+ure  of  time ;  astronomers  correct  this  inequality  for  their  more  accurate 
+deducing  of  the  celestial  motions.  It  may  be,  that  there  is  no  such  thing 
+as  an  equable  motion,  whereby  time  may  H  accurately  measured.  All  mo
+IV.  Absolute  motion  is  the  translation  of  a  body  from  one  absolute 
+place  into  another ;  and  relative  motion,  the  translation  from  one  relative 
+place  into  another.     Thus  in  a  ship  under  sail,  the  relative  place  of  a  body 
+is  that  part  of  the  ship  which  the  body  possesses ;  or  that  part  of  its  cavity 
+which  the  body  fills,  and  which  therefore  moves  together  with  the  ship : 
+and  relative  rest  is  the  continuance  of  the  body  in  the  same  part  of  the
+II.  Absolute  space,  in  its  own  nature,  without  regard  to  anything  exter 
+nal,  remains  always  similar  and  immovable.     Relative  space  is  some  mo 
+vable  dimension  or  measure  of  the  absolute  spaces ;  which  our  senses  de 
+termine  by  its  position  to  bodies ;  and  which  is  vulgarly  taken  for  immo 
+vable  space ;  such  is  the  dimension  of  a  subterraneous,  an  aereal,  or  celestial 
+space,  determined  by  its  position  in  respect  of  the  earth.     Absolute  and 
+relative  space,  are  the  same  in  figure  and  magnitude ;  but  they  do  not  re 
+main  always  numerically  the  same.     For  if  the  earth,  for  instance,  moves, 
+a  space  of  our  air,  which  relatively  and  in  respect  of  the  earth  remains  al 
+ways  the  same,  will  at  one  time  be  one  part  of  the  absolute  space  into  which
+Hitherto  I  have  laid  down  the  definitions  of  such  words  as  are  less 
+known,  and  explained  the  sense  in  which  I  would  have  them  to  be  under 
+stood  in  the  following  discourse.  I  do  not  define  time,  space,  place  and 
+motion,  as  being  well  known  to  all.  Only  I  must  observe,  that  the  vulgar 
+conceive  those  quantities  under  no  other  notions  but  from  the  relation  they 
+bear  to  sensible  objects.  And  thence  arise  certain  prejudices,  for  the  re 
+moving  of  which,  it  will  be  convenient  to  distinguish  them  into  absolute 
+and  relative,  true  and  apparent,  mathematical  and  common.
+As  the  order  of  the  parts  of  time  is  immutable,  so  also  is  the  order  of 
+the  parts  of  space.  Suppose  those  parts  to  be  moved  out  of  their  places,  and 
+they  will  be  moved  (if  the  expression  may  be  allowed)  out  of  themselves. 
+For  times  and  spaces  are,  as  it  were,  the  places  as  well  of  themselves  as  of 
+all  other  things.  All  things  are  placed  in  time  as  to  order  of  succession ; 
+and  in  space  as  _to  order  of  situation.  It  is  from  their  essence  or  nature 
+that  they  are  places ;  and  that  the  primary  places  of  things  should  be 
+moveable,  is  absurd.  These  are  therefore  the  absolute  places ;  and  trans 
+lations  out  of  those  places,  are  the  only  absolute  motions.
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+UFE    OF    SIR    ISAAC    NEWTON.  25
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+to  disturb  the  motion  of  Jupiter  is  proportional  to  this  difference;  and 
+therefore  the  perturbation  of  the  orbit  of  Jupiter  is  much  less  than  that  of
+For  the  revolutions  of  the  circumjovial  planets  about  Jupiter,  of  the 
+circumsaturnal  about  Saturn,  and  of  Mercury  and  Venus,  and  the  other 
+circumsolar  planets,  about  the  sun,  are  appearances  of  the  same  sort  with 
+the  revolution  of  the  moon  about  the  earth ;  and  therefore,  by  Rule  II, 
+must  be  owing  to  the  same  sort  of  causes ;  especially  since  it  has  been 
+demonstrated,  that  the  forces  upon  which  those  revolutions  depend  tend  to 
+the  centres  of  Jupiter,  of  Saturn,  and  of  the  sun ;  and  that  those  forces,  in 
+receding  from  Jupiter,  from  Saturn,  and  from  the  sun,  decrease  in  the  same 
+proportion,  and  according  to  the  same  law,  as  the  force  of  gravity  does  in 
+receding  from  the  earth.
+That  the  forces  by  which  the  primary  planets  are  continually  drawn  off 
+from  rectilinear  motions,  and  retained  in  their  proper  orbits,  tend  to
+the  action  of  the  circum-solar  force  upon  all  the  planets  (reduced  to  equal 
+distances)  is  as  the  matter  of  the  planets  ;  that  the  action  of  the  circum- 
+jovial  force  upon  the  satellites  of  Jupiter  observes  the  same  law  ;  and  the 
+same  thing  is  to  be  said  of  the  attraction  of  all  the  planets  towards  every 
+planet :  but  thence  it  follows  (by  Prop.  LXIX)  that  their  attractive  forces 
+are  as  their  several  quantities  of  matter.
+NEWTON'S  SYSTEM  OF  THE  WORLD ;
+Lastly,  if  it  universally  appears,  by  experiments  and  astronomical  obser 
+vations,  that  all  bodies  about  the  earth  gravitate  towards  the  earth,  and 
+that  in  proportion  to  the  quantity  of  matter  which  they  severally  contain ; 
+that  the  moon  likewise,  according  to  the  quantity  of  its  matter,  gravitates 
+towards  the  earth ;  that,  on  the  other  hand,  our  sea  gravitates  towards  the 
+moon ;  and  all  the  planets  mutually  one  towards  another ;  and  the  comets 
+in  like  manner  towards  the  sun  ;  we  must,  in  consequence  of  this  rule,  uni 
+versally  allow  that  all  bodies  whatsoever  are  endowed  with  a  principle  ot 
+mutual  gravitation.  For  the  argument  from  the  appearances  concludes  with 
+more  force  for  the  universal  gravitation  of  all  bodies  than  for  their  impen 
+etrability  ;  of  which,  among  those  in  the  celestial  regions,  we  have  no  ex 
+periments,  nor  any  manner  of  observation.  Not  that  I  affirm  gravity  to  be 
+essential  to  bodies  :  by  their  vis  insita  I  mean  nothing  but  their  vis  iiicrticz. 
+This  is  immutable.  Their  gravity  is  diminished  as  they  recede  from  the 
+earth.
+And  as,  from  the  supposed  existence  of  gravity,  it  necessarily  follows 
+that  all  bodies  about  the  earth  must  press  downwards,  and  therefore  must
+That  there  is  a  power  of  gravity  tending  to  all  bodies,  proportional  to
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+There  is  not,  in  fact,  the  least  evidence  that  Newton's  reason  was, 
+for  a  single  moment,  dethroned  ;  on  the  contrary,  the  testimony
+Supposing  the  centripetal  force  to  be  reciprocally  proportional  to  the 
+squares  of  the  distances  of  places  from  the  centre,  and  that  the  abso 
+lute  quantity  of  that  force  is  known  ;  it  is  required  to  determine  t/te 
+line  which  a  body  will  describe  that  is  let  go  from  a  given  place  with  a 
+given  velocity  in  the  direction  of  a  given  right  line. 
+Let  the  centripetal  force 
+tending  to  the  point  S  be 
+such  as  will  make  the  body 
+p  revolve  in  any  given  orbit 
+pq ;  and  suppose  the  velocity 
+of  this  body  in  the  place  p 
+is  known.     Then  from  the
+A  centripetal  force  is  that  by  which  bodies  are  drawn  or  impelled,  or  any
+The  accelerative  quantity  of  a  centripetal  force  is  the  measure,  of  tht 
+same,  proportional  to  the  velocity  which  it  generates  in  a  given  time.
+in  the  very  beginning  of  the  motion,  to  an  uniform  centripetal  force,  which
+Of  the  Invention  of  Centripetal  Forces.
+Of  the  circular  motion  of  bodies  in  resisting'  mediums.
+experiments  of  pendulums,  as  well  as  by  the  experiments  of  falling  bodies. 
+And  from  all  this  it  may  be  concluded,  that  the  resistances  of  bodies,  moving 
+in  any  fluids  whatsoever,  though  of  the  most  extreme  fluidity,  are,  cceteris 
+paribus,  as  the  densities  of  the  fluids.
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+Of  the,  motion  of  fluids,  and  the  resistance  made  to  projected  bodies.
+Of  the  motion  of  bodies   that   are  resisted  in  the  ratio  of  the  velocity.
+Absolute  time,  in  astronomy,  is  distinguished  from  relative,  by  the  equa 
+tion  or  correction  of  the  vulgar  time.  For  the  natural  days  are  tr^y  un 
+equal,  though  they  are  commonly  considered  as  equal,  and  used  for  a  meas 
+ure  of  time ;  astronomers  correct  this  inequality  for  their  more  accurate 
+deducing  of  the  celestial  motions.  It  may  be,  that  there  is  no  such  thing 
+as  an  equable  motion,  whereby  time  may  H  accurately  measured.  All  mo
+IV.  Absolute  motion  is  the  translation  of  a  body  from  one  absolute 
+place  into  another ;  and  relative  motion,  the  translation  from  one  relative 
+place  into  another.     Thus  in  a  ship  under  sail,  the  relative  place  of  a  body 
+is  that  part  of  the  ship  which  the  body  possesses ;  or  that  part  of  its  cavity 
+which  the  body  fills,  and  which  therefore  moves  together  with  the  ship : 
+and  relative  rest  is  the  continuance  of  the  body  in  the  same  part  of  the
+II.  Absolute  space,  in  its  own  nature,  without  regard  to  anything  exter 
+nal,  remains  always  similar  and  immovable.     Relative  space  is  some  mo 
+vable  dimension  or  measure  of  the  absolute  spaces ;  which  our  senses  de 
+termine  by  its  position  to  bodies ;  and  which  is  vulgarly  taken  for  immo 
+vable  space ;  such  is  the  dimension  of  a  subterraneous,  an  aereal,  or  celestial 
+space,  determined  by  its  position  in  respect  of  the  earth.     Absolute  and 
+relative  space,  are  the  same  in  figure  and  magnitude ;  but  they  do  not  re 
+main  always  numerically  the  same.     For  if  the  earth,  for  instance,  moves, 
+a  space  of  our  air,  which  relatively  and  in  respect  of  the  earth  remains  al 
+ways  the  same,  will  at  one  time  be  one  part  of  the  absolute  space  into  which
+Hitherto  I  have  laid  down  the  definitions  of  such  words  as  are  less 
+known,  and  explained  the  sense  in  which  I  would  have  them  to  be  under 
+stood  in  the  following  discourse.  I  do  not  define  time,  space,  place  and 
+motion,  as  being  well  known  to  all.  Only  I  must  observe,  that  the  vulgar 
+conceive  those  quantities  under  no  other  notions  but  from  the  relation  they 
+bear  to  sensible  objects.  And  thence  arise  certain  prejudices,  for  the  re 
+moving  of  which,  it  will  be  convenient  to  distinguish  them  into  absolute 
+and  relative,  true  and  apparent,  mathematical  and  common.
+As  the  order  of  the  parts  of  time  is  immutable,  so  also  is  the  order  of 
+the  parts  of  space.  Suppose  those  parts  to  be  moved  out  of  their  places,  and 
+they  will  be  moved  (if  the  expression  may  be  allowed)  out  of  themselves. 
+For  times  and  spaces  are,  as  it  were,  the  places  as  well  of  themselves  as  of 
+all  other  things.  All  things  are  placed  in  time  as  to  order  of  succession ; 
+and  in  space  as  _to  order  of  situation.  It  is  from  their  essence  or  nature 
+that  they  are  places ;  and  that  the  primary  places  of  things  should  be 
+moveable,  is  absurd.  These  are  therefore  the  absolute  places ;  and  trans 
+lations  out  of  those  places,  are  the  only  absolute  motions.
+as  the  square  of  the  distance,  the  density  will  be  reciprocally  in  a  sesqui- 
+plicate  ratio  of  the  distance.  Suppose  the  compressing  force  to  be  in  a  du 
+plicate  ratio  of  the  density,  and  the  gravity  reciprocally  in  a  duplicate  ra
+that  the  force  of  gravity  is  reciprocally  as  the  square  of  the  distance  from 
+the  centre  of  the  earth)  raising  a  calculus,  by  Cor.  Prop.  XXII,  Book  II,
+particle  of  matter,  icith  a  force  inversely  proportional  to  the 
+squares  of  their  distances — is  the  discovery  w?  ich  characterizes 
+The  PRINCIPIA.  This  principle  the  author  deduced  from  the  mo
+To  determine  the  motions  of  two  bodies  attracting  each  other  with  forces 
+reciprocally  proportional  to  the  squares  of  their  distance,  and  going
+Tn  two  spheres  mutually  gravitating  each  towards  the  other,  if  tlie  matter 
+in  places  on  all  sides  round  about  and  equi-distant  from  the  centres  is 
+similar,  the  weight  of  either  sphere  towards  the  other  will  be  recipro 
+cally  as  the  square  of  the  distance  between  their  centres. 
+After  I  had  found  that  the  force  of  gravity  towards  a  whole  planet  did 
+arise  from  and  was  compounded   of  the  forces  of  gravity  towards  all  its 
+parts,  and  towards  every  one  part  was  in  the  reciprocal  proportion  of  the 
+squares  of  the  distances  from  the  part,  I  was  yet  in  doubt  whether  that  re 
+ciprocal  duplicate  proportion  did  accurately  hold,  or  but  nearly  so,  in  the 
+total  force  compounded  of  so  many  partial  ones;  for  it  might  be  that  the 
+proportion  which  accurately  enough  took  place  in  greater  distances  should 
+be  wide  of  the  truth  near  the  surface  of  the  planet,  where  the  distances  of
+To  define  the  motion  of  a  body  which,  in  a  similar  medium,  ascends  or 
+descends  in  a  right  line,  and  is  resisted  in  the  ratio  of  its  velocity,  and 
+acted  upon  by  an  uniform  force  of  gravity.
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+And  how  from  the  motions  given  we  may  infer  the  forces,  or  from  the
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+However,  it  was  agreed  on  both  sides  that  the  motions  of  the  celestial
+we  in  the  third  derive  from  the  celestial  phenomena  the  forces  of  gravity 
+with  which  bodies  tend  to  the  sun  and  the  several  planets.  Then  from  these
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+AXIOMS,  OR  LAWS  OF  MOTION.
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+From  the  first  law  of  Kepler,  namely,  the   proportionality  of
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+proportion  of  the  distance,  and  the  periodic  time  increases  in  the  sesquipli- 
+cate  thereof,  it  is  evident  that  the  actions  of  the  centripetal  force,  and 
+therefore  the  periodic  times,  would  be  equal  in  equal  planets  at  equal  dis 
+tances  from  the  sun ;  and  in  equal  distances  of  unequal  planets  the  total 
+actions  of  the  centripetal  force  would  be  as  the  bodies  of  the  planets ;  for 
+if  the  actions  were  not  proportional  to  the  bodies  to  be  moved,  they  could 
+not  equally  retract  these  bodies  from  the  tangents  of  their  orbs  in  equal 
+times :  nor  could  the  motions  of  the  satellites  of  Jupiter  be  so  regular,  if  it
+NEWTON'S  PRINCIPIA.
+THAT  the  PRINCIPIA  of  Newton  should  have  remained  so  gen 
+erally  unknown  in  this  country  to  the  present  day  is  a  somewhat 
+remarkable  fact ;  because  the  name  of  the  author,  learned  with
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+Pell  that  it  was  Newton?s  method,  persisted  in  maintaining  it  to 
+be  his  own  invention,  by  reason  that  he  had  found  it  by  himself 
+without  knowing  what  Newton  had  done  before,  and  had  much 
+improved  it.  And  we  find  no  mention  of  his  having  any  other
+It  is  a  notable  fact,  in  Newton's  history,  that  he  never  volun* 
+tarily  published  any  one  of  his  purely  mathematical  writings 
+The  cause  of  this  unwillingness  in  some,  and,  in  other  instances, 
+of  his  indifference,  or,  at  least,  want  of  solicitude  to  put  forth  his 
+works  may  be  confidently  sought  for  in  his  repugnance  to  every 
+thing  like  contest  or  dispute.  But,  going  deeper  than  this  aver
+experiments  of  pendulums,  as  well  as  by  the  experiments  of  falling  bodies. 
+And  from  all  this  it  may  be  concluded,  that  the  resistances  of  bodies,  moving 
+in  any  fluids  whatsoever,  though  of  the  most  extreme  fluidity,  are,  cceteris 
+paribus,  as  the  densities  of  the  fluids.
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+Of  the,  motion  of  fluids,  and  the  resistance  made  to  projected  bodies.
+Of  the  motion  of  bodies   that   are  resisted  in  the  ratio  of  the  velocity.
+Con.  3.  The  resistance  of  a  body  moving  very  swift  in  an  elastic  fluid
+Lastly,  if  it  universally  appears,  by  experiments  and  astronomical  obser 
+vations,  that  all  bodies  about  the  earth  gravitate  towards  the  earth,  and 
+that  in  proportion  to  the  quantity  of  matter  which  they  severally  contain ; 
+that  the  moon  likewise,  according  to  the  quantity  of  its  matter,  gravitates 
+towards  the  earth ;  that,  on  the  other  hand,  our  sea  gravitates  towards  the 
+moon ;  and  all  the  planets  mutually  one  towards  another ;  and  the  comets 
+in  like  manner  towards  the  sun  ;  we  must,  in  consequence  of  this  rule,  uni 
+versally  allow  that  all  bodies  whatsoever  are  endowed  with  a  principle  ot 
+mutual  gravitation.  For  the  argument  from  the  appearances  concludes  with 
+more  force  for  the  universal  gravitation  of  all  bodies  than  for  their  impen 
+etrability  ;  of  which,  among  those  in  the  celestial  regions,  we  have  no  ex 
+periments,  nor  any  manner  of  observation.  Not  that  I  affirm  gravity  to  be 
+essential  to  bodies  :  by  their  vis  insita  I  mean  nothing  but  their  vis  iiicrticz. 
+This  is  immutable.  Their  gravity  is  diminished  as  they  recede  from  the 
+earth.
+And  as,  from  the  supposed  existence  of  gravity,  it  necessarily  follows 
+that  all  bodies  about  the  earth  must  press  downwards,  and  therefore  must
+That  there  is  a  power  of  gravity  tending  to  all  bodies,  proportional  to
+the  several  quantities  of  matter  which  they  contain. 
+That  all  the  planets  mutually  gravitate  one  towards  another,  we  have 
+proved  before  ;  as  well  as  that  the  force  of  gravity  towards  every  one  of  them, 
+considered  apart,  is  reciprocally  as  the  square  of  the  distance  of  places  from 
+the  centre  of  the  planet.  And  thence  (by  Prop.  LXIX,  Book  I,  and  its 
+Corollaries)  it  follows,  that  the  gravity  tending  towards  all  the  planets  is 
+proportional  to  the  matter  which  they  contain.
+There  is  not,  in  fact,  the  least  evidence  that  Newton's  reason  was, 
+for  a  single  moment,  dethroned  ;  on  the  contrary,  the  testimony
+as  the  square  of  the  distance,  the  density  will  be  reciprocally  in  a  sesqui- 
+plicate  ratio  of  the  distance.  Suppose  the  compressing  force  to  be  in  a  du 
+plicate  ratio  of  the  density,  and  the  gravity  reciprocally  in  a  duplicate  ra
+that  the  force  of  gravity  is  reciprocally  as  the  square  of  the  distance  from 
+the  centre  of  the  earth)  raising  a  calculus,  by  Cor.  Prop.  XXII,  Book  II,
+To  determine  the  motions  of  two  bodies  attracting  each  other  with  forces 
+reciprocally  proportional  to  the  squares  of  their  distance,  and  going
+Tn  two  spheres  mutually  gravitating  each  towards  the  other,  if  tlie  matter 
+in  places  on  all  sides  round  about  and  equi-distant  from  the  centres  is 
+similar,  the  weight  of  either  sphere  towards  the  other  will  be  recipro 
+cally  as  the  square  of  the  distance  between  their  centres. 
+After  I  had  found  that  the  force  of  gravity  towards  a  whole  planet  did 
+arise  from  and  was  compounded   of  the  forces  of  gravity  towards  all  its 
+parts,  and  towards  every  one  part  was  in  the  reciprocal  proportion  of  the 
+squares  of  the  distances  from  the  part,  I  was  yet  in  doubt  whether  that  re 
+ciprocal  duplicate  proportion  did  accurately  hold,  or  but  nearly  so,  in  the 
+total  force  compounded  of  so  many  partial  ones;  for  it  might  be  that  the 
+proportion  which  accurately  enough  took  place  in  greater  distances  should 
+be  wide  of  the  truth  near  the  surface  of  the  planet,  where  the  distances  of
+sphere  is  attracted  with  a  force  reciprocally  proportional  to  the  square 
+of  its  distance  from  the  centre.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+However,  it  was  agreed  on  both  sides  that  the  motions  of  the  celestial
+we  in  the  third  derive  from  the  celestial  phenomena  the  forces  of  gravity 
+with  which  bodies  tend  to  the  sun  and  the  several  planets.  Then  from  these
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+the  first  two,  entitled,  OF  THE  MOTION  OF  BODIES,  are  occupied 
+with  the  laws  and  conditions  of  motions  and  forces,  and  are  illus
+A  centripetal  force  is  that  by  which  bodies  are  drawn  or  impelled,  or  any
+Of  the  invention  of  orbits  wherein  bodies  will  revolve,  being  acted  upon 
+by  any  sort  of  centripetal  force.
+in  the  very  beginning  of  the  motion,  to  an  uniform  centripetal  force,  which
+Of  the  Invention  of  Centripetal  Forces.
+"       the  invention  of  the  centripetal  forces,  when  a  body  is  revolved  in  a  non-resisting  space
+To  define  the  motion  of  a  body  which,  in  a  similar  medium,  ascends  or 
+descends  in  a  right  line,  and  is  resisted  in  the  ratio  of  its  velocity,  and 
+acted  upon  by  an  uniform  force  of  gravity.
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+And  how  from  the  motions  given  we  may  infer  the  forces,  or  from  the
+tise  the  species  or  physical  qualities  of  forces,  but  investigating  the  quantities
+to  disturb  the  motion  of  Jupiter  is  proportional  to  this  difference;  and 
+therefore  the  perturbation  of  the  orbit  of  Jupiter  is  much  less  than  that  of
+looked  upon."J 
+Though  Newton  had  continued  silent,  yet  his  thoughts  were 
+by  no  means  inactive  upon  the  vast  subject  of  the  planetary  mo 
+tions.  The  idea  of  Universal  Gravitation,  first  caught  sight  of,  so
+that  the  force  which  retained  the  planet  in  its  orbit  was  always 
+directed  to  the  sun ;  and  from  the  second,  namely,  that  every 
+planet  moves  in  an  ellipse  with  the  sun  in  one  of  its  foci,  he  drew 
+the  more  general  inference  that  the  force  by  which  the  planet 
+moves  round  that  focus  varies  inversely  as  the  square  of  its  dis 
+tance  therefrom  :  and  he  demonstrated  that  a  planet  acted  upon 
+by  such  a  force  could  not  move  in  any  other  curve  than  a  conic 
+section ;  showing  when  the  moving  body  would  describe  a  circu
+For  the  revolutions  of  the  circumjovial  planets  about  Jupiter,  of  the 
+circumsaturnal  about  Saturn,  and  of  Mercury  and  Venus,  and  the  other 
+circumsolar  planets,  about  the  sun,  are  appearances  of  the  same  sort  with 
+the  revolution  of  the  moon  about  the  earth ;  and  therefore,  by  Rule  II, 
+must  be  owing  to  the  same  sort  of  causes ;  especially  since  it  has  been 
+demonstrated,  that  the  forces  upon  which  those  revolutions  depend  tend  to 
+the  centres  of  Jupiter,  of  Saturn,  and  of  the  sun ;  and  that  those  forces,  in 
+receding  from  Jupiter,  from  Saturn,  and  from  the  sun,  decrease  in  the  same 
+proportion,  and  according  to  the  same  law,  as  the  force  of  gravity  does  in 
+receding  from  the  earth.
+BY   SIR   ISAAC  NEWTON;
+NEWTON'S  PRINCIPIA.
+THAT  the  PRINCIPIA  of  Newton  should  have  remained  so  gen 
+erally  unknown  in  this  country  to  the  present  day  is  a  somewhat 
+remarkable  fact ;  because  the  name  of  the  author,  learned  with
+by  the  general  mind.  Pemberton's  popular  "  View  of  Sir  Isaac 
+Newton's  Philosophy"  was  published,  in  1728  ;  and  the  year  after 
+ward,  an  English  translation  of  the  PRINCIPIA,  and  System  of  the 
+World,  by  Andrew  Motte.  And  since  that  period,  the  labours  of 
+Le  Seur  and  Jacquier,  of  Thorpe,  of  Jebb,  of  Wright  and  others 
+have  greatly  contributed  to  display  the  most  hidden  treasures  of 
+the  PRINCIPIA.
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
+Pell  that  it  was  Newton?s  method,  persisted  in  maintaining  it  to 
+be  his  own  invention,  by  reason  that  he  had  found  it  by  himself 
+without  knowing  what  Newton  had  done  before,  and  had  much 
+improved  it.  And  we  find  no  mention  of  his  having  any  other
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+From  the  first  law  of  Kepler,  namely,  the   proportionality  of
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+BY   SIR   ISAAC  NEWTON;
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+Absolute  time,  in  astronomy,  is  distinguished  from  relative,  by  the  equa 
+tion  or  correction  of  the  vulgar  time.  For  the  natural  days  are  tr^y  un 
+equal,  though  they  are  commonly  considered  as  equal,  and  used  for  a  meas 
+ure  of  time ;  astronomers  correct  this  inequality  for  their  more  accurate 
+deducing  of  the  celestial  motions.  It  may  be,  that  there  is  no  such  thing 
+as  an  equable  motion,  whereby  time  may  H  accurately  measured.  All  mo
+IV.  Absolute  motion  is  the  translation  of  a  body  from  one  absolute 
+place  into  another ;  and  relative  motion,  the  translation  from  one  relative 
+place  into  another.     Thus  in  a  ship  under  sail,  the  relative  place  of  a  body 
+is  that  part  of  the  ship  which  the  body  possesses ;  or  that  part  of  its  cavity 
+which  the  body  fills,  and  which  therefore  moves  together  with  the  ship : 
+and  relative  rest  is  the  continuance  of  the  body  in  the  same  part  of  the
+II.  Absolute  space,  in  its  own  nature,  without  regard  to  anything  exter 
+nal,  remains  always  similar  and  immovable.     Relative  space  is  some  mo 
+vable  dimension  or  measure  of  the  absolute  spaces ;  which  our  senses  de 
+termine  by  its  position  to  bodies ;  and  which  is  vulgarly  taken  for  immo 
+vable  space ;  such  is  the  dimension  of  a  subterraneous,  an  aereal,  or  celestial 
+space,  determined  by  its  position  in  respect  of  the  earth.     Absolute  and 
+relative  space,  are  the  same  in  figure  and  magnitude ;  but  they  do  not  re 
+main  always  numerically  the  same.     For  if  the  earth,  for  instance,  moves, 
+a  space  of  our  air,  which  relatively  and  in  respect  of  the  earth  remains  al 
+ways  the  same,  will  at  one  time  be  one  part  of  the  absolute  space  into  which
+Hitherto  I  have  laid  down  the  definitions  of  such  words  as  are  less 
+known,  and  explained  the  sense  in  which  I  would  have  them  to  be  under 
+stood  in  the  following  discourse.  I  do  not  define  time,  space,  place  and 
+motion,  as  being  well  known  to  all.  Only  I  must  observe,  that  the  vulgar 
+conceive  those  quantities  under  no  other  notions  but  from  the  relation  they 
+bear  to  sensible  objects.  And  thence  arise  certain  prejudices,  for  the  re 
+moving  of  which,  it  will  be  convenient  to  distinguish  them  into  absolute 
+and  relative,  true  and  apparent,  mathematical  and  common.
+As  the  order  of  the  parts  of  time  is  immutable,  so  also  is  the  order  of 
+the  parts  of  space.  Suppose  those  parts  to  be  moved  out  of  their  places,  and 
+they  will  be  moved  (if  the  expression  may  be  allowed)  out  of  themselves. 
+For  times  and  spaces  are,  as  it  were,  the  places  as  well  of  themselves  as  of 
+all  other  things.  All  things  are  placed  in  time  as  to  order  of  succession ; 
+and  in  space  as  _to  order  of  situation.  It  is  from  their  essence  or  nature 
+that  they  are  places ;  and  that  the  primary  places  of  things  should  be 
+moveable,  is  absurd.  These  are  therefore  the  absolute  places ;  and  trans 
+lations  out  of  those  places,  are  the  only  absolute  motions.
+as  the  square  of  the  distance,  the  density  will  be  reciprocally  in  a  sesqui- 
+plicate  ratio  of  the  distance.  Suppose  the  compressing  force  to  be  in  a  du 
+plicate  ratio  of  the  density,  and  the  gravity  reciprocally  in  a  duplicate  ra
+that  the  force  of  gravity  is  reciprocally  as  the  square  of  the  distance  from 
+the  centre  of  the  earth)  raising  a  calculus,  by  Cor.  Prop.  XXII,  Book  II,
+COR.  2.  The  force  of  gravity  towards  the  several  equal  particles  of  any 
+body  is  reciprocally  as  the  square  of  the  distance  of  places  from  the  parti 
+cles  ;  as  appears  from  Cor.  3,  Prop.  LXXIV,  Book  I.
+particle  of  matter,  icith  a  force  inversely  proportional  to  the 
+squares  of  their  distances — is  the  discovery  w?  ich  characterizes 
+The  PRINCIPIA.  This  principle  the  author  deduced  from  the  mo
+To  determine  the  motions  of  two  bodies  attracting  each  other  with  forces 
+reciprocally  proportional  to  the  squares  of  their  distance,  and  going
+experiments  of  pendulums,  as  well  as  by  the  experiments  of  falling  bodies. 
+And  from  all  this  it  may  be  concluded,  that  the  resistances  of  bodies,  moving 
+in  any  fluids  whatsoever,  though  of  the  most  extreme  fluidity,  are,  cceteris 
+paribus,  as  the  densities  of  the  fluids.
+attracted  according  to  given  laws  ;  and  the  motion  of  several  bodies  moving 
+among  themselves;  the  motion  of  bodies  in  resisting  mediums;  the  forces,
+Of  the,  motion  of  fluids,  and  the  resistance  made  to  projected  bodies.
+In  the  seventh  section  of  the  second  book  the  theory  of  the  resistances  of  fluids
+Con.  3.  The  resistance  of  a  body  moving  very  swift  in  an  elastic  fluid
+46  LIFE    OF    SIR    ISAAC    NEWTON,
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+UFE    OF    SIR    ISAAC    NEWTON.  25
+ISAAC  NEWTON.
+to  disturb  the  motion  of  Jupiter  is  proportional  to  this  difference;  and 
+therefore  the  perturbation  of  the  orbit  of  Jupiter  is  much  less  than  that  of
+that  the  force  which  retained  the  planet  in  its  orbit  was  always 
+directed  to  the  sun ;  and  from  the  second,  namely,  that  every 
+planet  moves  in  an  ellipse  with  the  sun  in  one  of  its  foci,  he  drew 
+the  more  general  inference  that  the  force  by  which  the  planet 
+moves  round  that  focus  varies  inversely  as  the  square  of  its  dis 
+tance  therefrom  :  and  he  demonstrated  that  a  planet  acted  upon 
+by  such  a  force  could  not  move  in  any  other  curve  than  a  conic 
+section ;  showing  when  the  moving  body  would  describe  a  circu
+For  the  revolutions  of  the  circumjovial  planets  about  Jupiter,  of  the 
+circumsaturnal  about  Saturn,  and  of  Mercury  and  Venus,  and  the  other 
+circumsolar  planets,  about  the  sun,  are  appearances  of  the  same  sort  with 
+the  revolution  of  the  moon  about  the  earth ;  and  therefore,  by  Rule  II, 
+must  be  owing  to  the  same  sort  of  causes ;  especially  since  it  has  been 
+demonstrated,  that  the  forces  upon  which  those  revolutions  depend  tend  to 
+the  centres  of  Jupiter,  of  Saturn,  and  of  the  sun ;  and  that  those  forces,  in 
+receding  from  Jupiter,  from  Saturn,  and  from  the  sun,  decrease  in  the  same 
+proportion,  and  according  to  the  same  law,  as  the  force  of  gravity  does  in 
+receding  from  the  earth.
+That  the  forces  by  which  the  primary  planets  are  continually  drawn  off 
+from  rectilinear  motions,  and  retained  in  their  proper  orbits,  tend  to
+the  action  of  the  circum-solar  force  upon  all  the  planets  (reduced  to  equal 
+distances)  is  as  the  matter  of  the  planets  ;  that  the  action  of  the  circum- 
+jovial  force  upon  the  satellites  of  Jupiter  observes  the  same  law  ;  and  the 
+same  thing  is  to  be  said  of  the  attraction  of  all  the  planets  towards  every 
+planet :  but  thence  it  follows  (by  Prop.  LXIX)  that  their  attractive  forces 
+are  as  their  several  quantities  of  matter.
+Supposing  the  centripetal  force  to  be  reciprocally  proportional  to  the 
+squares  of  the  distances  of  places  from  the  centre,  and  that  the  abso 
+lute  quantity  of  that  force  is  known  ;  it  is  required  to  determine  t/te 
+line  which  a  body  will  describe  that  is  let  go  from  a  given  place  with  a 
+given  velocity  in  the  direction  of  a  given  right  line. 
+Let  the  centripetal  force 
+tending  to  the  point  S  be 
+such  as  will  make  the  body 
+p  revolve  in  any  given  orbit 
+pq ;  and  suppose  the  velocity 
+of  this  body  in  the  place  p 
+is  known.     Then  from  the
+A  centripetal  force  is  that  by  which  bodies  are  drawn  or  impelled,  or  any
+Of  the  invention  of  orbits  wherein  bodies  will  revolve,  being  acted  upon 
+by  any  sort  of  centripetal  force.
+in  the  very  beginning  of  the  motion,  to  an  uniform  centripetal  force,  which
+Of  the  Invention  of  Centripetal  Forces.
+Beyond  the  grandfather,  Robert  Newton,  the  descent  of  Sir 
+Isaac  cannot  with  certainty  be  traced.  Two  traditions  were  held 
+in  the  family :  one,  that  they  were  of  Scotch  extraction  ;  the 
+other,  that  they  came  originally  from  Newton,  in  Lancashire, 
+dwelling,  for  a  time,  however,  at  Westby,  county  of  Lincoln,  be
+ISAAC  NEWTON.
+LIFE    OF    SIR    ISAAC    NEWTON,  13
+LIFE    OF    SIR    ISAAC    NEWTON,  21
+LIFE    OF    SIR    ISAAC    NEWTON.  41
+Lastly,  if  it  universally  appears,  by  experiments  and  astronomical  obser 
+vations,  that  all  bodies  about  the  earth  gravitate  towards  the  earth,  and 
+that  in  proportion  to  the  quantity  of  matter  which  they  severally  contain ; 
+that  the  moon  likewise,  according  to  the  quantity  of  its  matter,  gravitates 
+towards  the  earth ;  that,  on  the  other  hand,  our  sea  gravitates  towards  the 
+moon ;  and  all  the  planets  mutually  one  towards  another ;  and  the  comets 
+in  like  manner  towards  the  sun  ;  we  must,  in  consequence  of  this  rule,  uni 
+versally  allow  that  all  bodies  whatsoever  are  endowed  with  a  principle  ot 
+mutual  gravitation.  For  the  argument  from  the  appearances  concludes  with 
+more  force  for  the  universal  gravitation  of  all  bodies  than  for  their  impen 
+etrability  ;  of  which,  among  those  in  the  celestial  regions,  we  have  no  ex 
+periments,  nor  any  manner  of  observation.  Not  that  I  affirm  gravity  to  be 
+essential  to  bodies  :  by  their  vis  insita  I  mean  nothing  but  their  vis  iiicrticz. 
+This  is  immutable.  Their  gravity  is  diminished  as  they  recede  from  the 
+earth.
+And  as,  from  the  supposed  existence  of  gravity,  it  necessarily  follows 
+that  all  bodies  about  the  earth  must  press  downwards,  and  therefore  must
+That  there  is  a  power  of  gravity  tending  to  all  bodies,  proportional  to
+BY   SIR   ISAAC  NEWTON;
+NEWTON'S  PRINCIPIA.
+is  therefore  nearly  equal  to  the  force  by  which  its  motion  may  be  generated 
+while  it  describes  four  times  its  length.
+To  define  the  motion  of  a  body  which,  in  a  similar  medium,  ascends  or 
+descends  in  a  right  line,  and  is  resisted  in  the  ratio  of  its  velocity,  and 
+acted  upon  by  an  uniform  force  of  gravity.
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+And  how  from  the  motions  given  we  may  infer  the  forces,  or  from  the
+tise  the  species  or  physical  qualities  of  forces,  but  investigating  the  quantities
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+we  in  the  third  derive  from  the  celestial  phenomena  the  forces  of  gravity 
+with  which  bodies  tend  to  the  sun  and  the  several  planets.  Then  from  these
+forces  (by  Cor.  2  of  the  Laws  of  Motion)  compose  the  force  TL ;  and
+AXIOMS,  OR  LAWS  OF  MOTION.
+the  first  two,  entitled,  OF  THE  MOTION  OF  BODIES,  are  occupied 
+with  the  laws  and  conditions  of  motions  and  forces,  and  are  illus
+Absolute  time,  in  astronomy,  is  distinguished  from  relative,  by  the  equa 
+tion  or  correction  of  the  vulgar  time.  For  the  natural  days  are  tr^y  un 
+equal,  though  they  are  commonly  considered  as  equal,  and  used  for  a  meas 
+ure  of  time ;  astronomers  correct  this  inequality  for  their  more  accurate 
+deducing  of  the  celestial  motions.  It  may  be,  that  there  is  no  such  thing 
+as  an  equable  motion,  whereby  time  may  H  accurately  measured.  All  mo
+II.  Absolute  space,  in  its  own  nature,  without  regard  to  anything  exter 
+nal,  remains  always  similar  and  immovable.     Relative  space  is  some  mo 
+vable  dimension  or  measure  of  the  absolute  spaces ;  which  our  senses  de 
+termine  by  its  position  to  bodies ;  and  which  is  vulgarly  taken  for  immo 
+vable  space ;  such  is  the  dimension  of  a  subterraneous,  an  aereal,  or  celestial 
+space,  determined  by  its  position  in  respect  of  the  earth.     Absolute  and 
+relative  space,  are  the  same  in  figure  and  magnitude ;  but  they  do  not  re 
+main  always  numerically  the  same.     For  if  the  earth,  for  instance,  moves, 
+a  space  of  our  air,  which  relatively  and  in  respect  of  the  earth  remains  al 
+ways  the  same,  will  at  one  time  be  one  part  of  the  absolute  space  into  which
+Hitherto  I  have  laid  down  the  definitions  of  such  words  as  are  less 
+known,  and  explained  the  sense  in  which  I  would  have  them  to  be  under 
+stood  in  the  following  discourse.  I  do  not  define  time,  space,  place  and 
+motion,  as  being  well  known  to  all.  Only  I  must  observe,  that  the  vulgar 
+conceive  those  quantities  under  no  other  notions  but  from  the  relation  they 
+bear  to  sensible  objects.  And  thence  arise  certain  prejudices,  for  the  re 
+moving  of  which,  it  will  be  convenient  to  distinguish  them  into  absolute 
+and  relative,  true  and  apparent,  mathematical  and  common.
+As  the  order  of  the  parts  of  time  is  immutable,  so  also  is  the  order  of 
+the  parts  of  space.  Suppose  those  parts  to  be  moved  out  of  their  places,  and 
+they  will  be  moved  (if  the  expression  may  be  allowed)  out  of  themselves. 
+For  times  and  spaces  are,  as  it  were,  the  places  as  well  of  themselves  as  of 
+all  other  things.  All  things  are  placed  in  time  as  to  order  of  succession ; 
+and  in  space  as  _to  order  of  situation.  It  is  from  their  essence  or  nature 
+that  they  are  places ;  and  that  the  primary  places  of  things  should  be 
+moveable,  is  absurd.  These  are  therefore  the  absolute  places ;  and  trans 
+lations  out  of  those  places,  are  the  only  absolute  motions.
+time,  and  (by  this  Prop.)  the  space  is  given  from  the  given  velocity ;  the 
+space  will  be  given  from  the  given  time :  and  the  contrary.
+This  "  warning"  arose  from  some  pretensions  put  forth  by  Dr. 
+Hooke.  And  though  Newton  gave  a  minute  and  positive  refuta 
+tions  of  such  claims,  yet,  to  reconcile  all  differences,  he  gener 
+ously  added  to  Prop.  IV.  Cor.  6,  Book  I,  a  Scholium,  in  which 
+Wren,  Hooke  and  Halley  are  acknowledged  to  have  indepen 
+dently  deduced  the  law  of  gravity  from  the  second  law  of 
+Kepler.
+tion  of  the  moon,  and  the  three  laws  of  Kepler — laws,  which 
+Newton,  in  turn,  by  his  greater  law,  demonstrated  to  be  true.
+From  the  first  law  of  Kepler,  namely,  the   proportionality  of
+Hitherto  I  have  laid  down  such  principles  as  have  been  received  by  math 
+ematicians,  and  are  confirmed  by  abundance  of  experiments.  By  the  first 
+two  Laws  and  the  first  two  Corollaries,  Galileo  discovered  that  the  de 
+scent  of  bodies  observed  the  duplicate  ratio  of  the  time,  and  that  the  mo 
+tion  of  projectiles  was  in  the  curve  of  a  parabola;  experience  agreeing 
+with  both,  unless  so  far  as  these  motions  are  a  little  retarded  by  the  re 
+sistance  of  the  air.  When  a  body  is  falling,  the  uniform  force  of  its 
+gravity  acting  equally,  impresses,  in  equal  particles  of  time,  equal  forces 
+upon  that  body,  and  therefore  generates  equal  velocities;  and  in  the  whole 
+time  impresses  a  whole  force,  and  generates  a  whole  velocity  proportional 
+to  the  time.  And  the  spaces  described  in  proportional  times  are  as  the 
+velocities  and  the  times  conjunctly ;  that  is,  in  a  duplicate  ratio  of  the 
+times.  And  when  a  body  is  thrown  upwards,  its  uniform  gravity  im 
+presses  forces  and  takes  off  velocities  proportional  to  the  times ;  and  the 
+times  of  ascending  to  the  greatest  heights  are  as  the  velocities  to  be  taken 
+off,  and  those  heights  are  as  the  velocities  and  the  times  conjunetly,  or  ir, 
+the  duplicate  ratio  of  the  velocities.  And  if  a  body  be  projected  in  any 
+direction,  the  motion  arising  from  its  projection  jS  compounded  with  the
+The  later  philosophers  pretend  to  account  for  it  either  by  the  action  of 
+certain  vortices,  as  Kepler  and  Des  Cartes  ;  or  by  some  other  principle  of 
+impulse  or  attraction,  as  Borelli,  Honke,  and  others  of  our  nation  ;  for, 
+from  the  laws  of  motion,  it  is  most  certain  that  these  effects  must  proceed 
+from  the  action  of  some  force  or  other.
+NEWTON'S  PRINCIPIA.
+In  June,  1709,  Newton  intrusted  the  superintendence  of  a 
+second  edition  of  the  PRINCIPIA  to  Roger  Cotes,  Plumian  Pro
+tive  to  the  accomplishment  of  that  end  as  the  study  of  Geometri 
+cal  Synthesis  ?  The  Calculus,  in  some  shape  or  other,  is,  indeed, 
+necessary  to  the  successful  prosecution  of  researches  in  the  higher 
+branches  of  philosophy.  But  has  not  the  Analytical  encroached 
+upon  the  Synthetical,  and  Algorithmic  Formulae  been  employed 
+when  not  requisite,  either  for  the  evolution  of  truth,  or  even  its 
+apter  illustration  ?  To  each  method  belongs,  undoubtedly,  an 
+appropriate  use.  Newton,  himself  the  inventor  of  Fluxions, 
+censured  the  handling  of  Geometrical  subjects  by  Algebraical 
+calculations  ;  and  the  maturest  opinions  which  he  expressed  were 
+additionally  in  favour  of  the  Geometrical  Method.  His  prefer 
+ence,  so  strongly  marked,  is  not  to  be  reckoned  a  mere  matter  oi 
+taste  ;  and  his  authority  should  bear  with  preponderating  weight 
+upon  the  decision  of  every  instructor  in  adopting  what  may  be 
+deemed  the  best  plan  to  insure  the  completes!  mental  develop 
+ment.  Geometry,  the  vigorous  product  of  remote  time  ;  blended 
+with  the  earliest  aspirations  of  Science  and  the  earliest  applica 
+tions  of  Art ;  as  well  in  the  measures  of  music  as  in  the  move 
+ment  of  spheres  ;  as  wholly  in  the  structure  of  the  atom  as  in  that 
+of  the  world;  directing  MOTION  and  shaping  APPEARANCE;  in  a 
+wonl,  *t  the  moulding  of  the  created  all,  is,  in  comprehensive
+by  the  general  mind.  Pemberton's  popular  "  View  of  Sir  Isaac 
+Newton's  Philosophy"  was  published,  in  1728  ;  and  the  year  after 
+ward,  an  English  translation  of  the  PRINCIPIA,  and  System  of  the 
+World,  by  Andrew  Motte.  And  since  that  period,  the  labours  of 
+Le  Seur  and  Jacquier,  of  Thorpe,  of  Jebb,  of  Wright  and  others 
+have  greatly  contributed  to  display  the  most  hidden  treasures  of 
+the  PRINCIPIA.
+Newton,  himself,  states  that  he  was  in  possession  of  his  Method
