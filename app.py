@@ -79,14 +79,14 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
         else:
             print(f"Cache MISS for document. Processing on-demand...")
             setup_task = asyncio.to_thread(rag_pipeline.setup_pipeline_from_content, pdf_content)
-            vector_store = await asyncio.wait_for(setup_task, timeout=28.0)
+            vector_store = await asyncio.wait_for(setup_task, timeout=35.0)
             
             # Save the newly processed document to both caches
             cache_manager.save_to_cache(cache_key, vector_store)
             PDF_CACHE[cache_key] = vector_store
 
         # --- Answering Phase ---
-        remaining_time = 28.0 - (time.time() - start_time)
+        remaining_time = 35.0 - (time.time() - start_time)
         if remaining_time <= 0:
             return HackRxResponse(answers=answers)
 

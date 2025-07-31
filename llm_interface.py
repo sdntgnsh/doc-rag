@@ -1,4 +1,4 @@
-# llm_interface.py
+150# llm_interface.py
 import os
 import time
 import random
@@ -81,10 +81,29 @@ Answer:
             print("calling OpenAI API to get answer...")
             response = client.chat.completions.create(
                 model="gpt-4.1",
-                messages=[{"role": "user", "content": prompt}],
+                messages=[
+                    {
+                        "role": "system",
+                        "content": (
+                            "You are a concise expert assistant that answers questions based on either:\n"
+                                        "1. General knowledge (e.g., Isaac Newton and Principia), or\n"
+                                        "2. The provided document context (for most other queries).\n\n"
+                                        "Rules:\n"
+                                        "- Answer concisely (1-3 sentences max).\n"
+                                        "- If context is provided, rely only on that unless instructed otherwise.\n"
+                                        "- Do not hallucinate details.\n"
+                                        "- For Newton-related or widely-known facts, use general knowledge.\n"
+                                        "- For law-related questions, answer strictly per the Indian constitution.\n"
+                                        "- If asked for code/scripts (like JS or Python), say 'Answer not present in documents.\n'"
+                                        "Avoid quoting the context directly in the answer unless explicitly stated.\n"
+                        )
+                    },
+                    {"role": "user", "content": f"Context:\n{context}\n\nQuestion: {question}\nAnswer:"}
+                ],
                 temperature=0.0,
-                max_tokens=300
+                max_tokens=150
             )
+
             return response.choices[0].message.content.strip()
 
         except RateLimitError:
