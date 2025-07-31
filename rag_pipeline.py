@@ -171,6 +171,12 @@ def _answer_one_question(question: str, vector_store: InMemoryVectorStore) -> st
     """Synchronous wrapper for backward compatibility."""
     return asyncio.run(_answer_one_question_async(question, vector_store))
 
+def _answer_with_general_knowledge(question: str) -> str:
+    """Answers questions using only general knowledge when vectorization times out."""
+    print(f"🔍 Using general knowledge for: '{question}'")
+    # Use empty context and special message for timeout scenarios
+    return llm_interface.get_answer("", question, use_gk_timeout=True)
+
 def create_vector_store_from_chunks(chunks: List[str]) -> InMemoryVectorStore:
     """Creates a vector store from a list of text chunks."""
     print(f"Embedding {len(chunks)} chunks...")
