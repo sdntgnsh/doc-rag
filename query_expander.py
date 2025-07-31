@@ -1,82 +1,83 @@
-# query_expander.py
-import requests
 import json
+import requests
 from typing import List
-import os
-from dotenv import load_dotenv
-load_dotenv()  # Load environment variables from .env file
+import time
+import threading
 
 class QueryExpander:
-    """
-    Uses Google's Gemini Flash model to expand a single user query into multiple variations
-    to improve the initial document retrieval process.
-    """
+    def __init__(self):
+        self.model_name = "phi"
+        self.ollama_url = "http://localhost:11434/api/generate"
+        self.cache = {}
+        self.cache_lock = threading.Lock()
+        self.generation_config = {
+            "temperature": 0.6,
+            "top_p": 0.8,
+            "num_predict": 80,
+            "num_ctx": 1024,
+        }
+        self._warmup()
+
+    def _warmup(self):
+        try:
+            self._generate("Test")
+        except:
+            pass
+
     def expand(self, query: str) -> List[str]:
-        """
-        Generates variations of the user's query using the Gemini API.
+        with self.cache_lock:
+            if query in self.cache:
+                return self.cache[query]
 
-        Returns:
-            A list of questions, including the original.
-        """
-        # The API key is handled by the execution environment.
-        api_key = os.getenv("GEMINI_API_KEY")
-        api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
+        prompt = f'Rewrite "{query}" in 3 different ways for search. Return JSON array: ["way1", "way2", "way3"]'
+        try:
+            response = self._generate(prompt)
+            variations = self._parse_json(response)
+            if variations:
+                result = [query] + variations
+                with self.cache_lock:
+                    self.cache[query] = result
+                return result
+        except:
+            pass
 
-        # A specific prompt designed to ask the LLM for query variations.
-        prompt = f"""
-        Based on the following user question, generate 3 additional, different ways of asking the same thing.
-        The goal is to improve document retrieval for a RAG system.
+        return [query]
 
-        Original Question: "{query}"
-        """
-
-        # Construct the payload for structured JSON output
+    def _generate(self, prompt: str) -> str:
         payload = {
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {
-                "responseMimeType": "application/json",
-                "responseSchema": {
-                    "type": "ARRAY",
-                    "description": "A list of 3 rephrased questions.",
-                    "items": {
-                        "type": "STRING"
-                    }
-                }
-            }
+            "model": self.model_name,
+            "prompt": prompt,
+            "stream": False,
+            "options": self.generation_config
         }
 
+        response = requests.post(self.ollama_url, json=payload, timeout=10)
+        if response.status_code == 200:
+            return response.json().get("response", "")
+        raise Exception(f"Ollama error: {response.status_code}")
+
+    def _parse_json(self, text: str) -> List[str]:
         try:
-            response = requests.post(
-                api_url,
-                headers={'Content-Type': 'application/json'},
-                json=payload,
-                timeout=15  # Set a reasonable timeout
-            )
-            response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
-            
-            result = response.json()
-            
-            # Safely extract the JSON text from the Gemini API response
-            if (
-                result.get("candidates") and
-                result["candidates"][0].get("content") and
-                result["candidates"][0]["content"].get("parts")
-            ):
-                json_text = result["candidates"][0]["content"]["parts"][0]["text"]
-                expanded_queries = json.loads(json_text)
+            start = text.find('[')
+            end = text.rfind(']') + 1
+            if start != -1 and end > start:
+                json_str = text[start:end]
+                result = json.loads(json_str)
+                if isinstance(result, list):
+                    return [str(item) for item in result[:3]]
+        except:
+            pass
+        return []
 
-                if isinstance(expanded_queries, list):
-                    # Add the original query to the list to ensure it's always included
-                    all_queries = [query] + expanded_queries
-                    print(f"Expanded query into: {all_queries}")
-                    return all_queries
-            else:
-                 print("Gemini API response did not have the expected structure. Using original query only.")
+    def get_cache_stats(self):
+        with self.cache_lock:
+            return {query: len(variations) for query, variations in self.cache.items()}
 
-        except requests.exceptions.RequestException as e:
-            print(f"API request failed for query expansion: {e}. Using original query only.")
-        except (json.JSONDecodeError, TypeError, KeyError, IndexError) as e:
-            print(f"Could not parse query expansion response from Gemini: {e}. Using original query only.")
-        
-        # Fallback to using only the original query if expansion fails
-        return [query]
+if __name__ == "__main__":
+    expander = QueryExpander()
+    test_query = "What are renewable energy sources?"
+    result = expander.expand(test_query)
+    print(f"Expanded: {result}")
+    result2 = expander.expand(test_query)
+    print(f"Cache result: {result2}")
+    print(f"Cache stats: {expander.get_cache_stats()}")
