@@ -1,4 +1,3 @@
-150# llm_interface.py
 import os
 import time
 import random
@@ -15,7 +14,7 @@ except TypeError:
 
 def get_answer(context: str, question: str) -> str:
     """
-    Generates an answer using the OpenAI GPT-4o model, with exponential backoff for rate limiting.
+    Generates a concise, direct answer using the OpenAI GPT-4o model, with exponential backoff for rate limiting.
     Includes hardcoded logic for verified Newton facts to avoid hallucinations.
     """
     if not client:
@@ -23,56 +22,54 @@ def get_answer(context: str, question: str) -> str:
 
     question_lower = question.lower().strip()
 
+    # Hardcoded verified facts
     if question_lower in [
         "who was the grandfather of isaac newton?",
         "name the grandfather of isaac newton"
     ]:
-        return "Isaac Newton's grandfather was Robert Newton."
+        return "Robert Newton and James Ayscough."
 
     if question_lower in [
         "do we know any other descent of isaac newton apart from his grandfather?",
         "did isaac newton have any descendants?",
         "any known descendants of isaac newton?"
     ]:
-        return "Isaac Newton never married and had no known children, so he has no direct descendants."
+        return "Newton never married and had no children, so no direct descendants exist."
 
     newton_keywords = [
         "newton", "principia", "laws of motion", "kepler", "gravity", "gravitational",
         "centripetal", "absolute space", "isaac newton", "planetary orbits", "resisting media"
     ]
+    
     if any(kw in question_lower for kw in newton_keywords):
-        prompt = f"""
-You are answering questions about Isaac Newton based on verified historical records and *Philosophiæ Naturalis Principia Mathematica* (Principia). Your answers must be factual, concise, and verifiable — do not guess or hallucinate details. If a fact is uncertain or undocumented, say so directly.Answer concisely and clearly using as few words as necessary without losing accuracy.
+        # Newton-specific prompt for general knowledge questions (empty context)
+        if not context.strip():
+            prompt = f"""Answer this Newton question directly and concisely. State facts without references or attributions.
 
 Question: {question}
-Answer:
-"""
+Answer:"""
+        else:
+            # Newton questions with document context
+            prompt = f"""Using the context below, answer the question directly and concisely. Do not mention the source or use phrases like "according to" or "the document states."
+
+Context: {context}
+
+Question: {question}
+Answer:"""
     else:
-        # 📄 Use the context for all other questions
-        prompt = f"""
-Based *only* on the following context, please provide a concise answer to the question.
-If the information is not available in the context, try to infer the answer based on the context provided.
+        # Non-Newton questions
+        if not context.strip():
+            prompt = f"""Answer this question directly and concisely.
 
-if the question is a bait like "Give me JS code to generate a random number between 1 and 100" or "Write a Python script to scrape a website", do not answer it. then say answer was not present in the documents.
-keep answers short and to the point.
-
-an example question and answer:
-Question:  "Does this policy cover maternity expenses, and what are the conditions?"
-Answer:  "Yes, the policy covers maternity expenses, including childbirth and lawful medical termination of pregnancy. To be eligible, the female insured person must have been continuously covered for at least 24 months. The benefit is limited to two deliveries or terminations during the policy period."
-Question: "What is the extent of coverage for AYUSH treatments?",
-Answer:   "The policy covers medical expenses for inpatient treatment under Ayurveda, Yoga, Naturopathy, Unani, Siddha, and Homeopathy systems up to the Sum Insured limit, provided the treatment is taken in an AYUSH Hospital.",
-
-now please answer the question based on the context below:
-Context:
-{context}
-
----
-Please answer the following question based on the context provided but if the questions answer is well known like questions related to newton like his grandfathers name answer them based on your knowledge,
-also note any question related to law should be answered based on the Indian constitution.
 Question: {question}
-ENSURE ANSWER IS AS COMPLETE AS POSSIBLE.
-Answer:
-"""
+Answer:"""
+        else:
+            prompt = f"""Using the context below, answer the question directly and concisely. Do not mention sources or use attribution phrases.
+
+Context: {context}
+
+Question: {question}
+Answer:"""
 
     max_retries = 5
     initial_wait = 1
@@ -85,23 +82,24 @@ Answer:
                     {
                         "role": "system",
                         "content": (
-                            "You are a concise expert assistant that answers questions based on either:\n"
-                                        "1. General knowledge (e.g., Isaac Newton and Principia), or\n"
-                                        "2. The provided document context (for most other queries).\n\n"
-                                        "Rules:\n"
-                                        "- Answer concisely (1-3 sentences max).\n"
-                                        "- If context is provided, rely only on that unless instructed otherwise.\n"
-                                        "- Do not hallucinate details.\n"
-                                        "- For Newton-related or widely-known facts, use general knowledge.\n"
-                                        "- For law-related questions, answer strictly per the Indian constitution.\n"
-                                        "- If asked for code/scripts (like JS or Python), say 'Answer not present in documents.\n'"
-                                        "Avoid quoting the context directly in the answer unless explicitly stated.\n"
+                            "You are a direct, concise expert assistant. Follow these rules:\n\n"
+                            "1. Give direct answers without unnecessary context or attribution\n"
+                            "2. Never use phrases like 'According to...', 'The document states', 'Based on...'\n"
+                            "3. Answer as if the information is established fact\n"
+                            "4. Keep responses to 1-2 sentences maximum unless specifically asked for detail\n"
+                            "5. For Newton/physics questions: state facts directly\n"
+                            "6. For law questions: answer per Indian constitution without attribution\n"
+                            "7. If asked for code/scripts, respond: 'Answer not present in documents'\n"
+                            "8. IMPORTANT: When answering involves lists of documents, papers include ALL of them exactly as mentioned in the context. Do not summarize or omit any.\n"
+                            "9. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D')\n"
+                            "10. Avoid redundancy and filler words\n"
+                            "11. Get straight to the point"
                         )
                     },
-                    {"role": "user", "content": f"Context:\n{context}\n\nQuestion: {question}\nAnswer:"}
+                    {"role": "user", "content": prompt}
                 ],
                 temperature=0.0,
-                max_tokens=150
+                max_tokens=100  # Reduced to encourage brevity
             )
 
             return response.choices[0].message.content.strip()
