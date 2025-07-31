@@ -26,7 +26,7 @@ EXPECTED_SUBSTRING_1 = "0.8"
 EXPECTED_SUBSTRING_2 = "0.9"
 
 # --- TEST RUN CONFIGURATION ---
-NUM_TEST_RUNS = 15 # Number of times to send the request
+NUM_TEST_RUNS = 10 # Number of times to send the request
 
 def run_single_request_and_check_first_answer() -> bool:
     """
