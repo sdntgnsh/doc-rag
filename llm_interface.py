@@ -12,7 +12,7 @@ except TypeError:
     print("OpenAI API key not found. Please set the OPENAI_API_KEY environment variable.")
     client = None
 
-def get_answer(context: str, question: str) -> str:
+def get_answer(context: str, question: str, use_gk_timeout: bool = False) -> str:
     """
     Generates a concise, direct answer using the OpenAI GPT-4o model, with exponential backoff for rate limiting.
     Includes hardcoded logic for verified Newton facts to avoid hallucinations.
@@ -43,8 +43,14 @@ def get_answer(context: str, question: str) -> str:
     
     if any(kw in question_lower for kw in newton_keywords):
         # Newton-specific prompt for general knowledge questions (empty context)
-        if not context.strip():
-            prompt = f"""Answer this Newton question directly and concisely. State facts without references or attributions.
+        if not context.strip() or use_gk_timeout:
+            if use_gk_timeout:
+                prompt = f"""Answer this Newton question using general knowledge only. Make sure you are answering directly and concisely. State facts without references or attributions about Newton and physics.
+
+Question: {question}
+Answer:"""
+            else:
+                prompt = f"""Answer this Newton question directly and concisely. Make sure you use important Keywords, semantics matter. State facts without references or attributions.
 
 Question: {question}
 Answer:"""
@@ -58,8 +64,14 @@ Question: {question}
 Answer:"""
     else:
         # Non-Newton questions
-        if not context.strip():
-            prompt = f"""Answer this question directly and concisely.
+        if not context.strip() or use_gk_timeout:
+            if use_gk_timeout:
+                prompt = f"""Answer this question using general knowledge only. Make sure you are answering directly and concisely, Make sure you use important Keywords, semantics matter. State facts without references or attributions.
+
+Question: {question}
+Answer:"""
+            else:
+                prompt = f"""Answer this question directly and concisely.
 
 Question: {question}
 Answer:"""
@@ -75,7 +87,7 @@ Answer:"""
     initial_wait = 1
     for i in range(max_retries):
         try:
-            print("calling OpenAI API to get answer...")
+            # print("calling OpenAI API to get answer...")
             response = client.chat.completions.create(
                 model="gpt-4.1",
                 messages=[
