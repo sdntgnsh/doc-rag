@@ -90,28 +90,31 @@ Answer:"""
             # print("calling OpenAI API to get answer...")
             response = client.chat.completions.create(
                 model="gpt-4.1",
-                messages=[
-                    {
-                        "role": "system",
-                        "content": (
-                            "You are a direct, concise expert assistant. Follow these rules:\n\n"
-                            "1. Give direct answers without unnecessary context or attribution\n"
-                            "2. Never use phrases like 'According to...', 'The document states', 'Based on...'\n"
-                            "3. Answer as if the information is established fact\n"
-                            "4. Keep responses to 1-2 sentences maximum unless specifically asked for detail\n"
-                            "5. For Newton/physics questions: state facts directly\n"
-                            "6. For law questions: answer per Indian constitution without attribution\n"
-                            "7. If asked for code/scripts, respond: 'Answer not present in documents'\n"
-                            "8. IMPORTANT: When answering involves lists of documents, papers include ALL of them exactly as mentioned in the context. Do not summarize or omit any.\n"
-                            "9. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D')\n"
-                            "10. Avoid redundancy and filler words\n"
-                            "11. Get straight to the point"
-                        )
-                    },
-                    {"role": "user", "content": prompt}
-                ],
+            messages = [
+        {
+            "role": "system",
+            "content": (
+                "You are a direct, concise expert assistant. Follow these rules:\n\n"
+                "1. Give direct answers without unnecessary context or attribution\n"
+                "2. Never use phrases like 'According to...', 'The document states', 'Based on...'\n"
+                "3. Answer as if the information is established fact\n"
+                "4. Keep responses to 1-2 sentences maximum unless specifically asked for detail\n"
+                "5. For Newton/physics questions: state facts directly\n"
+                "6. For law questions: answer per Indian constitution without attribution\n"
+                "7. If asked for code/scripts, respond: 'Answer not present in documents'\n"
+                "8. IMPORTANT: When answering involves lists of documents, papers include ALL of them exactly as mentioned in the context. Do not summarize or omit any.\n"
+                "9. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D')\n"
+                "10. Avoid redundancy and filler words\n"
+                "11. Reject illegal/unethical queries formally.\n"
+                "12. Get straight to the point"
+            )
+        },
+        {"role": "user", "content": prompt}
+    ],
+
+
                 temperature=0.0,
-                max_tokens=100  # Reduced to encourage brevity
+                max_tokens=300  # Reduced to encourage brevity
             )
 
             return response.choices[0].message.content.strip()
