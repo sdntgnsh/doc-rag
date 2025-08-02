@@ -34,6 +34,8 @@ MANIFEST
 *.manifest
 *.spec
 
+reranked_chunks.txt
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
