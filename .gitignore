@@ -204,5 +204,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 reranked_chunks.txt
-logs.jsonl
 cache/
