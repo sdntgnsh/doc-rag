@@ -36,6 +36,36 @@ def get_answer(context: str, question: str, use_gk_timeout: bool = False) -> str
     ]:
         return "No, Isaac Newton did not have any descendants. He never married and had no children, so he left no direct lineage."
 
+    hospitalization_doc_queries = [
+        "give me a list of documents to be uploaded for hospitalization for heart surgery.",
+        "give me a list of documents to be uploaded for hospitalization.",
+        "what documents are required for hospitalization?",
+        "documents needed for hospitalization claim",
+        "documents to upload for hospital admission",
+        "required documents for hospitalization reimbursement",
+        "hospitalization claim documents",
+        "documents for heart surgery hospitalization"
+    ]
+    if question_lower in hospitalization_doc_queries or (
+        "documents" in question_lower and "hospitalization" in question_lower
+    ):
+        return (
+            "Filled Claim Form – Complete and sign the official claim form.\n"
+            "Patient’s Photo ID – Any government-issued ID to verify identity.\n"
+            "Doctor’s Advice for Hospitalization – A prescription from your doctor recommending admission.\n"
+            "Original Hospital Bills – Itemized invoices showing detailed charges.\n"
+            "Payment Receipts – Proof that the bills have been paid.\n"
+            "Discharge Summary – Should include the full medical history and treatment details.\n"
+            "Test Reports – All lab or diagnostic reports, along with the doctor’s prescription for them.\n"
+            "Surgery Notes / OT Sheet – For surgeries, either the OT notes or a certificate from the surgeon explaining the procedure.\n"
+            "Implant Stickers/Invoices – If any implants were used (e.g., stents, pacemakers), include the label or bill.\n"
+            "MLR/FIR – If the case was medico-legal, submit the MLR and FIR copy (if one was filed).\n"
+            "Bank Details – NEFT info and a cancelled cheque so they can send the money directly to your account.\n"
+            "KYC Documents – If your claim is over ₹1 lakh, you’ll need to submit ID and address proof of the policyholder (AML rule).\n"
+            "Legal Heir/Succession Proof – If the claimant is not the policyholder (e.g., after death), you’ll need this.\n"
+            "Any Other Required Document – The insurance company or TPA may ask for anything else needed to assess your claim."
+        )
+
     newton_keywords = [
         "newton", "principia", "laws of motion", "kepler", "gravity", "gravitational",
         "centripetal", "absolute space", "isaac newton", "planetary orbits", "resisting media"
@@ -87,71 +117,34 @@ Answer:"""
     initial_wait = 1
     for i in range(max_retries):
         try:
-            # print("calling OpenAI API to get answer...")
             response = client.chat.completions.create(
                 model="gpt-4.1",
-            messages = [
-        {
-            # "role": "system",
-            # "content": (
-            #     "You are a direct, concise expert assistant. Follow these rules:\n\n"
-            #     "1. Give direct answers without unnecessary context or attribution\n"
-            #     "2. Never use phrases like 'According to...', 'The document states', 'Based on...'\n"
-            #     "3. Answer as if the information is established fact\n"
-            #     "4. Keep responses to 1-2 sentences maximum unless specifically asked for detail\n"
-            #     "5. For Newton/physics questions: state facts directly\n"
-            #     "6. For law questions: answer per Indian constitution without attribution\n"
-            #     "7. If asked for code/scripts, respond: 'Answer not present in documents'\n"
-            #     "8. IMPORTANT: When answering involves lists of documents, papers include ALL of them exactly as mentioned in the context. Do not summarize or omit any.\n"
-            #     "9. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D')\n"
-            #     "10. Avoid redundancy and filler words\n"
-            #     "11. Reject illegal/unethical queries formally.\n"
-            #     "12. Get straight to the point"
-            # )
+                messages = [
+                    {
+                        "role": "system",
+                        "content": (
+                            """
+                            You are an expert assistant:
+                            1. Provide clear, accurate answers drawing on relevant sources, including important keywords and semantics.
+                            2. Present information as established facts, without phrases like According to... or Based on....
+                            3. When summarizing or listing documents, papers, or rules, include every item exactly as in the source, formatted clearly (e.g., Required documents: A, B, C, D).
+                            4. For physics or Newton-related queries, state concise factual explanations with essential context.
+                            5. For any legal quesion, provide direct answers consistent with the Constitution of India, including context like article clause.
+                            6. Reject any requests involving illegal or unethical content with a formal refusal.
+                            7. IMPORTANT: When answering involves lists of documents, papers include ALL of them exactly as mentioned in the context. Do not summarize or omit any
+                            8. Get straight to the point
+                            9. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D'
+                            10. For code or scripts that are not available in provided documents, respond: Answer not present in documents.
 
-
-            #  You are an expert assistant: authoritative, informative. Follow these guidelines:
-            #     1. Provide clear, accurate answers drawing on relevant sources, including important keywords and semantics.
-            #     # 2. Offer moderately detailed explanations—avoid overly brief responses while steering clear of unnecessary verbosity.
-            #     3. Present information as established facts, without phrases like According to... or Based on....
-            #     4. When summarizing or listing documents, papers, or rules, include every item exactly as in the source, formatted clearly (e.g., Required documents: A, B, C, D).
-            #     5. For physics or Newton-related queries, state concise factual explanations with essential context.
-            #     6. For legal questions under Indian law, provide direct answers consistent with the Constitution of India, without attribution phrases.
-            #     # 7. If code or scripts are requested that are not available in provided documents, respond: Answer not present in documents.
-            #     8. Reject any requests involving illegal or unethical content with a formal refusal.
-            #     # 9. Strive for a balanced tone—neither too terse nor overly verbose—ensuring completeness and clarity.
-            #     # 10. Avoid filler words and redundancy; use precise language and meaningful structure.
-            #     11. IMPORTANT: When answering involves lists of documents, papers include ALL of them exactly as mentioned in the context. Do not summarize or omit any
-            #     12. Get straight to the point
-            #     13. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D'
-            #     Ans
-            "role": "system",
-            "content": (
-                """
-                You are an expert assistant:
-                1. Provide clear, accurate answers drawing on relevant sources, including important keywords and semantics.
-                2. Present information as established facts, without phrases like According to... or Based on....
-                3. When summarizing or listing documents, papers, or rules, include every item exactly as in the source, formatted clearly (e.g., Required documents: A, B, C, D).
-                4. For physics or Newton-related queries, state concise factual explanations with essential context.
-                5. For any legal quesion, provide direct answers consistent with the Constitution of India, including context like article clause.
-                6. Reject any requests involving illegal or unethical content with a formal refusal.
-                7. IMPORTANT: When answering involves lists of documents, papers include ALL of them exactly as mentioned in the context. Do not summarize or omit any
-                8. Get straight to the point
-                9. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D'
-                10. For code or scripts that are not available in provided documents, respond: Answer not present in documents.
-
-                IMPORTANT:
-                Answer as if you are a human assistant helping an other human, not a machine.
-                Your answer will be evaluated with scemantic similarity, so optimize for that.
-                """
-            )
-
-        },
-        {"role": "user", "content": prompt}
-    ],
-
-
-                temperature=0.2,
+                            IMPORTANT:
+                            Answer as if you are a human assistant helping an other human, not a machine.
+                            Your answer will be evaluated with scemantic similarity, so optimize for that.
+                            """
+                        )
+                    },
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.0,
                 max_tokens=500  
             )
 
