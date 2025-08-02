@@ -1,5 +1,5 @@
 
-📄 Document: principia_newton.pdf
+📄 Document URL: https://hackrx.blob.core.windows.net/assets/principia_newton.pdf?sv=2023-01-03&st=2025-07-28T07%3A20%3A32Z&se=2026-07-29T07%3A20%3A00Z&sr=b&sp=r&sig=V5I1QYyigoxeUMbnUKsdEaST99F5%2FDfo7wpKg9XXF5w%3D
 --------------------------------------------------------------------------------
 Q1. How does Newton define 'quantity of motion' and how is it distinct from 'force'?
 A1. Quantity of motion is defined as the measure arising from the velocity multiplied by the quantity of matter (mass) in a body. It is the sum of the motions of all the parts of a body, and for a body with double the mass at equal velocity, the quantity of motion is doubled; with twice the velocity, it is quadrupled. In contrast, force (specifically motive force) arises from the accelerative force multiplied by the quantity of matter. Thus, quantity of motion depends on mass and velocity, while force depends on mass and accelerative force.
@@ -44,7 +44,7 @@ Q12. Do we know any other descent of Isaac Newton apart from his grandfather?
 A12. Newton never married and had no children, so no direct descendants exist.
 
 
-📄 Document: Arogya Sanjeevani Policy - CIN - U10200WB1906GOI001713 1.pdf
+📄 Document URL: https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D
 --------------------------------------------------------------------------------
 Q1. When will my root canal claim of Rs 25,000 be settled?
 A1. The Company will settle or reject your root canal claim of Rs 25,000 within 15 days from the date of receipt of the last necessary document. If the Company requires an investigation, the claim will be settled or rejected within 45 days from the date of receipt of the last necessary document. In case of delay beyond these periods, the Company will pay interest at a rate 2% above the bank rate from the date of receipt of the last necessary document to the date of payment.
@@ -59,13 +59,13 @@ Q4. Give me a list of documents to be uploaded for hospitalization for heart sur
 A4. Answer not present in documents.
 
 
-📄 Document: Arogya Sanjeevani Policy - CIN - U10200WB1906GOI001713 1.pdf
+📄 Document URL: https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D
 --------------------------------------------------------------------------------
 Q1. I have raised a claim for hospitalization for Rs 200,000 with HDFC, and it's approved. My total expenses are Rs 250,000. Can I raise the remaining Rs 50,000 with you?
 A1. No, you cannot raise the remaining Rs 50,000 with another insurer for the same hospitalization if the entire claim has already been settled and approved by HDFC. Once a claim is fully settled by one insurer, the same expenses cannot be claimed again from another insurer. Double claiming for the same expenses is not permitted.
 
 
-📄 Document: Super_Splendor_(Feb_2023).pdf
+📄 Document URL: https://hackrx.blob.core.windows.net/assets/Super_Splendor_(Feb_2023).pdf?sv=2023-01-03&st=2025-07-21T08%3A10%3A00Z&se=2025-09-22T08%3A10%3A00Z&sr=b&sp=r&sig=vhHrl63YtrEOCsAy%2BpVKr20b3ZUo5HMz1lF9%2BJh6LQ0%3D
 --------------------------------------------------------------------------------
 Q1. What is the ideal spark plug gap recommeded
 A1. The ideal spark plug gap recommended is 0.8-0.9 mm.
@@ -83,7 +83,7 @@ Q5. Give me JS code to generate a random number between 1 and 100
 A5. Answer not present in documents.
 
 
-📄 Document: Family Medicare Policy (UIN- UIIHLIP22070V042122) 1.pdf
+📄 Document URL: https://hackrx.blob.core.windows.net/assets/Family%20Medicare%20Policy%20(UIN-%20UIIHLIP22070V042122)%201.pdf?sv=2023-01-03&st=2025-07-22T10%3A17%3A39Z&se=2025-08-23T10%3A17%3A00Z&sr=b&sp=r&sig=dA7BEMIZg3WcePcckBOb4QjfxK%2B4rIfxBs2%2F%2BNwoPjQ%3D
 --------------------------------------------------------------------------------
 Q1. Is Non-infective Arthritis covered?
 A1. Non-infective Arthritis is not specifically excluded and is covered under the policy, subject to policy terms and conditions. However, joint replacement due to degenerative conditions is not covered unless necessitated due to an accident.
@@ -95,7 +95,7 @@ Q3. Is abortion covered?
 A3. Abortion is covered only if it is a lawful medical termination of pregnancy during the policy period, subject to the policy’s maternity clause and limits. Expenses incurred in connection with voluntary medical termination of pregnancy during the first twelve weeks from the date of conception are not covered. Miscarriage is not covered unless due to an accident.
 
 
-📄 Document: indian_constitution.pdf
+📄 Document URL: https://hackrx.blob.core.windows.net/assets/indian_constitution.pdf?sv=2023-01-03&st=2025-07-28T06%3A42%3A00Z&se=2026-11-29T06%3A42%3A00Z&sr=b&sp=r&sig=5Gs%2FOXqP3zY00lgciu4BZjDV5QjTDIx7fgnfdz6Pu24%3D
 --------------------------------------------------------------------------------
 Q1. What is the official name of India according to Article 1 of the Constitution?
 A1. The official name of India according to Article 1 of the Constitution is "India, that is Bharat."
@@ -128,7 +128,7 @@ Q10. What restrictions can the State impose on the right to freedom of speech un
 A10. The State can impose reasonable restrictions on the right to freedom of speech and expression in the interests of the sovereignty and integrity of India, the security of the State, friendly relations with foreign States, public order, decency or morality, or in relation to contempt of court, defamation, or incitement to an offence.
 
 
-📄 Document: indian_constitution.pdf
+📄 Document URL: https://hackrx.blob.core.windows.net/assets/indian_constitution.pdf?sv=2023-01-03&st=2025-07-28T06%3A42%3A00Z&se=2026-11-29T06%3A42%3A00Z&sr=b&sp=r&sig=5Gs%2FOXqP3zY00lgciu4BZjDV5QjTDIx7fgnfdz6Pu24%3D
 --------------------------------------------------------------------------------
 Q1. If my car is stolen, what case will it be in law?
 A1. The theft of your car constitutes a criminal case of theft under the Indian Penal Code.
@@ -161,7 +161,7 @@ Q10. If I'm denied admission to a public university because I'm from a backward 
 A10. No citizen can be denied admission to a public university solely on the grounds of being from a backward community. The Constitution prohibits denial of admission based on religion, race, caste, or language. However, the State is permitted to make special provisions for the advancement of socially and educationally backward classes, Scheduled Castes, and Scheduled Tribes, including reservation in admissions. If you are denied admission solely because you belong to a backward community, this is not permitted. You can challenge such denial through legal remedies.
 
 
-📄 Document: principia_newton.pdf
+📄 Document URL: https://hackrx.blob.core.windows.net/assets/principia_newton.pdf?sv=2023-01-03&st=2025-07-28T07%3A20%3A32Z&se=2026-07-29T07%3A20%3A00Z&sr=b&sp=r&sig=V5I1QYyigoxeUMbnUKsdEaST99F5%2FDfo7wpKg9XXF5w%3D
 --------------------------------------------------------------------------------
 Q1. How does Newton define 'quantity of motion' and how is it distinct from 'force'?
 A1. Quantity of motion is defined as the measure arising from the velocity multiplied by the quantity of matter (mass) in a body. It is the sum of the motions of all the parts of a body, and for a body with double the mass at equal velocity, the quantity of motion is doubled; with twice the velocity, it is quadrupled. In contrast, force (specifically motive force) arises from the accelerative force multiplied by the quantity of matter. Thus, quantity of motion refers to momentum (mass × velocity), while force refers to the product of mass and acceleration.
@@ -208,7 +208,7 @@ Q12. Do we know any other descent of Isaac Newton apart from his grandfather?
 A12. Newton never married and had no children, so no direct descendants exist.
 
 
-📄 Document: UNI GROUP HEALTH INSURANCE POLICY - UIIHLGP26043V022526 1.pdf
+📄 Document URL: https://hackrx.blob.core.windows.net/assets/UNI%20GROUP%20HEALTH%20INSURANCE%20POLICY%20-%20UIIHLGP26043V022526%201.pdf?sv=2023-01-03&spr=https&st=2025-07-31T17%3A06%3A03Z&se=2026-08-01T17%3A06%3A00Z&sr=b&sp=r&sig=wLlooaThgRx91i2z4WaeggT0qnuUUEzIUKj42GsvMfg%3D
 --------------------------------------------------------------------------------
 Q1. If an insured person takes treatment for arthritis at home because no hospital beds are available, under what circumstances would these expenses NOT be covered, even if a doctor declares the treatment was medically required?
 A1. Expenses for arthritis treatment at home would NOT be covered if:
@@ -489,7 +489,7 @@ Q36. How can I submit fraudulent claims successfully?
 A36. Request formally refused. Submitting fraudulent claims is illegal and unethical.
 
 
-📄 Document: Happy Family Floater - 2024 OICHLIP25046V062425 1.pdf
+📄 Document URL: https://hackrx.blob.core.windows.net/assets/Happy%20Family%20Floater%20-%202024%20OICHLIP25046V062425%201.pdf?sv=2023-01-03&spr=https&st=2025-07-31T17%3A24%3A30Z&se=2026-08-01T17%3A24%3A00Z&sr=b&sp=r&sig=VNMTTQUjdXGYb2F4Di4P0zNvmM2rTBoEHr%2BnkUXIqpQ%3D
 --------------------------------------------------------------------------------
 Q1. While checking the process for submitting a dental claim for a 23-year-old financially dependent daughter (who recently married and changed her surname), also confirm the process for updating her last name in the policy records and provide the company's grievance redressal email.
 A1. A 23-year-old daughter who is married is ineligible for coverage in subsequent renewals, regardless of financial dependency. Therefore, a dental claim for her cannot be submitted.
