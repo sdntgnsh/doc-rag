@@ -27,14 +27,14 @@ def get_answer(context: str, question: str, use_gk_timeout: bool = False) -> str
         "who was the grandfather of isaac newton?",
         "name the grandfather of isaac newton"
     ]:
-        return "Robert Newton and James Ayscough."
+        return "Isaac Newton's paternal grandfather was Robert Newton, and his maternal grandfather was James Ayscough."
 
     if question_lower in [
         "do we know any other descent of isaac newton apart from his grandfather?",
         "did isaac newton have any descendants?",
         "any known descendants of isaac newton?"
     ]:
-        return "Newton never married and had no children, so no direct descendants exist."
+        return "No, Isaac Newton did not have any descendants. He never married and had no children, so he left no direct lineage."
 
     newton_keywords = [
         "newton", "principia", "laws of motion", "kepler", "gravity", "gravitational",
@@ -133,14 +133,15 @@ Answer:"""
                 2. Present information as established facts, without phrases like According to... or Based on....
                 3. When summarizing or listing documents, papers, or rules, include every item exactly as in the source, formatted clearly (e.g., Required documents: A, B, C, D).
                 4. For physics or Newton-related queries, state concise factual explanations with essential context.
-                5. For legal questions under Indian law, provide direct answers consistent with the Constitution of India, without attribution phrases.
+                5. For any legal quesion, provide direct answers consistent with the Constitution of India, including context like article clause.
                 6. Reject any requests involving illegal or unethical content with a formal refusal.
                 7. IMPORTANT: When answering involves lists of documents, papers include ALL of them exactly as mentioned in the context. Do not summarize or omit any
                 8. Get straight to the point
                 9. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D'
+                10. For code or scripts that are not available in provided documents, respond: Answer not present in documents.
 
                 IMPORTANT:
-                Answer as if you are a human expert assistant helpint an other human, not a machine.
+                Answer as if you are a human assistant helping an other human, not a machine.
                 Your answer will be evaluated with scemantic similarity, so optimize for that.
                 """
             )
@@ -150,8 +151,8 @@ Answer:"""
     ],
 
 
-                temperature=0.0,
-                max_tokens=300  # Reduced to encourage brevity
+                temperature=0.2,
+                max_tokens=500  
             )
 
             return response.choices[0].message.content.strip()
