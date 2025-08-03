@@ -5,7 +5,9 @@ import os    # For checking file existence
 # IMPORTANT: Replace 'your_input_file.jsonl' with the actual path to your JSONL file.
 # For example: input_file = r"C:\Users\YourUser\Documents\my_logs.jsonl"
 input_file = "logs.jsonl"  # <--- **CHANGE THIS TO YOUR ACTUAL INPUT FILE PATH**
-output_file = "Round 2 Submission 2.txt"
+output_file = os.path.join("Text Files", "Round 2 Submission 2.txt")
+# Ensure the output directory exists
+os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
 print(f"Attempting to process '{input_file}' and save output to '{output_file}'...")
 
