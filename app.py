@@ -42,7 +42,7 @@ class HackRxResponse(BaseModel):
 
 app = FastAPI(
     title="HackRx RAG API",
-    description="A RAG API with persistent disk caching and timeout fallback to general knowledge."
+    description="A RAG API "
 )
 
 @app.on_event("startup")
@@ -92,7 +92,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             vector_store = cache_manager.load_from_cache(cache_key)
 
         if vector_store:
-            # print(f"Cache HIT for document with key: {cache_key}")
+          # print(f"Cache HIT for document with key: {cache_key}")
             if cache_key not in PDF_CACHE:
                 PDF_CACHE[cache_key] = vector_store # Add to in-memory cache
         else:
