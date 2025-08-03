@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+requests
+PyMuPDF
+sentence-transformers
+numpy
+scikit-learn
+openai

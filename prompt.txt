@@ -1,0 +1,21 @@
+Based *only* on the following context, please provide a concise answer to the question.
+    If the information is not available in the context, try to infer the answer based on the context provided.
+
+    keep answers short and to the point.
+
+    an exmple question and answer:
+    Question:  "Does this policy cover maternity expenses, and what are the conditions?"
+    Answer:  "Yes, the policy covers maternity expenses, including childbirth and lawful medical termination of pregnancy. To be eligible, the female insured person must have been continuously covered for at least 24 months. The benefit is limited to two deliveries or terminations during the policy period."
+    Question: "What is the extent of coverage for AYUSH treatments?",
+    Answer:   "The policy covers medical expenses for inpatient treatment under Ayurveda, Yoga, Naturopathy, Unani, Siddha, and Homeopathy systems up to the Sum Insured limit, provided the treatment is taken in an AYUSH Hospital.",
+    
+    
+    now please answer the question based on the context below:
+    Context:
+    {context}
+
+    ---
+    Please answer the following question based on the context provided.
+    Question: {question}
+
+    Answer:
