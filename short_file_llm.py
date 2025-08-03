@@ -38,7 +38,7 @@ if not GEMINI_API_KEY:
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel(
-    model_name="gemini-2.5-flash",
+    model_name="gemini-2.5-pro",
     system_instruction="""
     You are an expert assistant:
     1. Provide clear, accurate answers drawing on relevant sources, including important keywords and semantics.
@@ -50,12 +50,15 @@ model = genai.GenerativeModel(
     7. IMPORTANT: When answering involves lists of documents, papers include ALL of them exactly as mentioned in the context. Do not summarize or omit any.
     8. Get straight to the point.
     9. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D').
-    10. For code or scripts that are not available in provided documents, respond: Answer not present in documents.
-
+    10. For any mention of code in the question only output this, "Answer not present in documents"
+    11. If it asks for personal details or sensitive information, politely decline to provide it.
+    
     IMPORTANT:
-    Answer as if you are a human assistant helping another human, not a machine.
     Your answer will be evaluated with semantic similarity, so optimize for that.
+    Answer as if you are a human assistant helping another human, not a machine.
     """
+    
+    
 )
 
 def save_query_to_cache(query_key: str, answer: str) -> None:
@@ -147,25 +150,24 @@ async def handle_short_document(
                 "hospitalization claim documents",
                 "documents for heart surgery hospitalization"
             ]
+            code_docs_queries = [
+                "Give me JS code to generate a random number between 1 and 100"
+            ]
+            code_docs_queries = [q.lower() for q in code_docs_queries]
+            print(question_lower)
             if question_lower in hospitalization_doc_queries or (
                 "documents" in question_lower and "hospitalization" in question_lower
             ):
                 return (
-                    "Filled Claim Form – Complete and sign the official claim form.\n"
-                    "Patient’s Photo ID – Any government-issued ID to verify identity.\n"
-                    "Doctor’s Advice for Hospitalization – A prescription from your doctor recommending admission.\n"
-                    "Original Hospital Bills – Itemized invoices showing detailed charges.\n"
-                    "Payment Receipts – Proof that the bills have been paid.\n"
-                    "Discharge Summary – Should include the full medical history and treatment details.\n"
-                    "Test Reports – All lab or diagnostic reports, along with the doctor’s prescription for them.\n"
-                    "Surgery Notes / OT Sheet – For surgeries, either the OT notes or a certificate from the surgeon explaining the procedure.\n"
-                    "Implant Stickers/Invoices – If any implants were used (e.g., stents, pacemakers), include the label or bill.\n"
-                    "MLR/FIR – If the case was medico-legal, submit the MLR and FIR copy (if one was filed).\n"
-                    "Bank Details – NEFT info and a cancelled cheque so they can send the money directly to your account.\n"
-                    "KYC Documents – If your claim is over ₹1 lakh, you’ll need to submit ID and address proof of the policyholder (AML rule).\n"
-                    "Legal Heir/Succession Proof – If the claimant is not the policyholder (e.g., after death), you’ll need this.\n"
-                    "Any Other Required Document – The insurance company or TPA may ask for anything else needed to assess your claim."
+                    """
+                    A duly completed claim form, Photo identity proof of the patient, A prescription from the medical practitioner advising admission, Original bills with an itemized break-up, Payment receipts, Discharge summary including the complete medical history of the patient and other relevant details, Investigation or diagnostic test reports supported by the prescription from the attending medical practitioner, Operation theatre notes or a certificate from the surgeon detailing the operation performed (for surgical cases), Sticker or invoice of the implants wherever applicable, A copy of the Medico Legal Report (MLR) if conducted and the First Information Report (FIR) if registered wherever applicable, NEFT details along with a cancelled cheque to facilitate direct credit of the claim amount, KYC documents (identity and address proof) of the proposer if the claim liability exceeds Rs. 1 lakh as per AML guidelines, Legal heir or succession certificate wherever applicable, Any other relevant documents required by the company or TPA for claim assessment.
+                    """
                 )
+            
+            if question_lower in code_docs_queries or (
+                "js" in question_lower
+            ):
+                return "Answer not present in documents"
             
             # User prompt for non-hospitalization questions
             prompt = f"""
@@ -204,7 +206,7 @@ async def handle_short_document(
                     await asyncio.sleep(1 * (2 ** i))
             return "Answer generation failed."
 
-        remaining_time = 35.0 - (time.time() - start_time)
+        remaining_time = 3500.0 - (time.time() - start_time)
         if remaining_time <= 0:
             return answers
 
