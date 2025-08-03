@@ -291,3 +291,16 @@
   ]
 }
 
+{
+  "timestamp": "2025-08-02T19:42:28.958820",
+  "document": "https://hackrx.blob.core.windows.net/assets/UNI%20GROUP%20HEALTH%20INSURANCE%20POLICY%20-%20UIIHLGP26043V022526%201.pdf?sv=2023-01-03&spr=https&st=2025-07-31T17%3A06%3A03Z&se=2026-08-01T17%3A06%3A00Z&sr=b&sp=r&sig=wLlooaThgRx91i2z4WaeggT0qnuUUEzIUKj42GsvMfg%3D",
+  "questions": [
+    "If an insured person takes treatment for arthritis at home because no hospital beds are available, under what circumstances would these expenses NOT be covered, even if a doctor declares the treatment was medically required?",
+    "A claim was lodged for expenses on a prosthetic device after a hip replacement surgery. The hospital bill also includes the cost of a walker and a lumbar belt post-discharge. Which items are payable?"
+  ],
+  "answers": [
+    "Expenses would NOT be covered if the treatment involves non-medical items such as ambulatory devices, walker, crutches, belts, collars, splints, slings, braces, stockings of any kind, diabetic footwear, glucometer/thermometer, or any medical equipment subsequently used at home (except when they form part of room expenses), or if the treatment is received from a provider specifically excluded by the insurer. Additionally, expenses are not covered if the treatment is for alcoholism, drug or substance abuse, or if received in health hydros, nature cure clinics, spas, or similar establishments.",
+    "Payable items:\n- Prosthetic device (if implanted during the hip replacement surgery)\n- Lumbar belt (payable for cases who have undergone surgery of lumbar spine)\n\nNot payable:\n- Walker (not payable)"
+  ]
+}
+
