@@ -5,14 +5,14 @@ from pydantic import BaseModel, HttpUrl
 from typing import List
 import time
 import asyncio
-import preprocessor
-import document_loader
-import rag_pipeline
-import cache_manager  # Import the new cache manager
+import Processing.preprocessor as preprocessor
+import Data_Loader.document_loader as document_loader
+import Pipeline.rag_pipeline as rag_pipeline
+import Core.cache_manager as cache_manager  
 import json
 from datetime import datetime
 
-import short_file_llm
+import Core.short_file_llm as short_file_llm
 
 import os
 from dotenv import load_dotenv

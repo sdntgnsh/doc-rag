@@ -1,8 +1,8 @@
 # preprocessor.py
 import json
-import document_loader
-import rag_pipeline
-import cache_manager  # Import the new cache manager
+import Data_Loader.document_loader as document_loader
+import Pipeline.rag_pipeline as rag_pipeline
+import Core.cache_manager as cache_manager  # Import the new cache manager
 from typing import Dict, Tuple
 
 def initialize_cache_from_json(file_path: str) -> Dict[Tuple[int, str], object]:
