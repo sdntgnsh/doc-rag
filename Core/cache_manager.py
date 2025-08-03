@@ -1,9 +1,9 @@
-# cache_manager.py
 import os
 import pickle
 from typing import Any, Tuple
 
-CACHE_DIR = "pdf_cache"
+# Place cache directory in parent directory
+CACHE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "pdf_cache")
 
 def _get_cache_filepath(key: Tuple[int, str]) -> str:
     """Creates a safe filename from the cache key."""
