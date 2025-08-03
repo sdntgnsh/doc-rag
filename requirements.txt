@@ -6,3 +6,4 @@ sentence-transformers
 numpy
 scikit-learn
 openai
+google-generativeai
