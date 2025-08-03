@@ -4,6 +4,12 @@ import requests
 import io
 from typing import List, Tuple
 
+
+def get_pdf_page_count(pdf_content: bytes) -> int:    
+    """Returns the number of pages in a PDF document."""
+    doc = fitz.open(stream=io.BytesIO(pdf_content), filetype="pdf")
+    return doc.page_count
+
 def _get_gdrive_download_url(url: str) -> str:
     if "drive.google.com" in url and "/view" in url:
         try:

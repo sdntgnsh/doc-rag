@@ -12,6 +12,8 @@ import cache_manager  # Import the new cache manager
 import json
 from datetime import datetime
 
+import short_file_llm
+
 import os
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
@@ -58,6 +60,8 @@ def on_startup():
 )
 async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
     # print(f"🚀 Received request with {len(request.questions)} questions")
+
+   
     start_time = time.time()
     answers = ["Processing timed out for this question."] * len(request.questions)
     doc_url = str(request.documents)
@@ -67,6 +71,16 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
         pdf_content = await asyncio.to_thread(document_loader.download_pdf_content, doc_url)
         if not pdf_content:
             raise HTTPException(status_code=400, detail="Could not download document.")
+        
+        page_count = await asyncio.to_thread(document_loader.get_pdf_page_count, pdf_content)
+        if page_count < 70:
+            # print(f"📄 Document has {page_count} pages (<70). Bypassing RAG pipeline.")
+            answers = await short_file_llm.handle_short_document(request.questions, doc_url)
+            log_query_and_answers(doc_url, request.questions, answers)
+            return HackRxResponse(answers=answers)
+        # --- END OF BLOCK ---
+
+        cache_key = document_loader.get_cache_key_from_content(pdf_content)
 
         cache_key = document_loader.get_cache_key_from_content(pdf_content)
         
