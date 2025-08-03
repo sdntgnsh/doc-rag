@@ -75,7 +75,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
         page_count = await asyncio.to_thread(document_loader.get_pdf_page_count, pdf_content)
         if page_count < 70:
             # print(f"📄 Document has {page_count} pages (<70). Bypassing RAG pipeline.")
-            answers = await short_file_llm.handle_short_document(request.questions, doc_url)
+            answers = await short_file_llm.handle_short_document(request.questions, doc_url, PDF_CACHE)
             log_query_and_answers(doc_url, request.questions, answers)
             return HackRxResponse(answers=answers)
         # --- END OF BLOCK ---
