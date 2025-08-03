@@ -1,47 +1,4 @@
 
-📄 Document URL: https://hackrx.blob.core.windows.net/assets/principia_newton.pdf?sv=2023-01-03&st=2025-07-28T07%3A20%3A32Z&se=2026-07-29T07%3A20%3A00Z&sr=b&sp=r&sig=V5I1QYyigoxeUMbnUKsdEaST99F5%2FDfo7wpKg9XXF5w%3D
---------------------------------------------------------------------------------
-Q1. How does Newton define 'quantity of motion' and how is it distinct from 'force'?
-A1. Quantity of motion is defined as the measure arising from the velocity multiplied by the quantity of matter (mass) in a body. It is the sum of the motions of all the parts of a body, and for a body with double the mass at equal velocity, the quantity of motion is doubled; with twice the velocity, it is quadrupled. In contrast, force (specifically motive force) arises from the accelerative force multiplied by the quantity of matter. Thus, quantity of motion depends on mass and velocity, while force depends on mass and accelerative force.
-
-Q2. According to Newton, what are the three laws of motion and how do they apply in celestial mechanics?
-A2. Newton’s three laws of motion are:
-
-1. First Law (Law of Inertia): An object remains at rest or in uniform motion in a straight line unless acted upon by an external force.
-2. Second Law (Law of Acceleration): The force acting on an object is equal to the mass of the object multiplied by its acceleration (F = ma).
-3. Third Law (Law of Action and Reaction): For every action, there is an equal and opposite reaction.
-
-In celestial mechanics, these laws explain planetary motion, orbital dynamics, and gravitational interactions. The first law describes how planets move in stable orbits unless influenced by external forces. The second law quantifies the effect of gravitational force on planetary acceleration. The third law governs mutual gravitational attraction between celestial bodies, ensuring that forces between them are equal and opposite, maintaining orbital stability.
-
-Q3. How does Newton derive Kepler's Second Law (equal areas in equal times) from his laws of motion and gravitation?
-A3. Newton derives Kepler's Second Law (equal areas in equal times) using his laws of motion and universal gravitation by demonstrating that a planet orbiting the Sun experiences a central force directed toward the Sun. This central force produces zero torque about the Sun, ensuring conservation of angular momentum. As a result, the line joining the planet and the Sun sweeps out equal areas in equal intervals of time. This geometric consequence of angular momentum conservation directly yields Kepler's Second Law.
-
-Q4. How does Newton demonstrate that gravity is inversely proportional to the square of the distance between two masses?
-A4. Newton demonstrates that gravity is inversely proportional to the square of the distance between two masses by showing that the force of gravity towards each particle of a body is inversely as the square of the distance from that particle. When considering two spheres with similar matter distributed equidistantly from their centers, the gravitational force between them is inversely as the square of the distance between their centers. This relationship holds for the total gravitational force, which is compounded from the forces towards all parts of a mass, each following the inverse square law. Newton further supports this by relating the periodic times of orbiting bodies (such as moons or planets) to their distances, demonstrating that the centripetal forces required for their orbits are also inversely proportional to the square of their distances from the central body.
-
-Q5. What is Newton's argument for why gravitational force must act on all masses universally?
-A5. Gravitational force must act on all masses universally because experiments and astronomical observations show that all bodies gravitate towards each other in proportion to the quantity of matter they contain. The moon gravitates towards the earth, the sea towards the moon, all planets towards one another, and comets towards the sun. This mutual gravitation applies to every particle of matter, with the force between two bodies being proportional to their masses and inversely proportional to the square of the distance between their centers. The universality of this principle is supported by the consistent behavior of gravity across all observed bodies, indicating that every particle of matter is endowed with a principle of mutual gravitation.
-
-Q6. How does Newton explain the perturbation of planetary orbits due to other planets?
-A6. Newton explains the perturbation of planetary orbits as the result of gravitational forces exerted by other planets. Each planet experiences not only the primary gravitational attraction from the Sun but also additional gravitational influences from neighboring planets. These mutual gravitational interactions cause deviations—perturbations—from the ideal elliptical orbits predicted by Kepler’s laws, leading to variations in orbital elements such as eccentricity, inclination, and orientation over time.
-
-Q7. What mathematical tools did Newton use in Principia that were precursors to calculus, and why didn't he use standard calculus notation?
-A7. Newton used geometric methods and the concept of fluxions—his version of the calculus of rates of change—as mathematical tools in Principia. He did not use standard calculus notation because he preferred the rigor and style of classical geometry, admired the ancient mathematicians' methods, and was reluctant to engage in disputes over mathematical priority and notation.
-
-Q8. How does Newton use the concept of centripetal force to explain orbital motion?
-A8. Newton explains orbital motion by stating that a centripetal force acts continuously on a body moving in a curved path, such as a planet orbiting the Sun. This force is always directed toward the center of the orbit, causing the body to accelerate toward that center and maintain its curved trajectory. In planetary motion, gravity provides the necessary centripetal force, ensuring the planet remains in orbit rather than moving in a straight line.
-
-Q9. How does Newton handle motion in resisting media, such as air or fluids?
-A9. Newton explains that the resistance experienced by bodies moving in fluids is nearly proportional to the density of the medium and the square of the velocity. He distinguishes between different types of resistance—arising from the inactivity of the fluid, the tenacity of its parts, or friction. In sufficiently fluid media like air, water, and certain oils, resistance is primarily determined by density and velocity. More tenacious fluids of equal density resist more than less viscous ones. Newton also provides methods to calculate the resistance for various shapes and confirms his theory through experiments, such as those involving pendulums.
-
-Q10. In what way does Newton's notion of absolute space and time differ from relative motion, and how does it support his laws?
-A10. Newton's notion of absolute space and time asserts that space and time exist independently and uniformly, providing a fixed, unchanging framework. Absolute space is the immovable reference against which all motion is measured, while absolute time flows uniformly regardless of external factors. Relative motion, in contrast, is measured only with respect to other objects and lacks a universal reference. Newton's laws, especially the first law (inertia) and the second law (F=ma), require absolute space and time to define true motion and acceleration, ensuring that forces and motions are not dependent on arbitrary or changing frames of reference. This distinction allows for objective, universal application of his laws.
-
-Q11. Who was the grandfather of Isaac Newton?
-A11. Robert Newton and James Ayscough.
-
-Q12. Do we know any other descent of Isaac Newton apart from his grandfather?
-A12. Newton never married and had no children, so no direct descendants exist.
 
 
 📄 Document URL: https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D
