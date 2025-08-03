@@ -1,8 +1,16 @@
 import os
 import pickle
+from Config import PROJECT_ROOT  # Ensure this is imported from the correct module
 
-def search_query_in_cache(query, cache_dir='./cache'):
+CACHE_DIR = os.path.join(PROJECT_ROOT, "pdf_cache")
+
+def search_query_in_cache(query, cache_dir=CACHE_DIR):
     results = []
+    
+    if not os.path.exists(cache_dir):
+        print(f"[WARN] Cache directory does not exist: {cache_dir}")
+        return results
+    
     for filename in os.listdir(cache_dir):
         if filename.endswith('.pkl'):
             filepath = os.path.join(cache_dir, filename)

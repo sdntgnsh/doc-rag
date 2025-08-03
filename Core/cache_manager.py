@@ -1,9 +1,10 @@
 # cache_manager.py
 import os
 import pickle
+from Config import PROJECT_ROOT  # Ensure this is imported from the correct module
 from typing import Any, Tuple
 
-CACHE_DIR = "pdf_cache"
+CACHE_DIR = os.path.join(PROJECT_ROOT, "pdf_cache")
 
 def _get_cache_filepath(key: Tuple[int, str]) -> str:
     """Creates a safe filename from the cache key."""

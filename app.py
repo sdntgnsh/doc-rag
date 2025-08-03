@@ -4,6 +4,7 @@ from fastapi.security import HTTPBearer
 from pydantic import BaseModel, HttpUrl
 from typing import List
 import time
+import os
 import asyncio
 import Processing.preprocessor as preprocessor
 import Data_Loader.document_loader as document_loader
@@ -17,6 +18,7 @@ import Core.short_file_llm as short_file_llm
 import os
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
+
 
 # --- Global In-Memory Cache (populated at startup) ---
 PDF_CACHE = {}

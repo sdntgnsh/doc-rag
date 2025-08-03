@@ -15,6 +15,8 @@ from dotenv import load_dotenv
 import logging
 from datetime import datetime
 from random import uniform
+from Config import PROJECT_ROOT
+
 
 # Configure logging
 logging.basicConfig(
@@ -22,7 +24,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.StreamHandler(),
-        logging.FileHandler("short_file_llm.log")
+        logging.FileHandler(os.path.join(PROJECT_ROOT, "short_file_llm.log"))
     ]
 )
 logger = logging.getLogger(__name__)
@@ -60,8 +62,9 @@ model = genai.GenerativeModel(
 
 def save_query_to_cache(query_key: str, answer: str) -> None:
     try:
-        os.makedirs("cache", exist_ok=True)
-        filepath = os.path.join("cache", f"{query_key}.pkl")
+        cache_dir = os.path.join(PROJECT_ROOT, "cache")
+        os.makedirs(cache_dir, exist_ok=True)
+        filepath = os.path.join(cache_dir, f"{query_key}.pkl")
         with open(filepath, "wb") as f:
             pickle.dump(answer, f)
     except Exception as e:
@@ -69,7 +72,7 @@ def save_query_to_cache(query_key: str, answer: str) -> None:
 
 def load_query_from_cache(query_key: str) -> str:
     try:
-        filepath = os.path.join("cache", f"{query_key}.pkl")
+        filepath = os.path.join(PROJECT_ROOT, "cache", f"{query_key}.pkl")
         if os.path.exists(filepath):
             with open(filepath, "rb") as f:
                 return pickle.load(f)
@@ -77,7 +80,7 @@ def load_query_from_cache(query_key: str) -> str:
     except Exception as e:
         logger.error(f"Failed to load query from cache with key {query_key}: {e}")
         return None
-
+    
 async def handle_short_document(
     questions: List[str],
     doc_url: str,

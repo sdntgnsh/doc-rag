@@ -1,11 +1,14 @@
-# preprocessor.py
 import json
+import os
 import Data_Loader.document_loader as document_loader
 import Pipeline.rag_pipeline as rag_pipeline
-import Core.cache_manager as cache_manager  # Import the new cache manager
+import Core.cache_manager as cache_manager
 from typing import Dict, Tuple
+from Config import PROJECT_ROOT
 
-def initialize_cache_from_json(file_path: str) -> Dict[Tuple[int, str], object]:
+json_path = os.path.join(PROJECT_ROOT, "query.json")
+
+def initialize_cache_from_json(file_path: str = json_path) -> Dict[Tuple[int, str], object]:
     """
     Reads a JSON file, checks for a disk cache first, and processes documents if not cached.
     """
@@ -27,20 +30,21 @@ def initialize_cache_from_json(file_path: str) -> Dict[Tuple[int, str], object]:
             continue
 
         cache_key = document_loader.get_cache_key_from_content(pdf_content)
-        
-        # Try to load from disk first
+
         vector_store = cache_manager.load_from_cache(cache_key)
 
         if not vector_store:
-            # If not on disk, process it
             print(f"Not found in disk cache. Processing document with key: {cache_key}")
             vector_store = rag_pipeline.setup_pipeline_from_content(pdf_content)
             if vector_store:
-                # Save the new object to disk for the next run
                 cache_manager.save_to_cache(cache_key, vector_store)
-        
+
         if vector_store:
-            # Add to the in-memory cache for the current session
             in_memory_cache[cache_key] = vector_store
             
     return in_memory_cache
+
+
+if __name__ == "__main__":
+    initialize_cache_from_json()  # uses default json_path
+    print("Cache initialization complete.")
