@@ -6,7 +6,7 @@ import json
 import pickle
 from typing import List, Dict
 import tempfile
-import RAG.document_loader
+import RAG.document_loader as document_loader
 import Cache_Code.cache_manager # Assumed to contain save_to_cache and load_from_cache
 from fastapi import HTTPException
 import google.generativeai as genai
@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 import logging
 from datetime import datetime
 from random import uniform
-
+from utils import clean_markdown  # Assuming this is a utility function for cleaning markdown
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -38,7 +38,7 @@ if not GEMINI_API_KEY:
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel(
-    model_name="gemini-2.5-flash",
+    model_name="gemini-2.5-pro",
     system_instruction="""
     You are an expert assistant:
     1. Provide clear, accurate answers drawing on relevant sources, including important keywords and semantics.
@@ -54,8 +54,8 @@ model = genai.GenerativeModel(
     11. If it asks for personal details or sensitive information, politely decline to provide it.
     
     IMPORTANT:
-    Your answer will be evaluated with semantic similarity, so optimize for that.
     Answer as if you are a human assistant helping another human, not a machine.
+    Be very careful about subtle answers that might not be directly in the pdf but are implied.
     """
     
     
@@ -238,5 +238,6 @@ async def handle_short_document(
         completed_count = sum(1 for a in answers if not a.startswith(("Processing timed out", "Error:", "Model", "Answer generation failed")))
         logger.info(f"Request finished in {total_time:.2f}s with {completed_count}/{len(answers)} successful answers.")
         # Log to file, etc.
-
+    for ans in answers:
+        ans = clean_markdown(ans)
     return answers

@@ -12,6 +12,8 @@ import Cache_Code.cache_manager as cache_manager
 import json
 import random
 
+from utils import clean_markdown  # Assuming this is a utility function for cleaning markdown
+
 from datetime import datetime
 
 import LLM.short_file_llm as short_file_llm
@@ -82,8 +84,12 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
         if page_count < PAGE_LIMIT and page_count not in EXCEPTIONS:
             # print(f"📄 Document has {page_count} pages (<70). Bypassing RAG pipeline.")
             answers = await short_file_llm.handle_short_document(request.questions, doc_url, PDF_CACHE)
+
+            
+
+            answers = [clean_markdown(ans) for ans in answers]
             log_query_and_answers(doc_url, request.questions, answers)
-            target_delay = random.uniform(11.0, 23.0)
+            target_delay = random.uniform(17.0, 23.0)
             elapsed_time = time.time() - start_time
             if elapsed_time < target_delay:
                 await asyncio.sleep(target_delay - elapsed_time)
@@ -170,14 +176,14 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
     # print(f"Request finished in {total_time:.2f}s with {completed_count}/{len(answers)} answers.")
     
     # Log every query and its answers
-    log_query_and_answers(doc_url, request.questions, answers)
 
-    target_delay = random.uniform(13.0, 23.0)
+    target_delay = random.uniform(17.0, 23.0)
     elapsed_time = time.time() - start_time
     if elapsed_time < target_delay:
         await asyncio.sleep(target_delay - elapsed_time)
 
-
+    answers = [clean_markdown(ans) for ans in answers]
+    log_query_and_answers(doc_url, request.questions, answers)
     return HackRxResponse(answers=answers)
 
 def log_query_and_answers(doc_url, questions, answers):

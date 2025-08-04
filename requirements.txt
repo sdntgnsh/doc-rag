@@ -7,3 +7,5 @@ numpy
 scikit-learn
 openai
 google-generativeai
+markdown
+beautifulsoup4
