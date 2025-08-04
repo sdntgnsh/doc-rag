@@ -1,0 +1,3 @@
+{
+	"python.analysis.extraPaths": ["./RAG", "./Cache_Code"]
+}

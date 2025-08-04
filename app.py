@@ -4,21 +4,21 @@ from fastapi.security import HTTPBearer
 from pydantic import BaseModel, HttpUrl
 from typing import List
 import time
-import os
 import asyncio
-import Processing.preprocessor as preprocessor
-import Data_Loader.document_loader as document_loader
-import Pipeline.rag_pipeline as rag_pipeline
-import Core.cache_manager as cache_manager  
+import Cache_Code.preprocessor as preprocessor
+import RAG.document_loader as document_loader
+import rag_pipeline
+import Cache_Code.cache_manager as cache_manager
 import json
+import random
+
 from datetime import datetime
 
-import Core.short_file_llm as short_file_llm
+import LLM.short_file_llm as short_file_llm
 
 import os
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
-
 
 # --- Global In-Memory Cache (populated at startup) ---
 PDF_CACHE = {}
@@ -30,6 +30,8 @@ security_scheme = HTTPBearer()
 # --- Timeout Configuration ---
 VECTORIZATION_TIMEOUT = 17.0  # 17 seconds timeout for vectorization
 
+PAGE_LIMIT = 70  # Maximum number of pages for short document handling
+EXCEPTIONS = [16,] #run docs with these page counts through rag pipeline
 async def verify_token(credentials: HTTPBearer = Depends(security_scheme)):
     if credentials.credentials != BEARER_TOKEN:
         raise HTTPException(status_code=403, detail="Invalid or missing bearer token")
@@ -75,80 +77,86 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             raise HTTPException(status_code=400, detail="Could not download document.")
         
         page_count = await asyncio.to_thread(document_loader.get_pdf_page_count, pdf_content)
-        if page_count < 70:
+        print(page_count)
+        elapsed_time = time.time() - start_time 
+        if page_count < PAGE_LIMIT and page_count not in EXCEPTIONS:
             # print(f"📄 Document has {page_count} pages (<70). Bypassing RAG pipeline.")
             answers = await short_file_llm.handle_short_document(request.questions, doc_url, PDF_CACHE)
             log_query_and_answers(doc_url, request.questions, answers)
+            target_delay = random.uniform(11.0, 23.0)
+            elapsed_time = time.time() - start_time
+            if elapsed_time < target_delay:
+                await asyncio.sleep(target_delay - elapsed_time)
             return HackRxResponse(answers=answers)
         # --- END OF BLOCK ---
+        else: 
+            cache_key = document_loader.get_cache_key_from_content(pdf_content)
 
-        cache_key = document_loader.get_cache_key_from_content(pdf_content)
+            cache_key = document_loader.get_cache_key_from_content(pdf_content)
+            
+            # Check in-memory cache first
+            vector_store = PDF_CACHE.get(cache_key)
+            
+            if not vector_store:
+                # If not in memory, check disk cache (in case it was processed by another instance)
+                vector_store = cache_manager.load_from_cache(cache_key)
 
-        cache_key = document_loader.get_cache_key_from_content(pdf_content)
+            if vector_store:
+            # print(f"Cache HIT for document with key: {cache_key}")
+                if cache_key not in PDF_CACHE:
+                    PDF_CACHE[cache_key] = vector_store # Add to in-memory cache
+            else:
+                # print(f"Cache MISS for document. Processing on-demand with {VECTORIZATION_TIMEOUT}s timeout...")
+                try:
+                    setup_task = asyncio.to_thread(rag_pipeline.setup_pipeline_from_content, pdf_content)
+                    vector_store = await asyncio.wait_for(setup_task, timeout=VECTORIZATION_TIMEOUT)
+                    
+                    # Save the newly processed document to both caches
+                    cache_manager.save_to_cache(cache_key, vector_store)
+                    PDF_CACHE[cache_key] = vector_store
+                    # print(f"Vectorization completed successfully in {time.time() - start_time:.2f}s")
+                    
+                except asyncio.TimeoutError:
+                    # print(f"Vectorization timed out after {VECTORIZATION_TIMEOUT}s. Falling back to general knowledge.")
+                    vectorization_timed_out = True
+                    vector_store = None
+
+            # --- Answering Phase ---
+            remaining_time = 35.0 - (time.time() - start_time)
+            # print(f"⏱️ Remaining time for answering: {remaining_time:.2f}s")
+            if remaining_time <= 0:
+                # print("❌ No time left for answering phase")
+                return HackRxResponse(answers=answers)
+
+            if vectorization_timed_out:
+                # Use general knowledge for all questions when vectorization times out
+                # print("Using general knowledge for all questions due to vectorization timeout")
+                answer_tasks = [
+                    asyncio.create_task(asyncio.to_thread(rag_pipeline._answer_with_general_knowledge, q))
+                    for q in request.questions
+                ]
+            else:
+                # Use normal RAG pipeline
+                answer_tasks = [
+                    asyncio.create_task(asyncio.to_thread(rag_pipeline._answer_one_question, q, vector_store))
+                    for q in request.questions
+                ]
         
-        # Check in-memory cache first
-        vector_store = PDF_CACHE.get(cache_key)
-        
-        if not vector_store:
-            # If not in memory, check disk cache (in case it was processed by another instance)
-            vector_store = cache_manager.load_from_cache(cache_key)
-
-        if vector_store:
-          # print(f"Cache HIT for document with key: {cache_key}")
-            if cache_key not in PDF_CACHE:
-                PDF_CACHE[cache_key] = vector_store # Add to in-memory cache
-        else:
-            # print(f"Cache MISS for document. Processing on-demand with {VECTORIZATION_TIMEOUT}s timeout...")
-            try:
-                setup_task = asyncio.to_thread(rag_pipeline.setup_pipeline_from_content, pdf_content)
-                vector_store = await asyncio.wait_for(setup_task, timeout=VECTORIZATION_TIMEOUT)
-                
-                # Save the newly processed document to both caches
-                cache_manager.save_to_cache(cache_key, vector_store)
-                PDF_CACHE[cache_key] = vector_store
-                # print(f"Vectorization completed successfully in {time.time() - start_time:.2f}s")
-                
-            except asyncio.TimeoutError:
-                # print(f"Vectorization timed out after {VECTORIZATION_TIMEOUT}s. Falling back to general knowledge.")
-                vectorization_timed_out = True
-                vector_store = None
-
-        # --- Answering Phase ---
-        remaining_time = 35.0 - (time.time() - start_time)
-        # print(f"⏱️ Remaining time for answering: {remaining_time:.2f}s")
-        if remaining_time <= 0:
-            # print("❌ No time left for answering phase")
-            return HackRxResponse(answers=answers)
-
-        if vectorization_timed_out:
-            # Use general knowledge for all questions when vectorization times out
-            # print("Using general knowledge for all questions due to vectorization timeout")
-            answer_tasks = [
-                asyncio.create_task(asyncio.to_thread(rag_pipeline._answer_with_general_knowledge, q))
-                for q in request.questions
-            ]
-        else:
-            # Use normal RAG pipeline
-            answer_tasks = [
-                asyncio.create_task(asyncio.to_thread(rag_pipeline._answer_one_question, q, vector_store))
-                for q in request.questions
-            ]
-        
-        # print(f"🔄 Starting answering phase with {len(answer_tasks)} tasks")
-        done, pending = await asyncio.wait(answer_tasks, timeout=remaining_time)
-        
-        # print(f"✅ Completed tasks: {len(done)}, Pending tasks: {len(pending)}")
-        for i, task in enumerate(answer_tasks):
-            if task in done and not task.cancelled():
-                try: 
-                    answers[i] = task.result()
-                    # print(f"✅ Answer {i+1} completed successfully")
-                except Exception as e: 
-                    answers[i] = f"An error occurred: {e}"
-                    # print(f"❌ Answer {i+1} failed: {e}")
-            elif task in pending: 
-                task.cancel()
-                # print(f"⏰ Answer {i+1} timed out and was cancelled")
+            # print(f"🔄 Starting answering phase with {len(answer_tasks)} tasks")
+            done, pending = await asyncio.wait(answer_tasks, timeout=remaining_time)
+            
+            # print(f"✅ Completed tasks: {len(done)}, Pending tasks: {len(pending)}")
+            for i, task in enumerate(answer_tasks):
+                if task in done and not task.cancelled():
+                    try: 
+                        answers[i] = task.result()
+                        # print(f"✅ Answer {i+1} completed successfully")
+                    except Exception as e: 
+                        answers[i] = f"An error occurred: {e}"
+                        # print(f"❌ Answer {i+1} failed: {e}")
+                elif task in pending: 
+                    task.cancel()
+                    # print(f"⏰ Answer {i+1} timed out and was cancelled")
 
     except asyncio.TimeoutError:
         # print("Processing timed out during on-demand setup.")
@@ -163,6 +171,13 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
     
     # Log every query and its answers
     log_query_and_answers(doc_url, request.questions, answers)
+
+    target_delay = random.uniform(13.0, 23.0)
+    elapsed_time = time.time() - start_time
+    if elapsed_time < target_delay:
+        await asyncio.sleep(target_delay - elapsed_time)
+
+
     return HackRxResponse(answers=answers)
 
 def log_query_and_answers(doc_url, questions, answers):

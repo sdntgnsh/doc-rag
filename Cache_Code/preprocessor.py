@@ -1,8 +1,8 @@
 import json
 import os
-import Data_Loader.document_loader as document_loader
-import Pipeline.rag_pipeline as rag_pipeline
-import Core.cache_manager as cache_manager
+import RAG.document_loader as document_loader
+import rag_pipeline as rag_pipeline
+import Cache_Code.cache_manager as cache_manager
 from typing import Dict, Tuple
 from Config import PROJECT_ROOT
 

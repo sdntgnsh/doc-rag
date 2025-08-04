@@ -1,9 +1,9 @@
-import Data_Loader.document_loader as document_loader
-import Processing.text_processor as text_processor
-import Core.llm_interface as llm_interface
-from Vector_Store.vector_store import InMemoryVectorStore
-from Core.reranker import Reranker
-from Core.query_expander import QueryExpander
+import RAG.document_loader as document_loader
+import RAG.text_processor as text_processor
+import LLM.llm_interface as llm_interface
+from RAG.vector_store import InMemoryVectorStore
+from RAG.reranker import Reranker
+from RAG.query_expander import QueryExpander
 from typing import List, Set
 import hashlib
 import pickle
