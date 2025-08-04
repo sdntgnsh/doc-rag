@@ -4,6 +4,8 @@ import random
 from openai import OpenAI, RateLimitError
 import dotenv
 
+from utils import clean_markdown
+
 dotenv.load_dotenv()
 
 try:
