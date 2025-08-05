@@ -111,7 +111,6 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers =  ["Answer reached docx if statement but failed later"] * len(request.questions)
             answers = await docx_handler.handle_docx(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
-            answers =  ["Answer reached ppt if statement but failed later"] * len(request.questions)
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         
