@@ -94,7 +94,7 @@ async def handle_docx(questions: List[str], doc_url: str) -> List[str]:
         return ["Error: Failed to extract content from DOCX."] * len(questions)
 
     async def answer_question(question: str) -> str:
-        query_key = f"query_{hashlib.sha256((question + cache_key).encode()).hexdigest()}"
+        query_key = f"docx_answer_{hashlib.sha256((question + cache_key).encode()).hexdigest()}"
         cached = load_query_from_cache(query_key)
         if cached:
             logger.info(f"Cache HIT for question: {question}")
