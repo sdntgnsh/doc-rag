@@ -1,0 +1,220 @@
+[
+    {
+  "timestamp": "2025-07-30T09:20:01.804701",
+  "document": "https://hackrx.blob.core.windows.net/assets/principia_newton.pdf?sv=2023-01-03&st=2025-07-28T07%3A20%3A32Z&se=2026-07-29T07%3A20%3A00Z&sr=b&sp=r&sig=V5I1QYyigoxeUMbnUKsdEaST99F5%2FDfo7wpKg9XXF5w%3D",
+  "questions": [
+    "How does Newton define 'quantity of motion' and how is it distinct from 'force'?",
+    "According to Newton, what are the three laws of motion and how do they apply in celestial mechanics?",
+    "How does Newton derive Kepler's Second Law (equal areas in equal times) from his laws of motion and gravitation?",
+    "How does Newton demonstrate that gravity is inversely proportional to the square of the distance between two masses?",
+    "What is Newton's argument for why gravitational force must act on all masses universally?",
+    "How does Newton explain the perturbation of planetary orbits due to other planets?",
+    "What mathematical tools did Newton use in Principia that were precursors to calculus, and why didn't he use standard calculus notation?",
+    "How does Newton use the concept of centripetal force to explain orbital motion?",
+    "How does Newton handle motion in resisting media, such as air or fluids?",
+    "In what way does Newton's notion of absolute space and time differ from relative motion, and how does it support his laws?",
+    "Who was the grandfather of Isaac Newton?",
+    "Do we know any other descent of Isaac Newton apart from his grandfather?"
+  ],
+  "answers": [
+    "In the Principia, Newton defines \"quantity of motion\" as the product of a body's mass and its velocity (momentum). It is distinct from \"force,\" which Newton defines as an action that changes a body's state of motion (i.e., changes its quantity of motion). (Principia, Book I, Definitions I & II)",
+    "According to Newton in the *Principia*:\n\n1. **First Law (Inertia):** A body remains at rest or in uniform motion in a straight line unless acted upon by a force.\n2. **Second Law (F=ma):** The change of motion (momentum) is proportional to the applied force and occurs in the direction of the force.\n3. **Third Law (Action-Reaction):** For every action, there is an equal and opposite reaction.\n\n**Application in celestial mechanics:**  \nNewton used these laws to explain planetary motion, showing that planets move in ellipses due to the gravitational force (an application of the second law), and that mutual gravitational attraction (third law) governs the motions of celestial bodies. The laws underpin his derivation of Kepler’s laws and the universal law of gravitation.",
+    "Newton derives Kepler's Second Law by showing that a planet moving under a central force (like gravity) sweeps out equal areas in equal times because the force acts along the line joining the planet and the Sun. This means the planet’s angular momentum is conserved (Principia, Book 1, Proposition 1, Corollary 1). Thus, the area law follows directly from Newton’s laws of motion.",
+    "Newton demonstrates the inverse-square law of gravity in Book I, Proposition 11 and Book III, Proposition 7 of the *Principia*. He shows that the observed planetary motions (Kepler’s laws), especially the elliptical orbits and the area law, require a force directed toward the Sun that decreases with the square of the distance. He mathematically proves that only an inverse-square force produces such orbits, thus establishing gravity’s proportionality to 1/r².",
+    "Newton argued that gravitational force must act on all masses universally because observations show that all bodies, regardless of composition, fall at the same rate and celestial motions (e.g., planets, moons) are governed by the same laws. In *Principia* (Book 3, Proposition 6, Corollary 2), he states that gravity \"pertains to all bodies universally\" and that this universality is confirmed by experiments and astronomical phenomena.",
+    "Newton explains planetary perturbations as resulting from the mutual gravitational attractions between planets. In *Principia* (Book 1, Book 3), he shows that these additional forces cause deviations from perfect elliptical orbits, leading to irregularities such as changes in orbital speed and position. He analyzes these effects using his law of universal gravitation and provides mathematical methods for approximating their influence.",
+    "In Principia, Newton used geometric methods—limits, ratios of vanishing quantities, and \"fluxions\" (his term for rates of change)—as precursors to calculus. He avoided standard calculus notation because it was not yet formalized or widely accepted; geometric proofs were considered more rigorous and traditional at the time.",
+    "Newton explains orbital motion by showing that a centripetal force, directed toward a central body (like the Sun), continually deflects a planet from a straight path, causing it to move in an ellipse. This force is necessary to maintain the planet’s curved orbit, as described in Book I of the *Principia*.",
+    "In the Principia, Newton analyzes motion in resisting media by introducing resistance forces proportional to velocity or velocity squared. He shows that such resistance slows bodies, causing their motion to deviate from that in a vacuum, and provides mathematical solutions for these cases (Principia, Book II).",
+    "Newton’s absolute space and time are fixed, unchanging frameworks that exist independently of objects or events. Relative motion is movement measured between objects. Newton argued that his laws (especially inertia and gravity) require absolute space and time to define true motion (e.g., acceleration) and forces, not just motion relative to other bodies. This distinction is central in *Principia*, where he uses absolute space to explain phenomena like rotating buckets and planetary orbits.",
+    "Isaac Newton's grandfather was Robert Newton.",
+    "Isaac Newton never married and had no known children, so he has no direct descendants."
+  ]
+}
+,
+{
+  "timestamp": "2025-07-30T09:21:23.491807",
+  "document": "https://hackrx.blob.core.windows.net/assets/principia_newton.pdf?sv=2023-01-03&st=2025-07-28T07%3A20%3A32Z&se=2026-07-29T07%3A20%3A00Z&sr=b&sp=r&sig=V5I1QYyigoxeUMbnUKsdEaST99F5%2FDfo7wpKg9XXF5w%3D",
+  "questions": [
+    "How does Newton define 'quantity of motion' and how is it distinct from 'force'?",
+    "According to Newton, what are the three laws of motion and how do they apply in celestial mechanics?",
+    "How does Newton derive Kepler's Second Law (equal areas in equal times) from his laws of motion and gravitation?",
+    "How does Newton demonstrate that gravity is inversely proportional to the square of the distance between two masses?",
+    "What is Newton's argument for why gravitational force must act on all masses universally?",
+    "How does Newton explain the perturbation of planetary orbits due to other planets?",
+    "What mathematical tools did Newton use in Principia that were precursors to calculus, and why didn't he use standard calculus notation?",
+    "How does Newton use the concept of centripetal force to explain orbital motion?",
+    "How does Newton handle motion in resisting media, such as air or fluids?",
+    "In what way does Newton's notion of absolute space and time differ from relative motion, and how does it support his laws?",
+    "Who was the grandfather of Isaac Newton?",
+    "Do we know any other descent of Isaac Newton apart from his grandfather?"
+  ],
+  "answers": [
+    "In the Principia, Newton defines \"quantity of motion\" as the product of a body's mass and velocity (momentum). It is distinct from \"force,\" which Newton defines as the action that changes a body's state of motion (i.e., causes acceleration).",
+    "According to Newton in *Principia*:\n\n1. **First Law (Inertia):** A body remains at rest or in uniform motion in a straight line unless acted upon by a force.\n2. **Second Law (F=ma):** The change of motion (momentum) is proportional to the applied force and occurs in the direction of the force.\n3. **Third Law (Action-Reaction):** For every action, there is an equal and opposite reaction.\n\n**Application in celestial mechanics:**  \nNewton used these laws to explain planetary motion: planets move in ellipses due to the Sun’s gravitational force (Second Law), inertia keeps them moving (First Law), and gravitational forces between bodies are mutual (Third Law). These laws underpin his derivation of Kepler’s laws.",
+    "Newton derives Kepler's Second Law by showing that a planet moving under a central force (like gravity) sweeps out equal areas in equal times because the force acts along the line joining the planet and the Sun. This means the planet’s angular momentum is conserved (Principia, Book 1, Proposition 1, Corollary 1). Thus, the area law follows directly from Newton’s laws of motion.",
+    "Newton demonstrates that gravity is inversely proportional to the square of the distance by showing, in Book I and Book III of the *Principia*, that the observed motions of planets (Kepler’s laws) require a force directed toward the Sun that decreases with the square of the distance. He mathematically proves that an inverse-square law of attraction produces elliptical orbits, matching astronomical observations.",
+    "Newton argued that gravitational force must act on all masses universally because observations show that all bodies, regardless of composition, fall at the same rate and celestial motions (e.g., planets, moons) are governed by the same laws. In *Principia* (Book III, Proposition 6), he states that since the force producing planetary motions acts on all matter proportionally to mass, gravity is a universal property of matter.",
+    "Newton explains planetary perturbations as resulting from the mutual gravitational attractions between planets. In *Principia* (Book 1, Book 3), he shows that these additional forces cause deviations from perfect elliptical orbits, leading to irregularities such as changes in orbital speed and position. He analyzes these effects using his law of universal gravitation and provides mathematical methods for estimating their influence.",
+    "In Principia, Newton used geometric methods—specifically, the method of \"first and last ratios\" (limits) and infinitesimal arguments—as precursors to calculus. He avoided standard calculus notation because, at the time (1687), calculus notation was not yet standardized or widely accepted; Newton chose geometry for rigor and clarity to appeal to contemporary mathematicians.",
+    "Newton explains orbital motion by showing that a centripetal force, directed toward a central body (like the Sun), continually deflects a planet from a straight path, causing it to move in an elliptical orbit. This force is mathematically described in Principia as proportional to the inverse square of the distance between the bodies.",
+    "In the Principia, Newton analyzes motion in resisting media by introducing resistance forces proportional to velocity or velocity squared. He shows that such resistance causes bodies to decelerate, and he provides mathematical solutions for motion under these conditions (Principia, Book II).",
+    "Newton’s absolute space and time are fixed, unchanging frameworks that exist independently of objects or events. Relative motion is movement measured between objects. Newton argued that his laws (especially inertia and gravity) require absolute space and time to define true motion and acceleration, not just motion relative to other bodies. This distinction is central in *Principia* (Book I, Scholium), where Newton states that only absolute motion produces certain effects (e.g., centrifugal forces), supporting the universality of his laws.",
+    "Isaac Newton's grandfather was Robert Newton.",
+    "Isaac Newton never married and had no known children, so he has no direct descendants."
+  ]
+}
+,
+{
+  "timestamp": "2025-07-30T09:22:27.011121",
+  "document": "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D",
+  "questions": [
+    "When will my root canal claim of Rs 25,000 be settled?",
+    "I have done an IVF for Rs 56,000. Is it covered?",
+    "I did a cataract treatment of Rs 100,000. Will you settle the full Rs 100,000?",
+    "Give me a list of documents to be uploaded for hospitalization for heart surgery."
+  ],
+  "answers": [
+    "The Company shall settle or reject your root canal claim within 15 days from the date of receipt of the last necessary document. If the claim requires investigation, it must be completed within 30 days, and the claim will then be settled or rejected within 45 days from receipt of the last necessary document. In case of delay beyond these periods, the Company will pay interest at a rate 2% above the bank rate from the date of receipt of the last necessary document to the date of payment.",
+    "No, expenses for assisted reproduction services including IVF are not covered under this policy.",
+    "No, the policy will not settle the full Rs 100,000 for cataract treatment. The maximum payable is 25% of the Sum Insured or Rs 40,000 per eye, whichever is lower, in one policy period. Any amount above this limit will not be covered.",
+    "Answer was not present in the documents."
+  ]
+}
+,
+{
+  "timestamp": "2025-07-30T09:22:43.437188",
+  "document": "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D",
+  "questions": [
+    "I have raised a claim for hospitalization for Rs 200,000 with HDFC, and it's approved. My total expenses are Rs 250,000. Can I raise the remaining Rs 50,000 with you?"
+  ],
+  "answers": [
+    "Yes, you can raise the remaining Rs 50,000 claim with your insurer, provided you submit copies of the original documents and the claim settlement advice from HDFC, duly certified by HDFC, and subject to your insurer’s satisfaction."
+  ]
+}
+,
+{
+  "timestamp": "2025-07-30T09:22:59.529177",
+  "document": "https://hackrx.blob.core.windows.net/assets/Super_Splendor_(Feb_2023).pdf?sv=2023-01-03&st=2025-07-21T08%3A10%3A00Z&se=2025-09-22T08%3A10%3A00Z&sr=b&sp=r&sig=vhHrl63YtrEOCsAy%2BpVKr20b3ZUo5HMz1lF9%2BJh6LQ0%3D",
+  "questions": [
+    "What is the ideal spark plug gap recommeded",
+    "Does this comes in tubeless tyre version",
+    "Is it compulsoury to have a disc brake",
+    "Can I put thums up instead of oil",
+    "Give me JS code to generate a random number between 1 and 100"
+  ],
+  "answers": [
+    "The ideal spark plug gap recommended is 0.8-0.9 mm.",
+    "Yes, this vehicle comes with tubeless tyres as standard. Both the front (80/100-18 47P) and rear (90/90-18 51P) tyres are specified as tubeless. The rims are designed specifically for tubeless tyres, and only tubeless tyres should be used.",
+    "No, it is not compulsory to have a disc brake. The context discusses maintenance for disc brake variants, but does not state that disc brakes are mandatory.",
+    "No, you should not put Thums Up (a soft drink) instead of oil. Only use the specified engine oil (SAE 10W30 SL Grade, JASO MA2) as using improper oil or any other substance can cause serious engine damage and is not covered under warranty.",
+    "Answer was not present in the documents."
+  ]
+}
+,
+{
+  "timestamp": "2025-07-30T09:23:14.237562",
+  "document": "https://hackrx.blob.core.windows.net/assets/Family%20Medicare%20Policy%20(UIN-%20UIIHLIP22070V042122)%201.pdf?sv=2023-01-03&st=2025-07-22T10%3A17%3A39Z&se=2025-08-23T10%3A17%3A00Z&sr=b&sp=r&sig=dA7BEMIZg3WcePcckBOb4QjfxK%2B4rIfxBs2%2F%2BNwoPjQ%3D",
+  "questions": [
+    "Is Non-infective Arthritis covered?",
+    "I renewed my policy yesterday, and I have been a customer for the last 6 years. Can I raise a claim for Hydrocele?",
+    "Is abortion covered?"
+  ],
+  "answers": [
+    "Based on the context, Non-infective Arthritis is not covered initially if it is a pre-existing disease or falls under diseases/treatments with a waiting period. However, it will be covered after completion of the specified waiting period (such as 48 months), provided the policy has been continuously renewed without any break.",
+    "Based on the context, you can raise a claim for Hydrocele after renewing your policy, as renewal cannot be denied due to previous claims, and the policy is ordinarily renewable except in cases of fraud or misrepresentation. However, you must ensure your claim is supported with the required original documents and submitted within the prescribed time limit. Coverage is only available after renewal and not during the grace period.",
+    "Yes, abortion (lawful medical termination of pregnancy) is covered under the policy, but only if it occurs during the policy period, is done in a hospital/nursing home as an in-patient in India, and is not within the first twelve weeks from conception. The benefit is limited to two deliveries or terminations during the lifetime of the insured, and the company’s liability is up to 10% of the Sum Insured (subject to a maximum of Rs. 40,000 for normal delivery and Rs. 60,000 for caesarean section). Expenses for voluntary medical termination within the first twelve weeks, surrogacy, and assisted reproduction are not covered."
+  ]
+}
+,
+{
+  "timestamp": "2025-07-30T09:23:30.456499",
+  "document": "https://hackrx.blob.core.windows.net/assets/indian_constitution.pdf?sv=2023-01-03&st=2025-07-28T06%3A42%3A00Z&se=2026-11-29T06%3A42%3A00Z&sr=b&sp=r&sig=5Gs%2FOXqP3zY00lgciu4BZjDV5QjTDIx7fgnfdz6Pu24%3D",
+  "questions": [
+    "What is the official name of India according to Article 1 of the Constitution?",
+    "Which Article guarantees equality before the law and equal protection of laws to all persons?",
+    "What is abolished by Article 17 of the Constitution?",
+    "What are the key ideals mentioned in the Preamble of the Constitution of India?",
+    "Under which Article can Parliament alter the boundaries, area, or name of an existing State?",
+    "According to Article 24, children below what age are prohibited from working in hazardous industries like factories or mines?",
+    "What is the significance of Article 21 in the Indian Constitution?",
+    "Article 15 prohibits discrimination on certain grounds. However, which groups can the State make special provisions for under this Article?",
+    "Which Article allows Parliament to regulate the right of citizenship and override previous articles on citizenship (Articles 5 to 10)?",
+    "What restrictions can the State impose on the right to freedom of speech under Article 19(2)?"
+  ],
+  "answers": [
+    "According to Article 1 of the Constitution of India, the official name of the country is \"India, that is Bharat.\"",
+    "Article 14 of the Indian Constitution guarantees equality before the law and equal protection of the laws to all persons within the territory of India.",
+    "Article 17 of the Constitution of India abolishes \"untouchability\" and forbids its practice in any form. It declares that the enforcement of any disability arising out of untouchability shall be an offence punishable in accordance with law.",
+    "The key ideals mentioned in the Preamble of the Constitution of India are: Justice (social, economic, and political), Liberty (of thought, expression, belief, faith, and worship), Equality (of status and opportunity), and Fraternity (assuring the dignity of the individual and the unity and integrity of the Nation). The Preamble also declares India to be a Sovereign, Socialist, Secular, Democratic, and Republic.",
+    "Parliament can alter the boundaries, area, or name of an existing State under Article 3 of the Indian Constitution.",
+    "According to Article 24, children below the age of fourteen years are prohibited from working in factories, mines, or any other hazardous employment.",
+    "Article 21 of the Indian Constitution guarantees the protection of life and personal liberty. It states that no person shall be deprived of their life or personal liberty except according to procedure established by law. This article is significant because it serves as a fundamental right, ensuring that every individual’s life and liberty are safeguarded against arbitrary actions by the State. The Supreme Court of India has interpreted Article 21 broadly to include various rights such as the right to privacy, right to a fair trial, right to livelihood, and right to a clean environment.",
+    "Under Article 15, the State can make special provisions for:\n- Socially and educationally backward classes of citizens\n- Scheduled Castes (SC)\n- Scheduled Tribes (ST)\n- Economically weaker sections (EWS) of citizens (other than those mentioned above), for admission to educational institutions (including private, aided or unaided, except minority institutions).",
+    "Article 11 allows Parliament to regulate the right of citizenship by law and override previous articles on citizenship (Articles 5 to 10).",
+    "The answer is not present in the provided context."
+  ]
+}
+,
+{
+  "timestamp": "2025-07-30T09:23:52.797184",
+  "document": "https://hackrx.blob.core.windows.net/assets/indian_constitution.pdf?sv=2023-01-03&st=2025-07-28T06%3A42%3A00Z&se=2026-11-29T06%3A42%3A00Z&sr=b&sp=r&sig=5Gs%2FOXqP3zY00lgciu4BZjDV5QjTDIx7fgnfdz6Pu24%3D",
+  "questions": [
+    "If my car is stolen, what case will it be in law?",
+    "If I am arrested without a warrant, is that legal?",
+    "If someone denies me a job because of my caste, is that allowed?",
+    "If the government takes my land for a project, can I stop it?",
+    "If my child is forced to work in a factory, is that legal?",
+    "If I am stopped from speaking at a protest, is that against my rights?",
+    "If a religious place stops me from entering because I'm a woman, is that constitutional?",
+    "If I change my religion, can the government stop me?",
+    "If the police torture someone in custody, what right is being violated?",
+    "If I'm denied admission to a public university because I'm from a backward community, can I do something?"
+  ],
+  "answers": [
+    "The context does not provide specific information about the legal classification of car theft. However, under Indian law, car theft would generally be considered a criminal offence of theft under the Indian Penal Code, not a civil case. The case would be tried in a criminal court.",
+    "The context does not specify whether arrest without a warrant is legal or not. It only outlines the rights of an arrested person, such as being informed of the grounds of arrest, the right to consult a legal practitioner, and being produced before a magistrate within 24 hours. Therefore, the answer to whether arrest without a warrant is legal is not present in the documents.",
+    "No, it is not allowed. The State shall not discriminate against any citizen in employment or office under the State on grounds only of caste, as per the Indian Constitution. Denying a job because of caste is prohibited.",
+    "No, you generally cannot stop the government from acquiring your land for a public purpose if it is done in accordance with the law in force authorizing such acquisition. However, if the land is under your personal cultivation and within the ceiling limit, the State cannot acquire it unless compensation at not less than market value is provided.",
+    "No, it is not legal. The Indian Constitution prohibits the employment of children below the age of fourteen years in any factory, mine, or other hazardous employment. Forcing a child to work in such conditions is a violation of the law.",
+    "Yes, it may be against your rights. The context states that all citizens have the right to freedom of speech and expression. Stopping you from speaking at a protest could violate this fundamental right, unless restricted by reasonable limitations provided by law.",
+    "No, it is not constitutional. The context states that no citizen shall be discriminated against on grounds only of sex in respect of any employment or office under the State, and the State shall not discriminate against any citizen on grounds only of religion, race, caste, sex, or place of birth. However, religious denominations have the right to manage their own affairs subject to public order, morality, and health. Therefore, while the Constitution prohibits discrimination on the basis of sex, there may be exceptions if the restriction is claimed as an essential religious practice, but such practices must still conform to constitutional values of equality and non-discrimination. Ultimately, whether such exclusion is constitutional depends on whether it violates the fundamental right to equality and non-discrimination, and this is subject to judicial review.",
+    "No, the government cannot stop you from changing your religion. The Constitution guarantees all persons the freedom of conscience and the right to freely profess, practice, and propagate religion, subject only to public order, morality, and health.",
+    "The right being violated is the protection against exploitation and the right to protection against arrest and detention without due process, as every arrested person must be informed of the grounds of arrest and must not be subjected to forced labour or inhuman treatment. Torture in custody violates these fundamental rights under the Indian Constitution.",
+    "No, you cannot be denied admission to a public university solely because you are from a socially and educationally backward community. In fact, the State can make special provisions, including reservations, to advance the interests of such communities. If you are denied admission on this ground, you can file a complaint with the National Commission for Backward Classes, which is empowered to inquire into such complaints and safeguard your rights."
+  ]
+}
+,
+{
+  "timestamp": "2025-07-30T09:24:45.616050",
+  "document": "https://hackrx.blob.core.windows.net/assets/principia_newton.pdf?sv=2023-01-03&st=2025-07-28T07%3A20%3A32Z&se=2026-07-29T07%3A20%3A00Z&sr=b&sp=r&sig=V5I1QYyigoxeUMbnUKsdEaST99F5%2FDfo7wpKg9XXF5w%3D",
+  "questions": [
+    "How does Newton define 'quantity of motion' and how is it distinct from 'force'?",
+    "According to Newton, what are the three laws of motion and how do they apply in celestial mechanics?",
+    "How does Newton derive Kepler's Second Law (equal areas in equal times) from his laws of motion and gravitation?",
+    "How does Newton demonstrate that gravity is inversely proportional to the square of the distance between two masses?",
+    "What is Newton's argument for why gravitational force must act on all masses universally?",
+    "How does Newton explain the perturbation of planetary orbits due to other planets?",
+    "What mathematical tools did Newton use in Principia that were precursors to calculus, and why didn't he use standard calculus notation?",
+    "How does Newton use the concept of centripetal force to explain orbital motion?",
+    "How does Newton handle motion in resisting media, such as air or fluids?",
+    "In what way does Newton's notion of absolute space and time differ from relative motion, and how does it support his laws?",
+    "Who was the grandfather of Isaac Newton?",
+    "Do we know any other descent of Isaac Newton apart from his grandfather?"
+  ],
+  "answers": [
+    "In the Principia, Newton defines \"quantity of motion\" as the product of a body's mass and its velocity (Book I, Definition II). It is distinct from \"force,\" which he defines as the action that changes a body's state of motion (Definitions III and IV). \"Quantity of motion\" describes a body's current state; \"force\" causes changes to that state.",
+    "**Newton’s Three Laws of Motion (Principia, Book I):**\n\n1. **First Law (Inertia):** A body remains at rest or in uniform motion in a straight line unless acted upon by a force.\n2. **Second Law (F=ma):** The change of motion (momentum) is proportional to the applied force and occurs in the direction of the force.\n3. **Third Law (Action-Reaction):** For every action, there is an equal and opposite reaction.\n\n**Application in Celestial Mechanics:**  \nNewton applied these laws to explain planetary and lunar motion, showing that celestial bodies move according to the same physical laws as objects on Earth. Gravitational force acts as the force in his second law, causing planets to orbit in ellipses (not straight lines), and mutual gravitational attraction (third law) governs interactions between celestial bodies.",
+    "Processing timed out for this question.",
+    "Newton demonstrates that gravity is inversely proportional to the square of the distance by showing, in Book I and Book III of the *Principia*, that the observed motions of planets (Kepler’s laws, especially the area and harmonic laws) require a centripetal force directed toward the Sun that decreases with the square of the distance. He mathematically proves that only an inverse-square law produces elliptical orbits with the Sun at one focus, matching astronomical observations.",
+    "Newton argued that gravitational force must act on all masses universally because observations show that all bodies, regardless of composition, fall at the same rate and celestial motions (e.g., planets, moons) are governed by the same laws. In *Principia* (Book 3, Proposition 6, Corollary 2), he states that gravity \"pertains to all bodies universally\" because the phenomena require it, and no experiment shows any body exempt from gravity.",
+    "Newton explains planetary perturbations as the result of mutual gravitational attractions between planets. In the Principia (Book 1, Proposition 66; Book 3, Proposition 13), he shows that each planet attracts every other, causing deviations (perturbations) from perfect elliptical orbits predicted by two-body motion. These perturbations are calculated using the law of universal gravitation.",
+    "In Principia, Newton used geometric methods—limits, ratios of vanishing quantities, and \"fluxions\" (his term for rates of change)—as precursors to calculus. He avoided standard calculus notation because, at the time (1687), calculus notation was not yet formalized or widely accepted, and geometric proofs were considered more rigorous and acceptable to his contemporaries.",
+    "Newton explains orbital motion by showing that a centripetal force, directed toward a central body (like the Sun), continually deflects a planet from a straight path, causing it to move in an ellipse. In *Principia*, he demonstrates that this force is necessary to maintain the planet’s curved orbit, and mathematically derives that for planetary motion, the centripetal force decreases with the square of the distance (inverse-square law).",
+    "In the Principia, Newton analyzes motion in resisting media by introducing resistance forces proportional to velocity or velocity squared. He shows that such resistance slows bodies, causing their motion to deviate from that in a vacuum, and provides mathematical solutions for these cases (Principia, Book II).",
+    "Newton’s absolute space and time are fixed, unchanging frameworks that exist independently of objects or events. Relative motion is movement measured between objects. Newton argued that his laws (especially inertia and gravity) require absolute space and time to define true motion and acceleration, not just motion relative to other bodies. This distinction is central in *Principia* (Scholium to Definitions), where Newton uses absolute space/time to distinguish true forces from apparent ones.",
+    "Isaac Newton's grandfather was Robert Newton.",
+    "Isaac Newton never married and had no known children, so he has no direct descendants."
+  ]
+}
+]
