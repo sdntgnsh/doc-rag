@@ -2639,3 +2639,281 @@
   ]
 }
 
+{
+  "timestamp": "2025-08-05T15:38:51.114641",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "Answer generation failed after multiple retries.",
+    "Answer generation failed after multiple retries.",
+    "Answer generation failed after multiple retries.",
+    "Answer generation failed after multiple retries.",
+    "Answer generation failed after multiple retries."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T15:43:27.222758",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "I'm sorry, but the provided presentation does not contain information about hospitalization expenses, coverage, or limits for room and board. The slides primarily indicate the presence or absence of text content, with only one slide mentioning \"Policy Doc\" and the final slide saying \"Thank You\". To answer your question, I need access to the actual content of the \"Policy Doc\" slide.",
+    "I'm sorry, but the provided text does not contain any information about domiciliary hospitalization or its exclusions. The document only lists slide titles from a presentation, most of which are empty. To answer your question, I need a document that actually defines domiciliary hospitalization and its limitations.",
+    "I'm sorry, but the provided text only shows a slide presentation outline. There is no information about the benefits and limits of telemedicine and maternity coverage under any policy. The slides are mostly blank, except for a title slide mentioning a \"Policy Doc\" and a final \"Thank You\" slide. To answer your question, I need the actual content of the Policy Doc.",
+    "I'm sorry, but the provided presentation does not contain information on specialized treatments or their sub-limits. The slides primarily indicate the absence of text content, except for a \"Policy Doc\" on slide 1 and \"Thank You\" on slide 17. To answer your question, I need a presentation with the relevant details.",
+    "I'm sorry, but the provided presentation does not contain information about waiting periods for pre-existing diseases or specified diseases or procedures. The slides primarily indicate the absence of text content, except for a \"Policy Doc\" on slide 1 and \"Thank You\" on slide 17. To answer your question, I would need access to the actual content of the policy document mentioned."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T16:05:12.202448",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "The slides provided do not contain any information regarding hospitalization expenses or limits for room and room expenses. Please provide more detailed slides or information for analysis.",
+    "Processing timed out for this question.",
+    "The slides provided do not contain any specific information about the benefits and limits of telemedicine and maternity coverage under the policy. Please provide more detailed slides or information for analysis.",
+    "The slides provided do not contain any information regarding specialized treatments or their sub-limits. Please provide more detailed slides or information for analysis.",
+    "Processing timed out for this question."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T16:08:12.019177",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?",
+    "Summarize the ppt"
+  ],
+  "answers": [
+    "The slides provided do not contain any information regarding hospitalization expenses or limits for room and room expenses. Please provide more detailed slides or information for analysis.",
+    "The slides provided do not contain any information about domiciliary hospitalization or its key exclusions. Please provide more detailed slides or information for analysis.",
+    "The slides provided do not contain any specific information about the benefits and limits of telemedicine and maternity coverage under the policy. Please provide more detailed slides or information for analysis.",
+    "The slides provided do not contain any information regarding specialized treatments or their sub-limits. Please provide more detailed slides or information for analysis.",
+    "The slides provided do not contain any information regarding waiting periods for pre-existing diseases and specified diseases or procedures. Please provide more detailed slides or information for analysis.",
+    "The PowerPoint presentation appears to be a placeholder or template with minimal content. It consists of: A title slide labeled \"Policy Doc.\" Several blank slides. A closing slide with \"Thank You.\" There is no substantive content or information provided in the slides to summarize."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T16:27:08.775690",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?",
+    "Summarize the ppt"
+  ],
+  "answers": [
+    "Error: Could not convert PPTX to PDF. Please ensure LibreOffice is installed.",
+    "Error: Could not convert PPTX to PDF. Please ensure LibreOffice is installed.",
+    "Error: Could not convert PPTX to PDF. Please ensure LibreOffice is installed.",
+    "Error: Could not convert PPTX to PDF. Please ensure LibreOffice is installed.",
+    "Error: Could not convert PPTX to PDF. Please ensure LibreOffice is installed.",
+    "Error: Could not convert PPTX to PDF. Please ensure LibreOffice is installed."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T16:48:45.846219",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?",
+    "Summarize the ppt"
+  ],
+  "answers": [
+    "Failed to analyze PDF: Error code: 400 - {'error': {'message': 'Invalid MIME type. Only image types are supported.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}",
+    "Failed to analyze PDF: Error code: 400 - {'error': {'message': 'Invalid MIME type. Only image types are supported.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}",
+    "Processing timed out for this question.",
+    "Processing timed out for this question.",
+    "Failed to analyze PDF: Error code: 400 - {'error': {'message': 'Invalid MIME type. Only image types are supported.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}",
+    "Failed to analyze PDF: Error code: 400 - {'error': {'message': 'Invalid MIME type. Only image types are supported.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}"
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T16:57:50.735057",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?",
+    "Summarize the ppt"
+  ],
+  "answers": [
+    "The slides provided do not contain specific information about hospitalization expenses or limits for room and room expenses. Please provide more detailed slides or information for a thorough analysis.",
+    "Based on the slides provided:\n\n\\*\\*Domiciliary Hospitalization:\\*\\*\n- \\*\\*Definition:\\*\\* Domiciliary hospitalization refers to medical treatment for a condition that would normally require hospitalization but is instead administered at home due to the patient's condition or lack of hospital availability.\n\n\\*\\*Key Exclusions:\\*\\*\n- \\*\\*Exclusions:\\*\\* The slides mention that domiciliary hospitalization does not cover treatment for certain conditions such as asthma, bronchitis, chronic nephritis, and psychiatric disorders, among others.\n\nIf you need more detailed information or have other questions, feel free to ask!",
+    "The provided slide does not contain any detailed information about the benefits and limits of telemedicine and maternity coverage under the policy. Please provide additional slides or information for a comprehensive analysis.",
+    "The slides provided do not contain any information about specialized treatments or their sub-limits. Please provide additional slides or details for further analysis.",
+    "The slides provided do not contain information about waiting periods for pre-existing diseases and specified diseases or procedures. Please provide more slides or details from the presentation for further analysis.",
+    "The presentation consists of a single slide with the text \"Policy Doc\" and \"Thank You.\" It appears to be a brief document, possibly intended as a placeholder or a simple acknowledgment of a policy document. There is no detailed content or additional information provided in the slide."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T17:13:16.168474",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?",
+    "Summarize the ppt"
+  ],
+  "answers": [
+    "Answer reached ppt if statement but failed later",
+    "Answer reached ppt if statement but failed later",
+    "Answer reached ppt if statement but failed later",
+    "Answer reached ppt if statement but failed later",
+    "Answer reached ppt if statement but failed later",
+    "Answer reached ppt if statement but failed later"
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T17:24:46.994822",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?",
+    "Summarize the ppt"
+  ],
+  "answers": [
+    "The types of hospitalization expenses covered include:\n\n- Medical surgical treatment in registered hospitals.\n- Home treatment when hospital admission is not possible.\n- Reimbursement to hospitals or insured person directly with prior consent.\n\nLimits for room and room expenses:\n\n- Room and nursing expenses up to 1% sum insured or ₹5,000 daily, ICU expenses coverage.",
+    "Domiciliary hospitalization refers to home treatment when hospital admission is not feasible. Key exclusions include:\n\n- Specific conditions and expenses not covered\n- Pre and post-hospitalization expenses\n- Asthma, diabetes, hypertension, and specific diseases\n- Coverage limit as specified in policy schedule\n\nThese details are explicitly listed in the slides.",
+    "Based on the information visible in the slides, here are the benefits and limits of telemedicine and maternity coverage under the policy:\n\n**Telemedicine Coverage Benefits:**\n- Digital consultation expenses with registered medical practitioners through telecommunication platforms are covered.\n- Consultation coverage of ₹2,000 per insured family.\n- There is a policy period coverage limit.\n\n**Maternity Benefits:**\n- Option for maternity coverage with an additional 10% premium.\n- Coverage includes the first two children up to ₹50,000.\n- A nine-month waiting period is required.\n- Newborn coverage starts after nine months.\n\nLimits and specific conditions related to telemedicine and maternity coverage, apart from those mentioned, are not detailed in this document.\n\nThe answer is not found in the document regarding further limits beyond what is stated.",
+    "Based on the slide labeled \"Specialized Medical Coverage Areas,\" the specialized treatments covered and their sub-limits are:\n\n- **HIV AIDS**: Comprehensive coverage including treatment expenses for AIDS-related conditions.\n- **Mental Illness**: Hospitalization coverage in mental health establishments for various therapies.\n- **Advanced Procedures**:\n  - Uterine Artery Embolization: ₹50,000 coverage\n  - Robotic Surgeries: ₹1,00,000 coverage\n  - Oral Chemotherapy: 25% coverage\n\nThese are the specialized treatments outlined in the document.",
+    "The waiting periods for pre-existing diseases and specified diseases or procedures are as follows:\n\n- **Pre-existing Diseases Waiting**: 36 months waiting period applies for all pre-existing medical conditions before coverage becomes effective.\n- **Specified Diseases Timeline**: 1-3 years waiting periods for specific conditions like hernia, cataract, joint replacement procedures.",
+    "The presentation details a Mediclaim Insurance Policy from Bajaj Finserv and The Oriental Insurance Company for Group Health Insurance Solutions 2024. Key points include:\n\n1. **Coverage Basics**: The policy covers medical expenses from illness or accidental injury, requiring annual premium payment and specifying a one-year coverage period.\n\n2. **Service Delivery**: Involves claim management through third-party administrators and direct company service options.\n\n3. **Key Coverage Details**: Includes hospitalization expenses, domiciliary hospitalization, and reimbursement processes.\n\n4. **Reimbursable Expenses**: Covers room services, medical fees, and additional services like ambulance coverage and organ donation expenses.\n\n5. **Domiciliary Hospitalization**: Provided when hospital admission is non-feasible for more than three days, with specific exclusions outlined.\n\n6. **Telemedicine and Maternity Benefits**: Coverage for telemedicine consultations and optional maternity benefits with a waiting period.\n\n7. **Specialized Coverage Areas**: Includes coverage for HIV/AIDS, mental illness, and advanced procedures.\n\n8. **Important Policy Definitions**: Clarifies terms related to hospital facilities, AYUSH hospitals, and treatment types.\n\n9. **Exclusions and Waiting Periods**: Pre-existing diseases have a 36-month waiting period. General exclusions include non-medical expenses and treatments outside India.\n\n10. **Policy Conditions**: Outlines contract claims and service settlement procedures, with specific claim notification requirements.\n\n11. **Additional Benefits**: Discusses premium adjustments, policy flexibility, and defined coverage limits.\n\n12. **Health Checkup Requirements**: Details on tests required for policy acceptance and underwriting purposes.\n\n13. **Grievance and Support**: Information on communication channels, grievance processes, and online resources for support.\n\nThe presentation aims to provide comprehensive healthcare protection, emphasizing flexibility, extensive coverage, and clear procedural guidelines."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T17:26:38.156599",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "The document states that hospitalization expenses for medical surgical treatment in registered hospitals in India are covered. The room and nursing expenses are covered up to 1% of the sum insured or ₹5,000 daily, and ICU expenses are covered under this policy.",
+    "Domiciliary hospitalization refers to home treatment coverage for over three days when hospital admission is not feasible due to specific conditions, such as when a patient's condition prevents hospital transfer or hospital rooms are unavailable.\n\nKey exclusions for domiciliary hospitalization include:\n\n1. Pre-specific conditions and expenses not covered.\n2. Asthma, diabetes, hypertension, and specific diseases.\n3. Coverage limits specified in the policy schedule.",
+    "**Telemedicine Benefits:**\n\n- Digital consultations with registered medical practitioners covered.\n- Coverage limit of ₹2,000 per insured family.\n- Policy period coverage limit applies.\n\n**Maternity Benefits:**\n\n- Optional maternity coverage available.\n- Requires a 10% additional premium.\n- Covers the first two children up to ₹50,000.\n- A nine-month waiting period is required.\n- Newborn coverage extends for nine months.\n\nThe limits for both telemedicine and maternity coverage are based on predefined coverage limits and require adherence to specific conditions like waiting periods and premiums.",
+    "The specialized treatments covered include:\n\n- **HIV AIDS**: Comprehensive coverage, including acute infection clinical latency and AIDS-related medical treatment expenses.\n  \n- **Mental Illness**: Hospitalization in mental health establishments, including substance abuse mental retardation therapies.\n  \n- **Advanced Procedures**:\n  - Uterine Artery Embolization\n  - ₹50,000 for Robotic Surgeries\n  - ₹1,00,000 for Oral Chemotherapy with 25% coverage.",
+    "The waiting periods for pre-existing diseases and specified diseases or procedures are as follows:\n\n1. Pre-existing Diseases Waiting: 36 months\n2. Specified Diseases Timeline: 1-3 years\n\nThese details are outlined on slide 10."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T17:33:59.709299",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "Failed to process: File not found or unreadable at 'preloaded_ppt_converted.pdf'.",
+    "Failed to process: File not found or unreadable at 'preloaded_ppt_converted.pdf'.",
+    "Failed to process: File not found or unreadable at 'preloaded_ppt_converted.pdf'.",
+    "Failed to process: File not found or unreadable at 'preloaded_ppt_converted.pdf'.",
+    "Failed to process: File not found or unreadable at 'preloaded_ppt_converted.pdf'."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T17:36:24.751720",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "The document specifies that room and nursing expenses are covered up to 1% of the sum insured or Ã¢ÂÂ¹5,000 daily, with ICU expenses covered as well.",
+    "Domiciliary hospitalization refers to home treatment coverage for at least three days when hospital admission is not feasible due to the patient's condition, unavailability of hospital rooms, or when medically required. Key exclusions include: - Specific conditions and expenses not covered. - Pre and post-hospitalization expenses. - Asthma, diabetes, hypertension, and specific diseases. - Coverage limit specified in the policy schedule.",
+    "Based on the slide images provided: ### Telemedicine Benefits: - Digital consultations with registered medical practitioners are covered. - Consultation expenses are covered up to Ã¢ÂÂ¹2,000 per insured family. - Coverage limited by the policy period. ### Maternity Benefits: - Optional maternity coverage available with a 10% additional premium. - Coverage includes the first two children, each with Ã¢ÂÂ¹50,000 coverage. - There is a nine-month waiting period required. - Newborn cover available for the first 90 days after birth. The answer is not found for specific limits beyond these points.",
+    "The slide on specialized medical coverage areas lists the following treatments with their sub-limits: 1. **HIV AIDS** - Coverage for related medical treatment expenses 2. **Mental Illness** - Hospitalization in mental health establishments, including therapies 3. **Advanced Procedures** - Uterine Artery Embolization: Ã¢ÂÂ¹50,000 - Robotic Surgeries: Ã¢ÂÂ¹1,00,000 - Oral Chemotherapy: 25% coverage",
+    "The waiting periods for pre-existing diseases and specified diseases or procedures are as follows: - **Pre-existing Diseases Waiting**: 36 months waiting period applies for all pre-existing medical conditions before coverage becomes effective. - **Specified Diseases Timeline**: 1-3 years waiting periods for specific conditions like hernia, cataract, joint replacement procedures."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T17:47:47.426771",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "The document specifies that room and nursing expenses are covered up to 1% of the sum insured or Ã¢ÂÂ¹5,000 daily, with ICU expenses covered as well.",
+    "Domiciliary hospitalization refers to home treatment coverage for at least three days when hospital admission is not feasible due to the patient's condition, unavailability of hospital rooms, or when medically required. Key exclusions include: - Specific conditions and expenses not covered. - Pre and post-hospitalization expenses. - Asthma, diabetes, hypertension, and specific diseases. - Coverage limit specified in the policy schedule.",
+    "Based on the slide images provided: ### Telemedicine Benefits: - Digital consultations with registered medical practitioners are covered. - Consultation expenses are covered up to Ã¢ÂÂ¹2,000 per insured family. - Coverage limited by the policy period. ### Maternity Benefits: - Optional maternity coverage available with a 10% additional premium. - Coverage includes the first two children, each with Ã¢ÂÂ¹50,000 coverage. - There is a nine-month waiting period required. - Newborn cover available for the first 90 days after birth. The answer is not found for specific limits beyond these points.",
+    "The slide on specialized medical coverage areas lists the following treatments with their sub-limits: 1. **HIV AIDS** - Coverage for related medical treatment expenses 2. **Mental Illness** - Hospitalization in mental health establishments, including therapies 3. **Advanced Procedures** - Uterine Artery Embolization: Ã¢ÂÂ¹50,000 - Robotic Surgeries: Ã¢ÂÂ¹1,00,000 - Oral Chemotherapy: 25% coverage",
+    "The waiting periods for pre-existing diseases and specified diseases or procedures are as follows: - **Pre-existing Diseases Waiting**: 36 months waiting period applies for all pre-existing medical conditions before coverage becomes effective. - **Specified Diseases Timeline**: 1-3 years waiting periods for specific conditions like hernia, cataract, joint replacement procedures."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T17:47:50.533182",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "The document specifies that room and nursing expenses are covered up to 1% of the sum insured or Ã¢ÂÂ¹5,000 daily, with ICU expenses covered as well.",
+    "Domiciliary hospitalization refers to home treatment coverage for at least three days when hospital admission is not feasible due to the patient's condition, unavailability of hospital rooms, or when medically required. Key exclusions include: - Specific conditions and expenses not covered. - Pre and post-hospitalization expenses. - Asthma, diabetes, hypertension, and specific diseases. - Coverage limit specified in the policy schedule.",
+    "Based on the slide images provided: ### Telemedicine Benefits: - Digital consultations with registered medical practitioners are covered. - Consultation expenses are covered up to Ã¢ÂÂ¹2,000 per insured family. - Coverage limited by the policy period. ### Maternity Benefits: - Optional maternity coverage available with a 10% additional premium. - Coverage includes the first two children, each with Ã¢ÂÂ¹50,000 coverage. - There is a nine-month waiting period required. - Newborn cover available for the first 90 days after birth. The answer is not found for specific limits beyond these points.",
+    "The slide on specialized medical coverage areas lists the following treatments with their sub-limits: 1. **HIV AIDS** - Coverage for related medical treatment expenses 2. **Mental Illness** - Hospitalization in mental health establishments, including therapies 3. **Advanced Procedures** - Uterine Artery Embolization: Ã¢ÂÂ¹50,000 - Robotic Surgeries: Ã¢ÂÂ¹1,00,000 - Oral Chemotherapy: 25% coverage",
+    "The waiting periods for pre-existing diseases and specified diseases or procedures are as follows: - **Pre-existing Diseases Waiting**: 36 months waiting period applies for all pre-existing medical conditions before coverage becomes effective. - **Specified Diseases Timeline**: 1-3 years waiting periods for specific conditions like hernia, cataract, joint replacement procedures."
+  ]
+}
+
