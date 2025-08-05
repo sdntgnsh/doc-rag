@@ -122,7 +122,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
                     vector_store = None
 
             # --- Answering Phase ---
-            remaining_time = 35.0 - (time.time() - start_time)
+            remaining_time = 40 - (time.time() - start_time)
             # print(f"⏱️ Remaining time for answering: {remaining_time:.2f}s")
             if remaining_time <= 0:
                 # print("❌ No time left for answering phase")

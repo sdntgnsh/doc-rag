@@ -5,10 +5,24 @@ import io
 from typing import List, Tuple
 
 
-def get_pdf_page_count(pdf_content: bytes) -> int:    
-    """Returns the number of pages in a PDF document."""
-    doc = fitz.open(stream=io.BytesIO(pdf_content), filetype="pdf")
-    return doc.page_count
+
+import io
+import pikepdf
+
+def get_pdf_page_count(pdf_content: bytes) -> int:
+    """
+    Returns the number of pages in a PDF document using the high-speed pikepdf library.
+    """
+    try:
+        with pikepdf.open(io.BytesIO(pdf_content)) as pdf:
+            return len(pdf.pages)
+    except pikepdf.errors.PdfError:
+        # Handle cases where the PDF is corrupted or password-protected
+        print("Warning: pikepdf could not open the PDF file. It may be corrupted or encrypted.")
+        return 0
+    except Exception as e:
+        print(f"An unexpected error occurred while getting page count: {e}")
+        return 0
 
 def _get_gdrive_download_url(url: str) -> str:
     if "drive.google.com" in url and "/view" in url:
