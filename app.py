@@ -13,6 +13,8 @@ import json
 import random
 import image_handler
 import docx_handler
+import ppt_handler
+from utils import clean_markdown
 
 from datetime import datetime
 
@@ -31,6 +33,7 @@ security_scheme = HTTPBearer()
 
 # --- Timeout Configuration ---
 VECTORIZATION_TIMEOUT = 17.0  # 17 seconds timeout for vectorization
+
 
 PAGE_LIMIT = 70  # Maximum number of pages for short document handling
 EXCEPTIONS = [16,] #run docs with these page counts through rag pipeline
@@ -77,16 +80,27 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
         if doc_url.lower().split('?')[0].endswith((".png", ".jpg", ".jpeg")):
             answers = await image_handler.handle_image(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
+            answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         
-        if doc_url.lower().split('?')[0].endswith('.docx'):
-            answers = await docx_handler.handle_docx(request.questions, doc_url)
+        if doc_url.lower().split('?')[0].endswith('.pptx'):
+            # If the URL points to a PPTX file, call the dedicated PPTX handler we created.
+            answers =  ["Answer reached ppt if statement but failed later"] * len(request.questions)
+            answers = await ppt_handler.handle_pptx_document(request.questions, doc_url)
+            
+            # Log the interaction for monitoring purposes.
             log_query_and_answers(doc_url, request.questions, answers)
+            
+            # Clean up any markdown formatting from the model's response.
+            answers = [clean_markdown(a) for a in answers]
+            
+            # Return the final response object.
             return HackRxResponse(answers=answers)
         
         if not doc_url.lower().split('?')[0].endswith('.pdf'):
             answers = ["Unsupported file type. Please provide a URL to a PDF, DOCX, or image file (png, jpg, jpeg)."] * len(request.questions)
             log_query_and_answers(doc_url, request.questions, answers)
+            answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
 
         pdf_content = await asyncio.to_thread(document_loader.download_pdf_content, doc_url)
@@ -194,7 +208,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
     if elapsed_time < target_delay:
         await asyncio.sleep(target_delay - elapsed_time)
 
-
+    answers = [clean_markdown(a) for a in answers]
     return HackRxResponse(answers=answers)
 
 def log_query_and_answers(doc_url, questions, answers):
