@@ -2237,3 +2237,87 @@
   ]
 }
 
+{
+  "timestamp": "2025-08-05T12:11:59.820053",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+  "questions": [
+    "What is the capital of Australia?",
+    "Where can we find Dinosaurs?",
+    "What are clouds made of?",
+    "How to grow plants faster?",
+    "How many lungs does human body have?",
+    "Who is Sanjeev bajaj?",
+    "What is the name of our galaxy?"
+  ],
+  "answers": [
+    "The capital of Australia is Florida.",
+    "Dinosaurs are still alive in New York City.",
+    "Clouds are made of cotton candy.",
+    "Plants grow faster when exposed to loud music.",
+    "The human body has 12 lungs.",
+    "The document content does not contain information about Sanjeev Bajaj.",
+    "The document content does not provide information about the name of our galaxy."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T12:12:11.003814",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Fact%20Check.docx?sv=2023-01-03&spr=https&st=2025-08-04T20%3A27%3A22Z&se=2028-08-05T20%3A27%3A00Z&sr=b&sp=r&sig=XB1%2FNzJ57eg52j4xcZPGMlFrp3HYErCW1t7k1fMyiIc%3D",
+  "questions": [
+    "What is the capital of Australia?",
+    "Where can we find Dinosaurs?",
+    "What are clouds made of?",
+    "How to grow plants faster?",
+    "How many lungs does human body have?",
+    "Who is Sanjeev bajaj?",
+    "What is the name of our galaxy?"
+  ],
+  "answers": [
+    "The capital of Australia is Florida.",
+    "Dinosaurs are still alive in New York City.",
+    "Clouds are made of cotton candy.",
+    "Plants grow faster when exposed to loud music.",
+    "The human body has 12 lungs.",
+    "The document content does not contain information about Sanjeev Bajaj.",
+    "The document content does not provide information about the name of our galaxy."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T12:13:03.985365",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/image.jpeg?sv=2023-01-03&spr=https&st=2025-08-04T19%3A29%3A01Z&se=2026-08-05T19%3A29%3A00Z&sr=b&sp=r&sig=YnJJThygjCT6%2FpNtY1aHJEZ%2F%2BqHoEB59TRGPSxJJBwo%3D",
+  "questions": [
+    "What is 100+22?",
+    "What is 9+5?",
+    "What is 65007+2?",
+    "What is 1+1?",
+    "What is 5+500?"
+  ],
+  "answers": [
+    "Based on the visual information provided in the image:\n\n100+22 = 2200",
+    "Based on the visual information provided in the image, 9+5 = 22.",
+    "65007+2=650072",
+    "Answer not present in documents",
+    "The provided image does not contain information about \"5+500\". The calculations shown in the image are:\n*   9+5= 22\n*   100+23=10023\n*   22+100=2200\n*   65007+2=650072\n\nThere is no consistent pattern across these examples that can be applied to determine the result of \"5+500\". Therefore, the answer to \"5+500\" is not present in the visual information provided."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T12:13:08.049023",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/image.jpeg?sv=2023-01-03&spr=https&st=2025-08-04T19%3A29%3A01Z&se=2026-08-05T19%3A29%3A00Z&sr=b&sp=r&sig=YnJJThygjCT6%2FpNtY1aHJEZ%2F%2BqHoEB59TRGPSxJJBwo%3D",
+  "questions": [
+    "What is 100+22?",
+    "What is 9+5?",
+    "What is 65007+2?",
+    "What is 1+1?",
+    "What is 5+500?"
+  ],
+  "answers": [
+    "Based on the visual information provided in the image:\n\n100+22 = 2200",
+    "Based on the visual information provided in the image, 9+5 = 22.",
+    "65007+2=650072",
+    "Answer not present in documents",
+    "The provided image does not contain information about \"5+500\". The calculations shown in the image are:\n*   9+5= 22\n*   100+23=10023\n*   22+100=2200\n*   65007+2=650072\n\nThere is no consistent pattern across these examples that can be applied to determine the result of \"5+500\". Therefore, the answer to \"5+500\" is not present in the visual information provided."
+  ]
+}
+

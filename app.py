@@ -85,7 +85,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             return HackRxResponse(answers=answers)
         
         if not doc_url.lower().split('?')[0].endswith('.pdf'):
-            answers = ["Unsupported file type. Please provide a URL to a PDF or image file (png, jpg, jpeg)."] * len(request.questions)
+            answers = ["Unsupported file type. Please provide a URL to a PDF, DOCX, or image file (png, jpg, jpeg)."] * len(request.questions)
             log_query_and_answers(doc_url, request.questions, answers)
             return HackRxResponse(answers=answers)
 
