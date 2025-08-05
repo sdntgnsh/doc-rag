@@ -13,6 +13,8 @@ import json
 import random
 import image_handler
 import docx_handler
+import xlsx_handler
+import xlsx_handler
 
 from datetime import datetime
 
@@ -83,7 +85,17 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = await docx_handler.handle_docx(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
             return HackRxResponse(answers=answers)
+
+        if doc_url.lower().split('?')[0].endswith('.xlsx'):
+            answers = await xlsx_handler.handle_xlsx(request.questions, doc_url)
+            log_query_and_answers(doc_url, request.questions, answers)
+            return HackRxResponse(answers=answers)
         
+        if not doc_url.lower().split('?')[0].endswith('.pdf'):
+            answers = ["Unsupported file type. Please provide a URL to a PDF, DOCX, XLSX, or image file (png, jpg, jpeg)."] * len(request.questions)
+            log_query_and_answers(doc_url, request.questions, answers)
+            return HackRxResponse(answers=answers)
+
         if not doc_url.lower().split('?')[0].endswith('.pdf'):
             answers = ["Unsupported file type. Please provide a URL to a PDF, DOCX, or image file (png, jpg, jpeg)."] * len(request.questions)
             log_query_and_answers(doc_url, request.questions, answers)

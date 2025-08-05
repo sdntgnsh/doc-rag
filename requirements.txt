@@ -8,3 +8,6 @@ scikit-learn
 openai
 pikepdf
 python-docx
+pandas
+openpyxl
+google-generativeai
