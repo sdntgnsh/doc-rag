@@ -10,3 +10,5 @@ pikepdf
 python-docx
 beautifulsoup4
 markdown
+python-pptx 
+reportlab
