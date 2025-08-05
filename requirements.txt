@@ -12,3 +12,7 @@ beautifulsoup4
 markdown
 python-pptx 
 reportlab
+
+pandas
+openpyxl
+google-generativeai
