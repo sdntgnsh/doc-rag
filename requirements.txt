@@ -8,3 +8,5 @@ scikit-learn
 openai
 pikepdf
 python-docx
+beautifulsoup4
+markdown
