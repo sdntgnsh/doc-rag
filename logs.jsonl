@@ -3690,3 +3690,101 @@
   ]
 }
 
+{
+  "timestamp": "2025-08-05T19:09:58.073968",
+  "document": "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D",
+  "questions": [
+    "I have raised a claim for hospitalization for Rs 200,000 with HDFC, and it's approved. My total expenses are Rs 250,000. Can I raise the remaining Rs 50,000 with you?"
+  ],
+  "answers": [
+    "No, you cannot raise the remaining Rs 50,000 with another insurer if the hospitalization claim for the same event has already been approved and settled by HDFC. The policy covers expenses up to the sum insured per hospitalization per insured person, and claims for the same hospitalization cannot be split between insurers for reimbursement beyond the actual expenses incurred or the sum insured limit."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T19:11:11.773922",
+  "document": "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D",
+  "questions": [
+    "I have raised a claim for hospitalization for Rs 200,000 with HDFC, and it's approved. My total expenses are Rs 250,000. Can I raise the remaining Rs 50,000 with you?"
+  ],
+  "answers": [
+    "No, you cannot raise the remaining Rs 50,000 with another insurer if the hospitalization claim for the same event has already been approved and settled by HDFC. The policy covers expenses up to the sum insured per hospitalization per insured person, and claims for the same hospitalization cannot be split between insurers for reimbursement beyond the actual expenses incurred or the sum insured limit."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T19:18:56.103906",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "Based on the slides, hospitalization expenses covered include: - Medical surgical treatment in registered hospitals. - Both hospital and domiciliary hospitalization. Limits for room and room expenses: - Room and nursing expenses are up to 1% of the sum insured or Ã¢ÂÂ¹5,000 daily. - ICU expenses are covered separately.",
+    "Domiciliary hospitalization refers to home treatment coverage for over three days when hospital admission is not feasible due to the patient's condition preventing hospital transfer or unavailability of hospital rooms. The key exclusions for domiciliary hospitalization include: - Specific conditions and expenses not covered under domiciliary benefits. - Pre and post-hospitalization expenses are excluded. - Asthma, diabetes, hypertension, and specific diseases. Coverage is limited to the specified policy schedule.",
+    "**Telemedicine Benefits and Limits:** - **Coverage:** - Covers digital consultation expenses with registered medical practitioners through telecommunication platforms. - Ã¢ÂÂ¹2,000 limit per insured family. - Subject to policy period coverage limit. **Maternity Benefits and Limits:** - **Coverage:** - Optional maternity coverage available with a 10% additional premium. - Covers the first two children with a limit of Ã¢ÂÂ¹50,000. - Nine-month waiting period is required. - Newborn coverage for day one monhs not specified. The benefits and limits for telemedicine and maternity coverage are defined on the relevant slide.",
+    "Specialized treatments covered and their sub-limits are: 1. **HIV/AIDS** - Comprehensive coverage including acute infection clinical latency and AIDS-related medical treatment expenses. 2. **Mental Illness** - Hospitalization in mental health establishments excluding substance abuse mental retardation therapies. 3. **Advanced Procedures** - Uterine Artery Embolization Ã¢ÂÂ¹50,000 - Robotic Surgeries Ã¢ÂÂ¹1,00,000 - Oral Chemotherapy 25% coverage.",
+    "The waiting periods for pre-existing diseases and specified diseases or procedures are as follows: - **Pre-existing Diseases Waiting**: 36 months waiting period applies before coverage becomes effective. - **Specified Diseases Timeline**: 1-3 years waiting periods for conditions like hernia, cataract, joint replacement procedures."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T19:24:28.548958",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "Based on the slides, hospitalization expenses covered include: - Medical surgical treatment in registered hospitals. - Both hospital and domiciliary hospitalization. Limits for room and room expenses: - Room and nursing expenses are up to 1% of the sum insured or â¹5,000 daily. - ICU expenses are covered separately.",
+    "Domiciliary hospitalization refers to home treatment coverage for over three days when hospital admission is not feasible due to the patient's condition preventing hospital transfer or unavailability of hospital rooms. The key exclusions for domiciliary hospitalization include: - Specific conditions and expenses not covered under domiciliary benefits. - Pre and post-hospitalization expenses are excluded. - Asthma, diabetes, hypertension, and specific diseases. Coverage is limited to the specified policy schedule.",
+    "**Telemedicine Benefits and Limits:** - **Coverage:** - Covers digital consultation expenses with registered medical practitioners through telecommunication platforms. - â¹2,000 limit per insured family. - Subject to policy period coverage limit. **Maternity Benefits and Limits:** - **Coverage:** - Optional maternity coverage available with a 10% additional premium. - Covers the first two children with a limit of â¹50,000. - Nine-month waiting period is required. - Newborn coverage for day one monhs not specified. The benefits and limits for telemedicine and maternity coverage are defined on the relevant slide.",
+    "Specialized treatments covered and their sub-limits are: 1. **HIV/AIDS** - Comprehensive coverage including acute infection clinical latency and AIDS-related medical treatment expenses. 2. **Mental Illness** - Hospitalization in mental health establishments excluding substance abuse mental retardation therapies. 3. **Advanced Procedures** - Uterine Artery Embolization â¹50,000 - Robotic Surgeries â¹1,00,000 - Oral Chemotherapy 25% coverage.",
+    "The waiting periods for pre-existing diseases and specified diseases or procedures are as follows: - **Pre-existing Diseases Waiting**: 36 months waiting period applies before coverage becomes effective. - **Specified Diseases Timeline**: 1-3 years waiting periods for conditions like hernia, cataract, joint replacement procedures."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T19:27:44.797272",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "Based on the slides, hospitalization expenses covered include: - Medical surgical treatment in registered hospitals. - Both hospital and domiciliary hospitalization. Limits for room and room expenses: - Room and nursing expenses are up to 1% of the sum insured or â¹5,000 daily. - ICU expenses are covered separately.",
+    "Domiciliary hospitalization refers to home treatment coverage for over three days when hospital admission is not feasible due to the patient's condition preventing hospital transfer or unavailability of hospital rooms. The key exclusions for domiciliary hospitalization include: - Specific conditions and expenses not covered under domiciliary benefits. - Pre and post-hospitalization expenses are excluded. - Asthma, diabetes, hypertension, and specific diseases. Coverage is limited to the specified policy schedule.",
+    "**Telemedicine Benefits and Limits:** - **Coverage:** - Covers digital consultation expenses with registered medical practitioners through telecommunication platforms. - â¹2,000 limit per insured family. - Subject to policy period coverage limit. **Maternity Benefits and Limits:** - **Coverage:** - Optional maternity coverage available with a 10% additional premium. - Covers the first two children with a limit of â¹50,000. - Nine-month waiting period is required. - Newborn coverage for day one monhs not specified. The benefits and limits for telemedicine and maternity coverage are defined on the relevant slide.",
+    "Specialized treatments covered and their sub-limits are: 1. **HIV/AIDS** - Comprehensive coverage including acute infection clinical latency and AIDS-related medical treatment expenses. 2. **Mental Illness** - Hospitalization in mental health establishments excluding substance abuse mental retardation therapies. 3. **Advanced Procedures** - Uterine Artery Embolization â¹50,000 - Robotic Surgeries â¹1,00,000 - Oral Chemotherapy 25% coverage.",
+    "The waiting periods for pre-existing diseases and specified diseases or procedures are as follows: - **Pre-existing Diseases Waiting**: 36 months waiting period applies before coverage becomes effective. - **Specified Diseases Timeline**: 1-3 years waiting periods for conditions like hernia, cataract, joint replacement procedures."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T19:28:40.328701",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Test%20Case%20HackRx.pptx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A36%3A56Z&se=2026-08-05T18%3A36%3A00Z&sr=b&sp=r&sig=v3zSJ%2FKW4RhXaNNVTU9KQbX%2Bmo5dDEIzwaBzXCOicJM%3D",
+  "questions": [
+    "What types of hospitalization expenses are covered, and what are the limits for room and room expenses?",
+    "What is domiciliary hospitalization, and what are its key exclusions?",
+    "What are the benefits and limits of telemedicine and maternity coverage under this policy?",
+    "What specialized treatments are covered, and what are their sub-limits?",
+    "What are the waiting periods for pre-existing diseases and specified diseases or procedures?"
+  ],
+  "answers": [
+    "The hospitalization expenses covered include medical and surgical treatment in hospitals. Room and nursing expenses are covered up to 1% of the sum insured or ₹5,000 daily, with ICU expenses coverage included.",
+    "Domiciliary hospitalization is home treatment coverage for over three days when hospital admission is not feasible due to the patient's condition, unavailability of hospital rooms, or the requirement for a minimum three-day treatment. Key exclusions include: - Specific conditions and expenses not covered under domiciliary hospitalization benefits. - Post hospitalization expenses. - Asthma, diabetes, hypertension, specific diseases. - Coverage limit specified in the policy schedule.",
+    "Based on the provided slides, here are the benefits and limits of telemedicine and maternity coverage under the policy: **Telemedicine Coverage:** - **Benefits:** - Digital consultations with registered medical practitioners through telecommunication platforms. - Consultation expenses covered up to ₹2,000 per insured family. - **Limits:** - Per policy period coverage limit is specified. **Maternity Benefits:** - **Benefits:** - Optional maternity coverage with an additional 10% premium. - Coverage for the first two children, with coverage up to ₹50,000. - Newborn coverage applies from day one to nine months. - **Limits:** - A nine-month waiting period is required before benefits begin. For further elaboration or any uncertainties, please refer to the policy document or contact the issuer directly.",
+    "The specialized treatments covered and their sub-limits are: - **HIV AIDS**: Comprehensive coverage for including acute infection, clinical latency, and AIDS related medical treatment expenses. - **Mental Illness**: Hospitalization in mental health establishments including substance abuse and mental retardation therapies. - **Advanced Procedures**: - Uterine Artery Embolization: ₹50,000 - Robotic Surgeries: ₹1,00,000 - Oral Chemotherapy: 25% coverage",
+    "The answer is found on slide 10. - The waiting period for pre-existing diseases is 36 months. - The waiting period for specified diseases is 1-3 years."
+  ]
+}
+
