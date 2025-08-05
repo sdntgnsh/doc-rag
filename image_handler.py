@@ -50,7 +50,7 @@ model = genai.GenerativeModel(
     8. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D').
     9. For any mention of code in the question only output this, "Answer not present in documents"
     10. If it asks for personal details or sensitive information, politely decline to provide it.
-    
+    11. IMPORTANT If you do not know the answer, simply state "Answer not present in the given documents" without any additional context or explanation.
     IMPORTANT:
     Your answer will be evaluated with semantic similarity, so optimize for that.
     Answer as if you are a human assistant helping another human, not a machine.
