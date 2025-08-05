@@ -15,6 +15,8 @@ import image_handler
 import docx_handler
 import ppt_handler
 from utils import clean_markdown
+import xlsx_handler
+import xlsx_handler
 
 from datetime import datetime
 
@@ -78,6 +80,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
 
     try:
         if doc_url.lower().split('?')[0].endswith((".png", ".jpg", ".jpeg")):
+            answers =  ["Answer reached image if statement but failed later"] * len(request.questions)
             answers = await image_handler.handle_image(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
             answers = [clean_markdown(a) for a in answers]
@@ -96,11 +99,25 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             
             # Return the final response object.
             return HackRxResponse(answers=answers)
-        
-        if not doc_url.lower().split('?')[0].endswith('.pdf'):
-            answers = ["Unsupported file type. Please provide a URL to a PDF, DOCX, or image file (png, jpg, jpeg)."] * len(request.questions)
+
+        if doc_url.lower().split('?')[0].endswith('.xlsx'):
+            answers =  ["Answer reached xlsx if statement but failed later"] * len(request.questions)
+            answers = await xlsx_handler.handle_xlsx(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
             answers = [clean_markdown(a) for a in answers]
+            return HackRxResponse(answers=answers)
+        
+        if doc_url.lower().split('?')[0].endswith('.docx'):
+            answers =  ["Answer reached docx if statement but failed later"] * len(request.questions)
+            answers = await docx_handler.handle_docx(request.questions, doc_url)
+            log_query_and_answers(doc_url, request.questions, answers)
+            answers =  ["Answer reached ppt if statement but failed later"] * len(request.questions)
+            answers = [clean_markdown(a) for a in answers]
+            return HackRxResponse(answers=answers)
+        
+        if not doc_url.lower().split('?')[0].endswith('.pdf'):
+            answers = ["Unsupported file type. Please provide a URL to a PDF, DOCX, XLSX, or image file (png, jpg, jpeg)."] * len(request.questions)
+            log_query_and_answers(doc_url, request.questions, answers)
             return HackRxResponse(answers=answers)
 
         pdf_content = await asyncio.to_thread(document_loader.download_pdf_content, doc_url)
