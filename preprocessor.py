@@ -22,6 +22,10 @@ def initialize_cache_from_json(file_path: str) -> Dict[Tuple[int, str], object]:
 
     for url in unique_urls:
         print(f"\n--- Checking document: {url} ---")
+        if "principia_newton.pdf" in url:
+            print(f"Skipping Newton document: {url}")
+            continue
+            
         if not url.lower().split('?')[0].endswith('.pdf'):
             print(f"Skipping non-PDF file: {url}")
             continue
