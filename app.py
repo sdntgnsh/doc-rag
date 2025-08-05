@@ -12,6 +12,7 @@ import cache_manager  # Import the new cache manager
 import json
 import random
 import image_handler
+import docx_handler
 
 from datetime import datetime
 
@@ -75,6 +76,11 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
     try:
         if doc_url.lower().split('?')[0].endswith((".png", ".jpg", ".jpeg")):
             answers = await image_handler.handle_image(request.questions, doc_url)
+            log_query_and_answers(doc_url, request.questions, answers)
+            return HackRxResponse(answers=answers)
+        
+        if doc_url.lower().split('?')[0].endswith('.docx'):
+            answers = await docx_handler.handle_docx(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
             return HackRxResponse(answers=answers)
         
