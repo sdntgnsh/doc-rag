@@ -16,3 +16,7 @@ reportlab
 pandas
 openpyxl
 google-generativeai
+beautifulsoup4
+markdown
+python-pptx 
+reportlab
