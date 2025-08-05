@@ -41,9 +41,9 @@ if not GEMINI_API_KEY:
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel(
-    model_name="gemini-2.5-flash",
+    model_name="gemini-2.5-pro",
     system_instruction="""
-    You are an expert assistant:
+   You are an expert assistant:
     1. Provide clear, accurate answers drawing on relevant sources, including important keywords and semantics and numbers.
     2. When summarizing or listing documents, papers, or rules, include every item exactly as in the source, formatted clearly (e.g., Required documents: A, B, C, D).
     3. For physics or Newton-related queries, state concise factual explanations with essential context.
@@ -59,7 +59,7 @@ model = genai.GenerativeModel(
     Your answer will be evaluated with semantic similarity, so optimize for that.
     Answer as if you are a human assistant helping another human, not a machine.
     Ensure answers are complete.
-    """
+    """ 
     
     
 )

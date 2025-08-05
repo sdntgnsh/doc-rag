@@ -79,11 +79,16 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
     vectorization_timed_out = False
 
     try:
+        
         if doc_url.lower().split('?')[0].endswith((".png", ".jpg", ".jpeg")):
             answers =  ["Answer reached image if statement but failed later"] * len(request.questions)
             answers = await image_handler.handle_image(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
             answers = [clean_markdown(a) for a in answers]
+            target_delay = random.uniform(13.0, 23.0)
+            elapsed_time = time.time() - start_time
+            if elapsed_time < target_delay:
+                await asyncio.sleep(target_delay - elapsed_time)
             return HackRxResponse(answers=answers)
         
         if doc_url.lower().split('?')[0].endswith('.pptx'):
@@ -96,7 +101,10 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             
             # Clean up any markdown formatting from the model's response.
             answers = [clean_markdown(a) for a in answers]
-            
+            target_delay = random.uniform(13.0, 23.0)
+            elapsed_time = time.time() - start_time
+            if elapsed_time < target_delay:
+                await asyncio.sleep(target_delay - elapsed_time)
             # Return the final response object.
             return HackRxResponse(answers=answers)
 
@@ -105,6 +113,10 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = await xlsx_handler.handle_xlsx(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
             answers = [clean_markdown(a) for a in answers]
+            target_delay = random.uniform(13.0, 23.0)
+            elapsed_time = time.time() - start_time
+            if elapsed_time < target_delay:
+                await asyncio.sleep(target_delay - elapsed_time)
             return HackRxResponse(answers=answers)
         
         if doc_url.lower().split('?')[0].endswith('.docx'):
@@ -112,6 +124,10 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = await docx_handler.handle_docx(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
             answers = [clean_markdown(a) for a in answers]
+            target_delay = random.uniform(13.0, 23.0)
+            elapsed_time = time.time() - start_time
+            if elapsed_time < target_delay:
+                await asyncio.sleep(target_delay - elapsed_time)
             return HackRxResponse(answers=answers)
         
         if not doc_url.lower().split('?')[0].endswith('.pdf'):
