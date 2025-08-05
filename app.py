@@ -11,6 +11,7 @@ import rag_pipeline
 import cache_manager  # Import the new cache manager
 import json
 import random
+import image_handler
 
 from datetime import datetime
 
@@ -72,6 +73,16 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
     vectorization_timed_out = False
 
     try:
+        if doc_url.lower().split('?')[0].endswith((".png", ".jpg", ".jpeg")):
+            answers = await image_handler.handle_image(request.questions, doc_url)
+            log_query_and_answers(doc_url, request.questions, answers)
+            return HackRxResponse(answers=answers)
+        
+        if not doc_url.lower().split('?')[0].endswith('.pdf'):
+            answers = ["Unsupported file type. Please provide a URL to a PDF or image file (png, jpg, jpeg)."] * len(request.questions)
+            log_query_and_answers(doc_url, request.questions, answers)
+            return HackRxResponse(answers=answers)
+
         pdf_content = await asyncio.to_thread(document_loader.download_pdf_content, doc_url)
         if not pdf_content:
             raise HTTPException(status_code=400, detail="Could not download document.")

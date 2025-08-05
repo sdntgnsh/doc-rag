@@ -457,3 +457,174 @@
   ]
 }
 
+{
+  "timestamp": "2025-08-05T10:31:10.506693",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/image.jpeg?sv=2023-01-03&spr=https&st=2025-08-04T19%3A29%3A01Z&se=2026-08-05T19%3A29%3A00Z&sr=b&sp=r&sig=YnJJThygjCT6%2FpNtY1aHJEZ%2F%2BqHoEB59TRGPSxJJBwo%3D",
+  "questions": [
+    "What is 100+22?",
+    "What is 9+5?",
+    "What is 65007+2?",
+    "What is 1+1?",
+    "What is 5+500?"
+  ],
+  "answers": [
+    "Based on the visual information provided in the image:\n\n100+22 = 2200",
+    "9+5 = 22",
+    "65007+2 = 650072",
+    "Answer not present in documents",
+    "The provided image does not contain information about \"5+500\". The calculations shown in the image are:\n*   9+5= 22\n*   100+23=10023\n*   22+100=2200\n*   65007+2=650072\n\nThere is no consistent pattern across these examples that can be applied to determine the result of \"5+500\". Therefore, the answer to \"5+500\" is not present in the visual information provided."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:34:31.348859",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/image.png?sv=2023-01-03&spr=https&st=2025-08-04T19%3A21%3A45Z&se=2026-08-05T19%3A21%3A00Z&sr=b&sp=r&sig=lAn5WYGN%2BUAH7mBtlwGG4REw5EwYfsBtPrPuB0b18M4%3D",
+  "questions": [
+    "What is the daily limit for room, boarding, and nursing expenses for a sum insured of 4 lakhs?",
+    "What is the maximum daily ICU expense coverage for a sum insured of 8 lakhs?",
+    "If the sum insured is 12 lakhs, how are the room, boarding, and nursing expenses covered?"
+  ],
+  "answers": [
+    "For a sum insured of 4 lakhs, which falls under the \"Up to 5 lakhs\" slab, the daily limit for room, boarding, and nursing expenses is a Single Room up to 1% of Sum Insured, with a maximum of up to Rs 5,000/- per day.\n\nTherefore, 1% of 4 lakhs is Rs 4,000/- per day.",
+    "For a sum insured of 8 lakhs, the maximum daily Intensive Care Unit (ICU) expense coverage is up to Rs. 20,000/- per day.",
+    "If the sum insured is 12 lakhs, the room, boarding, and nursing expenses are covered as \"Actuals Expenses\" as per section 3.18 for \"Above 10 lakhs\" sum insured slabs."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:36:36.709614",
+  "document": "https://hackrx.blob.core.windows.net/assets/hackrx_pdf.zip?sv=2023-01-03&spr=https&st=2025-08-04T09%3A25%3A45Z&se=2027-08-05T09%3A25%3A00Z&sr=b&sp=r&sig=rDL2ZcGX6XoDga5%2FTwMGBO9MgLOhZS8PUjvtga2cfVk%3D",
+  "questions": [
+    "Give me details about this document?"
+  ],
+  "answers": [
+    "Unsupported file type. Please provide a URL to a PDF or image file (png, jpg, jpeg)."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:37:23.815217",
+  "document": "https://ash-speed.hetzner.com/10GB.bin",
+  "questions": [
+    "Give me details about this document?"
+  ],
+  "answers": [
+    "Unsupported file type. Please provide a URL to a PDF or image file (png, jpg, jpeg)."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:37:51.787539",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/Pincode%20data.xlsx?sv=2023-01-03&spr=https&st=2025-08-04T18%3A50%3A43Z&se=2026-08-05T18%3A50%3A00Z&sr=b&sp=r&sig=xf95kP3RtMtkirtUMFZn%2FFNai6sWHarZsTcvx8ka9mI%3D",
+  "questions": [
+    "What is the phone number of Aditya Roy?",
+    "What is the pincode of Anjali Shah?",
+    "What is the highest salary earned by a person named Aarav Sharma?"
+  ],
+  "answers": [
+    "Unsupported file type. Please provide a URL to a PDF or image file (png, jpg, jpeg).",
+    "Unsupported file type. Please provide a URL to a PDF or image file (png, jpg, jpeg).",
+    "Unsupported file type. Please provide a URL to a PDF or image file (png, jpg, jpeg)."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:38:46.700680",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/image.png?sv=2023-01-03&spr=https&st=2025-08-04T19%3A21%3A45Z&se=2026-08-05T19%3A21%3A00Z&sr=b&sp=r&sig=lAn5WYGN%2BUAH7mBtlwGG4REw5EwYfsBtPrPuB0b18M4%3D",
+  "questions": [
+    "What is the daily limit for room, boarding, and nursing expenses for a sum insured of 4 lakhs?",
+    "What is the maximum daily ICU expense coverage for a sum insured of 8 lakhs?",
+    "If the sum insured is 12 lakhs, how are the room, boarding, and nursing expenses covered?"
+  ],
+  "answers": [
+    "For a sum insured of 4 lakhs, which falls under the \"Up to 5 lakhs\" slab, the daily limit for room, boarding, and nursing expenses is a Single Room up to 1% of Sum Insured, with a maximum of up to Rs 5,000/- per day.\n\nTherefore, 1% of 4 lakhs is Rs 4,000/- per day.",
+    "For a sum insured of 8 lakhs, the maximum daily Intensive Care Unit (ICU) expense coverage is up to Rs. 20,000/- per day.",
+    "If the sum insured is 12 lakhs, the room, boarding, and nursing expenses are covered as \"Actuals Expenses\" as per section 3.18 for \"Above 10 lakhs\" sum insured slabs."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:46:09.529731",
+  "document": "https://hackrx.blob.core.windows.net/assets/Test%20/image.jpeg?sv=2023-01-03&spr=https&st=2025-08-04T19%3A29%3A01Z&se=2026-08-05T19%3A29%3A00Z&sr=b&sp=r&sig=YnJJThygjCT6%2FpNtY1aHJEZ%2F%2BqHoEB59TRGPSxJJBwo%3D",
+  "questions": [
+    "What is 100+22?",
+    "What is 9+5?",
+    "What is 65007+2?",
+    "What is 1+1?",
+    "What is 5+500?"
+  ],
+  "answers": [
+    "Based on the visual information provided in the image:\n\n100+22 = 2200",
+    "9+5 = 22",
+    "65007+2 = 650072",
+    "Answer not present in documents",
+    "The provided image does not contain information about \"5+500\". The calculations shown in the image are:\n*   9+5= 22\n*   100+23=10023\n*   22+100=2200\n*   65007+2=650072\n\nThere is no consistent pattern across these examples that can be applied to determine the result of \"5+500\". Therefore, the answer to \"5+500\" is not present in the visual information provided."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:46:49.207273",
+  "document": "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D",
+  "questions": [
+    "I have raised a claim for hospitalization for Rs 200,000 with HDFC, and it's approved. My total expenses are Rs 250,000. Can I raise the remaining Rs 50,000 with you?"
+  ],
+  "answers": [
+    "No, you cannot raise the remaining Rs 50,000 with another insurer for the same hospitalization if the full claim of Rs 200,000 has already been approved and settled by HDFC under the policy. The policy covers expenses up to the sum insured per policy period, and once the claim is settled for the admissible amount, the remaining expenses cannot be claimed again with another insurer for the same event. Double claiming for the same expenses is not permitted."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:47:31.334354",
+  "document": "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D",
+  "questions": [
+    "I have raised a claim for hospitalization for Rs 200,000 with HDFC, and it's approved. My total expenses are Rs 250,000. Can I raise the remaining Rs 50,000 with you?"
+  ],
+  "answers": [
+    "No, you cannot raise the remaining Rs 50,000 with another insurer for the same hospitalization if the full claim has already been approved and settled by HDFC. Double claiming for the same expenses is not permitted. If your policy with HDFC has a sum insured limit and you have another policy with a different insurer, you must disclose all existing policies and claims, and the insurers will share the claim amount proportionately as per contribution clause, but you cannot claim the same amount twice."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:48:07.235383",
+  "document": "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D",
+  "questions": [
+    "I have raised a claim for hospitalization for Rs 200,000 with HDFC, and it's approved. My total expenses are Rs 250,000. Can I raise the remaining Rs 50,000 with you?"
+  ],
+  "answers": [
+    "No, you cannot raise the remaining Rs 50,000 with another insurer for the same hospitalization expenses if the full claim has already been settled and approved by HDFC. The policy covers admissible expenses up to the sum insured under a single policy, and double claiming for the same expenses from multiple insurers is not permitted."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:48:31.195971",
+  "document": "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D",
+  "questions": [
+    "I have raised a claim for hospitalization for Rs 200,000 with HDFC, and it's approved. My total expenses are Rs 250,000. Can I raise the remaining Rs 50,000 with you?"
+  ],
+  "answers": [
+    "No, you cannot raise the remaining Rs 50,000 with another insurer. Once a hospitalization claim for the same event is approved and settled by one insurer (HDFC in this case), you cannot claim the same expenses with another insurer. Double claiming for the same hospitalization expenses is not permitted."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:53:01.514599",
+  "document": "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D",
+  "questions": [
+    "I have raised a claim for hospitalization for Rs 200,000 with HDFC, and it's approved. My total expenses are Rs 250,000. Can I raise the remaining Rs 50,000 with you?"
+  ],
+  "answers": [
+    "No, you cannot raise the remaining Rs 50,000 with another insurer if the hospitalization claim for the same event has already been approved and settled by HDFC. The policy covers admissible expenses up to the sum insured per policy, and claims for the same hospitalization event cannot be split or claimed from multiple insurers beyond the actual expenses incurred. Double claiming for the same expenses is not permitted."
+  ]
+}
+
+{
+  "timestamp": "2025-08-05T10:53:18.541777",
+  "document": "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D",
+  "questions": [
+    "I have raised a claim for hospitalization for Rs 200,000 with HDFC, and it's approved. My total expenses are Rs 250,000. Can I raise the remaining Rs 50,000 with you?"
+  ],
+  "answers": [
+    "No, you cannot raise the remaining Rs 50,000 with another insurer. Once a hospitalization claim for the same event is approved and settled by one insurer (HDFC in this case), you cannot claim the same expenses with another insurer. Double claiming for the same hospitalization expenses is not permitted."
+  ]
+}
+
