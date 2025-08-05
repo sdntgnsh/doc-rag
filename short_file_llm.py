@@ -30,6 +30,9 @@ logger = logging.getLogger(__name__)
 # Load environment variables
 load_dotenv()
 
+# --- Global Cache for Uploaded Files ---
+UPLOADED_FILE_CACHE = {}
+
 # Configure Gemini API
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
@@ -84,16 +87,15 @@ def load_query_from_cache(query_key: str) -> str:
 async def handle_short_document(
     questions: List[str],
     doc_url: str,
-    pdf_cache: Dict = None,
-    uploaded_file_cache: Dict = None
+    pdf_cache: Dict = None
 ) -> List[str]:
     """
     Handles documents by uploading them once and then querying against the uploaded file.
     """
+    global UPLOADED_FILE_CACHE
     start_time = time.time()
     answers = ["Processing timed out for this question."] * len(questions)
     pdf_cache = pdf_cache or {}
-    uploaded_file_cache = uploaded_file_cache or {}
 
     logger.info(f"Processing {len(questions)} questions for document: {doc_url}")
 
@@ -110,7 +112,7 @@ async def handle_short_document(
         cache_key = document_loader.get_cache_key_from_content(initial_pdf_bytes)
 
         # Step 2: Upload the file ONCE using its content hash as a key
-        uploaded_file = uploaded_file_cache.get(cache_key)
+        uploaded_file = UPLOADED_FILE_CACHE.get(cache_key)
         if not uploaded_file:
             logger.info(f"Uploading file for the first time with key: {cache_key}")
             # genai.upload_file needs a file path, so we use a temporary file
@@ -124,7 +126,7 @@ async def handle_short_document(
                     path=temp_file_path,
                     display_name=f"doc-{hashlib.sha1(initial_pdf_bytes).hexdigest()[:8]}"
                 )
-                uploaded_file_cache[cache_key] = uploaded_file
+                UPLOADED_FILE_CACHE[cache_key] = uploaded_file
                 logger.info(f"File uploaded successfully: {uploaded_file.name}")
             finally:
                 os.unlink(temp_file_path) # Clean up the temporary file
@@ -133,7 +135,7 @@ async def handle_short_document(
 
         # Step 3: Answer questions using the uploaded file reference
         async def answer_question(question: str, file_resource) -> str:
-            query_cache_key = f"query_{hashlib.sha256((question + str(cache_key)).encode()).hexdigest()}"
+            query_cache_key = f"short_doc_answer_{hashlib.sha256((question + str(cache_key)).encode()).hexdigest()}"
             cached_answer = load_query_from_cache(query_cache_key)
             if cached_answer:
                 return cached_answer

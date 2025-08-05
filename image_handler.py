@@ -106,7 +106,7 @@ async def handle_image(
         }
         
         async def answer_question(question: str, image_part) -> str:
-            query_cache_key = f"query_{hashlib.sha256((question + cache_key).encode()).hexdigest()}"
+            query_cache_key = f"image_answer_{hashlib.sha256((question + cache_key).encode()).hexdigest()}"
             cached_answer = load_query_from_cache(query_cache_key)
             if cached_answer:
                 logger.info(f"Cache HIT for question: '{question[:50]}...'")

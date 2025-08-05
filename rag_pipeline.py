@@ -113,28 +113,42 @@ async def _answer_one_question_async(question: str, vector_store: InMemoryVector
     Routes questions based on whether they require RAG or can use general knowledge.
     """
     print(f"Original question: '{question}'")
+
+    # Final answer cache
+    # Create a unique key for the question and the specific vector store instance
+    vector_store_id = str(id(vector_store))
+    final_answer_cache_key = f"rag_answer_{hashlib.sha256((question + vector_store_id).encode()).hexdigest()}"
+    final_answer_cache_path = f"cache/{final_answer_cache_key}.pkl"
     
+    if os.path.exists(final_answer_cache_path):
+        with open(final_answer_cache_path, "rb") as f:
+            print(f"Cache hit for RAG answer: {question}")
+            return pickle.load(f)
+
     # Check if this is a general knowledge question
     if knowledge_detector.is_general_knowledge(question) and not knowledge_detector.requires_document_context(question):
         print("⚡ Routing to general knowledge (bypassing RAG)")
         # Use empty context for general knowledge questions
-        return llm_interface.get_answer("", question)
-    
+        answer = llm_interface.get_answer("", question)
+        with open(final_answer_cache_path, "wb") as f:
+            pickle.dump(answer, f)
+        return answer
+
     print("📚 Using full RAG pipeline")
     
     # Cache query expansion
-    cache_key = f"query_{hashlib.sha256(question.encode()).hexdigest()}"
-    cache_path = f"cache/{cache_key}.pkl"
+    expansion_cache_key = f"query_expansion_{hashlib.sha256(question.encode()).hexdigest()}"
+    expansion_cache_path = f"cache/{expansion_cache_key}.pkl"
     os.makedirs("cache", exist_ok=True)
     
-    if os.path.exists(cache_path):
-        with open(cache_path, "rb") as f:
+    if os.path.exists(expansion_cache_path):
+        with open(expansion_cache_path, "rb") as f:
             expanded_questions = pickle.load(f)
         print(f"Cache hit for query expansion: {question}")
     else:
         try:
             expanded_questions = query_expander_model.expand(question)
-            with open(cache_path, "wb") as f:
+            with open(expansion_cache_path, "wb") as f:
                 pickle.dump(expanded_questions, f)
         except Exception as e:
             print(f"Query expansion failed: {e}")
@@ -158,7 +172,13 @@ async def _answer_one_question_async(question: str, vector_store: InMemoryVector
     
     # Context Generation & Answering
     context = "\n\n---\n\n".join(reranked_chunks)
-    return llm_interface.get_answer(context, question)
+    answer = llm_interface.get_answer(context, question)
+    
+    # Cache the final answer
+    with open(final_answer_cache_path, "wb") as f:
+        pickle.dump(answer, f)
+        
+    return answer
 
 async def answer_questions(questions: List[str], vector_store: InMemoryVectorStore) -> List[str]:
     tasks = [asyncio.to_thread(_answer_one_question_async, q, vector_store) for q in questions]
