@@ -104,8 +104,27 @@ async def handle_short_document(
         return ["Error: No document URL provided."] * len(questions)
 
     try:
+
+        initial_pdf_bytes = None
+        # MODIFICATION START: Logic to handle both local path and URL
+        is_local_file = os.path.exists(doc_url)
+
+        if is_local_file:
+            logger.info(f"Loading local file: {doc_url}")
+            try:
+                with open(doc_url, "rb") as f:
+                    initial_pdf_bytes = f.read()
+            except IOError as e:
+                logger.error(f"Could not read local file {doc_url}: {e}")
+                raise HTTPException(status_code=400, detail=f"Could not read file: {e}")
+        else:
+            logger.info(f"Assuming remote doc_url, attempting download: {doc_url}")
+            initial_pdf_bytes = await asyncio.to_thread(document_loader.download_pdf_content, doc_url)
+        # MODIFICATION END
         # Step 1: Get PDF bytes (from download or cache)
-        initial_pdf_bytes = await asyncio.to_thread(document_loader.download_pdf_content, doc_url)
+        # initial_pdf_bytes = await asyncio.to_thread(document_loader.download_pdf_content, doc_url)
+
+
         if not initial_pdf_bytes:
             raise HTTPException(status_code=400, detail="Could not download document.")
 
