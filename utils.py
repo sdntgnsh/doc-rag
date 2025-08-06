@@ -72,7 +72,9 @@ def clean_markdown(md_text):
     
     # Step 3: Clean the text (handles HTML entities, Unicode, and whitespace)
     cleaned_text = clean_text(plain_text).replace('*', ' ')
-    
+    normalized_spacing = cleaned_text.split()
+
+    cleaned_text = ' '.join(normalized_spacing).strip()
     return cleaned_text
 
 if __name__ == "__main__":

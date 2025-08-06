@@ -89,6 +89,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             elapsed_time = time.time() - start_time
             if elapsed_time < target_delay:
                 await asyncio.sleep(target_delay - elapsed_time)
+            answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         
         if doc_url.lower().split('?')[0].endswith('.pptx'):
@@ -106,6 +107,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             if elapsed_time < target_delay:
                 await asyncio.sleep(target_delay - elapsed_time)
             # Return the final response object.
+            answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
 
         if doc_url.lower().split('?')[0].endswith('.xlsx'):
@@ -117,6 +119,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             elapsed_time = time.time() - start_time
             if elapsed_time < target_delay:
                 await asyncio.sleep(target_delay - elapsed_time)
+            answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         
         if doc_url.lower().split('?')[0].endswith('.docx'):
@@ -128,11 +131,14 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             elapsed_time = time.time() - start_time
             if elapsed_time < target_delay:
                 await asyncio.sleep(target_delay - elapsed_time)
+
+            answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         
         if not doc_url.lower().split('?')[0].endswith('.pdf'):
             answers = ["Unsupported file type. Please provide a URL to a PDF, DOCX, XLSX, or image file (png, jpg, jpeg)."] * len(request.questions)
             log_query_and_answers(doc_url, request.questions, answers)
+            answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
 
         pdf_content = await asyncio.to_thread(document_loader.download_pdf_content, doc_url)
@@ -150,6 +156,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             elapsed_time = time.time() - start_time
             if elapsed_time < target_delay:
                 await asyncio.sleep(target_delay - elapsed_time)
+            answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         # --- END OF BLOCK ---
         else: 

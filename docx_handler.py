@@ -34,12 +34,13 @@ if not GEMINI_API_KEY:
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel(
-    model_name="gemini-2.5-flash",
+    model_name="gemini-2.5-pro",
     system_instruction="""
 You are a helpful assistant answering based only on the provided .docx content.
 Be concise, complete, and accurate.
 Reject requests for code or sensitive information.
 If an answer is not in the content, say so.
+answer directly without saying based on the document etc.
 """
 )
 
