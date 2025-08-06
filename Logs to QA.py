@@ -5,7 +5,7 @@ import os    # For checking file existence
 # IMPORTANT: Replace 'your_input_file.jsonl' with the actual path to your JSONL file.
 # For example: input_file = r"C:\Users\YourUser\Documents\my_logs.jsonl"
 input_file = "logs.jsonl"  # <--- **CHANGE THIS TO YOUR ACTUAL INPUT FILE PATH**
-output_file = "Round 3 Submission 2.txt"
+output_file = "Round 3 Submission 3.txt"
 
 print(f"Attempting to process '{input_file}' and save output to '{output_file}'...")
 
