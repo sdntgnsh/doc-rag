@@ -17,6 +17,7 @@ import ppt_handler
 from utils import clean_markdown
 import xlsx_handler
 import xlsx_handler
+import website_handler
 
 from datetime import datetime
 
@@ -89,6 +90,15 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             elapsed_time = time.time() - start_time
             if elapsed_time < target_delay:
                 await asyncio.sleep(target_delay - elapsed_time)
+            answers = [clean_markdown(a) for a in answers]
+            return HackRxResponse(answers=answers)
+        
+        if "get-secret-token" in doc_url.lower():
+            # If the URL is a special case, handle it directly.
+            # This is a placeholder for any specific logic you might want to implement.
+            answers = ["Special case handling for get-secret-token URL."] * len(request.questions)
+            answers = await website_handler.answer_from_website(doc_url)
+            log_query_and_answers(doc_url, request.questions, answers)
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         
