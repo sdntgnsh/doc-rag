@@ -87,12 +87,10 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = await image_handler.handle_image(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
             answers = [clean_markdown(a) for a in answers]
-            answers = [clean_markdown(a) for a in answers]
             target_delay = random.uniform(13.0, 23.0)
             elapsed_time = time.time() - start_time
             if False:  
                 await asyncio.sleep(target_delay - elapsed_time)
-            answers = [clean_markdown(a) for a in answers]
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         
@@ -115,13 +113,11 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             
             # Clean up any markdown formatting from the model's response.
             answers = [clean_markdown(a) for a in answers]
-            answers = [clean_markdown(a) for a in answers]
             target_delay = random.uniform(13.0, 23.0)
             elapsed_time = time.time() - start_time
             if False:  
                 await asyncio.sleep(target_delay - elapsed_time)
             # Return the final response object.
-            answers = [clean_markdown(a) for a in answers]
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
 
@@ -130,12 +126,10 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = await xlsx_handler.handle_xlsx(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
             answers = [clean_markdown(a) for a in answers]
-            answers = [clean_markdown(a) for a in answers]
             target_delay = random.uniform(13.0, 23.0)
             elapsed_time = time.time() - start_time
             if False:  
                 await asyncio.sleep(target_delay - elapsed_time)
-            answers = [clean_markdown(a) for a in answers]
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         
@@ -144,13 +138,11 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = await docx_handler.handle_docx(request.questions, doc_url)
             log_query_and_answers(doc_url, request.questions, answers)
             answers = [clean_markdown(a) for a in answers]
-            answers = [clean_markdown(a) for a in answers]
             target_delay = random.uniform(13.0, 23.0)
             elapsed_time = time.time() - start_time
             if False:  
                 await asyncio.sleep(target_delay - elapsed_time)
 
-            answers = [clean_markdown(a) for a in answers]
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
 
@@ -162,7 +154,6 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
         if not doc_url.lower().split('?')[0].endswith('.pdf'):
             answers = ["Unsupported file type. Please provide a URL to a PDF, DOCX, XLSX, or image file (png, jpg, jpeg)."] * len(request.questions)
             log_query_and_answers(doc_url, request.questions, answers)
-            answers = [clean_markdown(a) for a in answers]
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
 
@@ -181,7 +172,6 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             elapsed_time = time.time() - start_time
             if False:  
                 await asyncio.sleep(target_delay - elapsed_time)
-            answers = [clean_markdown(a) for a in answers]
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         # --- END OF BLOCK ---
@@ -235,8 +225,6 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             # print(f"⏱️ Remaining time for answering: {remaining_time:.2f}s")
             if remaining_time <= 0:
                 # print("❌ No time left for answering phase")
-                answers = [clean_markdown(a) for a in answers]
-                answers = [clean_markdown(a) for a in answers]
                 return HackRxResponse(answers=answers)
 
             if vectorization_timed_out:
@@ -288,7 +276,6 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
     if False:  
         await asyncio.sleep(target_delay - elapsed_time)
 
-    answers = [clean_markdown(a) for a in answers]
     answers = [clean_markdown(a) for a in answers]
     return HackRxResponse(answers=answers)
 
