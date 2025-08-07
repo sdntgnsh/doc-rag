@@ -145,6 +145,6 @@ async def handle_flight_query(doc_url: str) -> List[str]:
         return [f"Could not retrieve the flight number from URL: {used_url}"]
 
     # Step 4. Return the final answer
-    final_answer = f"Flight Number: {flight_number} (from URL: {used_url})"
+    final_answer = f"{flight_number}"
     print(f"[DEBUG] Final answer: {final_answer}")
     return [final_answer]

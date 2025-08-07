@@ -39,7 +39,7 @@ security_scheme = HTTPBearer()
 VECTORIZATION_TIMEOUT = 17.0  # 17 seconds timeout for vectorization
 
 
-PAGE_LIMIT = 5  # Maximum number of pages for short document handling
+PAGE_LIMIT = 70  # Maximum number of pages for short document handling
 EXCEPTIONS = [16,] #run docs with these page counts through rag pipeline
 async def verify_token(credentials: HTTPBearer = Depends(security_scheme)):
     if credentials.credentials != BEARER_TOKEN:
