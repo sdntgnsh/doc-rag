@@ -77,6 +77,61 @@ def clean_markdown(md_text):
     cleaned_text = ' '.join(normalized_spacing).strip()
     return cleaned_text
 
+
+import requests
+from bs4 import BeautifulSoup
+
+def get_text_from_url(url):
+    """
+    Fetches the content from a URL and extracts all the text.
+
+    This function sends an HTTP GET request to the specified URL,
+    parses the HTML content of the page, and extracts all the visible
+    text, stripping out HTML tags, scripts, and styles.
+
+    Args:
+        url (str): The URL of the website to scrape.
+
+    Returns:
+        str: The extracted text content from the webpage.
+             Returns an error message string if the request fails or
+             if the content cannot be parsed.
+    """
+    try:
+        # Send an HTTP GET request to the URL.
+        # The headers are used to mimic a browser visit.
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        response = requests.get(url, headers=headers, timeout=10)
+
+        # Raise an exception for bad status codes (4xx or 5xx).
+        response.raise_for_status()
+
+        # Use BeautifulSoup to parse the HTML content.
+        soup = BeautifulSoup(response.content, 'html.parser')
+
+        # Remove script and style elements, as they don't contain useful text.
+        for script_or_style in soup(['script', 'style']):
+            script_or_style.decompose()
+
+        # Get all the text from the parsed HTML.
+        # The .get_text() method returns all the text in a document
+        # or beneath a tag, as a single Unicode string.
+        # The 'strip=True' argument removes leading/trailing whitespace.
+        # The 'separator=" "' argument adds a space between text elements.
+        text = soup.get_text(separator=' ', strip=True)
+
+        return text
+
+    except requests.exceptions.RequestException as e:
+        # Handle potential network errors (e.g., DNS failure, refused connection).
+        return f"Error: Could not retrieve the URL. {e}"
+    except Exception as e:
+        # Handle other potential exceptions.
+        return f"An unexpected error occurred: {e}"
+
+
 if __name__ == "__main__":
     text = """Based on the policy, the claim is admissible. **Admissibility:** 1. **Dependent Eligibility:** Children over 18 and up to the age of 26 are covered, provided they are unmarried, unemployed, and dependent. 2. **Dental Exclusion:** Dental surgery is covered when it is necessitated by an accident and requires a minimum of 24 hours of hospitalization. **Claim Process:** 1. **Notification:** You must notify the TPA within 24 hours of the emergency hospitalization or before discharge, whichever is earlier. 2. **Procedure:** You can opt for a cashless facility at a network hospital (which requires pre-authorization) or get treatment at a non-network hospital and file for reimbursement. 3. **Required Documents for Reimbursement:** The claim must be supported by the following original documents and submitted within 15 days of discharge: * Duly completed claim form * Photo ID and Age proof * Health Card, policy copy, and KYC documents * Attending medical practitioner's/surgeon's certificate regarding the diagnosis/nature of the operation performed, with the date of diagnosis and investigation reports * Medical history of the patient, including all previous consultation papers * Bills (with a detailed breakup) and payment receipts * Discharge certificate/summary from the hospital * Original final hospital bill with a detailed break-up and all original deposit and final payment receipts * Original invoice with payment receipt and implant stickers for any implants used * All original diagnostic reports (imaging and laboratory) with the practitioner's prescription and invoice/bill * All original medicine/pharmacy bills with the practitioner's prescription * MLC / FIR copy, as this is an accidental case * Pre and post-operative imaging reports * Copy of indoor case papers with nursing sheet detailing medical history, treatment, and progress * A cheque copy with the proposer's name printed, or a copy of the first page of the bank passbook/statement (not older than 3 months)
     """
