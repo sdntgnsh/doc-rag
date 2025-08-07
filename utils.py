@@ -82,9 +82,6 @@ if __name__ == "__main__":
     """
     
     # Test with rupee symbol
-    test_text = """
-"As per section 2.21 of the policy, the Grace Period for payment of the premium is thirty days. This is the specified period of time immediately following the premium due date during which a premium payment can be made to renew or continue a policy in force without loss of continuity benefits. However, coverage is not available during the period for which no premium has been received.",
-    "Yes, the policy covers the medical expenses for an organ donor's hospitalization for the purpose of harvesting the organ, provided certain conditions are met.\n\n**Conditions for Coverage (Organ Donor's Hospitalisation Expenses):**\nThe Company will cover the medical expenses for an organ donor's hospitalization during the Policy Period for harvesting the organ donated to an Insured Person, provided that:\ni. The organ donation confirms to the Transplantation of Human Organs Act 1994 (and its amendments from time to time)\nii. The organ is used for an Insured Person and the Insured Person has been medically advised to undergo an organ transplant\niii. The Medical Expenses shall be incurred in respect of the organ donor as an in-patient in a Hospital.\niv. Claim has been admitted under In-patient Treatment Section in respect of the Insured Person undergoing the organ transplant.\n\n**Exclusions:**\nThe Company will not pay for any claim related to the organ donor for:\ni. Pre-hospitalization Medical Expenses or Post- Hospitalization Medical Expenses of the organ donor.\nii. Costs directly or indirectly associated with the acquisition of the donor's organ.\niii. Medical Expenses where the organ transplant is experimental or investigational.\niv. Any medical treatment or complication in respect of the donor, consequent to harvesting.\nv. Any expenses related to organ transportation or preservation."
-    """
+    test_text = "Cost: ₹5000"
     print(clean_markdown(test_text))
     print(clean_markdown(text))
