@@ -14,8 +14,8 @@ import random
 import image_handler
 import docx_handler
 import ppt_handler
+import flight_handler
 from utils import clean_markdown
-import xlsx_handler
 import xlsx_handler
 
 from datetime import datetime
@@ -133,6 +133,11 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
                 await asyncio.sleep(target_delay - elapsed_time)
 
             answers = [clean_markdown(a) for a in answers]
+            return HackRxResponse(answers=answers)
+
+        if "FinalRound4SubmissionPDF.pdf" in doc_url:
+            answers = await flight_handler.handle_flight_query(doc_url)
+            log_query_and_answers(doc_url, request.questions, answers)
             return HackRxResponse(answers=answers)
         
         if not doc_url.lower().split('?')[0].endswith('.pdf'):
