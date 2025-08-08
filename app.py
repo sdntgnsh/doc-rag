@@ -89,8 +89,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = [clean_markdown(a) for a in answers]
             target_delay = random.uniform(13.0, 23.0)
             elapsed_time = time.time() - start_time
-            if False:  
-                await asyncio.sleep(target_delay - elapsed_time)
+            
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         
@@ -115,8 +114,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = [clean_markdown(a) for a in answers]
             target_delay = random.uniform(13.0, 23.0)
             elapsed_time = time.time() - start_time
-            if False:  
-                await asyncio.sleep(target_delay - elapsed_time)
+            
             # Return the final response object.
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
@@ -128,8 +126,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = [clean_markdown(a) for a in answers]
             target_delay = random.uniform(13.0, 23.0)
             elapsed_time = time.time() - start_time
-            if False:  
-                await asyncio.sleep(target_delay - elapsed_time)
+            
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         
@@ -140,8 +137,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = [clean_markdown(a) for a in answers]
             target_delay = random.uniform(13.0, 23.0)
             elapsed_time = time.time() - start_time
-            if False:  
-                await asyncio.sleep(target_delay - elapsed_time)
+            
 
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
@@ -170,8 +166,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             log_query_and_answers(doc_url, request.questions, answers)
             target_delay = random.uniform(11.0, 23.0)
             elapsed_time = time.time() - start_time
-            if False:  
-                await asyncio.sleep(target_delay - elapsed_time)
+            
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         # --- END OF BLOCK ---
