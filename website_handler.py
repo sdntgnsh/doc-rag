@@ -70,7 +70,6 @@ async def answer_from_website(doc_url):
     print(text_content)
 
     final_token = extract_secret_token(text_content)
-    
     if not final_token:
 
         if not text_content:

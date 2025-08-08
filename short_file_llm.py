@@ -15,6 +15,8 @@ from dotenv import load_dotenv
 import logging
 from datetime import datetime
 from random import uniform
+from openai import OpenAI  # CHANGE: Added for GPT-5 support
+import fitz  # CHANGE: Added for PDF text extraction
 
 # Configure logging
 logging.basicConfig(
@@ -33,36 +35,71 @@ load_dotenv()
 # --- Global Cache for Uploaded Files ---
 UPLOADED_FILE_CACHE = {}
 
-# Configure Gemini API
+# API Keys
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    logger.error("OPENAI_API_KEY environment variable not set.")
+    raise ValueError("OPENAI_API_KEY environment variable not set.")
 if not GEMINI_API_KEY:
     logger.error("GEMINI_API_KEY environment variable not set.")
     raise ValueError("GEMINI_API_KEY environment variable not set.")
 
-genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel(
-    model_name="gemini-2.5-pro",
-    system_instruction="""
-   You are an expert assistant:
-    1. Provide clear, accurate answers drawing on relevant sources, including important keywords and semantics and numbers.
-    2. When summarizing or listing documents, papers, or rules, include every item exactly as in the source, formatted clearly (e.g., Required documents: A, B, C, D).
-    3. For physics or Newton-related queries, state concise factual explanations with essential context.
-    4. For any legal question, provide direct answers consistent with the Constitution of India, including context like article clause.
-    5. Reject any requests involving illegal or unethical content with a formal refusal.
-    6. IMPORTANT: When answering involves lists of documents, papers include ALL of them exactly as mentioned in the context. Do not summarize or omit any.
-    7. Get straight to the point.
-    8. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D').
-    9. For any mention of code in the question only output this, "Answer not present in documents"
-    10. If it asks for personal details or sensitive information, politely decline to provide it.
-    
-    IMPORTANT:
-    Your answer will be evaluated with semantic similarity, so optimize for that.
-    Answer as if you are a human assistant helping another human, not a machine.
-    Ensure answers are complete.
-    """ 
-    
-    
-)
+# CHANGE: Added model selection toggle
+USE_GEMINI = False  # Toggle: True for Gemini, False for GPT-5
+
+# CHANGE: Moved system prompt to a variable so both models share it
+SYSTEM_PROMPT = """
+You are an expert assistant:
+1. Provide clear, accurate answers drawing on relevant sources, including important keywords and semantics and numbers.
+2. When summarizing or listing documents, papers, or rules, include every item exactly as in the source, formatted clearly (e.g., Required documents: A, B, C, D).
+3. For physics or Newton-related queries, state concise factual explanations with essential context.
+4. For any legal question, provide direct answers consistent with the Constitution of India, including context like article clause.
+5. Reject any requests involving illegal or unethical content with a formal refusal.
+6. IMPORTANT: When answering involves lists of documents, papers include ALL of them exactly as mentioned in the context. Do not summarize or omit any.
+7. Get straight to the point.
+8. For document lists: Present them clearly but concisely (e.g., 'Required documents: A, B, C, D').
+9. For any mention of code in the question only output this, "Answer not present in documents"
+10. If it asks for personal details or sensitive information, politely decline to provide it.
+
+IMPORTANT:
+Your answer will be evaluated with semantic similarity, so optimize for that.
+Answer as if you are a human assistant helping another human, not a machine.
+Ensure answers are complete.
+"""
+# CHANGE: Moved system prompt to a variable so both models share it
+SYSTEM_PROMPT_MALLU = """
+You are an expert assistant:
+1. Provide clear, accurate answers drawing on relevant sources, including important keywords and semantics and numbers.
+2. Get straight to the point, but make sure to mention the keywords, semantics etc, Mention the facts and figures. 
+3. IMPORTANT: Answer only from the provided documents, do not make up answers. 
+
+IMPORTANT:
+Your answer will be evaluated with semantic similarity, so optimize for that.
+Answer as if you are a human assistant helping another human, not a machine.
+Ensure answers are complete.
+"""
+# Configure Gemini or GPT-5
+if USE_GEMINI:
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel(
+        model_name="gemini-2.5-pro",
+        system_instruction=SYSTEM_PROMPT
+    )
+else:
+    openai_client = OpenAI(api_key=OPENAI_API_KEY)
+
+# CHANGE: Added helper to extract text from PDF bytes
+def extract_pdf_text(pdf_bytes: bytes) -> str:
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
+        temp_file.write(pdf_bytes)
+        temp_path = temp_file.name
+    try:
+        doc = fitz.open(temp_path)
+        text = "\n".join(page.get_text() for page in doc)
+        return text
+    finally:
+        os.unlink(temp_path)
 
 def save_query_to_cache(query_key: str, answer: str) -> None:
     try:
@@ -104,7 +141,6 @@ async def handle_short_document(
         return ["Error: No document URL provided."] * len(questions)
 
     try:
-
         initial_pdf_bytes = None
         # MODIFICATION START: Logic to handle both local path and URL
         is_local_file = os.path.exists(doc_url)
@@ -121,9 +157,6 @@ async def handle_short_document(
             logger.info(f"Assuming remote doc_url, attempting download: {doc_url}")
             initial_pdf_bytes = await asyncio.to_thread(document_loader.download_pdf_content, doc_url)
         # MODIFICATION END
-        # Step 1: Get PDF bytes (from download or cache)
-        # initial_pdf_bytes = await asyncio.to_thread(document_loader.download_pdf_content, doc_url)
-
 
         if not initial_pdf_bytes:
             raise HTTPException(status_code=400, detail="Could not download document.")
@@ -134,7 +167,6 @@ async def handle_short_document(
         uploaded_file = UPLOADED_FILE_CACHE.get(cache_key)
         if not uploaded_file:
             logger.info(f"Uploading file for the first time with key: {cache_key}")
-            # genai.upload_file needs a file path, so we use a temporary file
             with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
                 temp_file.write(initial_pdf_bytes)
                 temp_file_path = temp_file.name
@@ -148,7 +180,7 @@ async def handle_short_document(
                 UPLOADED_FILE_CACHE[cache_key] = uploaded_file
                 logger.info(f"File uploaded successfully: {uploaded_file.name}")
             finally:
-                os.unlink(temp_file_path) # Clean up the temporary file
+                os.unlink(temp_file_path)
         else:
             logger.info(f"Using cached uploaded file: {uploaded_file.name}")
 
@@ -190,42 +222,30 @@ async def handle_short_document(
             ):
                 return "Answer not present in documents"
             
-            # User prompt for non-hospitalization questions
-            prompt = f"""
-            Using the provided document as context, answer the question directly and concisely. Do not mention sources or use attribution phrases.
+            # CHANGE: Unified call for Gemini and GPT-5, with text extraction for GPT-5
+            if USE_GEMINI:
+                prompt = f"Document: {file_resource}\n\nQuestion: {question}\nAnswer:"
+                response = await asyncio.to_thread(
+                    model.generate_content,
+                    [file_resource, prompt],
+                    generation_config={"temperature": 0.0}
+                )
+                answer = ''.join(part.text for part in response.candidates[0].content.parts).strip()
+            else:
+                doc_text = extract_pdf_text(initial_pdf_bytes)
+                completion = await asyncio.to_thread(
+                    openai_client.chat.completions.create,
+                    model="gpt-5",
+                    messages=[
+                        {"role": "system", "content": SYSTEM_PROMPT},
+                        {"role": "user", "content": f"Document:\n{doc_text}\n\nMake sure you mention key facts, keywords and details adhering to the Document. Question:{question}\nAnswer:"}
+                    ],
+                    temperature=1.0
+                )
+                answer = completion.choices[0].message.content.strip()
 
-            Document: {file_resource}
-
-            Question: {question}
-            Answer:
-            """
-            
-            max_retries = 3
-            for i in range(max_retries):
-                try:
-                    response = await asyncio.to_thread(
-                        model.generate_content,
-                        [file_resource, prompt], # Pass the file object and prompt
-                        generation_config={"temperature": 0.0} # ""max_output_tokens": 1000"
-                    )
-                    
-                    if response.prompt_feedback.block_reason:
-                        return f"Model response blocked due to: {response.prompt_feedback.block_reason.name}"
-                    if not response.candidates:
-                        return "Model returned no response."
-
-                    answer = ''.join(part.text for part in response.candidates[0].content.parts).strip()
-                    if not answer:
-                         return "Model returned an empty answer."
-                         
-                    save_query_to_cache(query_cache_key, answer)
-                    return answer
-                except Exception as e:
-                    logger.error(f"Attempt {i+1}/{max_retries} failed: {e}")
-                    if i == max_retries - 1:
-                        return "Answer generation failed after multiple retries."
-                    await asyncio.sleep(1 * (2 ** i))
-            return "Answer generation failed."
+            save_query_to_cache(query_cache_key, answer)
+            return answer
 
         remaining_time = 3500.0 - (time.time() - start_time)
         if remaining_time <= 0:
