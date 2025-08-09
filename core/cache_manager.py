@@ -2,8 +2,9 @@
 import os
 import pickle
 from typing import Any, Tuple
+from config import ROOT_DIR
 
-CACHE_DIR = "pdf_cache"
+CACHE_DIR = os.path.join(ROOT_DIR, 'pdf_cache')
 
 def _get_cache_filepath(key: Tuple[int, str]) -> str:
     """Creates a safe filename from the cache key."""

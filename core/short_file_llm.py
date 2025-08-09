@@ -6,8 +6,8 @@ import json
 import pickle
 from typing import List, Dict
 import tempfile
-import document_loader # Assumed to contain download_pdf_content and get_cache_key_from_content
-import cache_manager # Assumed to contain save_to_cache and load_from_cache
+import handlers.document_loader as document_loader # Assumed to contain download_pdf_content and get_cache_key_from_content
+import core.cache_manager as cache_manager # Assumed to contain save_to_cache and load_from_cache
 from fastapi import HTTPException
 import google.generativeai as genai
 from google.generativeai.types import generation_types

@@ -4,8 +4,8 @@ import os
 import hashlib
 import pickle
 from typing import List, Dict
-import document_loader 
-import cache_manager 
+import handlers.document_loader as document_loader 
+import core.cache_manager as cache_manager 
 from fastapi import HTTPException
 import google.generativeai as genai
 from google.generativeai.types import generation_types

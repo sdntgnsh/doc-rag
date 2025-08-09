@@ -1,11 +1,11 @@
 import json  # Use json for parsing JSON data
 import os    # For checking file existence
-
+from config import ROOT_DIR  # Import the ROOT_DIR from config.py
 # Define input and output file paths
 # IMPORTANT: Replace 'your_input_file.jsonl' with the actual path to your JSONL file.
 # For example: input_file = r"C:\Users\YourUser\Documents\my_logs.jsonl"
 input_file = "logs.jsonl"  # <--- **CHANGE THIS TO YOUR ACTUAL INPUT FILE PATH**
-output_file = "Round 3 Submission 3.txt"
+output_file = os.join("ROOT_DIR", "question answers.txt")
 
 print(f"Attempting to process '{input_file}' and save output to '{output_file}'...")
 

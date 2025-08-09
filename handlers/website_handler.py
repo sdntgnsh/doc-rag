@@ -1,4 +1,4 @@
-from utils import clean_text, get_text_from_url
+from utils.utils import clean_text, get_text_from_url
 
 
 
