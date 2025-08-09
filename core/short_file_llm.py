@@ -67,18 +67,7 @@ Your answer will be evaluated with semantic similarity, so optimize for that.
 Answer as if you are a human assistant helping another human, not a machine.
 Ensure answers are complete.
 """
-# CHANGE: Moved system prompt to a variable so both models share it
-SYSTEM_PROMPT_MALLU = """
-You are an expert assistant:
-1. Provide clear, accurate answers drawing on relevant sources, including important keywords and semantics and numbers.
-2. Get straight to the point, but make sure to mention the keywords, semantics etc, Mention the facts and figures. 
-3. IMPORTANT: Answer only from the provided documents, do not make up answers. 
 
-IMPORTANT:
-Your answer will be evaluated with semantic similarity, so optimize for that.
-Answer as if you are a human assistant helping another human, not a machine.
-Ensure answers are complete.
-"""
 # Configure Gemini or GPT-5
 if USE_GEMINI:
     genai.configure(api_key=GEMINI_API_KEY)

@@ -1,82 +1,68 @@
 from utils.utils import clean_text, get_text_from_url
+from dotenv import load_dotenv
+import google.generativeai as genai
+import os
+import asyncio
+from typing import List
 
 
 
+load_dotenv()
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+if not GEMINI_API_KEY:
+    raise ValueError("GEMINI_API_KEY environment variable not set.")
 
-print(get_text_from_url("https://register.hackrx.in/utils/get-secret-token?hackTeam=4366"))
+genai.configure(api_key=GEMINI_API_KEY)
+model = genai.GenerativeModel(
+    model_name="gemini-2.5-flash",
+    system_instruction="""
+
+    1. Provide clear, accurate answers based ONLY on the data given.
+    2. Be consise dont explain the answer or say based on the document.
 
 
-def extract_secret_token(input_string, question=None):
+
     """
-    Extracts a secret token from a specific string format.
+)
 
-    This function is designed to find and return the token from a string
-    that follows the pattern: "... Your Secret Token [TOKEN]".
+async def answer_single_question(question: str, context: str) -> str:
 
-    Args:
-        input_string (str): The string containing the token.
 
-    Returns:
-        str: The extracted secret token.
-        None: If the token pattern is not found in the string.
-    """
+    prompt = f"""
+            Here is the scraped website content:
+            
+            {context}
+            
+            Based ONLY on the data provided above, answer the following question.
+            
+            Question: {question}
+            Answer:
+            """
+            
     try:
-        # Define the unique text that comes just before the token.
-        delimiter = "Your Secret Token "
-
-        
-
-        # Split the string by the delimiter. The token will be the second element.
-        # For example: "part1<delimiter>part2".split(delimiter) -> ['part1', 'part2']
-        parts = input_string.split(delimiter)
-
-        # Check if the split was successful (i.e., the delimiter was found)
-        if len(parts) > 1:
-            # The token is the second part. Use .strip() to remove any
-            # leading/trailing whitespace.
-            token = parts[1].strip()
-            return token
-        else:
-            # The delimiter was not found in the string.
-            return input_string
-
+        response = await asyncio.to_thread(
+            model.generate_content,
+            prompt,
+            generation_config={"temperature": 0.0}
+        )
+        answer = response.text.strip()
+        if not answer:
+            answer = "No answer could be generated from the provided content."
+        return answer
     except Exception as e:
-        # Handle any unexpected errors during the process.
-        print(f"An error occurred while extracting the token: {e}")
-        return input_string
+         answer = f"Error: Could not generate an answer failed after reaching excel {e}"
 
 
 
-async def answer_from_website(doc_url):
-    """
-    Fetches and processes text from a given URL, returning answers to questions.
+async def answer_from_website(doc_url,questions: List[str] = None) -> List[str]:
 
-    This function retrieves the content from the specified URL, cleans it,
-    and generates answers based on the provided questions.
 
-    Args:
-        doc_url (str): The URL of the website to scrape.
-
-    Returns:
-        list: A list of cleaned answers extracted from the webpage.
-    """
-    # Fetch and clean text from the URL
     text_content = get_text_from_url(doc_url)
+    answers  = []
+    
+    for question in questions:
+        answer =  await answer_single_question(question, text_content)
+        answers.append(answer)
 
 
-    if "Secret Token 🔒 Your Secret Token" not in text_content:
-            return[text_content]
-
-    print(text_content)
-
-    final_token = extract_secret_token(text_content)
-    if not final_token:
-
-        if not text_content:
-            return ["No content found at the provided URL."]
-        
-
-        return [text_content]
-
-
-    return [final_token]  
+    return answers

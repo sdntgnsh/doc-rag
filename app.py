@@ -15,7 +15,7 @@ import handlers.image_handler as image_handler
 import handlers.docx_handler as docx_handler
 import handlers.ppt_handler as ppt_handler
 import handlers.flight_handler as flight_handler
-from utils.utils import clean_markdown
+from utils.utils import clean_markdown, is_file_url
 import handlers.xlsx_handler as xlsx_handler
 import handlers.xlsx_handler as xlsx_handler
 import handlers.website_handler as website_handler
@@ -93,11 +93,10 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
         
-        if "get-secret-token" in doc_url.lower():
-            # If the URL is a special case, handle it directly.
-            # This is a placeholder for any specific logic you might want to implement.
-            answers = ["Special case handling for get-secret-token URL."] * len(request.questions)
-            answers = await website_handler.answer_from_website(doc_url)
+        if not is_file_url(doc_url): # if it's not a file URL, treat it as a website check if it has a file extension
+
+            answers = ["Website handling if pased then failed later"] * len(request.questions)
+            answers = await website_handler.answer_from_website(doc_url, request.questions)
             log_query_and_answers(doc_url, request.questions, answers)
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
