@@ -1,6 +1,7 @@
 # preprocessor.py
 import json
 import handlers.document_loader as document_loader
+from handlers.document_loader import get_pdf_page_count
 import core.rag_pipeline as rag_pipeline
 import core.cache_manager as cache_manager  
 from typing import Dict, Tuple
@@ -33,6 +34,12 @@ def initialize_cache_from_json(file_path: str) -> Dict[Tuple[int, str], object]:
         
         pdf_content = document_loader.download_pdf_content(url)
         if not pdf_content:
+            continue
+
+        # Check page count before processing
+        page_count = get_pdf_page_count(pdf_content)
+        if page_count > 500:
+            print(f"Skipping document with {page_count} pages (limit is 500): {url}")
             continue
 
         cache_key = document_loader.get_cache_key_from_content(pdf_content)
