@@ -98,9 +98,13 @@ def extract_pdf_text(pdf_bytes: bytes) -> str:
         # Open inside a context manager so it closes before unlink
         with fitz.open(temp_path) as doc:
             text = "\n".join(page.get_text() for page in doc)
+        doc.close()
         return text
     finally:
-        os.unlink(temp_path)
+        try:
+            os.unlink(temp_path)
+        except PermissionError:
+            pass  # optionally log instead of crashing
 
 def save_query_to_cache(query_key: str, answer: str) -> None:
     try:
