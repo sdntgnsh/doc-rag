@@ -16,94 +16,25 @@ reranker_model = Reranker()
 query_expander_model = QueryExpander()
 
 class GeneralKnowledgeDetector:
-    """Detects questions that can be answered with general knowledge without RAG."""
+    """Detects questions has to be answered with general knowledge without RAG."""
     
     def __init__(self):
-        # Newton-related keywords and patterns
-        self.newton_keywords = {
-            "newton", "isaac newton", "principia", "laws of motion", "kepler", 
-            "gravity", "gravitational", "centripetal", "absolute space", 
-            "planetary orbits", "resisting media", "quantity of motion", 
-            "celestial mechanics", "perturbation", "inverse square law",
-            "universal gravitation", "orbital motion", "calculus", "fluxions"
-        }
-        
-        # Patterns for personal/biographical questions
-        self.biographical_patterns = [
-            r"who was.*newton",
-            r"newton.*grandfather",
-            r"newton.*family",
-            r"newton.*descendants?",
-            r"newton.*children",
-            r"newton.*married",
-            r"newton.*birth",
-            r"newton.*death",
-            r"newton.*life"
-        ]
-        
-        # Patterns for well-established scientific facts
-        self.scientific_fact_patterns = [
-            r"newton.*law",
-            r"law.*motion",
-            r"law.*gravitation",
-            r"inverse square",
-            r"what.*newton.*define",
-            r"how.*newton.*derive",
-            r"newton.*explain"
-        ]
-    
+        pass # Placeholder for any initialization if needed
+
+
     def is_general_knowledge(self, question: str) -> bool:
         """
         Determines if a question can be answered with general knowledge.
         Returns True if the question should bypass RAG pipeline.
         """
         question_lower = question.lower().strip()
-        
-        # Check for Newton-related content
-        has_newton_keywords = any(kw in question_lower for kw in self.newton_keywords)
-        
-        if has_newton_keywords:
-            # Check biographical patterns
-            for pattern in self.biographical_patterns:
-                if re.search(pattern, question_lower):
-                    print(f"Detected biographical Newton question: {question}")
-                    return True
-            
-            # Check scientific fact patterns (well-established physics concepts)
-            for pattern in self.scientific_fact_patterns:
-                if re.search(pattern, question_lower):
-                    print(f"Detected general Newton science question: {question}")
-                    return True
-        
-        # Add more general knowledge categories here as needed
-        # For example: basic math, common historical facts, etc.
-        
+
+        if question_lower.count("newton") > 0:
+            print(f"Skipping RAG pipeline for question: {question} (detected 'newton')")
+            return True
+
         return False
-    
-    def requires_document_context(self, question: str) -> bool:
-        """
-        Determines if a Newton question requires specific document context.
-        Returns True if the question needs RAG pipeline even if Newton-related.
-        """
-        question_lower = question.lower().strip()
-        
-        # Specific document-dependent patterns
-        document_dependent_patterns = [
-            r"mathematical tools.*principia",
-            r"precursors to calculus",
-            r"why didn't.*use.*notation",
-            r"in principia",
-            r"according to.*principia",
-            r"newton.*demonstrate.*principia",
-            r"newton.*argument.*principia"
-        ]
-        
-        for pattern in document_dependent_patterns:
-            if re.search(pattern, question_lower):
-                print(f"Detected document-dependent Newton question: {question}")
-                return True
-        
-        return False
+
 
 # Initialize detector
 knowledge_detector = GeneralKnowledgeDetector()
@@ -126,7 +57,7 @@ async def _answer_one_question_async(question: str, vector_store: InMemoryVector
             return pickle.load(f)
 
     # Check if this is a general knowledge question
-    if knowledge_detector.is_general_knowledge(question) and not knowledge_detector.requires_document_context(question):
+    if knowledge_detector.is_general_knowledge(question):
         print("⚡ Routing to general knowledge (bypassing RAG)")
         # Use empty context for general knowledge questions
         answer = llm_interface.get_answer("", question)
@@ -195,7 +126,7 @@ def _answer_with_general_knowledge(question: str) -> str:
     """Answers questions using only general knowledge when vectorization times out."""
     print(f"🔍 Using general knowledge for: '{question}'")
     # Use empty context and special message for timeout scenarios
-    return llm_interface.get_answer("", question, use_gk_timeout=True)
+    return llm_interface.get_answer("", question, use_gk_timeout=False)
 
 def create_vector_store_from_chunks(chunks: List[str]) -> InMemoryVectorStore:
     """Creates a vector store from a list of text chunks."""
@@ -211,15 +142,3 @@ def setup_pipeline_from_content(pdf_content: bytes) -> InMemoryVectorStore:
     processed_chunks = text_processor.chunk_text(chunks)
     return create_vector_store_from_chunks(processed_chunks)
 
-# Utility function to test the detector
-def test_knowledge_detector(questions: List[str]) -> None:
-    """Test function to see how questions are classified."""
-    print("=== General Knowledge Detection Test ===")
-    for q in questions:
-        is_general = knowledge_detector.is_general_knowledge(q)
-        needs_doc = knowledge_detector.requires_document_context(q)
-        route = "General Knowledge" if is_general and not needs_doc else "RAG Pipeline"
-        print(f"Q: {q}")
-        print(f"   → Route: {route}")
-        print(f"   → General: {is_general}, Needs Doc: {needs_doc}")
-        print()
