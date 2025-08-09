@@ -169,7 +169,31 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
-        # --- END OF BLOCK ---
+            
+
+        elif page_count > 500: 
+            print(f"📄 Document has {page_count} pages (>500). Skipping RAG pipeline and using general knowledge.")
+            answer_tasks = [
+                asyncio.create_task(asyncio.to_thread(rag_pipeline._answer_with_general_knowledge, q))
+                for q in request.questions
+            ]
+            done, pending = await asyncio.wait(answer_tasks, timeout=40)
+    
+            for i, task in enumerate(answer_tasks):
+                if task in done and not task.cancelled():
+                    try:
+                        answers[i] = task.result()
+                    except Exception as e:
+                        answers[i] = f"An error occurred: {e}"
+                elif task in pending:
+                    task.cancel()
+                    answers[i] = "Processing timed out for this question."
+            
+            log_query_and_answers(doc_url, request.questions, answers)
+            answers = [clean_markdown(a) for a in answers]
+            return HackRxResponse(answers=answers)
+        
+     
         else: 
             cache_key = document_loader.get_cache_key_from_content(pdf_content)
 

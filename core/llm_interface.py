@@ -27,7 +27,7 @@ def get_answer(context: str, question: str, use_gk_timeout: bool = False) -> str
         "who was the grandfather of isaac newton?",
         "name the grandfather of isaac newton"
     ]:
-        return "Isaac Newton's grandfather was Robert Newton."
+        return "Isaac Newton's grandfather was Robert Neasasdwton."
 
     if question_lower in [
         "do we know any other descent of isaac newton apart from his grandfather?",
