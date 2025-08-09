@@ -130,13 +130,52 @@ def get_text_from_url(url):
     except Exception as e:
         # Handle other potential exceptions.
         return f"An unexpected error occurred: {e}"
+    
+
+from urllib.parse import urlparse
+import os
+
+
+def is_file_url(url):
+    """
+    Checks if a URL likely points to a file by inspecting the path for a file extension.
+    """
+    try:
+        # A list of common file extensions. You can expand this list.
+        file_extensions = [
+            '.pdf', '.docx', '.xlsx', '.pptx', '.zip', '.rar', '.7z',
+            '.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg',
+            '.mp3', '.wav', '.ogg',
+            '.mp4', '.avi', '.mov', '.wmv',
+            '.json', '.xml', '.csv', '.txt', '.rtf',
+            '.bin', '.iso', '.exe', '.dll'
+        ]
+
+        # Parse the URL to get its components
+        parsed_url = urlparse(url)
+        # Get the path from the parsed URL
+        path = parsed_url.path
+
+        # Get the file extension from the path
+        _, extension = os.path.splitext(path)
+
+        if extension.lower() in file_extensions:
+            return True
+        else:
+            return False
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return False
 
 
 if __name__ == "__main__":
     text = """Based on the policy, the claim is admissible. **Admissibility:** 1. **Dependent Eligibility:** Children over 18 and up to the age of 26 are covered, provided they are unmarried, unemployed, and dependent. 2. **Dental Exclusion:** Dental surgery is covered when it is necessitated by an accident and requires a minimum of 24 hours of hospitalization. **Claim Process:** 1. **Notification:** You must notify the TPA within 24 hours of the emergency hospitalization or before discharge, whichever is earlier. 2. **Procedure:** You can opt for a cashless facility at a network hospital (which requires pre-authorization) or get treatment at a non-network hospital and file for reimbursement. 3. **Required Documents for Reimbursement:** The claim must be supported by the following original documents and submitted within 15 days of discharge: * Duly completed claim form * Photo ID and Age proof * Health Card, policy copy, and KYC documents * Attending medical practitioner's/surgeon's certificate regarding the diagnosis/nature of the operation performed, with the date of diagnosis and investigation reports * Medical history of the patient, including all previous consultation papers * Bills (with a detailed breakup) and payment receipts * Discharge certificate/summary from the hospital * Original final hospital bill with a detailed break-up and all original deposit and final payment receipts * Original invoice with payment receipt and implant stickers for any implants used * All original diagnostic reports (imaging and laboratory) with the practitioner's prescription and invoice/bill * All original medicine/pharmacy bills with the practitioner's prescription * MLC / FIR copy, as this is an accidental case * Pre and post-operative imaging reports * Copy of indoor case papers with nursing sheet detailing medical history, treatment, and progress * A cheque copy with the proposer's name printed, or a copy of the first page of the bank passbook/statement (not older than 3 months)
     """
     
-    # Test with rupee symbol
-    test_text = "Cost: ₹5000"
-    print(clean_markdown(test_text))
-    print(clean_markdown(text))
+    file_url = "https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D"
+    print(f"Is '{file_url}' a file? {is_file_url(file_url)}")
+
+    # This is a website URL
+    website_url = "https://register.hackrx.in/utils/get-secret-token?hackTeam=4366"
+    print(f"Is '{website_url}' a file? {is_file_url(website_url)}")
