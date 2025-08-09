@@ -46,7 +46,7 @@ if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable not set.")
 
 # CHANGE: Added model selection toggle
-USE_GEMINI = False  # Toggle: True for Gemini, False for GPT-5
+USE_GEMINI = True  # Toggle: True for Gemini, False for GPT-5
 
 # CHANGE: Moved system prompt to a variable so both models share it
 SYSTEM_PROMPT = """
@@ -97,10 +97,13 @@ def extract_pdf_text(pdf_bytes: bytes) -> str:
     try:
         doc = fitz.open(temp_path)
         text = "\n".join(page.get_text() for page in doc)
+        doc.close()  # ✅ close before unlinking
         return text
     finally:
-        os.unlink(temp_path)
-
+        try:
+            os.unlink(temp_path)
+        except PermissionError:
+            pass  # optionally log instead of crashing
 def save_query_to_cache(query_key: str, answer: str) -> None:
     try:
         os.makedirs("cache", exist_ok=True)
