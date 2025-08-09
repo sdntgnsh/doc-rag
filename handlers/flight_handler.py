@@ -1,150 +1,121 @@
 import asyncio
+import os
+import json
 import requests
-from typing import Dict, List, Tuple
+import io
+from typing import List, Dict, Any
+from dotenv import load_dotenv
+from openai import AsyncOpenAI
+from PyPDF2 import PdfReader  # Requires pip install pypdf2
 
-# --- Hardcoded Mappings for Maximum Speed ---
-CITY_LANDMARK_MAP = {
-    # Indian Cities
-    "Delhi": "Gateway of India",
-    "Mumbai": "Space Needle", # Last one wins in duplicates
-    "Chennai": "Charminar",
-    "Hyderabad": "Taj Mahal", # Last one wins in duplicates
-    "Ahmedabad": "Howrah Bridge",
-    "Mysuru": "Golconda Fort",
-    "Kochi": "Qutub Minar",
-    "Pune": "Golden Temple", # Last one wins in duplicates
-    "Nagpur": "Lotus Temple",
-    "Chandigarh": "Mysore Palace",
-    "Kerala": "Rock Garden",
-    "Bhopal": "Victoria Memorial",
-    "Varanasi": "Vidhana Soudha",
-    "Jaisalmer": "Sun Temple",
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-    # International Cities
-    "New York": "Eiffel Tower",
-    "London": "Sydney Opera House", # Last one wins in duplicates
-    "Tokyo": "Big Ben",
-    "Beijing": "Colosseum",
-    "Bangkok": "Christ the Redeemer",
-    "Toronto": "Burj Khalifa",
-    "Dubai": "CN Tower",
-    "Amsterdam": "Petronas Towers",
-    "Cairo": "Leaning Tower of Pisa",
-    "San Francisco": "Mount Fuji",
-    "Berlin": "Niagara Falls",
-    "Barcelona": "Louvre Museum",
-    "Moscow": "Stonehenge",
-    "Seoul": "Times Square", # Last one wins in duplicates
-    "Cape Town": "Acropolis",
-    "Istanbul": "Big Ben",
-    "Riyadh": "Machu Picchu",
-    "Paris": "Taj Mahal",
-    "Dubai Airport": "Moai Statues",
-    "Singapore": "Christchurch Cathedral",
-    "Jakarta": "The Shard",
-    "Vienna": "Blue Mosque",
-    "Kathmandu": "Neuschwanstein Castle",
-    "Los Angeles": "Buckingham Palace",
-}
+client = AsyncOpenAI(api_key=OPENAI_API_KEY)
 
-
-# --- URLs for the flight number logic ---
-FAVORITE_CITY_URL = "https://register.hackrx.in/submissions/myFavouriteCity"
-FLIGHT_NUMBER_URLS = {
-    "Gateway of India": "https://register.hackrx.in/teams/public/flights/getFirstCityFlightNumber",
-    "Taj Mahal": "https://register.hackrx.in/teams/public/flights/getSecondCityFlightNumber",
-    "Eiffel Tower": "https://register.hackrx.in/teams/public/flights/getThirdCityFlightNumber",
-    "Big Ben": "https://register.hackrx.in/teams/public/flights/getFourthCityFlightNumber",
-    # Default/Other case
-    "India Gate": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Charminar": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Marina Beach": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Howrah Bridge": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Golconda Fort": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Qutub Minar": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Meenakshi Temple": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Lotus Temple": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Mysore Palace": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Rock Garden": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Victoria Memorial": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Vidhana Soudha": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Sun Temple": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Golden Temple": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Statue of Liberty": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Colosseum": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Sydney Opera House": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Christ the Redeemer": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Burj Khalifa": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "CN Tower": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Petronas Towers": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Leaning Tower of Pisa": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Mount Fuji": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Niagara Falls": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Louvre Museum": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Stonehenge": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Sagrada Familia": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Acropolis": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Machu Picchu": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Moai Statues": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Christchurch Cathedral": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "The Shard": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Blue Mosque": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Neuschwanstein Castle": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Buckingham Palace": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Space Needle": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Times Square": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber",
-    "Other": "https://register.hackrx.in/teams/public/flights/getFifthCityFlightNumber"
-}
-
-async def _get_favorite_city() -> str | None:
-    """Fetches the favorite city from the API."""
+async def extract_pdf_text(url: str) -> str:
+    """Downloads the PDF from the URL and extracts its text content."""
     try:
-        print("[DEBUG] Fetching favorite city...")
-        response = await asyncio.to_thread(requests.get, FAVORITE_CITY_URL, timeout=10)
+        print(f"[DEBUG] Downloading PDF from {url}")
+        response = requests.get(url)
         response.raise_for_status()
-        data = response.json()
-        city = data.get("data", {}).get("city")
-        print(f"[DEBUG] Favorite city retrieved: {city}")
-        return city
-    except requests.RequestException as e:
-        print(f"Error fetching favorite city: {e}")
-        return None
+        pdf_file = io.BytesIO(response.content)
+        pdf_reader = PdfReader(pdf_file)
+        text = ""
+        for page in pdf_reader.pages:
+            page_text = page.extract_text()
+            if page_text:
+                text += page_text + "\n"
+        print("[DEBUG] PDF text extracted successfully.")
+        return text
+    except Exception as e:
+        print(f"Error extracting PDF text: {e}")
+        return ""
 
-async def _get_flight_number(landmark: str) -> Tuple[str | None, str | None]:
-    """Fetches the flight number and the URL used based on the landmark."""
-    url = FLIGHT_NUMBER_URLS.get(landmark, FLIGHT_NUMBER_URLS["Other"])
-    print(f"[DEBUG] Determined flight number URL: {url} for landmark: {landmark}")
+tools = [
+    {
+        "type": "function",
+        "function": {
+            "name": "http_get",
+            "description": "Make a GET request to a URL and retrieve the JSON response.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "url": {"type": "string", "description": "The URL to fetch."},
+                },
+                "required": ["url"],
+            },
+        },
+    },
+]
+
+async def http_get(url: str) -> Dict:
+    """Tool function to perform a GET request and return JSON or error."""
     try:
         response = await asyncio.to_thread(requests.get, url, timeout=10)
         response.raise_for_status()
-        data = response.json()
-        flight_number = data.get("data", {}).get("flightNumber")
-        print(f"[DEBUG] Retrieved flight number: {flight_number}")
-        return flight_number, url
-    except requests.RequestException as e:
-        print(f"Error fetching flight number for landmark '{landmark}': {e}")
-        return None, url
+        return response.json()
+    except Exception as e:
+        return {"error": str(e)}
+
+available_tools = {"http_get": http_get}
+
+async def run_agent(messages: List[Dict[str, Any]]) -> str:
+    """Runs the agent loop with tool calling until a final answer is reached."""
+    while True:
+        response = await client.chat.completions.create(
+            model="gpt-4o",  # Use a capable model like gpt-4o or gpt-4-turbo
+            messages=messages,
+            tools=tools,
+            tool_choice="auto",
+        )
+        message = response.choices[0].message
+        if message.tool_calls:
+            messages.append({"role": message.role, "content": message.content, "tool_calls": message.tool_calls})
+            for tool_call in message.tool_calls:
+                func_name = tool_call.function.name
+                args = json.loads(tool_call.function.arguments)
+                func = available_tools.get(func_name)
+                if not func:
+                    result = {"error": f"Tool {func_name} not found."}
+                else:
+                    result = await func(**args)
+                messages.append({
+                    "tool_call_id": tool_call.id,
+                    "role": "tool",
+                    "name": func_name,
+                    "content": json.dumps(result),
+                })
+        else:
+            return message.content
 
 async def handle_flight_query(doc_url: str) -> List[str]:
     """
-    Handles the specific flight number query using a hardcoded map for maximum speed.
+    Generalized handler that uses an LLM to parse the PDF, understand instructions,
+    and execute steps dynamically using tool calls.
     """
-    print(f"[DEBUG] Starting flight query with hardcoded map. Ignoring doc_url: {doc_url}")
-    # Step 1: Fetch the favorite city
-    favorite_city = await _get_favorite_city()
-    if not favorite_city:
-        return ["Could not retrieve the favorite city."]
+    print(f"[DEBUG] Starting generalized query handler with doc_url: {doc_url}")
+    
+    pdf_text = await extract_pdf_text(doc_url)
+    if not pdf_text:
+        return ["Could not extract text from the PDF."]
+    
+    system_prompt = """
+You are an intelligent agent tasked with following the instructions in the provided document to compute and return the final result.
+The document may contain rules, mappings (e.g., tables of cities to landmarks), URLs for APIs, and step-by-step procedures.
+Analyze the document content, extract necessary information like mappings and URLs, and use the available tools to fetch data as needed.
+Reason step by step, and when you have the final answer (e.g., a flight number), output it directly in the format specified in the document, such as "Flight number: XXX".
+Do not output intermediate steps in the final message; only the final result.
 
-    # Step 2: Map the city to a landmark using the hardcoded map
-    landmark = CITY_LANDMARK_MAP.get(favorite_city, "Other")
-    print(f"[DEBUG] Mapped city '{favorite_city}' to landmark '{landmark}'.")
-
-    # Step 3: Fetch the flight number based on the landmark
-    flight_number, used_url = await _get_flight_number(landmark)
-    if not flight_number:
-        return [f"Could not retrieve the flight number from URL: {used_url}"]
-
-    # Step 4. Return the final answer
-    final_answer = f"Flight number: {flight_number}"
-    print(f"[DEBUG] Final answer: {final_answer}")
-    return [final_answer]
+Document content:
+{pdf_text}
+""".format(pdf_text=pdf_text)
+    
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": "Execute the task as described in the document and provide the final result."}
+    ]
+    
+    result = await run_agent(messages)
+    print(f"[DEBUG] Final result: {result}")
+    return [result]
