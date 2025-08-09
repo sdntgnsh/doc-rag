@@ -46,7 +46,7 @@ if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable not set.")
 
 # CHANGE: Added model selection toggle
-USE_GEMINI = False  # Toggle: True for Gemini, False for GPT-5
+USE_GEMINI = True  # Toggle: True for Gemini, False for GPT-5
 
 # CHANGE: Moved system prompt to a variable so both models share it
 SYSTEM_PROMPT = """
@@ -95,8 +95,9 @@ def extract_pdf_text(pdf_bytes: bytes) -> str:
         temp_file.write(pdf_bytes)
         temp_path = temp_file.name
     try:
-        doc = fitz.open(temp_path)
-        text = "\n".join(page.get_text() for page in doc)
+        # Open inside a context manager so it closes before unlink
+        with fitz.open(temp_path) as doc:
+            text = "\n".join(page.get_text() for page in doc)
         return text
     finally:
         os.unlink(temp_path)
