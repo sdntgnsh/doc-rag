@@ -7,7 +7,7 @@ from typing import List, Dict
 import pandas as pd
 import io
 
-import document_loader
+import handlers.document_loader as document_loader
 from fastapi import HTTPException
 import google.generativeai as genai
 from dotenv import load_dotenv

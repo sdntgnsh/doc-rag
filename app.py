@@ -5,24 +5,24 @@ from pydantic import BaseModel, HttpUrl
 from typing import List
 import time
 import asyncio
-import preprocessor
-import document_loader
-import rag_pipeline
-import cache_manager  # Import the new cache manager
+import processing.preprocessor as preprocessor
+import handlers.document_loader as document_loader
+import core.rag_pipeline as rag_pipeline
+import core.cache_manager as cache_manager  # Import the new cache manager
 import json
 import random
-import image_handler
-import docx_handler
-import ppt_handler
-import flight_handler
-from utils import clean_markdown
-import xlsx_handler
-import xlsx_handler
-import website_handler
+import handlers.image_handler as image_handler
+import handlers.docx_handler as docx_handler
+import handlers.ppt_handler as ppt_handler
+import handlers.flight_handler as flight_handler
+from utils.utils import clean_markdown
+import handlers.xlsx_handler as xlsx_handler
+import handlers.xlsx_handler as xlsx_handler
+import handlers.website_handler as website_handler
+import core.short_file_llm as short_file_llm
 
 from datetime import datetime
 
-import short_file_llm
 
 import os
 from dotenv import load_dotenv

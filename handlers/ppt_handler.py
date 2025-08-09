@@ -6,8 +6,8 @@ import hashlib
 import pickle
 from openai import AsyncOpenAI
 from typing import List, Dict
-from utils import clean_text
-import short_file_llm
+from utils.utils import clean_text
+import core.short_file_llm as short_file_llm
 
 # # --- Configuration ---
 # # Assumes OPENAI_API_KEY is set in the .env file and loaded by the main app.
