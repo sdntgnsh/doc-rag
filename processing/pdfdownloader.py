@@ -79,7 +79,7 @@ def download_pdfs_from_json(json_file_path, output_folder):
 
 if __name__ == "__main__":
     # Configuration
-    INPUT_JSON_FILE = "query.json"
+    INPUT_JSON_FILE = "../data/past_queries/query.json"
     OUTPUT_PDF_FOLDER = "pdf"
 
     # Execute the function
