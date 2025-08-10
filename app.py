@@ -172,10 +172,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
 
         elif False and page_count > 500: 
             print(f"📄 Document has {page_count} pages (>500). Skipping RAG pipeline and using general knowledge.")
-            answer_tasks = [
-                asyncio.create_task(asyncio.to_thread(rag_pipeline._answer_with_general_knowledge, q))
-                for q in request.questions
-            ]
+            answers = await rag_pipeline.answer_questions(request.questions)
             done, pending = await asyncio.wait(answer_tasks, timeout=40)
     
             for i, task in enumerate(answer_tasks):
