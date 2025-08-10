@@ -9,7 +9,7 @@ load_dotenv()
 
 API_URL = "http://127.0.0.1:8000/hackrx/run"
 BEARER_TOKEN = os.getenv("BEARER_TOKEN")
-QUERY_FILE = "query.json"
+QUERY_FILE = "data/past_queries/query.json"
 
 def run_queries():
     # Load all queries from query.json

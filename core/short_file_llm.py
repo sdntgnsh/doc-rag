@@ -187,34 +187,6 @@ async def handle_short_document(
 
             logger.info(f"Querying model for: '{question[:50]}...'")
             question_lower = question.lower().strip()
-            hospitalization_doc_queries = [
-                "give me a list of documents to be uploaded for hospitalization for heart surgery.",
-                "give me a list of documents to be uploaded for hospitalization.",
-                "what documents are required for hospitalization?",
-                "documents needed for hospitalization claim",
-                "documents to upload for hospital admission",
-                "required documents for hospitalization reimbursement",
-                "hospitalization claim documents",
-                "documents for heart surgery hospitalization"
-            ]
-            code_docs_queries = [
-                "Give me JS code to generate a random number between 1 and 100"
-            ]
-            code_docs_queries = [q.lower() for q in code_docs_queries]
-            print(question_lower)
-            if question_lower in hospitalization_doc_queries or (
-                "documents" in question_lower and "hospitalization" in question_lower
-            ):
-                return (
-                    """
-                    A duly completed claim form, Photo identity proof of the patient, A prescription from the medical practitioner advising admission, Original bills with an itemized break-up, Payment receipts, Discharge summary including the complete medical history of the patient and other relevant details, Investigation or diagnostic test reports supported by the prescription from the attending medical practitioner, Operation theatre notes or a certificate from the surgeon detailing the operation performed (for surgical cases), Sticker or invoice of the implants wherever applicable, A copy of the Medico Legal Report (MLR) if conducted and the First Information Report (FIR) if registered wherever applicable, NEFT details along with a cancelled cheque to facilitate direct credit of the claim amount, KYC documents (identity and address proof) of the proposer if the claim liability exceeds Rs. 1 lakh as per AML guidelines, Legal heir or succession certificate wherever applicable, Any other relevant documents required by the company or TPA for claim assessment.
-                    """
-                )
-            
-            if question_lower in code_docs_queries or (
-                "js" in question_lower
-            ):
-                return "Answer not present in documents"
             
             # CHANGE: Unified call for Gemini and GPT-5, with text extraction for GPT-5
             if USE_GEMINI:

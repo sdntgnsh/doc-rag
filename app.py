@@ -143,7 +143,7 @@ BEARER_TOKEN = os.getenv("BEARER_TOKEN")
 security_scheme = HTTPBearer()
 
 # --- Timeout Configuration ---
-VECTORIZATION_TIMEOUT = 17.0
+VECTORIZATION_TIMEOUT = 600.0
 
 PAGE_LIMIT = 70
 EXCEPTIONS = [16,]
@@ -169,7 +169,7 @@ app = FastAPI(
 def on_startup():
     print("--- Server Startup: Initializing document cache from disk... ---")
     global PDF_CACHE
-    PDF_CACHE = preprocessor.initialize_cache_from_json("query.json")
+    PDF_CACHE = preprocessor.initialize_cache_from_json("data/past_queries/query.json")
     print("--- Cache initialization complete. Server is ready. ---")
 
 @app.post(
@@ -293,14 +293,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             if not vector_store:
                 vector_store = cache_manager.load_from_cache(cache_key)
 
-            if not vector_store: 
-                print(f"Cache MISS for document with key: {cache_key}. Processing through short file pipeline...")
-                answers = await short_file_llm.handle_short_document(request.questions, doc_url, PDF_CACHE)
-                answers = [clean_markdown(a) for a in answers]
-                target_delay = random.uniform(11.0, 23.0)
-                elapsed_time = time.time() - start_time
-                log_query_and_answers(doc_url, request.questions, answers)
-                return HackRxResponse(answers=answers)
+            
             
             if vector_store:
                 if cache_key not in PDF_CACHE:
@@ -316,7 +309,9 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
                     vectorization_timed_out = True
                     vector_store = None
 
-            remaining_time = 60 - (time.time() - start_time)
+            remaining_time = 600 - (time.time() - start_time)
+
+           
             if remaining_time <= 0:
                 return HackRxResponse(answers=answers)
 
