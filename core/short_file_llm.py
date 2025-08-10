@@ -46,7 +46,7 @@ if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable not set.")
 
 # CHANGE: Added model selection toggle
-USE_GEMINI = True  # Toggle: True for Gemini, False for GPT-5
+USE_GEMINI = False  # Toggle: True for Gemini, False for GPT-5
 
 # CHANGE: Moved system prompt to a variable so both models share it
 SYSTEM_PROMPT = """

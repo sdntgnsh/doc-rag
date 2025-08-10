@@ -8,7 +8,7 @@ nltk_data/
 
 pdf/
 
-pdf_cache/
+
 # C extensions
 *.so
 
