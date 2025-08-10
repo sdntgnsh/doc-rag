@@ -262,8 +262,32 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
             
+
+        elif page_count > 5000: 
+            print(f"📄 Document has {page_count} pages (>500). Skipping RAG pipeline and using general knowledge.")
+            cache_key_str = document_loader.get_cache_key_from_content_str(pdf_content)
+            answers = await rag_pipeline.answer_questions(request.questions, doc_cache_key=cache_key_str)
+            done, pending = await asyncio.wait(answer_tasks, timeout=40)
+    
+            for i, task in enumerate(answer_tasks):
+                if task in done and not task.cancelled():
+                    try:
+                        answers[i] = task.result()
+                    except Exception as e:
+                        answers[i] = f"An error occurred: {e}"
+                elif task in pending:
+                    task.cancel()
+                    answers[i] = "Processing timed out for this question."
+            
+            log_query_and_answers(doc_url, request.questions, answers)
+            answers = [clean_markdown(a) for a in answers]
+            return HackRxResponse(answers=answers)
+        
+     
         else: 
             cache_key = document_loader.get_cache_key_from_content(pdf_content)
+            cache_key_str = document_loader.get_cache_key_from_content_str(pdf_content)
+            # Check in-memory cache first
             vector_store = PDF_CACHE.get(cache_key)
             
             if not vector_store:
@@ -298,12 +322,12 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
 
             if vectorization_timed_out:
                 answer_tasks = [
-                    asyncio.create_task(asyncio.to_thread(rag_pipeline._answer_with_general_knowledge, q))
+                    asyncio.create_task(asyncio.to_thread(rag_pipeline._answer_with_general_knowledge, question=q, doc_cache_key=cache_key_str))
                     for q in request.questions
                 ]
             else:
                 answer_tasks = [
-                    asyncio.create_task(asyncio.to_thread(rag_pipeline._answer_one_question, q, vector_store))
+                    asyncio.create_task(asyncio.to_thread(rag_pipeline._answer_one_question, question=q, doc_cache_key=cache_key_str, vector_store=vector_store))
                     for q in request.questions
                 ]
         
