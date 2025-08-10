@@ -20,6 +20,8 @@ import handlers.xlsx_handler as xlsx_handler
 import handlers.xlsx_handler as xlsx_handler
 import handlers.website_handler as website_handler
 import core.short_file_llm as short_file_llm
+import fitz  # For PDF text extraction
+import google.generativeai as genai # For classification
 
 from datetime import datetime
 
@@ -30,6 +32,67 @@ load_dotenv()  # Load environment variables from .env file
 
 # --- Global In-Memory Cache (populated at startup) ---
 PDF_CACHE = {}
+
+# --- Gemini Classifier Setup ---
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+classification_model = None
+if not GEMINI_API_KEY:
+    print("Warning: GEMINI_API_KEY is not set. PDF classification will be skipped.")
+else:
+    try:
+        genai.configure(api_key=GEMINI_API_KEY)
+        classification_model = genai.GenerativeModel(
+            model_name="gemini-2.5-flash",
+            system_instruction="You are a highly precise document classifier. Your sole function is to determine if a document's primary purpose is 'task-based' or 'question-answer-based'. A 'task-based' document contains explicit, step-by-step instructions for an automated system to perform a task that involves external interactions, such as making API calls to a URL. A 'question-answer-based' document is for informational retrieval. This includes user manuals (like for a vehicle), policy documents, articles, and reports. Even if it contains instructions for a human user, it is still 'question-answer-based' unless it directs an automated system to perform external API calls. Respond with ONLY 'task-based' or 'question-answer-based'."
+        )
+        print("Gemini classification model loaded successfully.")
+    except Exception as e:
+        print(f"Error loading Gemini classification model: {e}")
+
+async def classify_pdf_type(pdf_content: bytes) -> str:
+    """
+    Classifies a PDF as 'task-based' or 'question-answer-based' using the first 5 pages.
+    """
+    if not classification_model:
+        return "question-answer-based"  # Fallback if model isn't loaded
+
+    try:
+        doc = fitz.open(stream=pdf_content, filetype="pdf")
+        num_pages_to_check = min(len(doc), 5)
+        if num_pages_to_check == 0:
+            return "question-answer-based"
+
+        first_pages_text = "".join(doc[i].get_text("text") for i in range(num_pages_to_check))
+        
+        if not first_pages_text.strip():
+            return "question-answer-based"
+
+        prompt = f'''Based on the following text from the first {num_pages_to_check} pages of a document, is this document 'task-based' or 'question-answer-based'?
+
+Content (first 4000 chars):
+---
+{first_pages_text}
+---
+
+Respond with ONLY 'task-based' or 'question-answer-based'.'''
+        
+        response = await asyncio.to_thread(
+            classification_model.generate_content,
+            [prompt],
+            generation_config={"temperature": 0.0}
+        )
+        
+        classification = response.text.strip().lower()
+        if "task-based" in classification:
+            print("PDF classified as: task-based")
+            return "task-based"
+        else:
+            print("PDF classified as: question-answer-based")
+            return "question-answer-based"
+            
+    except Exception as e:
+        print(f"Error during PDF classification: {e}")
+        return "question-answer-based"  # Fallback on error
 
 # --- Authentication ---
 BEARER_TOKEN = os.getenv("BEARER_TOKEN")
@@ -141,20 +204,26 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
 
-        if "FinalRound4SubmissionPDF.pdf" in doc_url:
-            answers = await flight_handler.handle_flight_query(doc_url)
-            log_query_and_answers(doc_url, request.questions, answers)
-            return HackRxResponse(answers=answers)
-        
         if not doc_url.lower().split('?')[0].endswith('.pdf'):
             answers = ["Unsupported file type. Please provide a URL to a PDF, DOCX, XLSX, or image file (png, jpg, jpeg)."] * len(request.questions)
             log_query_and_answers(doc_url, request.questions, answers)
             answers = [clean_markdown(a) for a in answers]
             return HackRxResponse(answers=answers)
 
+        # For PDF files, download the content first to classify them
         pdf_content = await asyncio.to_thread(document_loader.download_pdf_content, doc_url)
         if not pdf_content:
             raise HTTPException(status_code=400, detail="Could not download document.")
+
+        # Classify the PDF to determine the correct handler
+        pdf_type = await classify_pdf_type(pdf_content)
+        if pdf_type == "task-based":
+            print("TASK BASED PDF ----------------------------------")
+            answers = await flight_handler.handle_flight_query(doc_url)
+            log_query_and_answers(doc_url, request.questions, answers)
+            return HackRxResponse(answers=answers)
+        
+        # If not task-based, proceed with the normal RAG pipeline
         
         page_count = await asyncio.to_thread(document_loader.get_pdf_page_count, pdf_content)
         print(page_count)
