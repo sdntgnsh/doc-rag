@@ -32,7 +32,8 @@ knowledge_detector = GeneralKnowledgeDetector()
 
 async def _answer_one_question_async(
     question: str, 
-    vector_store: Optional[InMemoryVectorStore] = None
+    doc_cache_key: Optional[str] = None, 
+    vector_store: Optional[InMemoryVectorStore] = None, 
 ) -> str:
     """
     Routes questions based on whether they require RAG or can use general knowledge.
@@ -44,7 +45,10 @@ async def _answer_one_question_async(
     # 1️⃣ GK cache check
     if knowledge_detector.is_cached_gk(question):
         print("⚡ Routing to general knowledge (cached)")
-        gk_cache_key = f"gk_answer_{hashlib.sha256(question.encode()).hexdigest()}"
+        base_str = question
+        if doc_cache_key:  # doc_cache_key is a string like "doc_10_FirstWord"
+            base_str = doc_cache_key + "_" + question  # Combine doc id and question
+        gk_cache_key = f"gk_answer_{hashlib.sha256(base_str.encode()).hexdigest()}"
         gk_cache_path = f"cache/gk_{gk_cache_key}.pkl"
         with open(gk_cache_path, "rb") as f:
             return pickle.load(f)
@@ -53,7 +57,7 @@ async def _answer_one_question_async(
     if vector_store is None:
         print("💡 No vector store provided — answering with general knowledge only")
         answer = llm_interface.get_answer("", question)
-        _cache_gk_answer(question, answer)
+        _cache_gk_answer(question, answer, doc_cache_key)
         return answer
 
     # 3️⃣ RAG cache check
@@ -113,16 +117,19 @@ async def _answer_one_question_async(
     return answer
 
 
-def _cache_gk_answer(question: str, answer: str):
+def _cache_gk_answer(question: str, answer: str, doc_cache_key: Optional[str] = None) -> None:
     """Stores a GK answer in cache."""
-    gk_cache_key = f"gk_answer_{hashlib.sha256(question.encode()).hexdigest()}"
+    base_str = question
+    if doc_cache_key:  # doc_cache_key is a string like "doc_10_FirstWord"
+        base_str = doc_cache_key + "_" + question  # Combine doc id and question
+    gk_cache_key = f"gk_answer_{hashlib.sha256(base_str.encode()).hexdigest()}"
     gk_cache_path = f"cache/gk_{gk_cache_key}.pkl"
     with open(gk_cache_path, "wb") as f:
         pickle.dump(answer, f)
 
 
-async def answer_questions(questions: List[str], vector_store: Optional[InMemoryVectorStore] = None) -> List[str]:
-    tasks = [_answer_one_question_async(q, vector_store) for q in questions]
+async def answer_questions(questions: List[str], doc_cache_key: Optional[str] = None, vector_store: Optional[InMemoryVectorStore] = None) -> List[str]:
+    tasks = [_answer_one_question_async(q, doc_cache_key, vector_store) for q in questions]
     return await asyncio.gather(*tasks, return_exceptions=True)
 
 
@@ -131,12 +138,12 @@ def process_questions(questions: List[str], vector_store: Optional[InMemoryVecto
     return asyncio.run(answer_questions(questions, vector_store))
 
 
-def _answer_one_question(question: str, vector_store: Optional[InMemoryVectorStore] = None) -> str:
+def _answer_one_question(question: str, doc_cache_key: Optional[str] = None, vector_store: Optional[InMemoryVectorStore] = None) -> str:
     """Synchronous wrapper for backward compatibility."""
-    return asyncio.run(_answer_one_question_async(question, vector_store))
+    return asyncio.run(_answer_one_question_async(question, doc_cache_key, vector_store))
 
 
-def _answer_with_general_knowledge(question: str) -> str:
+def _answer_with_general_knowledge(question: str, doc_cache_key: Optional[str]) -> str:
     """Answers questions using only general knowledge when vectorization times out.
        Caches answers like the full RAG pipeline.
     """
@@ -144,7 +151,10 @@ def _answer_with_general_knowledge(question: str) -> str:
     os.makedirs("cache", exist_ok=True)
 
     if knowledge_detector.is_cached_gk(question):
-        gk_cache_key = f"gk_answer_{hashlib.sha256(question.encode()).hexdigest()}"
+        base_str = question
+        if doc_cache_key:  # doc_cache_key is a string like "doc_10_FirstWord"
+            base_str = doc_cache_key + "_" + question  # Combine doc id and question
+        gk_cache_key = f"gk_answer_{hashlib.sha256(base_str.encode()).hexdigest()}"
         gk_cache_path = f"cache/gk_{gk_cache_key}.pkl"
         with open(gk_cache_path, "rb") as f:
             print(f"Cache hit for GK answer: {question}")

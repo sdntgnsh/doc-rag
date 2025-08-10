@@ -105,6 +105,13 @@ def get_cache_key_from_content(pdf_content: bytes) -> Tuple[int, str]:
             first_word = first_page_text.strip().split()[0]
     return (page_count, first_word)
 
+
+def get_cache_key_from_content_str(pdf_content: str) -> str: 
+    page_count, first_word = get_cache_key_from_content(pdf_content)
+    # Create a stable string for the document key
+    return f"doc_{page_count}_{first_word}"
+
+
 def download_pdf_content(url: str) -> bytes | None:
     """Downloads the raw content of a PDF from a URL."""
     try:
