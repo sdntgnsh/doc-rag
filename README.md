@@ -6,4 +6,6 @@ python -m venv venv
 
 pip install -r requirements.txt
 
-uvicorn app:app --reload
+uvicorn app:app --reload 
+then wait till startup and send queries to localhost:8000
+
