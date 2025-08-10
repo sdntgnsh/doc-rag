@@ -39,7 +39,7 @@ def initialize_cache_from_json(file_path: str) -> Dict[Tuple[int, str], object]:
         # Check page count before processing
         page_count = get_pdf_page_count(pdf_content)
         if page_count > 2000:
-            print(f"Skipping document with {page_count} pages (limit is 500): {url}")
+            print(f"Skipping document with {page_count} pages (limit is 2000): {url}")
             continue
 
         cache_key = document_loader.get_cache_key_from_content(pdf_content)
