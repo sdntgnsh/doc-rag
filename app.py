@@ -170,7 +170,7 @@ async def run_hackrx_pipeline(request: HackRxRequest = Body(...)):
             return HackRxResponse(answers=answers)
             
 
-        elif page_count > 500: 
+        elif False and page_count > 500: 
             print(f"📄 Document has {page_count} pages (>500). Skipping RAG pipeline and using general knowledge.")
             answer_tasks = [
                 asyncio.create_task(asyncio.to_thread(rag_pipeline._answer_with_general_knowledge, q))

@@ -1,13 +1,8 @@
-# document_loader.py
-import fitz
+import fitz  # PyMuPDF
 import requests
 import io
-from typing import List, Tuple
-
-
-
-import io
 import pikepdf
+from typing import List, Tuple
 
 def get_pdf_page_count(pdf_content: bytes) -> int:
     """
@@ -17,7 +12,6 @@ def get_pdf_page_count(pdf_content: bytes) -> int:
         with pikepdf.open(io.BytesIO(pdf_content)) as pdf:
             return len(pdf.pages)
     except pikepdf.errors.PdfError:
-        # Handle cases where the PDF is corrupted or password-protected
         print("Warning: pikepdf could not open the PDF file. It may be corrupted or encrypted.")
         return 0
     except Exception as e:
@@ -44,31 +38,58 @@ def _table_to_markdown(table_data: list) -> str:
     return markdown_str
 
 def _process_page_content(page: fitz.Page) -> List[str]:
+    """
+    Detailed processing for smaller documents: extracts tables and text separately.
+    This is accurate but slower.
+    """
     try:
         page_chunks = []
         tables = page.find_tables()
-        table_bboxes = [fitz.Rect(t.bbox) for t in tables]
         
-        text_blocks = [block[4].strip() for block in page.get_text("blocks") if not any(fitz.Rect(block[:4]).intersects(tb) for tb in table_bboxes)]
-        
-        if text_blocks:
-            page_chunks.extend(text_blocks)
-        
-        for table in tables:
-            if table.row_count > 0 and (table_data := table.extract()):
-                page_chunks.append(_table_to_markdown(table_data))
-                
+        if tables:
+            for table in tables:
+                if table.row_count > 0 and (table_data := table.extract()):
+                    page_chunks.append(_table_to_markdown(table_data))
+                page.add_redact_annot(table.bbox, fill=(1, 1, 1))
+            page.apply_redactions()
+
+        remaining_text_blocks = [block[4].strip() for block in page.get_text("blocks")]
+        page_chunks.extend(remaining_text_blocks)
+            
         return [chunk for chunk in page_chunks if chunk]
     except Exception as e:
         print(f"Warning: Could not process page {page.number}. Error: {e}. Skipping page.")
         return []
 
+def _extract_text_only(page: fitz.Page) -> List[str]:
+    """
+    Fast processing for large documents: extracts all text without table detection.
+    """
+    try:
+        text = page.get_text("text").strip()
+        return [text] if text else []
+    except Exception as e:
+        print(f"Warning: Could not extract text from page {page.number}. Error: {e}. Skipping page.")
+        return []
+
 def get_chunks_from_content(pdf_content: bytes) -> List[str]:
-    """Processes a PDF from a byte stream and returns its text chunks."""
+    """
+    Processes a PDF from a byte stream and returns its text chunks.
+    It uses a fast, text-only extraction for documents over 500 pages.
+    """
     doc = fitz.open(stream=io.BytesIO(pdf_content), filetype="pdf")
     all_chunks = []
-    for page in doc:
-        all_chunks.extend(_process_page_content(page))
+
+    # >>> CHANGE: Conditional logic based on page count
+    if doc.page_count > 500:
+        print(f"📄 Document has {doc.page_count} pages. Using fast, text-only extraction. 🚀")
+        for page in doc:
+            all_chunks.extend(_extract_text_only(page))
+    else:
+        print(f"📑 Document has {doc.page_count} pages. Using detailed table and text extraction.")
+        for page in doc:
+            all_chunks.extend(_process_page_content(page))
+    
     return all_chunks
 
 def get_cache_key_from_content(pdf_content: bytes) -> Tuple[int, str]:
