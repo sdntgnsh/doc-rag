@@ -146,7 +146,7 @@ security_scheme = HTTPBearer()
 VECTORIZATION_TIMEOUT = 600.0
 
 PAGE_LIMIT = 70
-EXCEPTIONS = [16,]
+EXCEPTIONS = [] #debug
 
 async def verify_token(credentials: HTTPBearer = Depends(security_scheme)):
     if credentials.credentials != BEARER_TOKEN:
