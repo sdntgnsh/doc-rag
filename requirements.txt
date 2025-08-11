@@ -21,3 +21,4 @@ markdown
 python-pptx 
 reportlab
 fpdf
+PyPDF2
